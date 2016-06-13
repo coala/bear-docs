@@ -37,7 +37,7 @@ if __name__ == "__main__":
                         "    :local:\n"
                         "    :depth: 1\n"
                         "    :backlinks: none\n\n")
-        for language in lang_dict:
+        for language in sorted(lang_dict):
             lang_file.write(language + "\n" + "=" * len(language) + "\n")
             for bear in lang_dict[language]:
                 lang_file.write("* `" + bear + " <docs/" + bear + ".rst>`_\n")
