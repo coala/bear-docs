@@ -86,4 +86,3 @@ if __name__ == "__main__":
             output += "\n\* denotes required param"
         with open("docs/" + bear.name + ".rst", "w") as bear_file:
             bear_file.write(output)
-        os.system("git add -A && git commit -m 'Add " + bear.name + "'")
