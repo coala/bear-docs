@@ -15,11 +15,6 @@ Settings
 | Setting                        |  Meaning                              |
 +================================+=======================================+
 |                                |                                       |
-| ``tab_width``                  | Number of spaces representing one     |
-|                                | tab.                                  |
-|                                |                                       |
-+--------------------------------+---------------------------------------+
-|                                |                                       |
 | ``allow_trailing_whitespace``  | Whether to allow trailing whitespace  |
 |                                | or not.                               |
 |                                |                                       |
@@ -27,6 +22,11 @@ Settings
 |                                |                                       |
 | ``enforce_newline_at_EOF``     | Whether to enforce a newline at the   |
 |                                | End Of Fil                            |
+|                                |                                       |
++--------------------------------+---------------------------------------+
+|                                |                                       |
+| ``tab_width``                  | Number of spaces representing one     |
+|                                | tab.                                  |
 |                                |                                       |
 +--------------------------------+---------------------------------------+
 |                                |                                       |

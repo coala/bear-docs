@@ -20,6 +20,6 @@ def language_generate():
                         "    :backlinks: none\n\n")
         for language in sorted(lang_dict):
             lang_file.write(language + "\n" + "=" * len(language) + "\n")
-            for bear in lang_dict[language]:
+            for bear in sorted(lang_dict[language]):
                 lang_file.write("* `" + bear + " <docs/" + bear + ".rst>`_\n")
             lang_file.write("\n")

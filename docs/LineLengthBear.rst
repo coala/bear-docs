@@ -15,7 +15,8 @@ Settings
 | Setting                  |  Meaning                                 |
 +==========================+==========================================+
 |                          |                                          |
-| ``tab_width``            | Number of spaces to show for one tab.    +
+| ``ignore_length_regex``  | Lines matching each of the regular       |
+|                          | expressions in this list will be ignore  |
 |                          |                                          |
 +--------------------------+------------------------------------------+
 |                          |                                          |
@@ -23,8 +24,7 @@ Settings
 |                          |                                          |
 +--------------------------+------------------------------------------+
 |                          |                                          |
-| ``ignore_length_regex``  | Lines matching each of the regular       |
-|                          | expressions in this list will be ignore  |
+| ``tab_width``            | Number of spaces to show for one tab.    +
 |                          |                                          |
 +--------------------------+------------------------------------------+
 

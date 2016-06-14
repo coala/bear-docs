@@ -17,7 +17,8 @@ Settings
 | Setting                |  Meaning                                    |
 +========================+=============================================+
 |                        |                                             |
-| ``tab_width``          | Number of spaces per indent level.          +
+| ``local_pep8_config``  | Set to true if autopep8 should use a config |
+|                        | file as if run normally from this director  |
 |                        |                                             |
 +------------------------+---------------------------------------------+
 |                        |                                             |
@@ -25,8 +26,7 @@ Settings
 |                        |                                             |
 +------------------------+---------------------------------------------+
 |                        |                                             |
-| ``local_pep8_config``  | Set to true if autopep8 should use a config |
-|                        | file as if run normally from this director  |
+| ``pep_ignore``         | A list of errors/warnings to ignore.        +
 |                        |                                             |
 +------------------------+---------------------------------------------+
 |                        |                                             |
@@ -35,7 +35,7 @@ Settings
 |                        |                                             |
 +------------------------+---------------------------------------------+
 |                        |                                             |
-| ``pep_ignore``         | A list of errors/warnings to ignore.        +
+| ``tab_width``          | Number of spaces per indent level.          +
 |                        |                                             |
 +------------------------+---------------------------------------------+
 

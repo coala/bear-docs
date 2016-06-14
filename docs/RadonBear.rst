@@ -17,8 +17,8 @@ Settings
 | Setting                 |  Meaning                      |
 +=========================+===============================+
 |                         |                               |
-| ``radon_ranks_normal``  | The ranks (given by radon) to |
-|                         | treat as severity NORMAL.     |
+| ``radon_ranks_info``    | The ranks (given by radon) to |
+|                         | treat as severity INFO.       |
 |                         |                               |
 +-------------------------+-------------------------------+
 |                         |                               |
@@ -27,8 +27,8 @@ Settings
 |                         |                               |
 +-------------------------+-------------------------------+
 |                         |                               |
-| ``radon_ranks_info``    | The ranks (given by radon) to |
-|                         | treat as severity INFO.       |
+| ``radon_ranks_normal``  | The ranks (given by radon) to |
+|                         | treat as severity NORMAL.     |
 |                         |                               |
 +-------------------------+-------------------------------+
 

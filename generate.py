@@ -43,12 +43,10 @@ if __name__ == "__main__":
                     par[key].append(line.strip())
                     if len(line.strip()) > rmax:
                         rmax = len(line.strip())
-            if lmax < len(" Setting"):
-                lmax = len(" Setting")
-            if rmax < len("Meaning"):
-                rmax = len("Meaning")
+            lmax = max(lmax, len(" Setting"))
+            rmax = max(rmax, len("Meaning"))
             header = False
-            for key in par:
+            for key in sorted(par):
                 if not header:
                     output += "Settings\n--------\n\n"
                     output += "+" + "-" * (lmax) + "-+-" + "-" * (1 + rmax) + "+\n"

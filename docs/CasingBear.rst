@@ -15,17 +15,7 @@ Settings
 | Setting                 |  Meaning                                    |
 +=========================+=============================================+
 |                         |                                             |
-| ``file``                | File that needs to be checked in the form   |
-|                         | of a list of strings.                       |
-|                         |                                             |
-+-------------------------+---------------------------------------------+
-|                         |                                             |
 | ``casing``\*            | camelCasing or snake_casing or PascalCasing +
-|                         |                                             |
-+-------------------------+---------------------------------------------+
-|                         |                                             |
-| ``language``\*          | The language of the file, which is used to  |
-|                         | determine the keywords to ignor             |
 |                         |                                             |
 +-------------------------+---------------------------------------------+
 |                         |                                             |
@@ -34,7 +24,17 @@ Settings
 |                         |                                             |
 +-------------------------+---------------------------------------------+
 |                         |                                             |
+| ``file``                | File that needs to be checked in the form   |
+|                         | of a list of strings.                       |
+|                         |                                             |
++-------------------------+---------------------------------------------+
+|                         |                                             |
 | ``filename``            | Name of the file that needs to be checked.  +
+|                         |                                             |
++-------------------------+---------------------------------------------+
+|                         |                                             |
+| ``language``\*          | The language of the file, which is used to  |
+|                         | determine the keywords to ignor             |
 |                         |                                             |
 +-------------------------+---------------------------------------------+
 

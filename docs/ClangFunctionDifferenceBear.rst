@@ -22,22 +22,6 @@ Settings
 | Setting                  |  Meaning                                    |
 +==========================+=============================================+
 |                          |                                             |
-| ``extra_include_paths``  | A list containing additional include paths. +
-|                          |                                             |
-+--------------------------+---------------------------------------------+
-|                          |                                             |
-| ``exp_postprocessing``   | If set to true, the difference value of big |
-|                          | function pairs will be reduced using an     |
-|                          | exponential approac                         |
-|                          |                                             |
-+--------------------------+---------------------------------------------+
-|                          |                                             |
-| ``poly_postprocessing``  | If set to true, the difference value of big |
-|                          | function pairs will be reduced using a      |
-|                          | polynomial approach.                        |
-|                          |                                             |
-+--------------------------+---------------------------------------------+
-|                          |                                             |
 | ``average_calculation``  | If set to true the difference calculation   |
 |                          | function will take the average of all       |
 |                          | variable differences as the difference,     |
@@ -63,6 +47,22 @@ Settings
 |                          | half as much as other conditions would      |
 |                          | simply be: "used: 0.5, is_assignee".        |
 |                          | Weightings default to 1 if unset.           |
+|                          |                                             |
++--------------------------+---------------------------------------------+
+|                          |                                             |
+| ``exp_postprocessing``   | If set to true, the difference value of big |
+|                          | function pairs will be reduced using an     |
+|                          | exponential approac                         |
+|                          |                                             |
++--------------------------+---------------------------------------------+
+|                          |                                             |
+| ``extra_include_paths``  | A list containing additional include paths. +
+|                          |                                             |
++--------------------------+---------------------------------------------+
+|                          |                                             |
+| ``poly_postprocessing``  | If set to true, the difference value of big |
+|                          | function pairs will be reduced using a      |
+|                          | polynomial approach.                        |
 |                          |                                             |
 +--------------------------+---------------------------------------------+
 
