@@ -8,11 +8,11 @@ Checks the given code for similar functions that are probably redundant.
 
 * C
 * C++
+* CUDA
 * Objective-C
 * Objective-C++
-* OpenMP
 * OpenCL
-* CUDA
+* OpenMP
 
 Settings
 --------

@@ -9,11 +9,11 @@ You can read more about this metric at <https://www.wikiwand.com/en/Cyclomatic_c
 
 * C
 * C++
+* CUDA
 * Objective-C
 * Objective-C++
-* OpenMP
 * OpenCL
-* CUDA
+* OpenMP
 
 Settings
 --------

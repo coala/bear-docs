@@ -8,8 +8,8 @@ You can read more about ``isort`` at <https://isort.readthedocs.org/en/latest/>.
 -----
 
 * Python
-* Python 3
 * Python 2
+* Python 3
 
 Settings
 --------

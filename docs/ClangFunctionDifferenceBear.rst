@@ -9,11 +9,11 @@ Postprocessing may be done because small functions are less likely to be clones 
 
 * C
 * C++
+* CUDA
 * Objective-C
 * Objective-C++
-* OpenMP
 * OpenCL
-* CUDA
+* OpenMP
 
 Settings
 --------

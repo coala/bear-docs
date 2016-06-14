@@ -9,11 +9,11 @@ This bear supports automatic fixes.
 
 * C
 * C++
+* CUDA
 * Objective-C
 * Objective-C++
-* OpenMP
 * OpenCL
-* CUDA
+* OpenMP
 
 Settings
 --------

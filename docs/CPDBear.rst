@@ -7,24 +7,24 @@ For more details see: <https://pmd.github.io/pmd-5.4.1/usage/cpd-usage.html>
 `Supported Languages <../README.rst>`_ :
 -----
 
-* Octave
+* C#
+* C++
 * Fortran
-* Swift
-* Ruby
-* Objective-C
-* Scala
+* Go
+* JSP
 * Java
+* JavaScript
 * Matlab
+* Objective-C
+* Octave
+* PHP
+* PL/SQL
 * Python
 * Python 2
-* PHP
-* C#
-* JavaScript
-* JSP
 * Python 3
-* Go
-* PL/SQL
-* C++
+* Ruby
+* Scala
+* Swift
 
 Settings
 --------

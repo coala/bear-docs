@@ -8,9 +8,9 @@ This bear is meant for debugging purposes relating to clang. It just prints out 
 
 * C
 * C++
+* CUDA
 * Objective-C
 * Objective-C++
-* OpenMP
 * OpenCL
-* CUDA
+* OpenMP
 

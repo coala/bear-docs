@@ -12,8 +12,8 @@ This bear uses the 'shellcheck' tool.
 `Supported Languages <../README.rst>`_ :
 -----
 
-* sh
 * bash
-* ksh
 * dash
+* ksh
+* sh
 

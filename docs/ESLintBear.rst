@@ -10,6 +10,6 @@ This bear uses the 'eslint' tool.
 `Supported Languages <../README.rst>`_ :
 -----
 
-* JavaScript
 * JSX
+* JavaScript
 
