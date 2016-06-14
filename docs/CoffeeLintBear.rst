@@ -7,7 +7,7 @@ For more information about coffeelint, visit <http://www.coffeelint.org/>.
 
 This bear uses the 'coffeelint' tool.
 
-`Supported Languages <../README.rst>`:
+`Supported Languages <../README.rst>_`:
 -----
 
 * CoffeeScript

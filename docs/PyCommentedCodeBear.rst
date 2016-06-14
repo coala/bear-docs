@@ -3,7 +3,7 @@
 
 Detects commented out source code in Python.
 
-`Supported Languages <../README.rst>`:
+`Supported Languages <../README.rst>_`:
 -----
 
 * Python

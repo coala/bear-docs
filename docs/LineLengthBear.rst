@@ -3,7 +3,7 @@
 
 Yields results for all lines longer than the given maximum line length.
 
-`Supported Languages <../README.rst>`:
+`Supported Languages <../README.rst>_`:
 -----
 
 * All
@@ -15,7 +15,7 @@ Settings
 | Setting                  |  Meaning                                 |
 +==========================+==========================================+
 |                          |                                          |
-| ``tab_width``            | Number of spaces to show for one tab.    +
+| ``max_line_length``      | Maximum number of characters for a line. +
 |                          |                                          |
 +--------------------------+------------------------------------------+
 |                          |                                          |
@@ -24,7 +24,7 @@ Settings
 |                          |                                          |
 +--------------------------+------------------------------------------+
 |                          |                                          |
-| ``max_line_length``      | Maximum number of characters for a line. +
+| ``tab_width``            | Number of spaces to show for one tab.    +
 |                          |                                          |
 +--------------------------+------------------------------------------+
 

@@ -9,7 +9,7 @@ More information is available at
 
 This bear uses the 'bash' tool.
 
-`Supported Languages <../README.rst>`:
+`Supported Languages <../README.rst>_`:
 -----
 
 * Java

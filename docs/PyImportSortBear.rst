@@ -4,7 +4,7 @@
 Raise issues related to sorting imports, segregating imports into various sections, and also adding comments on top of each import section based on the configurations provided.
 You can read more about ``isort`` at <https://isort.readthedocs.org/en/latest/>.
 
-`Supported Languages <../README.rst>`:
+`Supported Languages <../README.rst>_`:
 -----
 
 * Python
@@ -18,22 +18,7 @@ Settings
 | Setting                                |  Meaning                                                            |
 +========================================+=====================================================================+
 |                                        |                                                                     |
-| ``order_imports_by_type``              | If set to true - isort will create separate sections within "from"  |
-|                                        | imports for CONSTANTS, Classes, and modules/functions.              |
-|                                        |                                                                     |
-+----------------------------------------+---------------------------------------------------------------------+
-|                                        |                                                                     |
-| ``force_single_line_imports``          | If set to true - instead of wrapping multi-line from style imports, |
-|                                        | each import will be forced to display on its own line.              |
-|                                        |                                                                     |
-+----------------------------------------+---------------------------------------------------------------------+
-|                                        |                                                                     |
-| ``import_heading_thirdparty``          | A comment to consistently place directly above thirdparty imports.  +
-|                                        |                                                                     |
-+----------------------------------------+---------------------------------------------------------------------+
-|                                        |                                                                     |
-| ``combine_as_imports``                 | If set to true - isort will combine as imports on the same line     |
-|                                        | within for import statements.                                       |
+| ``sort_imports_by_length``             | Set to true to sort imports by length instead of alphabetically.    +
 |                                        |                                                                     |
 +----------------------------------------+---------------------------------------------------------------------+
 |                                        |                                                                     |
@@ -44,13 +29,65 @@ Settings
 |                                        |                                                                     |
 +----------------------------------------+---------------------------------------------------------------------+
 |                                        |                                                                     |
+| ``default_import_section``             | The default section to place imports in, if their section can       |
+|                                        | not be automatically determined.                                    |
+|                                        |                                                                     |
++----------------------------------------+---------------------------------------------------------------------+
+|                                        |                                                                     |
+| ``force_single_line_imports``          | If set to true - instead of wrapping multi-line from style imports, |
+|                                        | each import will be forced to display on its own line.              |
+|                                        |                                                                     |
++----------------------------------------+---------------------------------------------------------------------+
+|                                        |                                                                     |
+| ``force_sort_within_import_sections``  | If set, imports will be sorted within there section independent     |
+|                                        | to the import_type.                                                 |
+|                                        |                                                                     |
++----------------------------------------+---------------------------------------------------------------------+
+|                                        |                                                                     |
+| ``force_alphabetical_sort_in_import``  | If set, forces all imports to be sorted as a single section,        |
+|                                        | instead of within other groups (such as straight vs from).          |
+|                                        |                                                                     |
++----------------------------------------+---------------------------------------------------------------------+
+|                                        |                                                                     |
+| ``max_line_length``                    | Maximum number of characters for a lin                              +
+|                                        |                                                                     |
++----------------------------------------+---------------------------------------------------------------------+
+|                                        |                                                                     |
 | ``import_heading_stdlib``              | A comment to consistently place directly above imports from         |
 |                                        | the standard library.                                               |
 |                                        |                                                                     |
 +----------------------------------------+---------------------------------------------------------------------+
 |                                        |                                                                     |
+| ``known_third_party_imports``          | A list of imports that will be forced to display within the         |
+|                                        | third party category of imports.                                    |
+|                                        |                                                                     |
++----------------------------------------+---------------------------------------------------------------------+
+|                                        |                                                                     |
+| ``known_first_party_imports``          | A list of imports that will be forced to display within the         |
+|                                        | standard library category of imports.                               |
+|                                        |                                                                     |
++----------------------------------------+---------------------------------------------------------------------+
+|                                        |                                                                     |
+| ``import_heading_future``              | A comment to consistently place directly above future imports.      +
+|                                        |                                                                     |
++----------------------------------------+---------------------------------------------------------------------+
+|                                        |                                                                     |
+| ``import_heading_localfolder``         | A comment to consistently place directly above imports that         |
+|                                        | start with '.'.                                                     |
+|                                        |                                                                     |
++----------------------------------------+---------------------------------------------------------------------+
+|                                        |                                                                     |
 | ``include_trailing_comma_in_import``   | If set, will automatically add a trailing comma to the end of       |
 |                                        | "from" imports. Example: ``from abc import (a, b, c,)``             |
+|                                        |                                                                     |
++----------------------------------------+---------------------------------------------------------------------+
+|                                        |                                                                     |
+| ``import_heading_firstparty``          | A comment to consistently place directly above imports from         |
+|                                        | the current project.                                                |
+|                                        |                                                                     |
++----------------------------------------+---------------------------------------------------------------------+
+|                                        |                                                                     |
+| ``import_heading_thirdparty``          | A comment to consistently place directly above thirdparty imports.  +
 |                                        |                                                                     |
 +----------------------------------------+---------------------------------------------------------------------+
 |                                        |                                                                     |
@@ -61,56 +98,22 @@ Settings
 |                                        |                                                                     |
 +----------------------------------------+---------------------------------------------------------------------+
 |                                        |                                                                     |
-| ``tab_width``                          | Number of spaces per indent level.                                  +
-|                                        |                                                                     |
-+----------------------------------------+---------------------------------------------------------------------+
-|                                        |                                                                     |
 | ``use_parentheses_in_import``          | True if parenthesis are to be used in import statements.            +
 |                                        |                                                                     |
 +----------------------------------------+---------------------------------------------------------------------+
 |                                        |                                                                     |
-| ``import_heading_firstparty``          | A comment to consistently place directly above imports from         |
-|                                        | the current project.                                                |
+| ``known_standard_library_imports``     | A list of imports that will be forced to display within the         |
+|                                        | first party category of imports.                                    |
+|                                        |                                                                     |
++----------------------------------------+---------------------------------------------------------------------+
+|                                        |                                                                     |
+| ``combine_as_imports``                 | If set to true - isort will combine as imports on the same line     |
+|                                        | within for import statements.                                       |
 |                                        |                                                                     |
 +----------------------------------------+---------------------------------------------------------------------+
 |                                        |                                                                     |
 | ``import_wrap_length``                 | An integer that represents the longest line-length you want when    |
 |                                        | wrapping. If not set will default to line_length.                   |
-|                                        |                                                                     |
-+----------------------------------------+---------------------------------------------------------------------+
-|                                        |                                                                     |
-| ``forced_separate_imports``            | A list of modules that you want to appear in their own separate     |
-|                                        | section.                                                            |
-|                                        |                                                                     |
-+----------------------------------------+---------------------------------------------------------------------+
-|                                        |                                                                     |
-| ``import_heading_localfolder``         | A comment to consistently place directly above imports that         |
-|                                        | start with '.'.                                                     |
-|                                        |                                                                     |
-+----------------------------------------+---------------------------------------------------------------------+
-|                                        |                                                                     |
-| ``sort_imports_by_length``             | Set to true to sort imports by length instead of alphabetically.    +
-|                                        |                                                                     |
-+----------------------------------------+---------------------------------------------------------------------+
-|                                        |                                                                     |
-| ``import_heading_future``              | A comment to consistently place directly above future imports.      +
-|                                        |                                                                     |
-+----------------------------------------+---------------------------------------------------------------------+
-|                                        |                                                                     |
-| ``known_first_party_imports``          | A list of imports that will be forced to display within the         |
-|                                        | standard library category of imports.                               |
-|                                        |                                                                     |
-+----------------------------------------+---------------------------------------------------------------------+
-|                                        |                                                                     |
-| ``force_grid_wrap_imports``            | Force "from" imports to be grid wrapped regardless of line length.  +
-|                                        |                                                                     |
-+----------------------------------------+---------------------------------------------------------------------+
-|                                        |                                                                     |
-| ``max_line_length``                    | Maximum number of characters for a lin                              +
-|                                        |                                                                     |
-+----------------------------------------+---------------------------------------------------------------------+
-|                                        |                                                                     |
-| ``use_spaces``                         | True if spaces are to be used instead of tabs.                      +
 |                                        |                                                                     |
 +----------------------------------------+---------------------------------------------------------------------+
 |                                        |                                                                     |
@@ -124,23 +127,18 @@ Settings
 |                                        |                                                                     |
 +----------------------------------------+---------------------------------------------------------------------+
 |                                        |                                                                     |
-| ``known_third_party_imports``          | A list of imports that will be forced to display within the         |
-|                                        | third party category of imports.                                    |
+| ``imports_forced_to_top``              | Forces a list of imports to the top of their respective section.    |
+|                                        | This works well for handling the unfortunate cases of import        |
+|                                        | dependencies that occur in many projects.                           |
 |                                        |                                                                     |
 +----------------------------------------+---------------------------------------------------------------------+
 |                                        |                                                                     |
-| ``force_sort_within_import_sections``  | If set, imports will be sorted within there section independent     |
-|                                        | to the import_type.                                                 |
+| ``use_spaces``                         | True if spaces are to be used instead of tabs.                      +
 |                                        |                                                                     |
 +----------------------------------------+---------------------------------------------------------------------+
 |                                        |                                                                     |
-| ``known_standard_library_imports``     | A list of imports that will be forced to display within the         |
-|                                        | first party category of imports.                                    |
-|                                        |                                                                     |
-+----------------------------------------+---------------------------------------------------------------------+
-|                                        |                                                                     |
-| ``force_alphabetical_sort_in_import``  | If set, forces all imports to be sorted as a single section,        |
-|                                        | instead of within other groups (such as straight vs from).          |
+| ``forced_separate_imports``            | A list of modules that you want to appear in their own separate     |
+|                                        | section.                                                            |
 |                                        |                                                                     |
 +----------------------------------------+---------------------------------------------------------------------+
 |                                        |                                                                     |
@@ -154,14 +152,16 @@ Settings
 |                                        |                                                                     |
 +----------------------------------------+---------------------------------------------------------------------+
 |                                        |                                                                     |
-| ``imports_forced_to_top``              | Forces a list of imports to the top of their respective section.    |
-|                                        | This works well for handling the unfortunate cases of import        |
-|                                        | dependencies that occur in many projects.                           |
+| ``force_grid_wrap_imports``            | Force "from" imports to be grid wrapped regardless of line length.  +
 |                                        |                                                                     |
 +----------------------------------------+---------------------------------------------------------------------+
 |                                        |                                                                     |
-| ``default_import_section``             | The default section to place imports in, if their section can       |
-|                                        | not be automatically determined.                                    |
+| ``order_imports_by_type``              | If set to true - isort will create separate sections within "from"  |
+|                                        | imports for CONSTANTS, Classes, and modules/functions.              |
+|                                        |                                                                     |
++----------------------------------------+---------------------------------------------------------------------+
+|                                        |                                                                     |
+| ``tab_width``                          | Number of spaces per indent level.                                  +
 |                                        |                                                                     |
 +----------------------------------------+---------------------------------------------------------------------+
 

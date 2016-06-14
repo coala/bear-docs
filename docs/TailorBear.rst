@@ -8,7 +8,7 @@ For more information on the analysis visit <https://tailor.sh/>
 
 This bear uses the 'tailor' tool.
 
-`Supported Languages <../README.rst>`:
+`Supported Languages <../README.rst>_`:
 -----
 
 * Swift

@@ -3,7 +3,7 @@
 
 Check and correct spacing for all textual data. This includes usage of tabs vs. spaces, trailing whitespace and (missing) newlines before the end of the file.
 
-`Supported Languages <../README.rst>`:
+`Supported Languages <../README.rst>_`:
 -----
 
 * All
@@ -15,13 +15,8 @@ Settings
 | Setting                        |  Meaning                              |
 +================================+=======================================+
 |                                |                                       |
-| ``tab_width``                  | Number of spaces representing one     |
-|                                | tab.                                  |
-|                                |                                       |
-+--------------------------------+---------------------------------------+
-|                                |                                       |
-| ``allow_trailing_whitespace``  | Whether to allow trailing whitespace  |
-|                                | or not.                               |
+| ``use_spaces``\*               | True if spaces are to be used instead |
+|                                | of tabs.                              |
 |                                |                                       |
 +--------------------------------+---------------------------------------+
 |                                |                                       |
@@ -30,8 +25,13 @@ Settings
 |                                |                                       |
 +--------------------------------+---------------------------------------+
 |                                |                                       |
-| ``use_spaces``\*               | True if spaces are to be used instead |
-|                                | of tabs.                              |
+| ``tab_width``                  | Number of spaces representing one     |
+|                                | tab.                                  |
+|                                |                                       |
++--------------------------------+---------------------------------------+
+|                                |                                       |
+| ``allow_trailing_whitespace``  | Whether to allow trailing whitespace  |
+|                                | or not.                               |
 |                                |                                       |
 +--------------------------------+---------------------------------------+
 

@@ -12,7 +12,7 @@ For more about the analysis, check Bootlint
 
 This bear uses the 'bootlint' tool.
 
-`Supported Languages <../README.rst>`:
+`Supported Languages <../README.rst>_`:
 -----
 
 * HTML

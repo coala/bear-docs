@@ -8,7 +8,7 @@ This bear expects dart commands to be on your ``PATH``. Please ensure
 
 This bear uses the 'dartanalyzer' tool.
 
-`Supported Languages <../README.rst>`:
+`Supported Languages <../README.rst>_`:
 -----
 
 * Dart

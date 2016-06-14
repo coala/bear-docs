@@ -9,7 +9,7 @@ Read more about available routines at
 
 This bear uses the 'cppclean' tool.
 
-`Supported Languages <../README.rst>`:
+`Supported Languages <../README.rst>_`:
 -----
 
 * C++

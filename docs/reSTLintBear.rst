@@ -3,7 +3,7 @@
 
 Lints reStructuredText.
 
-`Supported Languages <../README.rst>`:
+`Supported Languages <../README.rst>_`:
 -----
 
 * reStructuredText

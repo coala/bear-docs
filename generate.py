@@ -10,7 +10,7 @@ if __name__ == "__main__":
         output = "**" + bear.name + "**\n"
         output += "=" * (4 + len(bear.name)) + "\n\n"
         output += bear.get_metadata().desc + "\n\n"
-        output += "`Supported Languages <../README.rst>`:" + "\n-----\n\n"
+        output += "`Supported Languages <../README.rst>_`:" + "\n-----\n\n"
         output += "\n".join(["* " + x for x in bear.supported_languages])
         output += "\n\n"
         docstring = inspect.getdoc(bear.run)
@@ -70,4 +70,4 @@ if __name__ == "__main__":
             bear_file.write(output)
 
     language_generate()
-    os.system("git add -A && git commit -m 'Docs Update'")
+    os.system("git add -A && git commit -m 'Docs Update' && git push")

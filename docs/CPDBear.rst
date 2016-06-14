@@ -4,27 +4,27 @@
 Checks for similar code that looks as it could be replaced to reduce redundancy.
 For more details see: <https://pmd.github.io/pmd-5.4.1/usage/cpd-usage.html>
 
-`Supported Languages <../README.rst>`:
+`Supported Languages <../README.rst>_`:
 -----
 
-* PL/SQL
-* JavaScript
+* Scala
+* Python 2
+* Go
 * JSP
+* Octave
+* PL/SQL
+* Ruby
 * Matlab
 * C#
-* Objective-C
-* Ruby
-* Python
-* C++
 * PHP
-* Go
-* Octave
-* Scala
-* Java
-* Fortran
+* Python
 * Python 3
-* Python 2
+* C++
+* Objective-C
+* Fortran
 * Swift
+* Java
+* JavaScript
 
 Settings
 --------
@@ -33,11 +33,11 @@ Settings
 | Setting                   |  Meaning                                                          |
 +===========================+===================================================================+
 |                           |                                                                   |
-| ``ignore_usings``         | Ignore ``using`` directives in C#.                                +
+| ``ignore_identifiers``    | Ignore constant and variable names when comparing text.           +
 |                           |                                                                   |
 +---------------------------+-------------------------------------------------------------------+
 |                           |                                                                   |
-| ``language``\*            | One of the supported languages of this bear.                      +
+| ``ignore_literals``       | Ignore number values and string contents when comparing text.     +
 |                           |                                                                   |
 +---------------------------+-------------------------------------------------------------------+
 |                           |                                                                   |
@@ -46,19 +46,19 @@ Settings
 |                           |                                                                   |
 +---------------------------+-------------------------------------------------------------------+
 |                           |                                                                   |
+| ``language``\*            | One of the supported languages of this bear.                      +
+|                           |                                                                   |
++---------------------------+-------------------------------------------------------------------+
+|                           |                                                                   |
 | ``ignore_annotations``    | Ignore language annotations when comparing text.                  +
 |                           |                                                                   |
 +---------------------------+-------------------------------------------------------------------+
 |                           |                                                                   |
-| ``ignore_literals``       | Ignore number values and string contents when comparing text.     +
-|                           |                                                                   |
-+---------------------------+-------------------------------------------------------------------+
-|                           |                                                                   |
-| ``ignore_identifiers``    | Ignore constant and variable names when comparing text.           +
-|                           |                                                                   |
-+---------------------------+-------------------------------------------------------------------+
-|                           |                                                                   |
 | ``minimum_tokens``        | The minimum token length which should be reported as a duplicate. +
+|                           |                                                                   |
++---------------------------+-------------------------------------------------------------------+
+|                           |                                                                   |
+| ``ignore_usings``         | Ignore ``using`` directives in C#.                                +
 |                           |                                                                   |
 +---------------------------+-------------------------------------------------------------------+
 

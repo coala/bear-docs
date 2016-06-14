@@ -4,7 +4,7 @@
 Retrieves similarities for code clone detection. Those can be reused in another bear to produce results.
 Postprocessing may be done because small functions are less likely to be clones at the same difference value than big functions which may provide a better refactoring opportunity for the user.
 
-`Supported Languages <../README.rst>`:
+`Supported Languages <../README.rst>_`:
 -----
 
 * C
@@ -22,12 +22,28 @@ Settings
 | Setting                  |  Meaning                                    |
 +==========================+=============================================+
 |                          |                                             |
+| ``poly_postprocessing``  | If set to true, the difference value of big |
+|                          | function pairs will be reduced using a      |
+|                          | polynomial approach.                        |
+|                          |                                             |
++--------------------------+---------------------------------------------+
+|                          |                                             |
 | ``average_calculation``  | If set to true the difference calculation   |
 |                          | function will take the average of all       |
 |                          | variable differences as the difference,     |
 |                          | else it will normalize the function as a    |
 |                          | whole and thus weighting in variables       |
 |                          | dependent on their size.                    |
+|                          |                                             |
++--------------------------+---------------------------------------------+
+|                          |                                             |
+| ``extra_include_paths``  | A list containing additional include paths. +
+|                          |                                             |
++--------------------------+---------------------------------------------+
+|                          |                                             |
+| ``exp_postprocessing``   | If set to true, the difference value of big |
+|                          | function pairs will be reduced using an     |
+|                          | exponential approac                         |
 |                          |                                             |
 +--------------------------+---------------------------------------------+
 |                          |                                             |
@@ -47,22 +63,6 @@ Settings
 |                          | half as much as other conditions would      |
 |                          | simply be: "used: 0.5, is_assignee".        |
 |                          | Weightings default to 1 if unset.           |
-|                          |                                             |
-+--------------------------+---------------------------------------------+
-|                          |                                             |
-| ``poly_postprocessing``  | If set to true, the difference value of big |
-|                          | function pairs will be reduced using a      |
-|                          | polynomial approach.                        |
-|                          |                                             |
-+--------------------------+---------------------------------------------+
-|                          |                                             |
-| ``extra_include_paths``  | A list containing additional include paths. +
-|                          |                                             |
-+--------------------------+---------------------------------------------+
-|                          |                                             |
-| ``exp_postprocessing``   | If set to true, the difference value of big |
-|                          | function pairs will be reduced using an     |
-|                          | exponential approac                         |
 |                          |                                             |
 +--------------------------+---------------------------------------------+
 

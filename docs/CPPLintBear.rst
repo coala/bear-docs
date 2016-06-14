@@ -7,7 +7,7 @@ For more information, consult <https://github.com/theandrewdavis/cpplint>.
 
 This bear uses the 'cpplint' tool.
 
-`Supported Languages <../README.rst>`:
+`Supported Languages <../README.rst>_`:
 -----
 
 * C++

@@ -5,7 +5,7 @@ Checks the code with ``ruby -wc`` on each file separately.
 
 This bear uses the 'ruby' tool.
 
-`Supported Languages <../README.rst>`:
+`Supported Languages <../README.rst>_`:
 -----
 
 * Ruby
