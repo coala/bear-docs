@@ -8,40 +8,40 @@
 
 All
 ===
-* `LineCountBear <docs/LineCountBear.rst>`_
 * `KeywordBear <docs/KeywordBear.rst>`_
-* `InvalidLinkBear <docs/InvalidLinkBear.rst>`_
 * `FilenameBear <docs/FilenameBear.rst>`_
-* `SpaceConsistencyBear <docs/SpaceConsistencyBear.rst>`_
 * `LineLengthBear <docs/LineLengthBear.rst>`_
+* `InvalidLinkBear <docs/InvalidLinkBear.rst>`_
+* `SpaceConsistencyBear <docs/SpaceConsistencyBear.rst>`_
+* `LineCountBear <docs/LineCountBear.rst>`_
 
 C
 =
-* `CPPCheckBear <docs/CPPCheckBear.rst>`_
-* `ClangCloneDetectionBear <docs/ClangCloneDetectionBear.rst>`_
-* `ClangBear <docs/ClangBear.rst>`_
-* `ClangComplexityBear <docs/ClangComplexityBear.rst>`_
 * `ClangASTPrintBear <docs/ClangASTPrintBear.rst>`_
-* `ClangFunctionDifferenceBear <docs/ClangFunctionDifferenceBear.rst>`_
+* `ClangCloneDetectionBear <docs/ClangCloneDetectionBear.rst>`_
+* `CPPCheckBear <docs/CPPCheckBear.rst>`_
+* `ClangComplexityBear <docs/ClangComplexityBear.rst>`_
 * `GNUIndentBear <docs/GNUIndentBear.rst>`_
+* `ClangBear <docs/ClangBear.rst>`_
+* `ClangFunctionDifferenceBear <docs/ClangFunctionDifferenceBear.rst>`_
 
 C#
 ==
-* `CSharpLintBear <docs/CSharpLintBear.rst>`_
 * `CPDBear <docs/CPDBear.rst>`_
+* `CSharpLintBear <docs/CSharpLintBear.rst>`_
 
 C++
 ===
-* `CPPCheckBear <docs/CPPCheckBear.rst>`_
+* `ClangASTPrintBear <docs/ClangASTPrintBear.rst>`_
 * `ClangCloneDetectionBear <docs/ClangCloneDetectionBear.rst>`_
+* `CPPLintBear <docs/CPPLintBear.rst>`_
+* `CPDBear <docs/CPDBear.rst>`_
+* `CPPCheckBear <docs/CPPCheckBear.rst>`_
+* `ClangComplexityBear <docs/ClangComplexityBear.rst>`_
+* `GNUIndentBear <docs/GNUIndentBear.rst>`_
 * `ClangBear <docs/ClangBear.rst>`_
 * `CPPCleanBear <docs/CPPCleanBear.rst>`_
-* `ClangComplexityBear <docs/ClangComplexityBear.rst>`_
-* `ClangASTPrintBear <docs/ClangASTPrintBear.rst>`_
 * `ClangFunctionDifferenceBear <docs/ClangFunctionDifferenceBear.rst>`_
-* `CPPLintBear <docs/CPPLintBear.rst>`_
-* `GNUIndentBear <docs/GNUIndentBear.rst>`_
-* `CPDBear <docs/CPDBear.rst>`_
 
 CMake
 =====
@@ -54,10 +54,10 @@ CSS
 
 CUDA
 ====
-* `ClangCloneDetectionBear <docs/ClangCloneDetectionBear.rst>`_
-* `ClangBear <docs/ClangBear.rst>`_
-* `ClangComplexityBear <docs/ClangComplexityBear.rst>`_
 * `ClangASTPrintBear <docs/ClangASTPrintBear.rst>`_
+* `ClangCloneDetectionBear <docs/ClangCloneDetectionBear.rst>`_
+* `ClangComplexityBear <docs/ClangComplexityBear.rst>`_
+* `ClangBear <docs/ClangBear.rst>`_
 * `ClangFunctionDifferenceBear <docs/ClangFunctionDifferenceBear.rst>`_
 
 CoffeeScript
@@ -82,14 +82,14 @@ Git
 
 Go
 ==
-* `GoErrCheckBear <docs/GoErrCheckBear.rst>`_
-* `GoVetBear <docs/GoVetBear.rst>`_
 * `GoTypeBear <docs/GoTypeBear.rst>`_
 * `GoReturnsBear <docs/GoReturnsBear.rst>`_
-* `GofmtBear <docs/GofmtBear.rst>`_
-* `GoImportsBear <docs/GoImportsBear.rst>`_
 * `CPDBear <docs/CPDBear.rst>`_
 * `GoLintBear <docs/GoLintBear.rst>`_
+* `GoImportsBear <docs/GoImportsBear.rst>`_
+* `GoVetBear <docs/GoVetBear.rst>`_
+* `GofmtBear <docs/GofmtBear.rst>`_
+* `GoErrCheckBear <docs/GoErrCheckBear.rst>`_
 
 HTML
 ====
@@ -114,20 +114,17 @@ JSX
 
 Java
 ====
+* `JavaPMDBear <docs/JavaPMDBear.rst>`_
 * `InferBear <docs/InferBear.rst>`_
 * `CPDBear <docs/CPDBear.rst>`_
 * `CheckstyleBear <docs/CheckstyleBear.rst>`_
-* `JavaPMDBear <docs/JavaPMDBear.rst>`_
 
 JavaScript
 ==========
-* `JSHintBear <docs/JSHintBear.rst>`_
+* `JSComplexityBear <docs/JSComplexityBear.rst>`_
 * `ESLintBear <docs/ESLintBear.rst>`_
 * `CPDBear <docs/CPDBear.rst>`_
-
-Javascript
-==========
-* `JSComplexityBear <docs/JSComplexityBear.rst>`_
+* `JSHintBear <docs/JSHintBear.rst>`_
 
 Julia
 =====
@@ -143,57 +140,60 @@ Markdown
 
 Matlab
 ======
+* `CPDBear <docs/CPDBear.rst>`_
 * `MatlabIndentationBear <docs/MatlabIndentationBear.rst>`_
 
 Natural Language
 ================
-* `AlexBear <docs/AlexBear.rst>`_
-* `LanguageToolBear <docs/LanguageToolBear.rst>`_
 * `ProseLintBear <docs/ProseLintBear.rst>`_
-
-Objective C
-===========
-* `CPDBear <docs/CPDBear.rst>`_
+* `LanguageToolBear <docs/LanguageToolBear.rst>`_
+* `AlexBear <docs/AlexBear.rst>`_
 
 Objective-C
 ===========
-* `ClangCloneDetectionBear <docs/ClangCloneDetectionBear.rst>`_
-* `ClangBear <docs/ClangBear.rst>`_
-* `ClangComplexityBear <docs/ClangComplexityBear.rst>`_
 * `ClangASTPrintBear <docs/ClangASTPrintBear.rst>`_
+* `ClangCloneDetectionBear <docs/ClangCloneDetectionBear.rst>`_
+* `CPDBear <docs/CPDBear.rst>`_
+* `ClangComplexityBear <docs/ClangComplexityBear.rst>`_
+* `ClangBear <docs/ClangBear.rst>`_
 * `ClangFunctionDifferenceBear <docs/ClangFunctionDifferenceBear.rst>`_
 
 Objective-C++
 =============
-* `ClangCloneDetectionBear <docs/ClangCloneDetectionBear.rst>`_
-* `ClangBear <docs/ClangBear.rst>`_
-* `ClangComplexityBear <docs/ClangComplexityBear.rst>`_
 * `ClangASTPrintBear <docs/ClangASTPrintBear.rst>`_
+* `ClangCloneDetectionBear <docs/ClangCloneDetectionBear.rst>`_
+* `ClangComplexityBear <docs/ClangComplexityBear.rst>`_
+* `ClangBear <docs/ClangBear.rst>`_
 * `ClangFunctionDifferenceBear <docs/ClangFunctionDifferenceBear.rst>`_
 
 Octave
 ======
+* `CPDBear <docs/CPDBear.rst>`_
 * `MatlabIndentationBear <docs/MatlabIndentationBear.rst>`_
 
 OpenCL
 ======
-* `ClangCloneDetectionBear <docs/ClangCloneDetectionBear.rst>`_
-* `ClangBear <docs/ClangBear.rst>`_
-* `ClangComplexityBear <docs/ClangComplexityBear.rst>`_
 * `ClangASTPrintBear <docs/ClangASTPrintBear.rst>`_
+* `ClangCloneDetectionBear <docs/ClangCloneDetectionBear.rst>`_
+* `ClangComplexityBear <docs/ClangComplexityBear.rst>`_
+* `ClangBear <docs/ClangBear.rst>`_
 * `ClangFunctionDifferenceBear <docs/ClangFunctionDifferenceBear.rst>`_
 
 OpenMP
 ======
-* `ClangCloneDetectionBear <docs/ClangCloneDetectionBear.rst>`_
-* `ClangBear <docs/ClangBear.rst>`_
-* `ClangComplexityBear <docs/ClangComplexityBear.rst>`_
 * `ClangASTPrintBear <docs/ClangASTPrintBear.rst>`_
+* `ClangCloneDetectionBear <docs/ClangCloneDetectionBear.rst>`_
+* `ClangComplexityBear <docs/ClangComplexityBear.rst>`_
+* `ClangBear <docs/ClangBear.rst>`_
 * `ClangFunctionDifferenceBear <docs/ClangFunctionDifferenceBear.rst>`_
 
 PHP
 ===
 * `PHPLintBear <docs/PHPLintBear.rst>`_
+* `CPDBear <docs/CPDBear.rst>`_
+
+PL/SQL
+======
 * `CPDBear <docs/CPDBear.rst>`_
 
 Perl
@@ -202,41 +202,41 @@ Perl
 
 Python
 ======
-* `PyLintBear <docs/PyLintBear.rst>`_
 * `RadonBear <docs/RadonBear.rst>`_
-* `PEP8Bear <docs/PEP8Bear.rst>`_
-* `CPDBear <docs/CPDBear.rst>`_
-* `PyUnusedCodeBear <docs/PyUnusedCodeBear.rst>`_
-* `PyDocStyleBear <docs/PyDocStyleBear.rst>`_
 * `PyCommentedCodeBear <docs/PyCommentedCodeBear.rst>`_
+* `PyUnusedCodeBear <docs/PyUnusedCodeBear.rst>`_
+* `PyLintBear <docs/PyLintBear.rst>`_
+* `CPDBear <docs/CPDBear.rst>`_
 * `PyImportSortBear <docs/PyImportSortBear.rst>`_
+* `PEP8Bear <docs/PEP8Bear.rst>`_
+* `PyDocStyleBear <docs/PyDocStyleBear.rst>`_
 
 Python 2
 ========
-* `PyLintBear <docs/PyLintBear.rst>`_
 * `RadonBear <docs/RadonBear.rst>`_
-* `PEP8Bear <docs/PEP8Bear.rst>`_
-* `CPDBear <docs/CPDBear.rst>`_
-* `PyUnusedCodeBear <docs/PyUnusedCodeBear.rst>`_
-* `PyDocStyleBear <docs/PyDocStyleBear.rst>`_
 * `PyCommentedCodeBear <docs/PyCommentedCodeBear.rst>`_
+* `PyUnusedCodeBear <docs/PyUnusedCodeBear.rst>`_
+* `PyLintBear <docs/PyLintBear.rst>`_
+* `CPDBear <docs/CPDBear.rst>`_
 * `PyImportSortBear <docs/PyImportSortBear.rst>`_
+* `PEP8Bear <docs/PEP8Bear.rst>`_
+* `PyDocStyleBear <docs/PyDocStyleBear.rst>`_
 
 Python 3
 ========
-* `PyLintBear <docs/PyLintBear.rst>`_
 * `RadonBear <docs/RadonBear.rst>`_
-* `PEP8Bear <docs/PEP8Bear.rst>`_
-* `CPDBear <docs/CPDBear.rst>`_
-* `PyUnusedCodeBear <docs/PyUnusedCodeBear.rst>`_
-* `PyDocStyleBear <docs/PyDocStyleBear.rst>`_
 * `PyCommentedCodeBear <docs/PyCommentedCodeBear.rst>`_
+* `PyUnusedCodeBear <docs/PyUnusedCodeBear.rst>`_
+* `PyLintBear <docs/PyLintBear.rst>`_
+* `CPDBear <docs/CPDBear.rst>`_
 * `PyImportSortBear <docs/PyImportSortBear.rst>`_
+* `PEP8Bear <docs/PEP8Bear.rst>`_
+* `PyDocStyleBear <docs/PyDocStyleBear.rst>`_
 
 R
 =
-* `RLintBear <docs/RLintBear.rst>`_
 * `FormatRBear <docs/FormatRBear.rst>`_
+* `RLintBear <docs/RLintBear.rst>`_
 
 RAML
 ====
@@ -245,8 +245,8 @@ RAML
 Ruby
 ====
 * `RubySmellBear <docs/RubySmellBear.rst>`_
-* `CPDBear <docs/CPDBear.rst>`_
 * `RubySyntaxBear <docs/RubySyntaxBear.rst>`_
+* `CPDBear <docs/CPDBear.rst>`_
 * `RuboCopBear <docs/RuboCopBear.rst>`_
 
 SCSS
@@ -265,6 +265,7 @@ Scala
 Swift
 =====
 * `TailorBear <docs/TailorBear.rst>`_
+* `CPDBear <docs/CPDBear.rst>`_
 
 Tex
 ===

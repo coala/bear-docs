@@ -1,28 +1,9 @@
 import os
 import inspect
 
-from coalib.settings.ConfigurationGathering import load_configuration
-from coalib.misc.DictUtilities import inverse_dicts
-from coalib.collecting.Collectors import (
-    collect_all_bears_from_sections, filter_section_bears_by_languages)
-from pyprint.NullPrinter import NullPrinter
-from coalib.output.printers.LogPrinter import LogPrinter
+from bear_docs_utils import get_bears
 
-def get_bears():
-    """
-    Get a dict of bears with the bear class as key.
-
-    :return:
-        A dict with bear classes as key and the list of sections
-        as value.
-    """
-    log_printer = LogPrinter(NullPrinter())
-    sections, _ = load_configuration(None, log_printer)
-    local_bears, global_bears = collect_all_bears_from_sections(
-        sections, log_printer)
-    return inverse_dicts(local_bears, global_bears)
-
-if __name__ == "__main__":
+def language_generate():
     lang_dict = {}
     for bear in get_bears():
         for language in bear.supported_languages:
@@ -31,7 +12,7 @@ if __name__ == "__main__":
             else:
                 lang_dict[language] = [bear.name]
 
-    with open("languages.rst", "w") as lang_file:
+    with open("README.rst", "w") as lang_file:
         lang_file.write("**Supported Languages**\n-----------------------\n\n"
                         ".. contents::\n"
                         "    :local:\n"

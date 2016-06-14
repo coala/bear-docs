@@ -8,5 +8,5 @@ This bear uses the 'cr' tool.
 Supported Languages:
 -----
 
-* Javascript
+* JavaScript
 

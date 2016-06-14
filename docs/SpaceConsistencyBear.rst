@@ -20,8 +20,8 @@ Settings
 |                                |                                       |
 +--------------------------------+---------------------------------------+
 |                                |                                       |
-| ``use_spaces``\*               | True if spaces are to be used instead |
-|                                | of tabs.                              |
+| ``tab_width``                  | Number of spaces representing one     |
+|                                | tab.                                  |
 |                                |                                       |
 +--------------------------------+---------------------------------------+
 |                                |                                       |
@@ -30,8 +30,8 @@ Settings
 |                                |                                       |
 +--------------------------------+---------------------------------------+
 |                                |                                       |
-| ``tab_width``                  | Number of spaces representing one     |
-|                                | tab.                                  |
+| ``use_spaces``\*               | True if spaces are to be used instead |
+|                                | of tabs.                              |
 |                                |                                       |
 +--------------------------------+---------------------------------------+
 

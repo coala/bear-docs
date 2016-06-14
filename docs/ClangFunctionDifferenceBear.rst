@@ -22,6 +22,21 @@ Settings
 | Setting                  |  Meaning                                    |
 +==========================+=============================================+
 |                          |                                             |
+| ``average_calculation``  | If set to true the difference calculation   |
+|                          | function will take the average of all       |
+|                          | variable differences as the difference,     |
+|                          | else it will normalize the function as a    |
+|                          | whole and thus weighting in variables       |
+|                          | dependent on their size.                    |
+|                          |                                             |
++--------------------------+---------------------------------------------+
+|                          |                                             |
+| ``poly_postprocessing``  | If set to true, the difference value of big |
+|                          | function pairs will be reduced using a      |
+|                          | polynomial approach.                        |
+|                          |                                             |
++--------------------------+---------------------------------------------+
+|                          |                                             |
 | ``exp_postprocessing``   | If set to true, the difference value of big |
 |                          | function pairs will be reduced using an     |
 |                          | exponential approac                         |
@@ -48,21 +63,6 @@ Settings
 +--------------------------+---------------------------------------------+
 |                          |                                             |
 | ``extra_include_paths``  | A list containing additional include paths. +
-|                          |                                             |
-+--------------------------+---------------------------------------------+
-|                          |                                             |
-| ``poly_postprocessing``  | If set to true, the difference value of big |
-|                          | function pairs will be reduced using a      |
-|                          | polynomial approach.                        |
-|                          |                                             |
-+--------------------------+---------------------------------------------+
-|                          |                                             |
-| ``average_calculation``  | If set to true the difference calculation   |
-|                          | function will take the average of all       |
-|                          | variable differences as the difference,     |
-|                          | else it will normalize the function as a    |
-|                          | whole and thus weighting in variables       |
-|                          | dependent on their size.                    |
 |                          |                                             |
 +--------------------------+---------------------------------------------+
 

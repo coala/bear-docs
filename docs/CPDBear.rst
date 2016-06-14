@@ -7,20 +7,24 @@ For more details see: <https://pmd.github.io/pmd-5.4.1/usage/cpd-usage.html>
 Supported Languages:
 -----
 
-* C++
-* C#
-* Objective C
-* Java
 * JavaScript
-* Fortran
-* Go
-* JSP
+* C++
+* PHP
+* Octave
+* Scala
 * Python 2
 * Python 3
+* Objective-C
+* JSP
+* Matlab
+* C#
 * Python
+* Go
+* Java
 * Ruby
-* PHP
-* Scala
+* Fortran
+* Swift
+* PL/SQL
 
 Settings
 --------
@@ -29,12 +33,12 @@ Settings
 | Setting                   |  Meaning                                                          |
 +===========================+===================================================================+
 |                           |                                                                   |
-| ``language``\*            | One of "cpp", "cs", "js", "f", "go", "jsp", "m", "php", "py",     |
-|                           | "rb", "scala", "java" (i.e. the file ending of your language).    |
+| ``skip_duplicate_files``  | Ignore multiple copies of files of the same name and length in    |
+|                           | ompariso                                                          |
 |                           |                                                                   |
 +---------------------------+-------------------------------------------------------------------+
 |                           |                                                                   |
-| ``ignore_annotations``    | Ignore language annotations when comparing text.                  +
+| ``ignore_identifiers``    | Ignore constant and variable names when comparing text.           +
 |                           |                                                                   |
 +---------------------------+-------------------------------------------------------------------+
 |                           |                                                                   |
@@ -42,20 +46,19 @@ Settings
 |                           |                                                                   |
 +---------------------------+-------------------------------------------------------------------+
 |                           |                                                                   |
-| ``ignore_usings``         | Ignore ``using`` directives in C#.                                +
-|                           |                                                                   |
-+---------------------------+-------------------------------------------------------------------+
-|                           |                                                                   |
-| ``skip_duplicate_files``  | Ignore multiple copies of files of the same name and length in    |
-|                           | ompariso                                                          |
-|                           |                                                                   |
-+---------------------------+-------------------------------------------------------------------+
-|                           |                                                                   |
 | ``minimum_tokens``        | The minimum token length which should be reported as a duplicate. +
 |                           |                                                                   |
 +---------------------------+-------------------------------------------------------------------+
 |                           |                                                                   |
-| ``ignore_identifiers``    | Ignore constant and variable names when comparing text.           +
+| ``ignore_annotations``    | Ignore language annotations when comparing text.                  +
+|                           |                                                                   |
++---------------------------+-------------------------------------------------------------------+
+|                           |                                                                   |
+| ``language``\*            | One of the supported languages of this bear.                      +
+|                           |                                                                   |
++---------------------------+-------------------------------------------------------------------+
+|                           |                                                                   |
+| ``ignore_usings``         | Ignore ``using`` directives in C#.                                +
 |                           |                                                                   |
 +---------------------------+-------------------------------------------------------------------+
 

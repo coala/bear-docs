@@ -17,6 +17,11 @@ Settings
 | Setting                |  Meaning                                    |
 +========================+=============================================+
 |                        |                                             |
+| ``pep_select``         | A list of errors/warnings to exclusively    |
+|                        | apply.                                      |
+|                        |                                             |
++------------------------+---------------------------------------------+
+|                        |                                             |
 | ``local_pep8_config``  | Set to true if autopep8 should use a config |
 |                        | file as if run normally from this director  |
 |                        |                                             |
@@ -31,11 +36,6 @@ Settings
 +------------------------+---------------------------------------------+
 |                        |                                             |
 | ``tab_width``          | Number of spaces per indent level.          +
-|                        |                                             |
-+------------------------+---------------------------------------------+
-|                        |                                             |
-| ``pep_select``         | A list of errors/warnings to exclusively    |
-|                        | apply.                                      |
 |                        |                                             |
 +------------------------+---------------------------------------------+
 
