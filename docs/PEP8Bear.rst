@@ -30,12 +30,12 @@ Settings
 |                        |                                             |
 +------------------------+---------------------------------------------+
 |                        |                                             |
-| ``tab_width``          | Number of spaces per indent level.          +
+| ``local_pep8_config``  | Set to true if autopep8 should use a config |
+|                        | file as if run normally from this director  |
 |                        |                                             |
 +------------------------+---------------------------------------------+
 |                        |                                             |
-| ``local_pep8_config``  | Set to true if autopep8 should use a config |
-|                        | file as if run normally from this director  |
+| ``tab_width``          | Number of spaces per indent level.          +
 |                        |                                             |
 +------------------------+---------------------------------------------+
 

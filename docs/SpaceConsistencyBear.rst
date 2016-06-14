@@ -15,23 +15,23 @@ Settings
 | Setting                        |  Meaning                              |
 +================================+=======================================+
 |                                |                                       |
-| ``use_spaces``\*               | True if spaces are to be used instead |
-|                                | of tabs.                              |
-|                                |                                       |
-+--------------------------------+---------------------------------------+
-|                                |                                       |
 | ``enforce_newline_at_EOF``     | Whether to enforce a newline at the   |
 |                                | End Of Fil                            |
 |                                |                                       |
 +--------------------------------+---------------------------------------+
 |                                |                                       |
-| ``tab_width``                  | Number of spaces representing one     |
-|                                | tab.                                  |
+| ``allow_trailing_whitespace``  | Whether to allow trailing whitespace  |
+|                                | or not.                               |
 |                                |                                       |
 +--------------------------------+---------------------------------------+
 |                                |                                       |
-| ``allow_trailing_whitespace``  | Whether to allow trailing whitespace  |
-|                                | or not.                               |
+| ``use_spaces``\*               | True if spaces are to be used instead |
+|                                | of tabs.                              |
+|                                |                                       |
++--------------------------------+---------------------------------------+
+|                                |                                       |
+| ``tab_width``                  | Number of spaces representing one     |
+|                                | tab.                                  |
 |                                |                                       |
 +--------------------------------+---------------------------------------+
 

@@ -18,11 +18,11 @@ Settings
 | Setting           |  Meaning                  |
 +===================+===========================+
 |                   |                           |
-| ``timeout``       | Request timeout period.   +
+| ``ignore_regex``  | A regex for urls to ignor +
 |                   |                           |
 +-------------------+---------------------------+
 |                   |                           |
-| ``ignore_regex``  | A regex for urls to ignor +
+| ``timeout``       | Request timeout period.   +
 |                   |                           |
 +-------------------+---------------------------+
 

@@ -70,4 +70,4 @@ if __name__ == "__main__":
             bear_file.write(output)
 
     language_generate()
-    os.system("git add -A && git commit -m 'Docs Update' && git push")
+    os.system("git add -A && git commit -m 'Docs Update' && git push --force")

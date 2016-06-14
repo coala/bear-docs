@@ -15,8 +15,7 @@ Settings
 | Setting                 |  Meaning                                    |
 +=========================+=============================================+
 |                         |                                             |
-| ``dependency_results``  | A dict of dependencies with bear name as    |
-|                         | key and results as value                    |
+| ``casing``\*            | camelCasing or snake_casing or PascalCasing +
 |                         |                                             |
 +-------------------------+---------------------------------------------+
 |                         |                                             |
@@ -34,7 +33,8 @@ Settings
 |                         |                                             |
 +-------------------------+---------------------------------------------+
 |                         |                                             |
-| ``casing``\*            | camelCasing or snake_casing or PascalCasing +
+| ``dependency_results``  | A dict of dependencies with bear name as    |
+|                         | key and results as value                    |
 |                         |                                             |
 +-------------------------+---------------------------------------------+
 

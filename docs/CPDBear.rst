@@ -7,23 +7,23 @@ For more details see: <https://pmd.github.io/pmd-5.4.1/usage/cpd-usage.html>
 `Supported Languages <../README.rst>_`:
 -----
 
+* Fortran
+* Objective-C
 * Scala
-* Python 2
-* Go
+* Java
 * JSP
+* Python
+* PHP
+* Ruby
+* Python 2
+* Python 3
+* C#
+* Matlab
+* C++
+* Swift
 * Octave
 * PL/SQL
-* Ruby
-* Matlab
-* C#
-* PHP
-* Python
-* Python 3
-* C++
-* Objective-C
-* Fortran
-* Swift
-* Java
+* Go
 * JavaScript
 
 Settings
@@ -33,16 +33,7 @@ Settings
 | Setting                   |  Meaning                                                          |
 +===========================+===================================================================+
 |                           |                                                                   |
-| ``ignore_identifiers``    | Ignore constant and variable names when comparing text.           +
-|                           |                                                                   |
-+---------------------------+-------------------------------------------------------------------+
-|                           |                                                                   |
 | ``ignore_literals``       | Ignore number values and string contents when comparing text.     +
-|                           |                                                                   |
-+---------------------------+-------------------------------------------------------------------+
-|                           |                                                                   |
-| ``skip_duplicate_files``  | Ignore multiple copies of files of the same name and length in    |
-|                           | ompariso                                                          |
 |                           |                                                                   |
 +---------------------------+-------------------------------------------------------------------+
 |                           |                                                                   |
@@ -54,11 +45,20 @@ Settings
 |                           |                                                                   |
 +---------------------------+-------------------------------------------------------------------+
 |                           |                                                                   |
-| ``minimum_tokens``        | The minimum token length which should be reported as a duplicate. +
+| ``skip_duplicate_files``  | Ignore multiple copies of files of the same name and length in    |
+|                           | ompariso                                                          |
+|                           |                                                                   |
++---------------------------+-------------------------------------------------------------------+
+|                           |                                                                   |
+| ``ignore_identifiers``    | Ignore constant and variable names when comparing text.           +
 |                           |                                                                   |
 +---------------------------+-------------------------------------------------------------------+
 |                           |                                                                   |
 | ``ignore_usings``         | Ignore ``using`` directives in C#.                                +
+|                           |                                                                   |
++---------------------------+-------------------------------------------------------------------+
+|                           |                                                                   |
+| ``minimum_tokens``        | The minimum token length which should be reported as a duplicate. +
 |                           |                                                                   |
 +---------------------------+-------------------------------------------------------------------+
 

@@ -22,9 +22,9 @@ Settings
 | Setting                  |  Meaning                                    |
 +==========================+=============================================+
 |                          |                                             |
-| ``poly_postprocessing``  | If set to true, the difference value of big |
-|                          | function pairs will be reduced using a      |
-|                          | polynomial approach.                        |
+| ``exp_postprocessing``   | If set to true, the difference value of big |
+|                          | function pairs will be reduced using an     |
+|                          | exponential approac                         |
 |                          |                                             |
 +--------------------------+---------------------------------------------+
 |                          |                                             |
@@ -41,9 +41,9 @@ Settings
 |                          |                                             |
 +--------------------------+---------------------------------------------+
 |                          |                                             |
-| ``exp_postprocessing``   | If set to true, the difference value of big |
-|                          | function pairs will be reduced using an     |
-|                          | exponential approac                         |
+| ``poly_postprocessing``  | If set to true, the difference value of big |
+|                          | function pairs will be reduced using a      |
+|                          | polynomial approach.                        |
 |                          |                                             |
 +--------------------------+---------------------------------------------+
 |                          |                                             |

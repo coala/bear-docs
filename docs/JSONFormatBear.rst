@@ -19,11 +19,11 @@ Settings
 |                   |                                                   |
 +-------------------+---------------------------------------------------+
 |                   |                                                   |
-| ``tab_width``     | Number of spaces to indent.                       +
+| ``json_sort``     | Whether or not keys should be sorted.             +
 |                   |                                                   |
 +-------------------+---------------------------------------------------+
 |                   |                                                   |
-| ``json_sort``     | Whether or not keys should be sorted.             +
+| ``tab_width``     | Number of spaces to indent.                       +
 |                   |                                                   |
 +-------------------+---------------------------------------------------+
 

@@ -15,12 +15,12 @@ Settings
 | Setting                  |  Meaning                                 |
 +==========================+==========================================+
 |                          |                                          |
-| ``max_line_length``      | Maximum number of characters for a line. +
+| ``ignore_length_regex``  | Lines matching each of the regular       |
+|                          | expressions in this list will be ignore  |
 |                          |                                          |
 +--------------------------+------------------------------------------+
 |                          |                                          |
-| ``ignore_length_regex``  | Lines matching each of the regular       |
-|                          | expressions in this list will be ignore  |
+| ``max_line_length``      | Maximum number of characters for a line. +
 |                          |                                          |
 +--------------------------+------------------------------------------+
 |                          |                                          |
