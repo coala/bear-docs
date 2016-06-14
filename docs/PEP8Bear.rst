@@ -3,7 +3,7 @@
 
 Detects and fixes PEP8 incompliant code. This bear will not change functionality of the code in any way.
 
-`Supported Languages <../README.rst>_`:
+`Supported Languages <../README.rst>`_ :
 -----
 
 * Python
@@ -17,12 +17,7 @@ Settings
 | Setting                |  Meaning                                    |
 +========================+=============================================+
 |                        |                                             |
-| ``pep_select``         | A list of errors/warnings to exclusively    |
-|                        | apply.                                      |
-|                        |                                             |
-+------------------------+---------------------------------------------+
-|                        |                                             |
-| ``pep_ignore``         | A list of errors/warnings to ignore.        +
+| ``tab_width``          | Number of spaces per indent level.          +
 |                        |                                             |
 +------------------------+---------------------------------------------+
 |                        |                                             |
@@ -35,7 +30,12 @@ Settings
 |                        |                                             |
 +------------------------+---------------------------------------------+
 |                        |                                             |
-| ``tab_width``          | Number of spaces per indent level.          +
+| ``pep_select``         | A list of errors/warnings to exclusively    |
+|                        | apply.                                      |
+|                        |                                             |
++------------------------+---------------------------------------------+
+|                        |                                             |
+| ``pep_ignore``         | A list of errors/warnings to ignore.        +
 |                        |                                             |
 +------------------------+---------------------------------------------+
 

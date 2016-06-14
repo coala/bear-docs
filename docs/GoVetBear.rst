@@ -11,7 +11,7 @@ This is done using the ``vet`` command. For more information visit
 
 This bear uses the 'go' tool.
 
-`Supported Languages <../README.rst>_`:
+`Supported Languages <../README.rst>`_ :
 -----
 
 * Go

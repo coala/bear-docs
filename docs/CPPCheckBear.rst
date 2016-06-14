@@ -6,7 +6,7 @@ For more information, consult <https://github.com/danmar/cppcheck>.
 
 This bear uses the 'cppcheck' tool.
 
-`Supported Languages <../README.rst>_`:
+`Supported Languages <../README.rst>`_ :
 -----
 
 * C

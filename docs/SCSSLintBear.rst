@@ -7,7 +7,7 @@ More information is available at <https://github.com/brigade/scss-lint>.
 
 This bear uses the 'scss-lint' tool.
 
-`Supported Languages <../README.rst>_`:
+`Supported Languages <../README.rst>`_ :
 -----
 
 * SCSS

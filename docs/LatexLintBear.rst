@@ -5,7 +5,7 @@ Checks the code with ``chktex``.
 
 This bear uses the 'chktex' tool.
 
-`Supported Languages <../README.rst>_`:
+`Supported Languages <../README.rst>`_ :
 -----
 
 * Tex

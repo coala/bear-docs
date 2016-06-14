@@ -4,7 +4,7 @@
 Retrieves similarities for code clone detection. Those can be reused in another bear to produce results.
 Postprocessing may be done because small functions are less likely to be clones at the same difference value than big functions which may provide a better refactoring opportunity for the user.
 
-`Supported Languages <../README.rst>_`:
+`Supported Languages <../README.rst>`_ :
 -----
 
 * C
@@ -22,9 +22,19 @@ Settings
 | Setting                  |  Meaning                                    |
 +==========================+=============================================+
 |                          |                                             |
+| ``extra_include_paths``  | A list containing additional include paths. +
+|                          |                                             |
++--------------------------+---------------------------------------------+
+|                          |                                             |
 | ``exp_postprocessing``   | If set to true, the difference value of big |
 |                          | function pairs will be reduced using an     |
 |                          | exponential approac                         |
+|                          |                                             |
++--------------------------+---------------------------------------------+
+|                          |                                             |
+| ``poly_postprocessing``  | If set to true, the difference value of big |
+|                          | function pairs will be reduced using a      |
+|                          | polynomial approach.                        |
 |                          |                                             |
 +--------------------------+---------------------------------------------+
 |                          |                                             |
@@ -34,16 +44,6 @@ Settings
 |                          | else it will normalize the function as a    |
 |                          | whole and thus weighting in variables       |
 |                          | dependent on their size.                    |
-|                          |                                             |
-+--------------------------+---------------------------------------------+
-|                          |                                             |
-| ``extra_include_paths``  | A list containing additional include paths. +
-|                          |                                             |
-+--------------------------+---------------------------------------------+
-|                          |                                             |
-| ``poly_postprocessing``  | If set to true, the difference value of big |
-|                          | function pairs will be reduced using a      |
-|                          | polynomial approach.                        |
 |                          |                                             |
 +--------------------------+---------------------------------------------+
 |                          |                                             |

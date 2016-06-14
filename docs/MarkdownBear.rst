@@ -8,7 +8,7 @@ below.
 
 This bear uses the 'remark' tool.
 
-`Supported Languages <../README.rst>_`:
+`Supported Languages <../README.rst>`_ :
 -----
 
 * Markdown

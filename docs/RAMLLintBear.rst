@@ -8,7 +8,7 @@ identify the problems correctly.
 
 This bear uses the 'ramllint' tool.
 
-`Supported Languages <../README.rst>_`:
+`Supported Languages <../README.rst>`_ :
 -----
 
 * RAML

@@ -8,7 +8,7 @@ This bear supports ANSI syntax. Check out
 
 This bear uses the 'sqlint' tool.
 
-`Supported Languages <../README.rst>_`:
+`Supported Languages <../README.rst>`_ :
 -----
 
 * SQL

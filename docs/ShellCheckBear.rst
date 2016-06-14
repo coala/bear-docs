@@ -9,7 +9,7 @@ A gallery of bad code that can be detected is available at
 
 This bear uses the 'shellcheck' tool.
 
-`Supported Languages <../README.rst>_`:
+`Supported Languages <../README.rst>`_ :
 -----
 
 * sh

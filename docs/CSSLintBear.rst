@@ -6,7 +6,7 @@ problems or inefficiencies.
 
 This bear uses the 'csslint' tool.
 
-`Supported Languages <../README.rst>_`:
+`Supported Languages <../README.rst>`_ :
 -----
 
 * CSS

@@ -8,7 +8,7 @@ You can read more about capabilities at
 
 This bear uses the 'yamllint' tool.
 
-`Supported Languages <../README.rst>_`:
+`Supported Languages <../README.rst>`_ :
 -----
 
 * YAML

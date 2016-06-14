@@ -8,7 +8,7 @@ For more information about the detected smells, see
 
 This bear uses the 'reek' tool.
 
-`Supported Languages <../README.rst>_`:
+`Supported Languages <../README.rst>`_ :
 -----
 
 * Ruby

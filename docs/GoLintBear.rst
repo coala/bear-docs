@@ -6,7 +6,7 @@ separately.
 
 This bear uses the 'golint' tool.
 
-`Supported Languages <../README.rst>_`:
+`Supported Languages <../README.rst>`_ :
 -----
 
 * Go

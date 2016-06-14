@@ -10,7 +10,7 @@ more information .
 
 This bear uses the 'dockerfile_lint' tool.
 
-`Supported Languages <../README.rst>_`:
+`Supported Languages <../README.rst>`_ :
 -----
 
 * Dockerfile

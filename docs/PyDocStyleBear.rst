@@ -3,7 +3,7 @@
 
 Checks python docstrings.
 
-`Supported Languages <../README.rst>_`:
+`Supported Languages <../README.rst>`_ :
 -----
 
 * Python
@@ -17,13 +17,13 @@ Settings
 | Setting                |  Meaning                             |
 +========================+======================================+
 |                        |                                      |
-| ``pydocstyle_select``  | List of checked errors by specifying |
-|                        | which errors to check for.           |
+| ``pydocstyle_ignore``  | List of checked errors by specifying |
+|                        | which errors to ignore               |
 |                        |                                      |
 +------------------------+--------------------------------------+
 |                        |                                      |
-| ``pydocstyle_ignore``  | List of checked errors by specifying |
-|                        | which errors to ignore               |
+| ``pydocstyle_select``  | List of checked errors by specifying |
+|                        | which errors to check for.           |
 |                        |                                      |
 +------------------------+--------------------------------------+
 

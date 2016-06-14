@@ -9,7 +9,7 @@ Read more about the capabilities at
 
 This bear uses the 'tslint' tool.
 
-`Supported Languages <../README.rst>_`:
+`Supported Languages <../README.rst>`_ :
 -----
 
 * TypeScript
