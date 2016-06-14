@@ -6,7 +6,7 @@ separately.
 
 This bear uses the 'pylint' tool.
 
-Supported Languages:
+`Supported Languages <../README.rst>`:
 -----
 
 * Python

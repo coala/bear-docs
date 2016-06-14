@@ -3,7 +3,7 @@
 
 Detects and fixes PEP8 incompliant code. This bear will not change functionality of the code in any way.
 
-Supported Languages:
+`Supported Languages <../README.rst>`:
 -----
 
 * Python
@@ -22,8 +22,7 @@ Settings
 |                        |                                             |
 +------------------------+---------------------------------------------+
 |                        |                                             |
-| ``local_pep8_config``  | Set to true if autopep8 should use a config |
-|                        | file as if run normally from this director  |
+| ``tab_width``          | Number of spaces per indent level.          +
 |                        |                                             |
 +------------------------+---------------------------------------------+
 |                        |                                             |
@@ -31,11 +30,12 @@ Settings
 |                        |                                             |
 +------------------------+---------------------------------------------+
 |                        |                                             |
-| ``max_line_length``    | Maximum number of characters for a line.    +
+| ``local_pep8_config``  | Set to true if autopep8 should use a config |
+|                        | file as if run normally from this director  |
 |                        |                                             |
 +------------------------+---------------------------------------------+
 |                        |                                             |
-| ``tab_width``          | Number of spaces per indent level.          +
+| ``max_line_length``    | Maximum number of characters for a line.    +
 |                        |                                             |
 +------------------------+---------------------------------------------+
 

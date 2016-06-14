@@ -3,7 +3,7 @@
 
 Checks the code with LanguageTool.
 
-Supported Languages:
+`Supported Languages <../README.rst>`:
 -----
 
 * Natural Language

@@ -4,7 +4,7 @@
 Detects unused code. This functionality is limited to:
 - Unneeded pass statements. - Unneeded builtin imports. (Others might have side effects.)
 
-Supported Languages:
+`Supported Languages <../README.rst>`:
 -----
 
 * Python

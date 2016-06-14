@@ -9,7 +9,7 @@ This is done using the ``gofmt`` utility. For more information visit
 
 This bear uses the 'gofmt' tool.
 
-Supported Languages:
+`Supported Languages <../README.rst>`:
 -----
 
 * Go

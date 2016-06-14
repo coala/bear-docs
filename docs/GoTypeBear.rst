@@ -6,7 +6,7 @@ separately.
 
 This bear uses the 'gotype' tool.
 
-Supported Languages:
+`Supported Languages <../README.rst>`:
 -----
 
 * Go

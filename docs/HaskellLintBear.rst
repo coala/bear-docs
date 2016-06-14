@@ -9,7 +9,7 @@ information.
 
 This bear uses the 'hlint' tool.
 
-Supported Languages:
+`Supported Languages <../README.rst>`:
 -----
 
 * Haskell

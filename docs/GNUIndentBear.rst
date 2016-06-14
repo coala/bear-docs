@@ -8,7 +8,7 @@ C++ support is considered experimental.
 
 This bear uses the 'indent' tool.
 
-Supported Languages:
+`Supported Languages <../README.rst>`:
 -----
 
 * C

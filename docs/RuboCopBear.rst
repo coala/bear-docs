@@ -7,7 +7,7 @@ See <https://github.com/bbatsov/rubocop#cops> for more information.
 
 This bear uses the 'rubocop' tool.
 
-Supported Languages:
+`Supported Languages <../README.rst>`:
 -----
 
 * Ruby

@@ -6,7 +6,7 @@ e.g. cyclomatic complexity.
 
 This bear uses the 'java' tool.
 
-Supported Languages:
+`Supported Languages <../README.rst>`:
 -----
 
 * Scala

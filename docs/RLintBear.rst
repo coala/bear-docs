@@ -3,7 +3,7 @@
 
 Checks the code with `lintr`.
 
-Supported Languages:
+`Supported Languages <../README.rst>`:
 -----
 
 * R

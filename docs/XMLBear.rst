@@ -3,7 +3,7 @@
 
 Checks the code with ``xmllint``.
 
-Supported Languages:
+`Supported Languages <../README.rst>`:
 -----
 
 * XML

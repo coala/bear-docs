@@ -6,7 +6,7 @@ each of the files seperately.
 
 This bear uses the 'perlcritic' tool.
 
-Supported Languages:
+`Supported Languages <../README.rst>`:
 -----
 
 * Perl

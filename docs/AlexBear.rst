@@ -3,7 +3,7 @@
 
 Checks the markdown file with Alex - Catch insensitive, inconsiderate writing.
 
-Supported Languages:
+`Supported Languages <../README.rst>`:
 -----
 
 * Natural Language

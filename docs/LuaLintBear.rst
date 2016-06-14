@@ -7,7 +7,7 @@ Read more at <https://github.com/mpeterv/luacheck>.
 
 This bear uses the 'luacheck' tool.
 
-Supported Languages:
+`Supported Languages <../README.rst>`:
 -----
 
 * Lua

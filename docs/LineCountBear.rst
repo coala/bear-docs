@@ -3,7 +3,7 @@
 
 Count the number of lines in a file and ensure that they are smaller than a given size.
 
-Supported Languages:
+`Supported Languages <../README.rst>`:
 -----
 
 * All

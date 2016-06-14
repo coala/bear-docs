@@ -23,7 +23,7 @@ information.
 
 This bear uses the 'perl' tool.
 
-Supported Languages:
+`Supported Languages <../README.rst>`:
 -----
 
 * VHDL

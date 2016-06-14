@@ -8,7 +8,7 @@ For more information, consult
 
 This bear uses the 'java' tool.
 
-Supported Languages:
+`Supported Languages <../README.rst>`:
 -----
 
 * Java

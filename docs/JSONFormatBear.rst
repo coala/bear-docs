@@ -3,7 +3,7 @@
 
 Raises issues for any deviations from the pretty-printed JSON.
 
-Supported Languages:
+`Supported Languages <../README.rst>`:
 -----
 
 * JSON
@@ -15,11 +15,11 @@ Settings
 | Setting           |  Meaning                                          |
 +===================+===================================================+
 |                   |                                                   |
-| ``tab_width``     | Number of spaces to indent.                       +
+| ``keep_unicode``  | Wether or not to escape unicode values using ASCI +
 |                   |                                                   |
 +-------------------+---------------------------------------------------+
 |                   |                                                   |
-| ``keep_unicode``  | Wether or not to escape unicode values using ASCI +
+| ``tab_width``     | Number of spaces to indent.                       +
 |                   |                                                   |
 +-------------------+---------------------------------------------------+
 |                   |                                                   |

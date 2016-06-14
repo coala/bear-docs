@@ -3,7 +3,7 @@
 
 Check and correct spacing for all textual data. This includes usage of tabs vs. spaces, trailing whitespace and (missing) newlines before the end of the file.
 
-Supported Languages:
+`Supported Languages <../README.rst>`:
 -----
 
 * All
@@ -15,13 +15,13 @@ Settings
 | Setting                        |  Meaning                              |
 +================================+=======================================+
 |                                |                                       |
-| ``allow_trailing_whitespace``  | Whether to allow trailing whitespace  |
-|                                | or not.                               |
+| ``tab_width``                  | Number of spaces representing one     |
+|                                | tab.                                  |
 |                                |                                       |
 +--------------------------------+---------------------------------------+
 |                                |                                       |
-| ``tab_width``                  | Number of spaces representing one     |
-|                                | tab.                                  |
+| ``allow_trailing_whitespace``  | Whether to allow trailing whitespace  |
+|                                | or not.                               |
 |                                |                                       |
 +--------------------------------+---------------------------------------+
 |                                |                                       |

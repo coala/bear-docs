@@ -10,7 +10,7 @@ For more information on the analysis visit <http://jshint.com/>
 
 This bear uses the 'jshint' tool.
 
-Supported Languages:
+`Supported Languages <../README.rst>`:
 -----
 
 * JavaScript

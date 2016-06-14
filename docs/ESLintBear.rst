@@ -7,7 +7,7 @@ Find out more at <http://eslint.org/docs/rules/>.
 
 This bear uses the 'eslint' tool.
 
-Supported Languages:
+`Supported Languages <../README.rst>`:
 -----
 
 * JavaScript

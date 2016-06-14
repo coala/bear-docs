@@ -3,7 +3,7 @@
 
 Checks whether the filename follows a certain naming-convention.
 
-Supported Languages:
+`Supported Languages <../README.rst>`:
 -----
 
 * All

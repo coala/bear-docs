@@ -3,7 +3,7 @@
 
 Checks the given code for similar functions that are probably redundant.
 
-Supported Languages:
+`Supported Languages <../README.rst>`:
 -----
 
 * C

@@ -3,7 +3,7 @@
 
 Checks the given commit body.
 
-Supported Languages:
+`Supported Languages <../README.rst>`:
 -----
 
 * Git

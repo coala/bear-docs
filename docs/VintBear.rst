@@ -7,7 +7,7 @@ See <https://github.com/Kuniwak/vint> for more information.
 
 This bear uses the 'vint' tool.
 
-Supported Languages:
+`Supported Languages <../README.rst>`:
 -----
 
 * VimScript

@@ -3,7 +3,7 @@
 
 Checks the code with ``infer``.
 
-Supported Languages:
+`Supported Languages <../README.rst>`:
 -----
 
 * Java

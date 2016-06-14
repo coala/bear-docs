@@ -5,7 +5,7 @@ This bear adds vendor prefixes to CSS rules using ``autoprefixer`` utility.
 
 This bear uses the 'postcss' tool.
 
-Supported Languages:
+`Supported Languages <../README.rst>`:
 -----
 
 * CSS

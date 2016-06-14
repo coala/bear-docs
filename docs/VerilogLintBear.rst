@@ -15,7 +15,7 @@ This is done using the ``--lint-only`` command. For more information visit
 
 This bear uses the 'verilator' tool.
 
-Supported Languages:
+`Supported Languages <../README.rst>`:
 -----
 
 * Verilog

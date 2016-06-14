@@ -10,7 +10,7 @@ on the analysis provided.
 
 This bear uses the 'julia' tool.
 
-Supported Languages:
+`Supported Languages <../README.rst>`:
 -----
 
 * Julia
