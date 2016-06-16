@@ -6,7 +6,7 @@ from bear_docs_utils import get_bears
 def language_generate():
     lang_dict = {}
     for bear in get_bears():
-        for language in bear.supported_languages:
+        for language in bear.LANGUAGES:
             if language in lang_dict:
                 lang_dict[language].append(bear.name)
             else:
