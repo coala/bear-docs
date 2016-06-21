@@ -74,6 +74,11 @@ if __name__ == "__main__":
             output += "\n\nLicense\n-------\n\n"
             output += bear.LICENSE
 
+        if len(bear.AUTHORS):
+            output += "\n\nAuthors\n-------\n\n"
+            for author, author_email in zip(bear.AUTHORS, bear.AUTHORS_EMAILS):
+                output += "* " + author + " (" + author_email + ")\n"
+
         with open("docs/" + bear.name + ".rst", "w") as bear_file:
             bear_file.write(output)
 
