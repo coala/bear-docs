@@ -13,10 +13,19 @@ optimization of the specified signal or block is disabled.
 This is done using the ``--lint-only`` command. For more information visit
 <http://www.veripool.org/projects/verilator/wiki/Manual-verilator>.
 
-This bear uses the 'verilator' tool.
-
 `Supported Languages <../README.rst>`_ :
 -----
 
 * Verilog
 
+
+
+License
+-------
+
+AGPL-3.0
+
+Authors
+-------
+
+* The coala developers (coala-devel@googlegroups.com)

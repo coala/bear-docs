@@ -8,3 +8,14 @@ Checks the markdown file with Alex - Catch insensitive, inconsiderate writing.
 
 * Natural Language
 
+
+
+License
+-------
+
+AGPL-3.0
+
+Authors
+-------
+
+* The coala developers (coala-devel@googlegroups.com)

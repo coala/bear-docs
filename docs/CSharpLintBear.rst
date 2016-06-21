@@ -3,10 +3,24 @@
 
 Checks C# code for syntactical correctness using the ``mcs`` compiler.
 
-This bear uses the 'mcs' tool.
-
 `Supported Languages <../README.rst>`_ :
 -----
 
 * C#
 
+
+
+Can Detect
+----------
+
+* Syntax
+
+License
+-------
+
+AGPL-3.0
+
+Authors
+-------
+
+* The coala developers (coala-devel@googlegroups.com)

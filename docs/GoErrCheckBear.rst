@@ -6,10 +6,19 @@ GoErrCheckBear runs ``errcheck`` over each file to find such functions.
 
 For more information on the analysis visit <https://github.com/kisielk/errcheck>.
 
-This bear uses the 'errcheck' tool.
-
 `Supported Languages <../README.rst>`_ :
 -----
 
 * Go
 
+
+
+License
+-------
+
+AGPL-3.0
+
+Authors
+-------
+
+* The coala developers (coala-devel@googlegroups.com)

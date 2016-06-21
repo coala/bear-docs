@@ -3,10 +3,19 @@
 
 Proposes corrections of Go code using ``goreturns``.
 
-This bear uses the 'goreturns' tool.
-
 `Supported Languages <../README.rst>`_ :
 -----
 
 * Go
 
+
+
+License
+-------
+
+AGPL-3.0
+
+Authors
+-------
+
+* The coala developers (coala-devel@googlegroups.com)

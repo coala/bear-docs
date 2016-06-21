@@ -11,3 +11,14 @@ Detects unused code. This functionality is limited to:
 * Python 2
 * Python 3
 
+
+
+License
+-------
+
+AGPL-3.0
+
+Authors
+-------
+
+* The coala developers (coala-devel@googlegroups.com)

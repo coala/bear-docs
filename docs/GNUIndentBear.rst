@@ -6,11 +6,25 @@ Indent utility.
 
 C++ support is considered experimental.
 
-This bear uses the 'indent' tool.
-
 `Supported Languages <../README.rst>`_ :
 -----
 
 * C
 * C++
 
+
+
+Can Detect
+----------
+
+* Formatting
+
+License
+-------
+
+AGPL-3.0
+
+Authors
+-------
+
+* The coala developers (coala-devel@googlegroups.com)

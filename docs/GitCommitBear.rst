@@ -21,3 +21,13 @@ Settings
 +---------------------------------+-----------------------------------+
 
 \* denotes required param
+
+License
+-------
+
+AGPL-3.0
+
+Authors
+-------
+
+* The coala developers (coala-devel@googlegroups.com)

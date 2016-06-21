@@ -9,10 +9,19 @@ etc.
 This is done using the ``vet`` command. For more information visit
 <https://golang.org/cmd/vet/>.
 
-This bear uses the 'go' tool.
-
 `Supported Languages <../README.rst>`_ :
 -----
 
 * Go
 
+
+
+License
+-------
+
+AGPL-3.0
+
+Authors
+-------
+
+* The coala developers (coala-devel@googlegroups.com)

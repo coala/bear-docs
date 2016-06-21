@@ -3,10 +3,19 @@
 
 Adds/Removes imports to Go code for missing imports.
 
-This bear uses the 'goimports' tool.
-
 `Supported Languages <../README.rst>`_ :
 -----
 
 * Go
 
+
+
+License
+-------
+
+AGPL-3.0
+
+Authors
+-------
+
+* The coala developers (coala-devel@googlegroups.com)

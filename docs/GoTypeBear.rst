@@ -4,10 +4,19 @@
 Checks the code using ``gotype``. This will run ``gotype`` over each file
 separately.
 
-This bear uses the 'gotype' tool.
-
 `Supported Languages <../README.rst>`_ :
 -----
 
 * Go
 
+
+
+License
+-------
+
+AGPL-3.0
+
+Authors
+-------
+
+* The coala developers (coala-devel@googlegroups.com)

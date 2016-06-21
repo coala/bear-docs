@@ -21,10 +21,19 @@ Rules include:
 See <http://fpgalibre.sourceforge.net/ingles.html#tp46> for more
 information.
 
-This bear uses the 'perl' tool.
-
 `Supported Languages <../README.rst>`_ :
 -----
 
 * VHDL
 
+
+
+License
+-------
+
+AGPL-3.0
+
+Authors
+-------
+
+* The coala developers (coala-devel@googlegroups.com)

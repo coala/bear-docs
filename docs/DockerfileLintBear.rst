@@ -8,10 +8,25 @@ Uses ``dockerfile_lint`` to provide the analysis.
 See <https://github.com/projectatomic/dockerfile_lint#dockerfile-lint> for
 more information .
 
-This bear uses the 'dockerfile_lint' tool.
-
 `Supported Languages <../README.rst>`_ :
 -----
 
 * Dockerfile
 
+
+
+Can Detect
+----------
+
+* Smell
+* Syntax
+
+License
+-------
+
+AGPL-3.0
+
+Authors
+-------
+
+* The coala developers (coala-devel@googlegroups.com)

@@ -5,11 +5,20 @@ Check JavaScript and JSX code for style issues and semantic errors.
 
 Find out more at <http://eslint.org/docs/rules/>.
 
-This bear uses the 'eslint' tool.
-
 `Supported Languages <../README.rst>`_ :
 -----
 
 * JSX
 * JavaScript
 
+
+
+License
+-------
+
+AGPL-3.0
+
+Authors
+-------
+
+* The coala developers (coala-devel@googlegroups.com)

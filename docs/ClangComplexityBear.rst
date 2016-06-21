@@ -33,3 +33,18 @@ Settings
 +---------------------+-----------------------------------------------+
 
 \* denotes required param
+
+Can Detect
+----------
+
+* Complexity
+
+License
+-------
+
+AGPL-3.0
+
+Authors
+-------
+
+* The coala developers (coala-devel@googlegroups.com)

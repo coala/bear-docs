@@ -8,10 +8,19 @@ ADT usage, wrongfully using ellipsis, and much more.
 See <https://lintjl.readthedocs.org/en/stable/> for more information
 on the analysis provided.
 
-This bear uses the 'julia' tool.
-
 `Supported Languages <../README.rst>`_ :
 -----
 
 * Julia
 
+
+
+License
+-------
+
+AGPL-3.0
+
+Authors
+-------
+
+* The coala developers (coala-devel@googlegroups.com)

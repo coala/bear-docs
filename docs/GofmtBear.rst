@@ -7,10 +7,19 @@ indentation, and redundant parentheses are provided.
 This is done using the ``gofmt`` utility. For more information visit
 <https://golang.org/cmd/gofmt/>.
 
-This bear uses the 'gofmt' tool.
-
 `Supported Languages <../README.rst>`_ :
 -----
 
 * Go
 
+
+
+License
+-------
+
+AGPL-3.0
+
+Authors
+-------
+
+* The coala developers (coala-devel@googlegroups.com)

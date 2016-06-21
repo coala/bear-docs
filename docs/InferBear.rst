@@ -8,3 +8,14 @@ Checks the code with ``infer``.
 
 * Java
 
+
+
+License
+-------
+
+AGPL-3.0
+
+Authors
+-------
+
+* The coala developers (coala-devel@googlegroups.com)

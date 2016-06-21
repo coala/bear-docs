@@ -10,10 +10,19 @@ declaration, etc. to use bootstrap properly.
 For more about the analysis, check Bootlint
 <https://github.com/twbs/bootlint#bootlint>.
 
-This bear uses the 'bootlint' tool.
-
 `Supported Languages <../README.rst>`_ :
 -----
 
 * HTML
 
+
+
+License
+-------
+
+AGPL-3.0
+
+Authors
+-------
+
+* The coala developers (coala-devel@googlegroups.com)

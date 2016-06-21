@@ -8,10 +8,19 @@ can be detected.
 
 For more information on the analysis visit <http://jshint.com/>
 
-This bear uses the 'jshint' tool.
-
 `Supported Languages <../README.rst>`_ :
 -----
 
 * JavaScript
 
+
+
+License
+-------
+
+AGPL-3.0
+
+Authors
+-------
+
+* The coala developers (coala-devel@googlegroups.com)

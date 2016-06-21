@@ -3,10 +3,19 @@
 
 Check and correct formatting of R Code using known formatR utility.
 
-This bear uses the 'Rscript' tool.
-
 `Supported Languages <../README.rst>`_ :
 -----
 
 * R
 
+
+
+License
+-------
+
+AGPL-3.0
+
+Authors
+-------
+
+* The coala developers (coala-devel@googlegroups.com)

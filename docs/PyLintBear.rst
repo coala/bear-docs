@@ -4,8 +4,6 @@
 Checks the code with pylint. This will run pylint over each file
 separately.
 
-This bear uses the 'pylint' tool.
-
 `Supported Languages <../README.rst>`_ :
 -----
 
@@ -13,3 +11,14 @@ This bear uses the 'pylint' tool.
 * Python 2
 * Python 3
 
+
+
+License
+-------
+
+AGPL-3.0
+
+Authors
+-------
+
+* The coala developers (coala-devel@googlegroups.com)
