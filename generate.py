@@ -74,6 +74,10 @@ if __name__ == "__main__":
             output += "\n\nCan Fix\n----------\n\n"
             output += "\n".join(sorted(["* " + x for x in bear.CAN_FIX]))
 
+        if bear.LICENSE:
+            output += "\n\nLicense\n-------\n\n"
+            output += bear.LICENSE
+
         with open("docs/" + bear.name + ".rst", "w") as bear_file:
             bear_file.write(output)
 
