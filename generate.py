@@ -1,3 +1,4 @@
+import sys
 import os
 import inspect
 
@@ -77,4 +78,6 @@ if __name__ == "__main__":
             bear_file.write(output)
 
     language_generate()
-    os.system("git add -A && git commit -m 'Docs Update' && git push --force")
+
+    if len(sys.argv) == 1:
+        os.system("git add -A && git commit -m 'Docs Update' && git push --force")
