@@ -23,7 +23,7 @@ Settings
 +-------------------------+-------------------------------+
 |                         |                               |
 | ``radon_ranks_major``   | The ranks (given by radon) to |
-|                         | treat as severity MAJO        |
+|                         | treat as severity MAJOR.      |
 |                         |                               |
 +-------------------------+-------------------------------+
 |                         |                               |

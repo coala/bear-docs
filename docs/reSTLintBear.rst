@@ -9,6 +9,7 @@ Lints reStructuredText.
 * reStructuredText
 
 
+\* denotes required param
 
 License
 -------

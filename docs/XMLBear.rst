@@ -16,7 +16,7 @@ Settings
 +=================+==============================================+
 |                 |                                              |
 | ``xml_dtd``     | ``Document type Definition (DTD)`` file or   |
-|                 | url used for validatio                       |
+|                 | url used for validation.                     |
 |                 |                                              |
 +-----------------+----------------------------------------------+
 |                 |                                              |

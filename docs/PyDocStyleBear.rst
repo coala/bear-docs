@@ -18,7 +18,7 @@ Settings
 +========================+======================================+
 |                        |                                      |
 | ``pydocstyle_ignore``  | List of checked errors by specifying |
-|                        | which errors to ignore               |
+|                        | which errors to ignore.              |
 |                        |                                      |
 +------------------------+--------------------------------------+
 |                        |                                      |

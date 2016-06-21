@@ -52,7 +52,7 @@ Settings
 |                          |                                             |
 | ``exp_postprocessing``   | If set to true, the difference value of big |
 |                          | function pairs will be reduced using an     |
-|                          | exponential approac                         |
+|                          | exponential approach.                       |
 |                          |                                             |
 +--------------------------+---------------------------------------------+
 |                          |                                             |

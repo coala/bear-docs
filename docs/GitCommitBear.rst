@@ -16,7 +16,7 @@ Settings
 +=================================+===================================+
 |                                 |                                   |
 | ``allow_empty_commit_message``  | Whether empty commit messages are |
-|                                 | allowed or no                     |
+|                                 | allowed or not.                   |
 |                                 |                                   |
 +---------------------------------+-----------------------------------+
 

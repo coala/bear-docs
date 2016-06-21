@@ -18,7 +18,7 @@ Settings
 | ``file_naming_convention``  | The naming-convention. Supported values are: |
 |                             | - ``camel`` (``thisIsCamelCase``)            |
 |                             | - ``pascal`` (``ThisIsPascalCase``)          |
-|                             | - ``snake`` (``this_is_snake_case`           |
+|                             | - ``snake`` (``this_is_snake_case``)         |
 |                             |                                              |
 +-----------------------------+----------------------------------------------+
 

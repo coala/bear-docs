@@ -34,7 +34,7 @@ Settings
 +-------------------------+---------------------------------------------+
 |                         |                                             |
 | ``language``\*          | The language of the file, which is used to  |
-|                         | determine the keywords to ignor             |
+|                         | determine the keywords to ignore.           |
 |                         |                                             |
 +-------------------------+---------------------------------------------+
 

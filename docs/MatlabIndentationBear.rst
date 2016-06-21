@@ -12,13 +12,13 @@ This bear features a simple algorithm to calculate the right indentation for Mat
 Settings
 --------
 
-+----------------+---------------------------------------+
-| Setting        |  Meaning                              |
-+================+=======================================+
-|                |                                       |
-| ``tab_width``  | Number of spaces per indentation leve +
-|                |                                       |
-+----------------+---------------------------------------+
++----------------+-----------------------------------------+
+| Setting        |  Meaning                                |
++================+=========================================+
+|                |                                         |
+| ``tab_width``  | Number of spaces per indentation level. +
+|                |                                         |
++----------------+-----------------------------------------+
 
 \* denotes required param
 

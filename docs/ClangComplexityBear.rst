@@ -28,7 +28,7 @@ Settings
 |                     | But the general recommendation: "For each     |
 |                     | module, either limit cyclomatic complexity to |
 |                     | [the agreed-upon limit] or provide a written  |
-|                     | explanation of why the limit was exceeded     |
+|                     | explanation of why the limit was exceeded."   |
 |                     |                                               |
 +---------------------+-----------------------------------------------+
 

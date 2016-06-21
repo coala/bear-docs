@@ -9,6 +9,7 @@ Checks the code with `lintr`.
 * R
 
 
+\* denotes required param
 
 License
 -------
