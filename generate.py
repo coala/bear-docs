@@ -66,13 +66,9 @@ if __name__ == "__main__":
                 output += "+" + "-" * lmax + "-+-" + "-" * (1 + rmax) + "+\n"
             output += "\n\* denotes required param"
 
-        if len(bear.CAN_DETECT):
+        if len(bear.can_detect):
             output += "\n\nCan Detect\n----------\n\n"
-            output += "\n".join(sorted(["* " + x for x in bear.CAN_DETECT]))
-
-        if len(bear.CAN_FIX):
-            output += "\n\nCan Fix\n----------\n\n"
-            output += "\n".join(sorted(["* " + x for x in bear.CAN_FIX]))
+            output += "\n".join(sorted(["* " + x for x in bear.can_detect]))
 
         if bear.LICENSE:
             output += "\n\nLicense\n-------\n\n"
