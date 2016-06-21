@@ -17,8 +17,10 @@ if __name__ == "__main__":
         docstring = inspect.getdoc(bear.run)
         if docstring:
             docstring = docstring[docstring.find(":param"):]
-            docstring = docstring[:docstring.find("\n\n")]
-            docstring = docstring[:docstring.find(":return")]
+            if docstring.find("\n\n") != -1:
+                docstring = docstring[:docstring.find("\n\n")]
+            if docstring.find(":return") != -1:
+                docstring = docstring[:docstring.find(":return")]
         if docstring:
             par = {}
             lmax = -1
