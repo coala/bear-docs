@@ -7,7 +7,7 @@ bases. This includes finding unused code, among other features.
 Read more about available routines at
 <https://github.com/myint/cppclean#features>.
 
-`Supported Languages <../README.rst>`_ :
+`Supported Languages <../README.rst>`_
 -----
 
 * C++

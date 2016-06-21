@@ -6,7 +6,7 @@ It does not however support hanging indents or absolute indents of any sort, als
 if(something) does not get indented
 undergoes no change.
 
-`Supported Languages <../README.rst>`_ :
+`Supported Languages <../README.rst>`_
 -----
 
 

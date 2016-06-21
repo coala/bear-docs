@@ -3,7 +3,7 @@
 
 Calculates cyclomatic complexity using ``cr``.
 
-`Supported Languages <../README.rst>`_ :
+`Supported Languages <../README.rst>`_
 -----
 
 * JavaScript

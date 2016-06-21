@@ -3,7 +3,7 @@
 
 Checks whether all identifier names (variables, classes, objects) follow a certain naming convention.
 
-`Supported Languages <../README.rst>`_ :
+`Supported Languages <../README.rst>`_
 -----
 
 

@@ -21,7 +21,7 @@ Rules include:
 See <http://fpgalibre.sourceforge.net/ingles.html#tp46> for more
 information.
 
-`Supported Languages <../README.rst>`_ :
+`Supported Languages <../README.rst>`_
 -----
 
 * VHDL

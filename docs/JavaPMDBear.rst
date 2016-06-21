@@ -7,7 +7,7 @@ complicated expressions.
 More information is available at
 <http://pmd.github.io/pmd-5.4.1/pmd-java/rules/index.html>.
 
-`Supported Languages <../README.rst>`_ :
+`Supported Languages <../README.rst>`_
 -----
 
 * Java

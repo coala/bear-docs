@@ -4,7 +4,7 @@
 Retrieves similarities for code clone detection. Those can be reused in another bear to produce results.
 Postprocessing may be done because small functions are less likely to be clones at the same difference value than big functions which may provide a better refactoring opportunity for the user.
 
-`Supported Languages <../README.rst>`_ :
+`Supported Languages <../README.rst>`_
 -----
 
 * C

@@ -3,7 +3,7 @@
 
 Lints the file using ``proselint``.
 
-`Supported Languages <../README.rst>`_ :
+`Supported Languages <../README.rst>`_
 -----
 
 * Natural Language

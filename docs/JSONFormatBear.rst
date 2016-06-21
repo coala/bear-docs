@@ -3,7 +3,7 @@
 
 Raises issues for any deviations from the pretty-printed JSON.
 
-`Supported Languages <../README.rst>`_ :
+`Supported Languages <../README.rst>`_
 -----
 
 * JSON

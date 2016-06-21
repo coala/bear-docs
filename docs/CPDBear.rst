@@ -4,7 +4,7 @@
 Checks for similar code that looks as it could be replaced to reduce redundancy.
 For more details see: <https://pmd.github.io/pmd-5.4.1/usage/cpd-usage.html>
 
-`Supported Languages <../README.rst>`_ :
+`Supported Languages <../README.rst>`_
 -----
 
 * C#

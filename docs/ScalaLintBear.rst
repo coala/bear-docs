@@ -4,7 +4,7 @@
 Check Scala code for codestyle, but also semantical problems,
 e.g. cyclomatic complexity.
 
-`Supported Languages <../README.rst>`_ :
+`Supported Languages <../README.rst>`_
 -----
 
 * Scala

@@ -10,7 +10,7 @@ declaration, etc. to use bootstrap properly.
 For more about the analysis, check Bootlint
 <https://github.com/twbs/bootlint#bootlint>.
 
-`Supported Languages <../README.rst>`_ :
+`Supported Languages <../README.rst>`_
 -----
 
 * HTML

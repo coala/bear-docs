@@ -3,7 +3,7 @@
 
 Checks the code files for given keywords.
 
-`Supported Languages <../README.rst>`_ :
+`Supported Languages <../README.rst>`_
 -----
 
 * All

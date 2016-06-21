@@ -6,7 +6,7 @@ rules on a given RAML document, ensuring consistency and quality.
 Note: Files should not have leading empty lines, else the bear fails to
 identify the problems correctly.
 
-`Supported Languages <../README.rst>`_ :
+`Supported Languages <../README.rst>`_
 -----
 
 * RAML

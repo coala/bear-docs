@@ -6,7 +6,7 @@ Check and correct Markdown style violations automatically.
 See <https://github.com/wooorm/remark-lint> for details about the tool
 below.
 
-`Supported Languages <../README.rst>`_ :
+`Supported Languages <../README.rst>`_
 -----
 
 * Markdown

@@ -3,7 +3,7 @@
 
 Checks C# code for syntactical correctness using the ``mcs`` compiler.
 
-`Supported Languages <../README.rst>`_ :
+`Supported Languages <../README.rst>`_
 -----
 
 * C#

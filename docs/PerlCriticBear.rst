@@ -4,7 +4,7 @@
 Check the code with perlcritic. This will run perlcritic over
 each of the files seperately.
 
-`Supported Languages <../README.rst>`_ :
+`Supported Languages <../README.rst>`_
 -----
 
 * Perl

@@ -3,7 +3,7 @@
 
 Checks the code with ``chktex``.
 
-`Supported Languages <../README.rst>`_ :
+`Supported Languages <../README.rst>`_
 -----
 
 * Tex

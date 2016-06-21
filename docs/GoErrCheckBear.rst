@@ -6,7 +6,7 @@ GoErrCheckBear runs ``errcheck`` over each file to find such functions.
 
 For more information on the analysis visit <https://github.com/kisielk/errcheck>.
 
-`Supported Languages <../README.rst>`_ :
+`Supported Languages <../README.rst>`_
 -----
 
 * Go

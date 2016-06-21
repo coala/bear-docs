@@ -7,7 +7,7 @@ using alternative functions, simplifying code and removing redundancies.
 See <http://community.haskell.org/~ndm/darcs/hlint/hlint.htm> for more
 information.
 
-`Supported Languages <../README.rst>`_ :
+`Supported Languages <../README.rst>`_
 -----
 
 * Haskell

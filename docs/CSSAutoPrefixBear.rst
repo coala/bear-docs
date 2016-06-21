@@ -3,7 +3,7 @@
 
 This bear adds vendor prefixes to CSS rules using ``autoprefixer`` utility.
 
-`Supported Languages <../README.rst>`_ :
+`Supported Languages <../README.rst>`_
 -----
 
 * CSS
