@@ -70,7 +70,7 @@ if __name__ == "__main__":
             output += "\n".join(["* " + x for x in bear.CAN_DETECT])
 
         if len(bear.CAN_FIX):
-            output += "\n\nCan Detect\n----------\n\n"
+            output += "\n\nCan Fix\n----------\n\n"
             output += "\n".join(["* " + x for x in bear.CAN_FIX])
 
         with open("docs/" + bear.name + ".rst", "w") as bear_file:
