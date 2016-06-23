@@ -11,7 +11,64 @@ For more information on the analysis visit <https://tailor.sh/>
 
 * Swift
 
+Settings
+--------
 
++--------------------------+------------------------------------------------------------+
+| Setting                  |  Meaning                                                   |
++==========================+============================================================+
+|                          |                                                            |
+| ``max_class_length``     | maximum number of lines in a Class <0-999>. (Optional,     |
+|                          | defaults to '0'.)                                          |
+|                          |                                                            |
++--------------------------+------------------------------------------------------------+
+|                          |                                                            |
+| ``max_closure_length``   | maximum number of lines in a Closure <0-999>. (Optional,   |
+|                          | defaults to '0'.)                                          |
+|                          |                                                            |
++--------------------------+------------------------------------------------------------+
+|                          |                                                            |
+| ``max_file_length``      | maximum number of lines in a File <0-999>. (Optional,      |
+|                          | defaults to '0'.)                                          |
+|                          |                                                            |
++--------------------------+------------------------------------------------------------+
+|                          |                                                            |
+| ``max_function_length``  | maximum number of lines in a Function <0-999>. (Optional,  |
+|                          | defaults to '0'.)                                          |
+|                          |                                                            |
++--------------------------+------------------------------------------------------------+
+|                          |                                                            |
+| ``max_line_length``      | maximum number of characters in a Line <0-999>. (Optional, |
+|                          | defaults to '80'.)                                         |
+|                          |                                                            |
++--------------------------+------------------------------------------------------------+
+|                          |                                                            |
+| ``max_name_length``      | maximum length of Identifier name <0-999>. (Optional,      |
+|                          | defaults to '0'.)                                          |
+|                          |                                                            |
++--------------------------+------------------------------------------------------------+
+|                          |                                                            |
+| ``max_struct_length``    | maximum number od lines in a Struct <0-999>. (Optional,    |
+|                          | defaults to '0'.)                                          |
+|                          |                                                            |
++--------------------------+------------------------------------------------------------+
+|                          |                                                            |
+| ``min_name_length``      | minimum number of characters in Identifier name <1-999>.   |
+|                          | (Optional, defaults to '1'.)                               |
+|                          |                                                            |
++--------------------------+------------------------------------------------------------+
+|                          |                                                            |
+| ``tailor_config``        | path to Tailor configuration file. (Optional, defaults to  |
+|                          | ''.)                                                       |
+|                          |                                                            |
++--------------------------+------------------------------------------------------------+
+
+\* denotes required param
+
+Can Detect
+----------
+
+* Formatting
 
 License
 -------

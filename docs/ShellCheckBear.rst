@@ -15,7 +15,26 @@ A gallery of bad code that can be detected is available at
 * ksh
 * sh
 
+Settings
+--------
 
++------------+--------------------------------------------------------+
+| Setting    |  Meaning                                               |
++============+========================================================+
+|            |                                                        |
+| ``shell``  | Target shell being used. (Optional, defaults to 'sh'.) +
+|            |                                                        |
++------------+--------------------------------------------------------+
+
+\* denotes required param
+
+Can Detect
+----------
+
+* Security
+* Syntax
+* Undefined Element
+* Unused Code
 
 License
 -------

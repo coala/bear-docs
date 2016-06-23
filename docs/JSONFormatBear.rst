@@ -11,23 +11,30 @@ Raises issues for any deviations from the pretty-printed JSON.
 Settings
 --------
 
-+-------------------+-----------------------------------------------------+
-| Setting           |  Meaning                                            |
-+===================+=====================================================+
-|                   |                                                     |
-| ``json_sort``     | Whether or not keys should be sorted.               +
-|                   |                                                     |
-+-------------------+-----------------------------------------------------+
-|                   |                                                     |
-| ``keep_unicode``  | Wether or not to escape unicode values using ASCII. +
-|                   |                                                     |
-+-------------------+-----------------------------------------------------+
-|                   |                                                     |
-| ``tab_width``     | Number of spaces to indent.                         +
-|                   |                                                     |
-+-------------------+-----------------------------------------------------+
++-------------------+-----------------------------------------------------------+
+| Setting           |  Meaning                                                  |
++===================+===========================================================+
+|                   |                                                           |
+| ``json_sort``     | Whether or not keys should be sorted. (Optional, defaults |
+|                   | to 'False'.)                                              |
+|                   |                                                           |
++-------------------+-----------------------------------------------------------+
+|                   |                                                           |
+| ``keep_unicode``  | Wether or not to escape unicode values using ASCII.       |
+|                   | (Optional, defaults to 'False'.)                          |
+|                   |                                                           |
++-------------------+-----------------------------------------------------------+
+|                   |                                                           |
+| ``tab_width``     | Number of spaces to indent. (Optional, defaults to '4'.)  +
+|                   |                                                           |
++-------------------+-----------------------------------------------------------+
 
 \* denotes required param
+
+Can Detect
+----------
+
+* Formatting
 
 License
 -------

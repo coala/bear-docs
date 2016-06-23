@@ -29,40 +29,50 @@ For more details see: <https://pmd.github.io/pmd-5.4.1/usage/cpd-usage.html>
 Settings
 --------
 
-+---------------------------+-------------------------------------------------------------------+
-| Setting                   |  Meaning                                                          |
-+===========================+===================================================================+
-|                           |                                                                   |
-| ``ignore_annotations``    | Ignore language annotations when comparing text.                  +
-|                           |                                                                   |
-+---------------------------+-------------------------------------------------------------------+
-|                           |                                                                   |
-| ``ignore_identifiers``    | Ignore constant and variable names when comparing text.           +
-|                           |                                                                   |
-+---------------------------+-------------------------------------------------------------------+
-|                           |                                                                   |
-| ``ignore_literals``       | Ignore number values and string contents when comparing text.     +
-|                           |                                                                   |
-+---------------------------+-------------------------------------------------------------------+
-|                           |                                                                   |
-| ``ignore_usings``         | Ignore ``using`` directives in C#.                                +
-|                           |                                                                   |
-+---------------------------+-------------------------------------------------------------------+
-|                           |                                                                   |
-| ``language``\*            | One of the supported languages of this bear.                      +
-|                           |                                                                   |
-+---------------------------+-------------------------------------------------------------------+
-|                           |                                                                   |
-| ``minimum_tokens``        | The minimum token length which should be reported as a duplicate. +
-|                           |                                                                   |
-+---------------------------+-------------------------------------------------------------------+
-|                           |                                                                   |
-| ``skip_duplicate_files``  | Ignore multiple copies of files of the same name and length in    |
-|                           | omparison.                                                        |
-|                           |                                                                   |
-+---------------------------+-------------------------------------------------------------------+
++---------------------------+-----------------------------------------------------------+
+| Setting                   |  Meaning                                                  |
++===========================+===========================================================+
+|                           |                                                           |
+| ``ignore_annotations``    | Ignore language annotations when comparing text.          |
+|                           | (Optional, defaults to 'False'.)                          |
+|                           |                                                           |
++---------------------------+-----------------------------------------------------------+
+|                           |                                                           |
+| ``ignore_identifiers``    | Ignore constant and variable names when comparing text.   |
+|                           | (Optional, defaults to 'True'.)                           |
+|                           |                                                           |
++---------------------------+-----------------------------------------------------------+
+|                           |                                                           |
+| ``ignore_literals``       | Ignore number values and string contents when comparing   |
+|                           | text. (Optional, defaults to 'False'.)                    |
+|                           |                                                           |
++---------------------------+-----------------------------------------------------------+
+|                           |                                                           |
+| ``ignore_usings``         | Ignore ``using`` directives in C#. (Optional, defaults to |
+|                           | 'False'.)                                                 |
+|                           |                                                           |
++---------------------------+-----------------------------------------------------------+
+|                           |                                                           |
+| ``language``              | One of the supported languages of this bear.              +
+|                           |                                                           |
++---------------------------+-----------------------------------------------------------+
+|                           |                                                           |
+| ``minimum_tokens``        | The minimum token length which should be reported as a    |
+|                           | duplicate. (Optional, defaults to '20'.)                  |
+|                           |                                                           |
++---------------------------+-----------------------------------------------------------+
+|                           |                                                           |
+| ``skip_duplicate_files``  | Ignore multiple copies of files of the same name and      |
+|                           | length in omparison. (Optional, defaults to 'True'.)      |
+|                           |                                                           |
++---------------------------+-----------------------------------------------------------+
 
 \* denotes required param
+
+Can Detect
+----------
+
+* Duplication
 
 License
 -------

@@ -9,7 +9,26 @@ each of the files seperately.
 
 * Perl
 
+Settings
+--------
 
++-------------------------+------------------------------------------------------+
+| Setting                 |  Meaning                                             |
++=========================+======================================================+
+|                         |                                                      |
+| ``perlcritic_profile``  | Location of the perlcriticrc config file. (Optional, |
+|                         | defaults to ''.)                                     |
+|                         |                                                      |
++-------------------------+------------------------------------------------------+
+
+\* denotes required param
+
+Can Detect
+----------
+
+* Formatting
+* Simplification
+* Syntax
 
 License
 -------

@@ -11,7 +11,25 @@ Find out more at <http://eslint.org/docs/rules/>.
 * JSX
 * JavaScript
 
+Settings
+--------
 
++--------------------+-------------------------------------------------------+
+| Setting            |  Meaning                                              |
++====================+=======================================================+
+|                    |                                                       |
+| ``eslint_config``  | The location of the .eslintrc config file. (Optional, |
+|                    | defaults to ''.)                                      |
+|                    |                                                       |
++--------------------+-------------------------------------------------------+
+
+\* denotes required param
+
+Can Detect
+----------
+
+* Formatting
+* Syntax
 
 License
 -------

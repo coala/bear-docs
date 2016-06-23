@@ -10,7 +10,19 @@ For more information consult <https://github.com/richq/cmake-lint>.
 
 * CMake
 
+Settings
+--------
 
++-----------------------+---------------------------------------------------------+
+| Setting               |  Meaning                                                |
++=======================+=========================================================+
+|                       |                                                         |
+| ``cmakelint_config``  | The location of the cmakelintrc config file. (Optional, |
+|                       | defaults to ''.)                                        |
+|                       |                                                         |
++-----------------------+---------------------------------------------------------+
+
+\* denotes required param
 
 Can Detect
 ----------

@@ -18,16 +18,22 @@ This bear supports automatic fixes.
 Settings
 --------
 
-+------------------------+--------------------------------------------+
-| Setting                |  Meaning                                   |
-+========================+============================================+
-|                        |                                            |
-| ``clang_cli_options``  | Any options that will be passed through to |
-|                        | Clang.                                     |
-|                        |                                            |
-+------------------------+--------------------------------------------+
++------------------------+---------------------------------------------------+
+| Setting                |  Meaning                                          |
++========================+===================================================+
+|                        |                                                   |
+| ``clang_cli_options``  | Any options that will be passed through to Clang. |
+|                        | (Optional, defaults to 'None'.)                   |
+|                        |                                                   |
++------------------------+---------------------------------------------------+
 
 \* denotes required param
+
+Can Detect
+----------
+
+* Syntax
+* Variable Misuse
 
 License
 -------

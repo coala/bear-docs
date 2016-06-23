@@ -8,7 +8,24 @@ Calculates cyclomatic complexity using ``cr``.
 
 * JavaScript
 
+Settings
+--------
 
++-------------------+------------------------------------------------------+
+| Setting           |  Meaning                                             |
++===================+======================================================+
+|                   |                                                      |
+| ``cc_threshold``  | Threshold value for cyclomatic complexity (Optional, |
+|                   | defaults to '10'.)                                   |
+|                   |                                                      |
++-------------------+------------------------------------------------------+
+
+\* denotes required param
+
+Can Detect
+----------
+
+* Complexity
 
 License
 -------

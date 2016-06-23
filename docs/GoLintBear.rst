@@ -9,7 +9,24 @@ separately.
 
 * Go
 
+Settings
+--------
 
++-------------------------+--------------------------------------------------------+
+| Setting                 |  Meaning                                               |
++=========================+========================================================+
+|                         |                                                        |
+| ``golint_cli_options``  | Any other flags you wish to pass to golint. (Optional, |
+|                         | defaults to ''.)                                       |
+|                         |                                                        |
++-------------------------+--------------------------------------------------------+
+
+\* denotes required param
+
+Can Detect
+----------
+
+* Formatting
 
 License
 -------

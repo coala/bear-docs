@@ -10,7 +10,28 @@ For more information, consult <https://github.com/theandrewdavis/cpplint>.
 
 * C++
 
+Settings
+--------
 
++----------------------+------------------------------------------------------------+
+| Setting              |  Meaning                                                   |
++======================+============================================================+
+|                      |                                                            |
+| ``cpplint_ignore``   | List of checkers to ignore. (Optional, defaults to '()'.)  +
+|                      |                                                            |
++----------------------+------------------------------------------------------------+
+|                      |                                                            |
+| ``cpplint_include``  | List of checkers to explicitly enable. (Optional, defaults |
+|                      | to '()'.)                                                  |
+|                      |                                                            |
++----------------------+------------------------------------------------------------+
+|                      |                                                            |
+| ``max_line_length``  | Maximum number of characters for a line. (Optional,        |
+|                      | defaults to '80'.)                                         |
+|                      |                                                            |
++----------------------+------------------------------------------------------------+
+
+\* denotes required param
 
 Can Detect
 ----------

@@ -16,6 +16,13 @@ This is done using the ``vet`` command. For more information visit
 
 
 
+Can Detect
+----------
+
+* Smell
+* Unreachable Code
+* Unused code
+
 License
 -------
 

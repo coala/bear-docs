@@ -14,19 +14,25 @@ Warning: This bear will make HEAD requests to all URLs mentioned in your codebas
 Settings
 --------
 
-+-------------------+-----------------------------+
-| Setting           |  Meaning                    |
-+===================+=============================+
-|                   |                             |
-| ``ignore_regex``  | A regex for urls to ignore. +
-|                   |                             |
-+-------------------+-----------------------------+
-|                   |                             |
-| ``timeout``       | Request timeout period.     +
-|                   |                             |
-+-------------------+-----------------------------+
++-------------------+------------------------------------------------------+
+| Setting           |  Meaning                                             |
++===================+======================================================+
+|                   |                                                      |
+| ``ignore_regex``  | A regex for urls to ignore. (Optional, defaults to   |
+|                   | '[.\/]example\.com'.)                                |
+|                   |                                                      |
++-------------------+------------------------------------------------------+
+|                   |                                                      |
+| ``timeout``       | Request timeout period. (Optional, defaults to '2'.) +
+|                   |                                                      |
++-------------------+------------------------------------------------------+
 
 \* denotes required param
+
+Can Detect
+----------
+
+* Documentation
 
 License
 -------

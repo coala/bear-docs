@@ -9,7 +9,6 @@ Checks the markdown file with Alex - Catch insensitive, inconsiderate writing.
 * Natural Language
 
 
-\* denotes required param
 
 License
 -------

@@ -11,7 +11,42 @@ separately.
 * Python 2
 * Python 3
 
+Settings
+--------
 
++-------------------------+-----------------------------------------------------------+
+| Setting                 |  Meaning                                                  |
++=========================+===========================================================+
+|                         |                                                           |
+| ``pylint_cli_options``  | Any command line options you wish to be passed to pylint. |
+|                         | (Optional, defaults to ''.)                               |
+|                         |                                                           |
++-------------------------+-----------------------------------------------------------+
+|                         |                                                           |
+| ``pylint_disable``      | Disable the message, report, category or checker with the |
+|                         | given id(s). (Optional, defaults to 'None'.)              |
+|                         |                                                           |
++-------------------------+-----------------------------------------------------------+
+|                         |                                                           |
+| ``pylint_enable``       | Enable the message, report, category or checker with the  |
+|                         | given id(s). (Optional, defaults to 'None'.)              |
+|                         |                                                           |
++-------------------------+-----------------------------------------------------------+
+|                         |                                                           |
+| ``pylint_rcfile``       | The rcfile for PyLint. (Optional, defaults to ''.)        +
+|                         |                                                           |
++-------------------------+-----------------------------------------------------------+
+
+\* denotes required param
+
+Can Detect
+----------
+
+* Duplication
+* Formatting
+* Security
+* Syntax
+* Unused Code
 
 License
 -------

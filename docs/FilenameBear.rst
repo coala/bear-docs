@@ -11,16 +11,16 @@ Checks whether the filename follows a certain naming-convention.
 Settings
 --------
 
-+-----------------------------+----------------------------------------------+
-| Setting                     |  Meaning                                     |
-+=============================+==============================================+
-|                             |                                              |
-| ``file_naming_convention``  | The naming-convention. Supported values are: |
-|                             | - ``camel`` (``thisIsCamelCase``)            |
-|                             | - ``pascal`` (``ThisIsPascalCase``)          |
-|                             | - ``snake`` (``this_is_snake_case``)         |
-|                             |                                              |
-+-----------------------------+----------------------------------------------+
++-----------------------------+-------------------------------------------------------------+
+| Setting                     |  Meaning                                                    |
++=============================+=============================================================+
+|                             |                                                             |
+| ``file_naming_convention``  | The naming-convention. Supported values are: - ``camel``    |
+|                             | (``thisIsCamelCase``) - ``pascal`` (``ThisIsPascalCase``) - |
+|                             | ``snake`` (``this_is_snake_case``) (Optional, defaults to   |
+|                             | 'snake'.)                                                   |
+|                             |                                                             |
++-----------------------------+-------------------------------------------------------------+
 
 \* denotes required param
 

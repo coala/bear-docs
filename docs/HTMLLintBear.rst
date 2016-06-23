@@ -10,7 +10,24 @@ See also <https://pypi.python.org/pypi/html-linter>.
 
 * HTML
 
+Settings
+--------
 
++----------------------+-----------------------------------------------------------+
+| Setting              |  Meaning                                                  |
++======================+===========================================================+
+|                      |                                                           |
+| ``htmllint_ignore``  | List of checkers to ignore. (Optional, defaults to '()'.) +
+|                      |                                                           |
++----------------------+-----------------------------------------------------------+
+
+\* denotes required param
+
+Can Detect
+----------
+
+* Formatting
+* Syntax
 
 License
 -------

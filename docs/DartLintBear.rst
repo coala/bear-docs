@@ -13,6 +13,12 @@ This bear expects dart commands to be on your ``PATH``. Please ensure
 
 
 
+Can Detect
+----------
+
+* Simplification
+* Syntax
+
 License
 -------
 

@@ -13,21 +13,29 @@ Checks python docstrings.
 Settings
 --------
 
-+------------------------+--------------------------------------+
-| Setting                |  Meaning                             |
-+========================+======================================+
-|                        |                                      |
-| ``pydocstyle_ignore``  | List of checked errors by specifying |
-|                        | which errors to ignore.              |
-|                        |                                      |
-+------------------------+--------------------------------------+
-|                        |                                      |
-| ``pydocstyle_select``  | List of checked errors by specifying |
-|                        | which errors to check for.           |
-|                        |                                      |
-+------------------------+--------------------------------------+
++------------------------+--------------------------------------------------------------+
+| Setting                |  Meaning                                                     |
++========================+==============================================================+
+|                        |                                                              |
+| ``pydocstyle_ignore``  | List of checked errors by specifying which errors to ignore. |
+|                        | Note: pydocstyle_select and pydocstyle_ignore are mutually   |
+|                        | exclusive. They cannot be used together. (Optional,          |
+|                        | defaults to '()'.)                                           |
+|                        |                                                              |
++------------------------+--------------------------------------------------------------+
+|                        |                                                              |
+| ``pydocstyle_select``  | List of checked errors by specifying which errors to check   |
+|                        | for. (Optional, defaults to '()'.)                           |
+|                        |                                                              |
++------------------------+--------------------------------------------------------------+
 
 \* denotes required param
+
+Can Detect
+----------
+
+* Documentation
+* Formatting
 
 License
 -------

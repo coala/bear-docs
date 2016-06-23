@@ -14,6 +14,11 @@ This is done using the ``gofmt`` utility. For more information visit
 
 
 
+Can Detect
+----------
+
+* Formatting
+
 License
 -------
 

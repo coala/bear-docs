@@ -11,6 +11,12 @@ problems or inefficiencies.
 
 
 
+Can Detect
+----------
+
+* Simplification
+* Syntax
+
 License
 -------
 

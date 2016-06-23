@@ -15,7 +15,24 @@ For more about the analysis, check Bootlint
 
 * HTML
 
+Settings
+--------
 
++----------------------+-----------------------------------------------------------+
+| Setting              |  Meaning                                                  |
++======================+===========================================================+
+|                      |                                                           |
+| ``bootlint_ignore``  | List of checkers to ignore. (Optional, defaults to '[]'.) +
+|                      |                                                           |
++----------------------+-----------------------------------------------------------+
+
+\* denotes required param
+
+Can Detect
+----------
+
+* Formatting
+* Syntax
 
 License
 -------

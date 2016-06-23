@@ -13,26 +13,31 @@ Uses radon to compute complexity of a given file.
 Settings
 --------
 
-+-------------------------+-------------------------------+
-| Setting                 |  Meaning                      |
-+=========================+===============================+
-|                         |                               |
-| ``radon_ranks_info``    | The ranks (given by radon) to |
-|                         | treat as severity INFO.       |
-|                         |                               |
-+-------------------------+-------------------------------+
-|                         |                               |
-| ``radon_ranks_major``   | The ranks (given by radon) to |
-|                         | treat as severity MAJOR.      |
-|                         |                               |
-+-------------------------+-------------------------------+
-|                         |                               |
-| ``radon_ranks_normal``  | The ranks (given by radon) to |
-|                         | treat as severity NORMAL.     |
-|                         |                               |
-+-------------------------+-------------------------------+
++-------------------------+---------------------------------------------------------+
+| Setting                 |  Meaning                                                |
++=========================+=========================================================+
+|                         |                                                         |
+| ``radon_ranks_info``    | The ranks (given by radon) to treat as severity INFO.   |
+|                         | (Optional, defaults to '()'.)                           |
+|                         |                                                         |
++-------------------------+---------------------------------------------------------+
+|                         |                                                         |
+| ``radon_ranks_major``   | The ranks (given by radon) to treat as severity MAJOR.  |
+|                         | (Optional, defaults to '('E', 'F')'.)                   |
+|                         |                                                         |
++-------------------------+---------------------------------------------------------+
+|                         |                                                         |
+| ``radon_ranks_normal``  | The ranks (given by radon) to treat as severity NORMAL. |
+|                         | (Optional, defaults to '('C', 'D')'.)                   |
+|                         |                                                         |
++-------------------------+---------------------------------------------------------+
 
 \* denotes required param
+
+Can Detect
+----------
+
+* Complexity
 
 License
 -------

@@ -11,24 +11,32 @@ Yields results for all lines longer than the given maximum line length.
 Settings
 --------
 
-+--------------------------+-------------------------------------------+
-| Setting                  |  Meaning                                  |
-+==========================+===========================================+
-|                          |                                           |
-| ``ignore_length_regex``  | Lines matching each of the regular        |
-|                          | expressions in this list will be ignored. |
-|                          |                                           |
-+--------------------------+-------------------------------------------+
-|                          |                                           |
-| ``max_line_length``      | Maximum number of characters for a line.  +
-|                          |                                           |
-+--------------------------+-------------------------------------------+
-|                          |                                           |
-| ``tab_width``            | Number of spaces to show for one tab.     +
-|                          |                                           |
-+--------------------------+-------------------------------------------+
++--------------------------+-------------------------------------------------------------+
+| Setting                  |  Meaning                                                    |
++==========================+=============================================================+
+|                          |                                                             |
+| ``ignore_length_regex``  | Lines matching each of the regular expressions in this list |
+|                          | will be ignored. (Optional, defaults to '()'.)              |
+|                          |                                                             |
++--------------------------+-------------------------------------------------------------+
+|                          |                                                             |
+| ``max_line_length``      | Maximum number of characters for a line. (Optional,         |
+|                          | defaults to '80'.)                                          |
+|                          |                                                             |
++--------------------------+-------------------------------------------------------------+
+|                          |                                                             |
+| ``tab_width``            | Number of spaces to show for one tab. (Optional, defaults   |
+|                          | to '4'.)                                                    |
+|                          |                                                             |
++--------------------------+-------------------------------------------------------------+
 
 \* denotes required param
+
+Can Detect
+----------
+
+* Formatting
+* Simplification
 
 License
 -------

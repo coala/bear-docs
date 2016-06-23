@@ -11,20 +11,27 @@ Checks the code with ``xmllint``.
 Settings
 --------
 
-+-----------------+----------------------------------------------+
-| Setting         |  Meaning                                     |
-+=================+==============================================+
-|                 |                                              |
-| ``xml_dtd``     | ``Document type Definition (DTD)`` file or   |
-|                 | url used for validation.                     |
-|                 |                                              |
-+-----------------+----------------------------------------------+
-|                 |                                              |
-| ``xml_schema``  | ``W3C XML Schema`` file used for validation. +
-|                 |                                              |
-+-----------------+----------------------------------------------+
++-----------------+---------------------------------------------------------+
+| Setting         |  Meaning                                                |
++=================+=========================================================+
+|                 |                                                         |
+| ``xml_dtd``     | ``Document type Definition (DTD)`` file or url used for |
+|                 | validation. (Optional, defaults to ''.)                 |
+|                 |                                                         |
++-----------------+---------------------------------------------------------+
+|                 |                                                         |
+| ``xml_schema``  | ``W3C XML Schema`` file used for validation. (Optional, |
+|                 | defaults to ''.)                                        |
+|                 |                                                         |
++-----------------+---------------------------------------------------------+
 
 \* denotes required param
+
+Can Detect
+----------
+
+* Formatting
+* Syntax
 
 License
 -------

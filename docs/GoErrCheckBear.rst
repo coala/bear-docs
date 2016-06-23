@@ -11,7 +11,42 @@ For more information on the analysis visit <https://github.com/kisielk/errcheck>
 
 * Go
 
+Settings
+--------
 
++----------------+-----------------------------------------------------------+
+| Setting        |  Meaning                                                  |
++================+===========================================================+
+|                |                                                           |
+| ``asserts``    | Enables checking for ignored type assertion results       |
+|                | (Optional, defaults to 'False'.)                          |
+|                |                                                           |
++----------------+-----------------------------------------------------------+
+|                |                                                           |
+| ``blank``      | Enables checking for assignments of errors to the blank   |
+|                | identifier. (Optional, defaults to 'False'.)              |
+|                |                                                           |
++----------------+-----------------------------------------------------------+
+|                |                                                           |
+| ``ignore``     | Comma-separated list of pairs of the form package:regex.  |
+|                | For each package, the regex describes which functions to  |
+|                | ignore within that package. The package may be omitted to |
+|                | have the regex apply to all packages. (Optional, defaults |
+|                | to '[]'.)                                                 |
+|                |                                                           |
++----------------+-----------------------------------------------------------+
+|                |                                                           |
+| ``ignorepkg``  | Takes a comma-separated list of package import paths to   |
+|                | ignore. (Optional, defaults to '[]'.)                     |
+|                |                                                           |
++----------------+-----------------------------------------------------------+
+
+\* denotes required param
+
+Can Detect
+----------
+
+* Syntax
 
 License
 -------

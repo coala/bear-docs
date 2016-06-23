@@ -11,7 +11,25 @@ You can read more about capabilities at
 
 * YAML
 
+Settings
+--------
 
++----------------------+-------------------------------------------------------------+
+| Setting              |  Meaning                                                    |
++======================+=============================================================+
+|                      |                                                             |
+| ``yamllint_config``  | Path to a custom configuration file. (Optional, defaults to |
+|                      | ''.)                                                        |
+|                      |                                                             |
++----------------------+-------------------------------------------------------------+
+
+\* denotes required param
+
+Can Detect
+----------
+
+* Formatting
+* Syntax
 
 License
 -------

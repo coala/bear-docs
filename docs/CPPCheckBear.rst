@@ -10,14 +10,29 @@ For more information, consult <https://github.com/danmar/cppcheck>.
 * C
 * C++
 
+Settings
+--------
 
++-------------+----------------------------------------------------------+
+| Setting     |  Meaning                                                 |
++=============+==========================================================+
+|             |                                                          |
+| ``enable``  | Choose specific issues to report. Issues that can be     |
+|             | reported are: all, warning, style, performance,          |
+|             | portability, information, unusedFunction, missingInclude |
+|             | (Optional, defaults to '[]'.)                            |
+|             |                                                          |
++-------------+----------------------------------------------------------+
+
+\* denotes required param
 
 Can Detect
 ----------
 
-* Redundancy
 * Security
 * Smell
+* Unreachable Code
+* Unused Code
 
 License
 -------

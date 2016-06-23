@@ -11,18 +11,18 @@ Finds out all the positions of strings and comments in a file. The Bear searches
 Settings
 --------
 
-+------------------+--------------------------------------------+
-| Setting          |  Meaning                                   |
-+==================+============================================+
-|                  |                                            |
-| ``coalang_dir``  | external directory for coalang file.       +
-|                  |                                            |
-+------------------+--------------------------------------------+
-|                  |                                            |
-| ``language``\*   | Language to be whose annotations are to be |
-|                  | searched.                                  |
-|                  |                                            |
-+------------------+--------------------------------------------+
++------------------+-------------------------------------------------------------+
+| Setting          |  Meaning                                                    |
++==================+=============================================================+
+|                  |                                                             |
+| ``coalang_dir``  | external directory for coalang file. (Optional, defaults to |
+|                  | 'None'.)                                                    |
+|                  |                                                             |
++------------------+-------------------------------------------------------------+
+|                  |                                                             |
+| ``language``     | Language to be whose annotations are to be searched.        +
+|                  |                                                             |
++------------------+-------------------------------------------------------------+
 
 \* denotes required param
 

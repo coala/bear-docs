@@ -17,18 +17,18 @@ Checks the given code for similar functions that are probably redundant.
 Settings
 --------
 
-+---------------------------+---------------------------------------+
-| Setting                   |  Meaning                              |
-+===========================+=======================================+
-|                           |                                       |
-| ``max_clone_difference``  | The maximum difference a clone should |
-|                           | have.                                 |
-|                           |                                       |
-+---------------------------+---------------------------------------+
++---------------------------+--------------------------------------------------------+
+| Setting                   |  Meaning                                               |
++===========================+========================================================+
+|                           |                                                        |
+| ``max_clone_difference``  | The maximum difference a clone should have. (Optional, |
+|                           | defaults to '0.185'.)                                  |
+|                           |                                                        |
++---------------------------+--------------------------------------------------------+
 
 \* denotes required param
 
 Can Detect
 ----------
 
-* Redundancy
+* Duplication

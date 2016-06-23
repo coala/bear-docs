@@ -11,31 +11,35 @@ Check and correct spacing for all textual data. This includes usage of tabs vs. 
 Settings
 --------
 
-+--------------------------------+---------------------------------------+
-| Setting                        |  Meaning                              |
-+================================+=======================================+
-|                                |                                       |
-| ``allow_trailing_whitespace``  | Whether to allow trailing whitespace  |
-|                                | or not.                               |
-|                                |                                       |
-+--------------------------------+---------------------------------------+
-|                                |                                       |
-| ``enforce_newline_at_EOF``     | Whether to enforce a newline at the   |
-|                                | End Of File.                          |
-|                                |                                       |
-+--------------------------------+---------------------------------------+
-|                                |                                       |
-| ``tab_width``                  | Number of spaces representing one     |
-|                                | tab.                                  |
-|                                |                                       |
-+--------------------------------+---------------------------------------+
-|                                |                                       |
-| ``use_spaces``\*               | True if spaces are to be used instead |
-|                                | of tabs.                              |
-|                                |                                       |
-+--------------------------------+---------------------------------------+
++--------------------------------+-------------------------------------------------------------+
+| Setting                        |  Meaning                                                    |
++================================+=============================================================+
+|                                |                                                             |
+| ``allow_trailing_whitespace``  | Whether to allow trailing whitespace or not. (Optional,     |
+|                                | defaults to 'False'.)                                       |
+|                                |                                                             |
++--------------------------------+-------------------------------------------------------------+
+|                                |                                                             |
+| ``enforce_newline_at_EOF``     | Whether to enforce a newline at the End Of File. (Optional, |
+|                                | defaults to 'True'.)                                        |
+|                                |                                                             |
++--------------------------------+-------------------------------------------------------------+
+|                                |                                                             |
+| ``tab_width``                  | Number of spaces representing one tab. (Optional, defaults  |
+|                                | to '4'.)                                                    |
+|                                |                                                             |
++--------------------------------+-------------------------------------------------------------+
+|                                |                                                             |
+| ``use_spaces``                 | True if spaces are to be used instead of tabs.              +
+|                                |                                                             |
++--------------------------------+-------------------------------------------------------------+
 
 \* denotes required param
+
+Can Detect
+----------
+
+* Formatting
 
 License
 -------

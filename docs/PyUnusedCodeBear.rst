@@ -12,7 +12,11 @@ Detects unused code. This functionality is limited to:
 * Python 3
 
 
-\* denotes required param
+
+Can Detect
+----------
+
+* Unused Code
 
 License
 -------

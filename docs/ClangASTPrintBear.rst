@@ -14,5 +14,3 @@ This bear is meant for debugging purposes relating to clang. It just prints out 
 * OpenCL
 * OpenMP
 
-
-\* denotes required param

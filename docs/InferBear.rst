@@ -9,7 +9,11 @@ Checks the code with ``infer``.
 * Java
 
 
-\* denotes required param
+
+Can Detect
+----------
+
+* Security
 
 License
 -------

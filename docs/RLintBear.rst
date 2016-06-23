@@ -9,7 +9,12 @@ Checks the code with `lintr`.
 * R
 
 
-\* denotes required param
+
+Can Detect
+----------
+
+* Formatting
+* Syntax
 
 License
 -------
