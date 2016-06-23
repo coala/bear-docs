@@ -13,11 +13,6 @@ below.
 
 
 
-Can Detect
-----------
-
-* Formatting
-
 License
 -------
 

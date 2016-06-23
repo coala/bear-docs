@@ -64,11 +64,6 @@ Settings
 
 \* denotes required param
 
-Can Detect
-----------
-
-* Duplication
-
 License
 -------
 

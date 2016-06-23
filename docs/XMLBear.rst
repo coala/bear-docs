@@ -26,12 +26,6 @@ Settings
 
 \* denotes required param
 
-Can Detect
-----------
-
-* Formatting
-* Syntax
-
 License
 -------
 

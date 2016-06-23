@@ -13,15 +13,6 @@ separately.
 
 
 
-Can Detect
-----------
-
-* Duplication
-* Formatting
-* Security
-* Syntax
-* Unused Code
-
 License
 -------
 

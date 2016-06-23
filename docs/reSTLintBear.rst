@@ -11,12 +11,6 @@ Lints reStructuredText.
 
 \* denotes required param
 
-Can Detect
-----------
-
-* Formatting
-* Syntax
-
 License
 -------
 

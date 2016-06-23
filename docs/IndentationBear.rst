@@ -5,7 +5,6 @@ It is a generic indent bear, which looks for a start and end indent specifier, e
 It does not however support hanging indents or absolute indents of any sort, also indents based on keywords are not supported yet. for example:
 if(something) does not get indented
 undergoes no change.
-WARNING: The IndentationBear is experimental right now, you can report any issues found to https://github.com/coala-analyzer/coala-bears
 
 `Supported Languages <../README.rst>`_
 -----

@@ -13,11 +13,6 @@ Detects commented out source code in Python.
 
 \* denotes required param
 
-Can Detect
-----------
-
-* Commented Code
-
 License
 -------
 

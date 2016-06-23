@@ -29,12 +29,6 @@ Settings
 
 \* denotes required param
 
-Can Detect
-----------
-
-* Grammar
-* Spelling
-
 License
 -------
 

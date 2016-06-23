@@ -13,11 +13,6 @@ For more information on the analysis visit <https://github.com/kisielk/errcheck>
 
 
 
-Can Detect
-----------
-
-* Syntax
-
 License
 -------
 

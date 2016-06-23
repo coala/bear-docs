@@ -17,14 +17,6 @@ A gallery of bad code that can be detected is available at
 
 
 
-Can Detect
-----------
-
-* Security
-* Syntax
-* Undefined Element
-* Unused Code
-
 License
 -------
 

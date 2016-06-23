@@ -12,12 +12,6 @@ See also <https://pypi.python.org/pypi/html-linter>.
 
 
 
-Can Detect
-----------
-
-* Formatting
-* Syntax
-
 License
 -------
 

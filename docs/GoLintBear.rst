@@ -11,11 +11,6 @@ separately.
 
 
 
-Can Detect
-----------
-
-* Formatting
-
 License
 -------
 

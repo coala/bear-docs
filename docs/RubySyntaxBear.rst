@@ -10,11 +10,6 @@ Checks the code with ``ruby -wc`` on each file separately.
 
 
 
-Can Detect
-----------
-
-* Syntax
-
 License
 -------
 

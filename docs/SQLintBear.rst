@@ -13,11 +13,6 @@ This bear supports ANSI syntax. Check out
 
 
 
-Can Detect
-----------
-
-* Syntax
-
 License
 -------
 

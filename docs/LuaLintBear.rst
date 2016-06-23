@@ -12,13 +12,6 @@ Read more at <https://github.com/mpeterv/luacheck>.
 
 
 
-Can Detect
-----------
-
-* Unreachable Code
-* Unused Code
-* Variable Misuse
-
 License
 -------
 

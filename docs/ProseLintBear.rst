@@ -10,14 +10,6 @@ Lints the file using ``proselint``.
 
 
 
-Can Detect
-----------
-
-* Formatting
-* Grammar
-* Spelling
-* Syntax
-
 License
 -------
 

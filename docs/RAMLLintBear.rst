@@ -13,12 +13,6 @@ identify the problems correctly.
 
 
 
-Can Detect
-----------
-
-* Formatting
-* Syntax
-
 License
 -------
 

@@ -13,11 +13,6 @@ For more information on the analysis visit <https://tailor.sh/>
 
 
 
-Can Detect
-----------
-
-* Formatting
-
 License
 -------
 

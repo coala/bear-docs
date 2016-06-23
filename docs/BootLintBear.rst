@@ -17,12 +17,6 @@ For more about the analysis, check Bootlint
 
 
 
-Can Detect
-----------
-
-* Formatting
-* Syntax
-
 License
 -------
 

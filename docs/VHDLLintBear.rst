@@ -28,11 +28,6 @@ information.
 
 
 
-Can Detect
-----------
-
-* Formatting
-
 License
 -------
 

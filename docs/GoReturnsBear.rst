@@ -10,11 +10,6 @@ Proposes corrections of Go code using ``goreturns``.
 
 
 
-Can Detect
-----------
-
-* Security
-
 License
 -------
 

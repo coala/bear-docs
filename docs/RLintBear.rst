@@ -11,12 +11,6 @@ Checks the code with `lintr`.
 
 \* denotes required param
 
-Can Detect
-----------
-
-* Formatting
-* Syntax
-
 License
 -------
 

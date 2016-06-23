@@ -15,17 +15,6 @@ on the analysis provided.
 
 
 
-Can Detect
-----------
-
-* Code Duplication
-* Formatting
-* Security
-* Simplification
-* Syntax
-* Unreachable Code
-* Unused Code
-
 License
 -------
 

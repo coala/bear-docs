@@ -14,13 +14,6 @@ information.
 
 
 
-Can Detect
-----------
-
-* Duplication
-* Simplification
-* Unused Code
-
 License
 -------
 

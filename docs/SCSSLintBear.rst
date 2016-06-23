@@ -12,13 +12,6 @@ More information is available at <https://github.com/brigade/scss-lint>.
 
 
 
-Can Detect
-----------
-
-* Formatting
-* Simplification
-* Syntax
-
 License
 -------
 

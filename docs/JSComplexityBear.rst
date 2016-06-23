@@ -10,11 +10,6 @@ Calculates cyclomatic complexity using ``cr``.
 
 
 
-Can Detect
-----------
-
-* Complexity
-
 License
 -------
 

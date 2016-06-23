@@ -13,12 +13,6 @@ You can read more about capabilities at
 
 
 
-Can Detect
-----------
-
-* Formatting
-* Syntax
-
 License
 -------
 

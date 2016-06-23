@@ -11,13 +11,6 @@ each of the files seperately.
 
 
 
-Can Detect
-----------
-
-* Formatting
-* Simplification
-* Syntax
-
 License
 -------
 

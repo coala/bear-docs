@@ -14,13 +14,6 @@ Read more about available routines at
 
 
 
-Can Detect
-----------
-
-* Security
-* Smell
-* Unused Code
-
 License
 -------
 

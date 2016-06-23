@@ -14,13 +14,6 @@ Read more about the capabilities at
 
 
 
-Can Detect
-----------
-
-* Formatting
-* Smell
-* Syntax
-
 License
 -------
 
