@@ -15,6 +15,14 @@ For more information on the analysis visit <http://jshint.com/>
 
 
 
+Can Detect
+----------
+
+* Complexity
+* Formatting
+* Syntax
+* Unused Code
+
 License
 -------
 

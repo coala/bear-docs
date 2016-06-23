@@ -14,6 +14,14 @@ More information is available at
 
 
 
+Can Detect
+----------
+
+* Duplication
+* Simplification
+* Smell
+* Unreachable Code
+
 License
 -------
 

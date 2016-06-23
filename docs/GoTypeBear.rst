@@ -11,6 +11,11 @@ separately.
 
 
 
+Can Detect
+----------
+
+* Syntax
+
 License
 -------
 

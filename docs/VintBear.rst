@@ -12,6 +12,11 @@ See <https://github.com/Kuniwak/vint> for more information.
 
 
 
+Can Detect
+----------
+
+* Formatting
+
 License
 -------
 

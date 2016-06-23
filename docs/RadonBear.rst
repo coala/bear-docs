@@ -34,6 +34,11 @@ Settings
 
 \* denotes required param
 
+Can Detect
+----------
+
+* Complexity
+
 License
 -------
 

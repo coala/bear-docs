@@ -13,6 +13,12 @@ For more information, consult
 
 
 
+Can Detect
+----------
+
+* Formatting
+* Smell
+
 License
 -------
 

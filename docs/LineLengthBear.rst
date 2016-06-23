@@ -30,6 +30,12 @@ Settings
 
 \* denotes required param
 
+Can Detect
+----------
+
+* Formatting
+* Simplification
+
 License
 -------
 

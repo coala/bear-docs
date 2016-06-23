@@ -11,6 +11,12 @@ e.g. cyclomatic complexity.
 
 
 
+Can Detect
+----------
+
+* Complexity
+* Formatting
+
 License
 -------
 

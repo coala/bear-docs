@@ -11,6 +11,11 @@ Checks the code with ``infer``.
 
 \* denotes required param
 
+Can Detect
+----------
+
+* Security
+
 License
 -------
 

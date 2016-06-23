@@ -13,6 +13,11 @@ For more information about the detected smells, see
 
 
 
+Can Detect
+----------
+
+* Smell
+
 License
 -------
 

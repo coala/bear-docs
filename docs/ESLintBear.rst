@@ -13,6 +13,12 @@ Find out more at <http://eslint.org/docs/rules/>.
 
 
 
+Can Detect
+----------
+
+* Formatting
+* Syntax
+
 License
 -------
 

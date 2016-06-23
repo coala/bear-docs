@@ -10,6 +10,11 @@ Adds/Removes imports to Go code for missing imports.
 
 
 
+Can Detect
+----------
+
+* Missing import
+
 License
 -------
 

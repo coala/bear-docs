@@ -31,4 +31,4 @@ Settings
 Can Detect
 ----------
 
-* Redundancy
+* Duplication

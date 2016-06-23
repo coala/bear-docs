@@ -15,9 +15,10 @@ For more information, consult <https://github.com/danmar/cppcheck>.
 Can Detect
 ----------
 
-* Redundancy
 * Security
 * Smell
+* Unreachable Code
+* Unused Code
 
 License
 -------

@@ -27,6 +27,11 @@ Settings
 
 \* denotes required param
 
+Can Detect
+----------
+
+* Documentation
+
 License
 -------
 

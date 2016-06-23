@@ -12,6 +12,13 @@ See <https://github.com/bbatsov/rubocop#cops> for more information.
 
 
 
+Can Detect
+----------
+
+* Formatting
+* Simplification
+* Syntax
+
 License
 -------
 

@@ -10,6 +10,12 @@ Checks the code with ``chktex``.
 
 
 
+Can Detect
+----------
+
+* Formatting
+* Syntax
+
 License
 -------
 

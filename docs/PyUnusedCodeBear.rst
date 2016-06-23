@@ -14,6 +14,11 @@ Detects unused code. This functionality is limited to:
 
 \* denotes required param
 
+Can Detect
+----------
+
+* Unused Code
+
 License
 -------
 
