@@ -2,8 +2,45 @@ import sys
 import os
 import inspect
 
+from collections import OrderedDict
 from bear_docs_utils import get_bears
 from language_generate import language_generate
+
+
+def text_wrap(*args, delimiter=' ', end='\n', limit=80):
+    """
+    Breaks it wordwise when going further than ``limit`` chars.
+    :param args:
+        The stuff you want to have printed.
+    :param delimiter:
+        Will be placed between all the args.
+    :param limit:
+        Char limit.
+    :param end:
+        An ending, will be put as last character and doesn't count into the
+        char limit.
+    :return:
+        A list of strings, each element to be written on its own line.
+    """
+    output = delimiter.join(args)
+    lines = output.splitlines(keepends=True)
+    results = []
+    for line in lines:
+        curr_print = line
+        while len(curr_print.rstrip('\n')) > limit:
+            splitpos = curr_print[:limit].rfind(' ')
+            if splitpos < 0:
+                # Word too long, search for a space left from limit at least
+                splitpos = curr_print.find(' ')
+                if splitpos < 0:
+                    break  # Break out and add the long thing in the next line
+
+            results.append(curr_print[:splitpos])
+            curr_print = curr_print[splitpos+1:]
+
+        results.append(curr_print)
+
+    return results
 
 if __name__ == "__main__":
     bears = get_bears()
@@ -14,38 +51,23 @@ if __name__ == "__main__":
         output += "`Supported Languages <../README.rst>`_" + "\n-----\n\n"
         output += "\n".join(["* " + x for x in sorted(bear.LANGUAGES)])
         output += "\n\n"
-        docstring = inspect.getdoc(bear.run)
-        if docstring:
-            docstring = docstring[docstring.find(":param"):]
-            if docstring.find("\n\n") != -1:
-                docstring = docstring[:docstring.find("\n\n")]
-            if docstring.find(":return") != -1:
-                docstring = docstring[:docstring.find(":return")]
-        if docstring:
-            par = {}
-            lmax = -1
-            rmax = -1
-            first = True
-            for param in docstring.split(":param"):
-                if first:
-                    first = False
-                    continue
-                res = param.split(":")
-                if len(res) > 2:
-                    res = res[0], ":".join(res[1:])
-                elif len(res) < 2:
-                    continue
-                key, meaning = res
-                bold = "\\*" if key.strip() in bear.get_metadata().non_optional_params else ""
-                key = " ``" + key.strip() + "``" + bold + " "
-                meaning = meaning.strip()
-                if lmax < len(key):
-                    lmax = len(key)
-                par[key] = []
-                for line in meaning.split("\n"):
-                    par[key].append(line.strip())
-                    if len(line.strip()) > rmax:
-                        rmax = len(line.strip())
+        par = {}
+        lmax = -1
+        rmax = -1
+        meta = bear.get_metadata()
+        for param in meta.non_optional_params:
+            key = " ``" + param + "`` "
+            par[key] = text_wrap(bear.get_metadata().non_optional_params[param][0], limit=60)
+            par[key] = [g.strip() for g in par[key]]
+            lmax = max(lmax, len(key))
+            rmax = max(rmax, max(len(g) for g in par[key]))
+        for param in meta.optional_params:
+            key = " ``" + param + "`` "
+            par[key] = text_wrap(bear.get_metadata().optional_params[param][0], limit=60)
+            par[key] = [g.strip() for g in par[key]]
+            lmax = max(lmax, len(key))
+            rmax = max(rmax, max(len(g) for g in par[key]))
+        if len(par):
             lmax = max(lmax, len(" Setting"))
             rmax = max(rmax, len("Meaning"))
             header = False
