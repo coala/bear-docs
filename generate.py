@@ -87,4 +87,4 @@ if __name__ == "__main__":
     language_generate()
 
     if len(sys.argv) == 1:
-        os.system("git add -A && git commit -m 'Docs Update' && git push --force")
+        os.system("git add -A && git commit -m 'Docs Update' && git push")
