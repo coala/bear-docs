@@ -88,7 +88,6 @@ if __name__ == "__main__":
                     output += "|" + " " * (lmax + 1) + "| " + text + " " * (1 + rmax - len(text)) + "|\n"
                 output += "| " + " " * lmax + "| " + " " * (1 + rmax) + "|\n"
                 output += "+" + "-" * lmax + "-+-" + "-" * (1 + rmax) + "+\n"
-            output += "\n\* denotes required param"
 
         if len(bear.can_detect):
             output += "\n\nCan Detect\n----------\n\n"
