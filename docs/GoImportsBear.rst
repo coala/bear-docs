@@ -15,6 +15,11 @@ Can Detect
 
 * Missing import
 
+Can Fix
+----------
+
+* Missing import
+
 License
 -------
 

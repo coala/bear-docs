@@ -184,9 +184,14 @@ Settings
 |                                        |                                                                    |
 +----------------------------------------+--------------------------------------------------------------------+
 
-\* denotes required param
 
 Can Detect
+----------
+
+* Formatting
+* Simplification
+
+Can Fix
 ----------
 
 * Formatting

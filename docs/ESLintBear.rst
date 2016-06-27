@@ -23,13 +23,17 @@ Settings
 |                    |                                                       |
 +--------------------+-------------------------------------------------------+
 
-\* denotes required param
 
 Can Detect
 ----------
 
 * Formatting
 * Syntax
+
+Can Fix
+----------
+
+* Formatting
 
 License
 -------

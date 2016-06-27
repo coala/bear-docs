@@ -21,6 +21,12 @@ Can Detect
 * Simplification
 * Unused Code
 
+Can Fix
+----------
+
+* Simplification
+* Unused Code
+
 License
 -------
 

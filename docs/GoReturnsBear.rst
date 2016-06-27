@@ -15,6 +15,11 @@ Can Detect
 
 * Security
 
+Can Fix
+----------
+
+* Security
+
 License
 -------
 

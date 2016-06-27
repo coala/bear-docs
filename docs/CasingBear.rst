@@ -23,5 +23,3 @@ Settings
 |               | keywords to ignore.                                      |
 |               |                                                          |
 +---------------+----------------------------------------------------------+
-
-\* denotes required param

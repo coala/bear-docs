@@ -41,24 +41,24 @@ Settings
 |                          | weighted in half as much as other conditions would simply   |
 |                          | be: "used: 0.5, is_assignee". Weightings default to 1 if    |
 |                          | unset. (Optional, defaults to 'OrderedDict([(<function used |
-|                          | at 0x7fae8e3b2620>, 0.0), (<function returned at            |
-|                          | 0x7fae8e3b26a8>, 1.4), (<function is_condition at           |
-|                          | 0x7fae8e3b27b8>, 0.0), (<function in_condition at           |
-|                          | 0x7fae8e3b2840>, 1.4), (<function in_second_level_condition |
-|                          | at 0x7fae8e3b28c8>, 1.4), (<function                        |
-|                          | in_third_level_condition at 0x7fae8e3b2950>, 1.0),          |
-|                          | (<function is_assignee at 0x7fae8e3b29d8>, 0.0), (<function |
-|                          | is_assigner at 0x7fae8e3b2a60>, 0.6), (<function            |
-|                          | loop_content at 0x7fae8e3b2b70>, 0.0), (<function           |
-|                          | second_level_loop_content at 0x7fae8e3b2bf8>, 1),           |
-|                          | (<function third_level_loop_content at 0x7fae8e3b2c80>, 1), |
-|                          | (<function is_param at 0x7fae8e3b2d08>, 2.0), (<function    |
-|                          | is_called at 0x7fae8e3b2d90>, 1.4), (<function              |
-|                          | is_call_param at 0x7fae8e3b2e18>, 0.0), (<function in_sum   |
-|                          | at 0x7fae8e3b2400>, 2.0), (<function in_product at          |
-|                          | 0x7fae8e3b2488>, 0.0), (<function in_binary_operation at    |
-|                          | 0x7fae8e3b2510>, 1), (<function member_accessed at          |
-|                          | 0x7fae8e3b2598>, 1)])'.)                                    |
+|                          | at 0x7f4d50c586a8>, 0.0), (<function returned at            |
+|                          | 0x7f4d50c58730>, 1.4), (<function is_condition at           |
+|                          | 0x7f4d50c58840>, 0.0), (<function in_condition at           |
+|                          | 0x7f4d50c588c8>, 1.4), (<function in_second_level_condition |
+|                          | at 0x7f4d50c58950>, 1.4), (<function                        |
+|                          | in_third_level_condition at 0x7f4d50c589d8>, 1.0),          |
+|                          | (<function is_assignee at 0x7f4d50c58a60>, 0.0), (<function |
+|                          | is_assigner at 0x7f4d50c58ae8>, 0.6), (<function            |
+|                          | loop_content at 0x7f4d50c58bf8>, 0.0), (<function           |
+|                          | second_level_loop_content at 0x7f4d50c58c80>, 1),           |
+|                          | (<function third_level_loop_content at 0x7f4d50c58d08>, 1), |
+|                          | (<function is_param at 0x7f4d50c58d90>, 2.0), (<function    |
+|                          | is_called at 0x7f4d50c58e18>, 1.4), (<function              |
+|                          | is_call_param at 0x7f4d50c58ea0>, 0.0), (<function in_sum   |
+|                          | at 0x7f4d50c58488>, 2.0), (<function in_product at          |
+|                          | 0x7f4d50c58510>, 0.0), (<function in_binary_operation at    |
+|                          | 0x7f4d50c58598>, 1), (<function member_accessed at          |
+|                          | 0x7f4d50c58620>, 1)])'.)                                    |
 |                          |                                                             |
 +--------------------------+-------------------------------------------------------------+
 |                          |                                                             |
@@ -78,5 +78,3 @@ Settings
 |                          | defaults to 'True'.)                                        |
 |                          |                                                             |
 +--------------------------+-------------------------------------------------------------+
-
-\* denotes required param

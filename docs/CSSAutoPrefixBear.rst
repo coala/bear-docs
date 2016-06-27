@@ -16,6 +16,12 @@ Can Detect
 * Formatting
 * Syntax
 
+Can Fix
+----------
+
+* Formatting
+* Syntax
+
 License
 -------
 

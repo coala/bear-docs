@@ -43,9 +43,13 @@ Settings
 |                        |                                                             |
 +------------------------+-------------------------------------------------------------+
 
-\* denotes required param
 
 Can Detect
+----------
+
+* Formatting
+
+Can Fix
 ----------
 
 * Formatting

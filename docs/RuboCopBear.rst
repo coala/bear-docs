@@ -176,13 +176,18 @@ Settings
 |                                           |                                                             |
 +-------------------------------------------+-------------------------------------------------------------+
 
-\* denotes required param
 
 Can Detect
 ----------
 
 * Formatting
 * Simplification
+* Syntax
+
+Can Fix
+----------
+
+* Formatting
 * Syntax
 
 License

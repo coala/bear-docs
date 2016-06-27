@@ -19,6 +19,11 @@ Can Detect
 
 * Formatting
 
+Can Fix
+----------
+
+* Formatting
+
 License
 -------
 
