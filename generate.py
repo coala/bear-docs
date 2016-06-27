@@ -93,6 +93,10 @@ if __name__ == "__main__":
             output += "\n\nCan Detect\n----------\n\n"
             output += "\n".join(sorted(["* " + x for x in bear.can_detect]))
 
+        if len(bear.CAN_FIX):
+            output += "\n\nCan Fix\n----------\n\n"
+            output += "\n".join(sorted(["* " + x for x in bear.CAN_FIX]))
+
         if bear.LICENSE:
             output += "\n\nLicense\n-------\n\n"
             output += bear.LICENSE
