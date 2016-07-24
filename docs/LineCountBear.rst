@@ -24,7 +24,6 @@ Can Detect
 ----------
 
 * Formatting
-* Simplification
 
 License
 -------

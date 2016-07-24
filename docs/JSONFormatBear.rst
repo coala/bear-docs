@@ -11,23 +11,23 @@ Raises issues for any deviations from the pretty-printed JSON.
 Settings
 --------
 
-+-------------------+-----------------------------------------------------------+
-| Setting           |  Meaning                                                  |
-+===================+===========================================================+
-|                   |                                                           |
-| ``json_sort``     | Whether or not keys should be sorted. (Optional, defaults |
-|                   | to 'False'.)                                              |
-|                   |                                                           |
-+-------------------+-----------------------------------------------------------+
-|                   |                                                           |
-| ``keep_unicode``  | Wether or not to escape unicode values using ASCII.       |
-|                   | (Optional, defaults to 'False'.)                          |
-|                   |                                                           |
-+-------------------+-----------------------------------------------------------+
-|                   |                                                           |
-| ``tab_width``     | Number of spaces to indent. (Optional, defaults to '4'.)  +
-|                   |                                                           |
-+-------------------+-----------------------------------------------------------+
++---------------------+-----------------------------------------------------------+
+| Setting             |  Meaning                                                  |
++=====================+===========================================================+
+|                     |                                                           |
+| ``escape_unicode``  | Whether or not to escape unicode values using ASCII.      |
+|                     | (Optional, defaults to 'False'.)                          |
+|                     |                                                           |
++---------------------+-----------------------------------------------------------+
+|                     |                                                           |
+| ``json_sort``       | Whether or not keys should be sorted. (Optional, defaults |
+|                     | to 'False'.)                                              |
+|                     |                                                           |
++---------------------+-----------------------------------------------------------+
+|                     |                                                           |
+| ``tab_width``       | Number of spaces to indent. (Optional, defaults to '4'.)  +
+|                     |                                                           |
++---------------------+-----------------------------------------------------------+
 
 
 Can Detect

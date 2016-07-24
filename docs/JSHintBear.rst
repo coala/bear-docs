@@ -120,6 +120,19 @@ Settings
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
+| ``check_unused_variables``            | This option generates warnings when variables are defined    |
+|                                       | but never used. This can be set to ""vars"" to only check    |
+|                                       | for variables, not function parameters, or ""strict"" to     |
+|                                       | check all variables and parameters. (Optional, defaults to   |
+|                                       | 'True'.)                                                     |
+|                                       |                                                              |
++---------------------------------------+--------------------------------------------------------------+
+|                                       |                                                              |
+| ``cyclomatic_complexity``             | Maximum cyclomatic complexity in the code. (Optional,        |
+|                                       | defaults to 'False'.)                                        |
+|                                       |                                                              |
++---------------------------------------+--------------------------------------------------------------+
+|                                       |                                                              |
 | ``environment_browser``               | This option defines globals exposed by modern browsers.      |
 |                                       | (Optional, defaults to 'True'.)                              |
 |                                       |                                                              |
@@ -267,11 +280,6 @@ Settings
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
-| ``maxcomplexity``                     | Maximum cyclomatic complexity in the code. (Optional,        |
-|                                       | defaults to 'False'.)                                        |
-|                                       |                                                              |
-+---------------------------------------+--------------------------------------------------------------+
-|                                       |                                                              |
 | ``maxdepth``                          | This option lets you control how nested do you want your     |
 |                                       | blocks to be. (Optional, defaults to 'False'.)               |
 |                                       |                                                              |
@@ -342,14 +350,6 @@ Settings
 |                                       |                                                              |
 | ``prohibit_undefined``                | This option prohibits the use of explicitly undeclared       |
 |                                       | variables. (Optional, defaults to 'True'.)                   |
-|                                       |                                                              |
-+---------------------------------------+--------------------------------------------------------------+
-|                                       |                                                              |
-| ``prohibit_unused``                   | This option generates warnings when variables are defined    |
-|                                       | but never used. This can be set to ""vars"" to only check    |
-|                                       | for variables, not function parameters, or ""strict"" to     |
-|                                       | check all variables and parameters. (Optional, defaults to   |
-|                                       | 'True'.)                                                     |
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |

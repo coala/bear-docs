@@ -17,14 +17,14 @@ information.
 Can Detect
 ----------
 
+* Code Simplification
 * Duplication
-* Simplification
 * Unused Code
 
 Can Fix
 ----------
 
-* Simplification
+* Code Simplification
 * Unused Code
 
 License

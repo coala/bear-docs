@@ -16,7 +16,6 @@ Can Detect
 ----------
 
 * Formatting
-* Simplification
 * Syntax
 
 License

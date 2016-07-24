@@ -41,24 +41,24 @@ Settings
 |                          | weighted in half as much as other conditions would simply   |
 |                          | be: "used: 0.5, is_assignee". Weightings default to 1 if    |
 |                          | unset. (Optional, defaults to 'OrderedDict([(<function used |
-|                          | at 0x7f4d50c586a8>, 0.0), (<function returned at            |
-|                          | 0x7f4d50c58730>, 1.4), (<function is_condition at           |
-|                          | 0x7f4d50c58840>, 0.0), (<function in_condition at           |
-|                          | 0x7f4d50c588c8>, 1.4), (<function in_second_level_condition |
-|                          | at 0x7f4d50c58950>, 1.4), (<function                        |
-|                          | in_third_level_condition at 0x7f4d50c589d8>, 1.0),          |
-|                          | (<function is_assignee at 0x7f4d50c58a60>, 0.0), (<function |
-|                          | is_assigner at 0x7f4d50c58ae8>, 0.6), (<function            |
-|                          | loop_content at 0x7f4d50c58bf8>, 0.0), (<function           |
-|                          | second_level_loop_content at 0x7f4d50c58c80>, 1),           |
-|                          | (<function third_level_loop_content at 0x7f4d50c58d08>, 1), |
-|                          | (<function is_param at 0x7f4d50c58d90>, 2.0), (<function    |
-|                          | is_called at 0x7f4d50c58e18>, 1.4), (<function              |
-|                          | is_call_param at 0x7f4d50c58ea0>, 0.0), (<function in_sum   |
-|                          | at 0x7f4d50c58488>, 2.0), (<function in_product at          |
-|                          | 0x7f4d50c58510>, 0.0), (<function in_binary_operation at    |
-|                          | 0x7f4d50c58598>, 1), (<function member_accessed at          |
-|                          | 0x7f4d50c58620>, 1)])'.)                                    |
+|                          | at 0x7f38361c0510>, 0.0), (<function returned at            |
+|                          | 0x7f38361c0598>, 1.4), (<function is_condition at           |
+|                          | 0x7f38361c06a8>, 0.0), (<function in_condition at           |
+|                          | 0x7f38361c0730>, 1.4), (<function in_second_level_condition |
+|                          | at 0x7f38361c07b8>, 1.4), (<function                        |
+|                          | in_third_level_condition at 0x7f38361c0840>, 1.0),          |
+|                          | (<function is_assignee at 0x7f38361c08c8>, 0.0), (<function |
+|                          | is_assigner at 0x7f38361c0950>, 0.6), (<function            |
+|                          | loop_content at 0x7f38361c0a60>, 0.0), (<function           |
+|                          | second_level_loop_content at 0x7f38361c0ae8>, 1),           |
+|                          | (<function third_level_loop_content at 0x7f38361c0b70>, 1), |
+|                          | (<function is_param at 0x7f38361c0bf8>, 2.0), (<function    |
+|                          | is_called at 0x7f38361c0c80>, 1.4), (<function              |
+|                          | is_call_param at 0x7f38361c0d08>, 0.0), (<function in_sum   |
+|                          | at 0x7f38361c02f0>, 2.0), (<function in_product at          |
+|                          | 0x7f38361c0378>, 0.0), (<function in_binary_operation at    |
+|                          | 0x7f38361c0400>, 1), (<function member_accessed at          |
+|                          | 0x7f38361c0488>, 1)])'.)                                    |
 |                          |                                                             |
 +--------------------------+-------------------------------------------------------------+
 |                          |                                                             |

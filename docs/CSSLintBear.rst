@@ -14,7 +14,7 @@ problems or inefficiencies.
 Can Detect
 ----------
 
-* Simplification
+* Code Simplification
 * Syntax
 
 License

@@ -23,8 +23,8 @@ This is done using the ``--lint-only`` command. For more information visit
 Can Detect
 ----------
 
+* Code Simplification
 * Formatting
-* Simplification
 * Syntax
 * Unused Code
 

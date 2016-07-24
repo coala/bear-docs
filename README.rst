@@ -18,6 +18,7 @@ All
 C
 =
 * `CPPCheckBear <docs/CPPCheckBear.rst>`_
+* `CSecurityBear <docs/CSecurityBear.rst>`_
 * `ClangASTPrintBear <docs/ClangASTPrintBear.rst>`_
 * `ClangBear <docs/ClangBear.rst>`_
 * `ClangCloneDetectionBear <docs/ClangCloneDetectionBear.rst>`_
@@ -36,6 +37,7 @@ C++
 * `CPPCheckBear <docs/CPPCheckBear.rst>`_
 * `CPPCleanBear <docs/CPPCleanBear.rst>`_
 * `CPPLintBear <docs/CPPLintBear.rst>`_
+* `CSecurityBear <docs/CSecurityBear.rst>`_
 * `ClangASTPrintBear <docs/ClangASTPrintBear.rst>`_
 * `ClangBear <docs/ClangBear.rst>`_
 * `ClangCloneDetectionBear <docs/ClangCloneDetectionBear.rst>`_
@@ -123,6 +125,7 @@ JavaScript
 ==========
 * `CPDBear <docs/CPDBear.rst>`_
 * `ESLintBear <docs/ESLintBear.rst>`_
+* `HappinessLintBear <docs/HappinessLintBear.rst>`_
 * `JSComplexityBear <docs/JSComplexityBear.rst>`_
 * `JSHintBear <docs/JSHintBear.rst>`_
 
@@ -148,6 +151,7 @@ Natural Language
 * `AlexBear <docs/AlexBear.rst>`_
 * `LanguageToolBear <docs/LanguageToolBear.rst>`_
 * `ProseLintBear <docs/ProseLintBear.rst>`_
+* `WriteGoodLintBear <docs/WriteGoodLintBear.rst>`_
 
 Objective-C
 ===========
@@ -210,6 +214,7 @@ Python
 * `PyLintBear <docs/PyLintBear.rst>`_
 * `PyUnusedCodeBear <docs/PyUnusedCodeBear.rst>`_
 * `RadonBear <docs/RadonBear.rst>`_
+* `YapfBear <docs/YapfBear.rst>`_
 
 Python 2
 ========
@@ -221,6 +226,7 @@ Python 2
 * `PyLintBear <docs/PyLintBear.rst>`_
 * `PyUnusedCodeBear <docs/PyUnusedCodeBear.rst>`_
 * `RadonBear <docs/RadonBear.rst>`_
+* `YapfBear <docs/YapfBear.rst>`_
 
 Python 3
 ========
@@ -232,6 +238,7 @@ Python 3
 * `PyLintBear <docs/PyLintBear.rst>`_
 * `PyUnusedCodeBear <docs/PyUnusedCodeBear.rst>`_
 * `RadonBear <docs/RadonBear.rst>`_
+* `YapfBear <docs/YapfBear.rst>`_
 
 R
 =

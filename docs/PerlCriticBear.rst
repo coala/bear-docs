@@ -25,8 +25,8 @@ Settings
 Can Detect
 ----------
 
+* Code Simplification
 * Formatting
-* Simplification
 * Syntax
 
 License

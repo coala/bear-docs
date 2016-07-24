@@ -36,12 +36,12 @@ Settings
 | ``r_max_expression_length``  | Maximum number of characters for an expression.            |
 |                              | Example: If ``20`` then ``` 1 + 1 + 1 + 1 + 1 + 1 + 1 ```  |
 |                              | changes to ``` 1 + 1 + 1 + 1 + 1 + 1 + 1 ``` (Optional,    |
-|                              | defaults to '20'.)                                         |
+|                              | defaults to '0'.)                                          |
 |                              |                                                            |
 +------------------------------+------------------------------------------------------------+
 |                              |                                                            |
-| ``r_use_arrows``             | Determines if either the assign operator ``=`` or the      |
-|                              | arrow ``<-`` should be used.                               |
+| ``r_use_arrows``             | Determines whether the assignment operator ``=`` should be |
+|                              | replaced by an arrow ``<-`` or not.                        |
 |                              | Example: If  ``True``, ``x = 1`` changes to ``x <- 1``.    |
 |                              | (Optional, defaults to 'False'.)                           |
 |                              |                                                            |

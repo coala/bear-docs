@@ -18,10 +18,10 @@ on the analysis provided.
 Can Detect
 ----------
 
-* Code Duplication
+* Duplication
 * Formatting
+* Redundancy
 * Security
-* Simplification
 * Syntax
 * Unreachable Code
 * Unused Code

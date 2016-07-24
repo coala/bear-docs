@@ -21,7 +21,7 @@ Can Detect
 
 * Smell
 * Unreachable Code
-* Unused code
+* Unused Code
 
 License
 -------

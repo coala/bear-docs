@@ -20,8 +20,8 @@ Settings
 |                          |                                                             |
 +--------------------------+-------------------------------------------------------------+
 |                          |                                                             |
-| ``max_line_length``      | Maximum number of characters for a line. (Optional,         |
-|                          | defaults to '80'.)                                          |
+| ``max_line_length``      | Maximum number of characters for a line, the newline        |
+|                          | character being excluded. (Optional, defaults to '79'.)     |
 |                          |                                                             |
 +--------------------------+-------------------------------------------------------------+
 |                          |                                                             |
@@ -35,7 +35,6 @@ Can Detect
 ----------
 
 * Formatting
-* Simplification
 
 License
 -------

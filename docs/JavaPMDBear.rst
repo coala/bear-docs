@@ -87,8 +87,8 @@ Settings
 Can Detect
 ----------
 
+* Code Simplification
 * Duplication
-* Simplification
 * Smell
 * Unreachable Code
 

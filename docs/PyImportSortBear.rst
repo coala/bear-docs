@@ -189,13 +189,11 @@ Can Detect
 ----------
 
 * Formatting
-* Simplification
 
 Can Fix
 ----------
 
 * Formatting
-* Simplification
 
 License
 -------

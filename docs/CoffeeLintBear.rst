@@ -10,11 +10,215 @@ For more information about coffeelint, visit <http://www.coffeelint.org/>.
 
 * CoffeeScript
 
+Settings
+--------
+
++----------------------------------------------------+--------------------------------------------------------------+
+| Setting                                            |  Meaning                                                     |
++====================================================+==============================================================+
+|                                                    |                                                              |
+| ``allow_trailing_semicolons``                      | Prohibits trailing semicolons when ``False`` since they      |
+|                                                    | are not useful. The semicolon is meaningful only if there's  |
+|                                                    | another instruction on the same line.                        |
+|                                                    | Example: If ``allow_trailing_semicolon = False`` ``` x =     |
+|                                                    | '1234'; console.log(x) ``` Here the semicolon is             |
+|                                                    | meaningful. ``` alert('end of line'); ``` This semicolon is  |
+|                                                    | redundant. (Optional, defaults to 'False'.)                  |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``allow_trailing_whitespaces``                     | Checks whether to allow trailing whitespacess in the code    |
+|                                                    | or not. (Optional, defaults to 'False'.)                     |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``braces_spacing_width``                           | Determines the number of blank spaces after the opening      |
+|                                                    | ``{`` and before the closing brace ``}`` given that there    |
+|                                                    | is something within the braces. (Optional, defaults to '1'.) |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``check_braces_spacing``                           | Checks if proper spacing is used inside curly braces.        |
+|                                                    | (Optional, defaults to 'False'.)                             |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``class_naming_camelCase``                         | Checks whether the classes name should be in camel-case or   |
+|                                                    | not. (Optional, defaults to 'True'.)                         |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``consistent_line_endings_style``                  | The option to ``line_endings``, its value is either          |
+|                                                    | ``unix`` or ``windows``. (Optional, defaults to ''.)         |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``cyclomatic_complexity``                          | Maximum cyclomatic complexity of the file. (Optional,        |
+|                                                    | defaults to '0'.)                                            |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``disable_throwing_strings``                       | Disables throwing string literals or interpolation.          |
+|                                                    | Example: If ``disable_throwing_strings = True`` ``` throw    |
+|                                                    | 'my error' throw "#{1234}" ``` will not be permitted.        |
+|                                                    | (Optional, defaults to 'True'.)                              |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``enforce_newline_at_EOF``                         | Checks if the file ends with a single newline. (Optional,    |
+|                                                    | defaults to 'True'.)                                         |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``enforce_parentheses_on_non_empty_constructors``  | Requires constructors with parameters to include             |
+|                                                    | parentheses.                                                 |
+|                                                    | Example: ``` class Foo # Warn about missing parentheses      |
+|                                                    | here a = new Foo b = new bar.foo.Foo # The parentheses make  |
+|                                                    | it clear no parameters are intended c = new Foo() d = new    |
+|                                                    | bar.foo.Foo() e = new Foo 1, 2 f = new bar.foo.Foo 1, 2 ```  |
+|                                                    | (Optional, defaults to 'True'.)                              |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``max_line_length_affect_comments``                | Determines if ``max_line_length`` should also affects        |
+|                                                    | comments or not. (Optional, defaults to 'True'.)             |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``max_line_length``                                | Maximum number of characters per line. (Optional, defaults   |
+|                                                    | to '80'.)                                                    |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``no_decr_or_incrementation_operators``            | Prohibits the use of increment and decrement arithmetic      |
+|                                                    | operators. (Optional, defaults to 'False'.)                  |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``no_empty_functions``                             | Prohibits declaring empty functions. (Optional, defaults     |
+|                                                    | to 'False'.)                                                 |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``no_empty_parameter_list``                        | Prohibits empty parameter lists in function definitions.     |
+|                                                    | (Optional, defaults to 'False'.)                             |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``no_implicit_braces``                             | Prohibits implicit braces when declaring object literals.    |
+|                                                    | Example: If ``no_implicit_braces = True`` then ``` 1:2, 3:4  |
+|                                                    | ``` is prohibited, whereas ``` {1:2, 3:4} ``` is accepted.   |
+|                                                    | (Optional, defaults to 'False'.)                             |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``no_implicit_parentheses``                        | Prohibits implicit parentheses. (Optional, defaults to       |
+|                                                    | 'False'.)                                                    |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``no_interpolation_in_single_quotes``              | Prohibits string interpolation in a single quoted string.    |
+|                                                    | Example: If ``no_interpolation_in_single_quotes = True``     |
+|                                                    | then ``` f = '#{bar}' ``` is prohibited, whereas ``` f =     |
+|                                                    | "#{bar}" ``` is correct. (Optional, defaults to 'False'.)    |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``no_stand_alone_at_sign``                         | Prohibits the use of stand alone  ``@``.                     |
+|                                                    | Example: If ``no_stand_alone_at_sign = True`` ``` @ notok    |
+|                                                    | not(@).ok @:: ``` are prohibited, whereas ``` @alright       |
+|                                                    | @(fn) @ok() @[ok] @ok() ``` are accepted. (Optional,         |
+|                                                    | defaults to 'True'.)                                         |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``no_this``                                        | Prohibits ``this``. Use ``@`` instead. (Optional, defaults   |
+|                                                    | to 'False'.)                                                 |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``no_unnecessary_double_quotes``                   | Prohibits double quotes unless string interpolation is       |
+|                                                    | used or the strings contain single quotes. (Optional,        |
+|                                                    | defaults to 'False'.)                                        |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``number_of_newlines_after_classes``               | Determines the number of newlines that separate the class    |
+|                                                    | definition and the rest of the code. (Optional, defaults to  |
+|                                                    | '2'.)                                                        |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``prevent_duplicate_keys``                         | Prevents defining duplicate keys in object literals and      |
+|                                                    | classes. (Optional, defaults to 'True'.)                     |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``prohibit_embedding_javascript_snippet``          | Prevents some JavaScript elements like ``eval`` to affect    |
+|                                                    | CoffeeScript. (Optional, defaults to 'True'.)                |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``space_after_comma``                              | Checks if there is a blank space after commas. (Optional,    |
+|                                                    | defaults to 'True'.)                                         |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``space_before_and_after_arrow``                   | Determines if spaces should be used before and after the     |
+|                                                    | arrow. (Optional, defaults to 'True'.)                       |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``spaces_after_colon``                             | Determines the number of space after colon when              |
+|                                                    | ``spaces_before_and_after_colon == True``. (Optional,        |
+|                                                    | defaults to '1'.)                                            |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``spaces_around_operators``                        | Enforces that operators have spaces around them.             |
+|                                                    | (Optional, defaults to 'True'.)                              |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``spaces_before_and_after_colon``                  | Checks the number of spaces before and after colon.          |
+|                                                    | (Optional, defaults to 'False'.)                             |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``spaces_before_colon``                            | Determines the number of blank spaces before colon when      |
+|                                                    | ``spaces_before_and_after_colon == True``. (Optional,        |
+|                                                    | defaults to '0'.)                                            |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``spacing_in_empty_braces``                        | Determines the number of blank spaces after the opening      |
+|                                                    | ``{`` and before the closing brace ``}`` given empty         |
+|                                                    | content. (Optional, defaults to '0'.)                        |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``tab_width``                                      | Length of the tab for indentation. (Optional, defaults to    |
+|                                                    | '2'.)                                                        |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``use_english_operator``                           | Determines if ``and``, ``or``, ``is`` and ``isnt`` should    |
+|                                                    | be used instead of ``&&``, ``||``, ``==`` and ``!=``.        |
+|                                                    | (Optional, defaults to 'False'.)                             |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
+| ``use_spaces``                                     | Forbids tabs in indentation and applies two spaces for       |
+|                                                    | this purpose. (Optional, defaults to 'True'.)                |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
 
 
 Can Detect
 ----------
 
+* Complexity
+* Duplication
 * Formatting
 * Smell
 * Syntax

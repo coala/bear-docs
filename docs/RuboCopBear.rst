@@ -90,10 +90,6 @@ Settings
 |                                           |                                                             |
 +-------------------------------------------+-------------------------------------------------------------+
 |                                           |                                                             |
-| ``indentation_width``                     | No. of spaces to indent. (Optional, defaults to '2'.)       +
-|                                           |                                                             |
-+-------------------------------------------+-------------------------------------------------------------+
-|                                           |                                                             |
 | ``inspect_last_argument_hash``            | Select whether hashes that are the last argument in a       |
 |                                           | method call should be inspected. options:                   |
 |                                           | ``always_inspect``, ``always_ignore``, ``ignore_implicit``, |
@@ -168,6 +164,10 @@ Settings
 |                                           |                                                             |
 | ``string_literals``                       | Use ' or " as string literals. options: ``single_quotes``,  |
 |                                           | ``double_quotes``. (Optional, defaults to 'single_quotes'.) |
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``tab_width``                             | No. of spaces to indent. (Optional, defaults to '2'.)       +
 |                                           |                                                             |
 +-------------------------------------------+-------------------------------------------------------------+
 |                                           |                                                             |
