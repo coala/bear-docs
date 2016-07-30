@@ -14,6 +14,7 @@ All
 * `LineCountBear <docs/LineCountBear.rst>`_
 * `LineLengthBear <docs/LineLengthBear.rst>`_
 * `SpaceConsistencyBear <docs/SpaceConsistencyBear.rst>`_
+* `coalaBear <docs/coalaBear.rst>`_
 
 C
 =
@@ -214,7 +215,6 @@ Python
 * `PyLintBear <docs/PyLintBear.rst>`_
 * `PyUnusedCodeBear <docs/PyUnusedCodeBear.rst>`_
 * `RadonBear <docs/RadonBear.rst>`_
-* `YapfBear <docs/YapfBear.rst>`_
 
 Python 2
 ========
@@ -226,7 +226,6 @@ Python 2
 * `PyLintBear <docs/PyLintBear.rst>`_
 * `PyUnusedCodeBear <docs/PyUnusedCodeBear.rst>`_
 * `RadonBear <docs/RadonBear.rst>`_
-* `YapfBear <docs/YapfBear.rst>`_
 
 Python 3
 ========
@@ -238,7 +237,6 @@ Python 3
 * `PyLintBear <docs/PyLintBear.rst>`_
 * `PyUnusedCodeBear <docs/PyUnusedCodeBear.rst>`_
 * `RadonBear <docs/RadonBear.rst>`_
-* `YapfBear <docs/YapfBear.rst>`_
 
 R
 =

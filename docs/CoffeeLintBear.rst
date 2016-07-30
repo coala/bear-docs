@@ -17,6 +17,12 @@ Settings
 | Setting                                            |  Meaning                                                     |
 +====================================================+==============================================================+
 |                                                    |                                                              |
+| ``allow_bitwise_operators``                        | Determines if ``and``, ``or``, ``is`` and ``isnt`` should    |
+|                                                    | be used instead of ``&&``, ``||``, ``==`` and ``!=``.        |
+|                                                    | (Optional, defaults to 'True'.)                              |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
 | ``allow_trailing_semicolons``                      | Prohibits trailing semicolons when ``False`` since they      |
 |                                                    | are not useful. The semicolon is meaningful only if there's  |
 |                                                    | another instruction on the same line.                        |
@@ -80,6 +86,13 @@ Settings
 |                                                    |                                                              |
 +----------------------------------------------------+--------------------------------------------------------------+
 |                                                    |                                                              |
+| ``force_braces``                                   | Prohibits implicit braces when declaring object literals.    |
+|                                                    | Example: If ``force_braces = True`` then ``` 1:2, 3:4 ```    |
+|                                                    | is prohibited, whereas ``` {1:2, 3:4} ``` is accepted.       |
+|                                                    | (Optional, defaults to 'False'.)                             |
+|                                                    |                                                              |
++----------------------------------------------------+--------------------------------------------------------------+
+|                                                    |                                                              |
 | ``max_line_length_affect_comments``                | Determines if ``max_line_length`` should also affects        |
 |                                                    | comments or not. (Optional, defaults to 'True'.)             |
 |                                                    |                                                              |
@@ -101,13 +114,6 @@ Settings
 +----------------------------------------------------+--------------------------------------------------------------+
 |                                                    |                                                              |
 | ``no_empty_parameter_list``                        | Prohibits empty parameter lists in function definitions.     |
-|                                                    | (Optional, defaults to 'False'.)                             |
-|                                                    |                                                              |
-+----------------------------------------------------+--------------------------------------------------------------+
-|                                                    |                                                              |
-| ``no_implicit_braces``                             | Prohibits implicit braces when declaring object literals.    |
-|                                                    | Example: If ``no_implicit_braces = True`` then ``` 1:2, 3:4  |
-|                                                    | ``` is prohibited, whereas ``` {1:2, 3:4} ``` is accepted.   |
 |                                                    | (Optional, defaults to 'False'.)                             |
 |                                                    |                                                              |
 +----------------------------------------------------+--------------------------------------------------------------+
@@ -199,12 +205,6 @@ Settings
 |                                                    |                                                              |
 | ``tab_width``                                      | Length of the tab for indentation. (Optional, defaults to    |
 |                                                    | '2'.)                                                        |
-|                                                    |                                                              |
-+----------------------------------------------------+--------------------------------------------------------------+
-|                                                    |                                                              |
-| ``use_english_operator``                           | Determines if ``and``, ``or``, ``is`` and ``isnt`` should    |
-|                                                    | be used instead of ``&&``, ``||``, ``==`` and ``!=``.        |
-|                                                    | (Optional, defaults to 'False'.)                             |
 |                                                    |                                                              |
 +----------------------------------------------------+--------------------------------------------------------------+
 |                                                    |                                                              |

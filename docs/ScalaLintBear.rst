@@ -12,14 +12,14 @@ e.g. cyclomatic complexity.
 Settings
 --------
 
-+-----------------------+-----------------------------------------------------------------------+
-| Setting               |  Meaning                                                              |
-+=======================+=======================================================================+
-|                       |                                                                       |
-| ``scalalint_config``  | Path to a custom configuration file. (Optional, defaults to           |
-|                       | '/home/adhityaa/Code/coala-bears/bears/scala/scalastyle_config.xml'.) |
-|                       |                                                                       |
-+-----------------------+-----------------------------------------------------------------------+
++-----------------------+-------------------------------------------------------------------------+
+| Setting               |  Meaning                                                                |
++=======================+=========================================================================+
+|                       |                                                                         |
+| ``scalalint_config``  | Path to a custom configuration file. (Optional, defaults to             |
+|                       | '/home/karan/Work/gsoc/coala-bears/bears/scala/scalastyle_config.xml'.) |
+|                       |                                                                         |
++-----------------------+-------------------------------------------------------------------------+
 
 
 Can Detect

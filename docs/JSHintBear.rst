@@ -26,6 +26,11 @@ Settings
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
+| ``allow_bitwise_operators``           | Prohibits the use of bitwise operators when its value is     |
+|                                       | ``False``. (Optional, defaults to 'False'.)                  |
+|                                       |                                                              |
++---------------------------------------+--------------------------------------------------------------+
+|                                       |                                                              |
 | ``allow_debugger``                    | This option suppresses warnings about the ``debugger``       |
 |                                       | statements. (Optional, defaults to 'False'.)                 |
 |                                       |                                                              |
@@ -81,7 +86,7 @@ Settings
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
-| ``allow_missing_semicol``             | This option suppresses warnings about missing semicolons.    |
+| ``allow_missing_semicolon``           | This option suppresses warnings about missing semicolons.    |
 |                                       | (Optional, defaults to 'False'.)                             |
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
@@ -108,14 +113,14 @@ Settings
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
-| ``allow_this_stmt``                   | This option suppresses warnings about possible strict        |
+| ``allow_this_statements``             | This option suppresses warnings about possible strict        |
 |                                       | violations when the code is running in strict mode and       |
 |                                       | ``this`` is used in a non-constructor function. (Optional,   |
 |                                       | defaults to 'False'.)                                        |
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
-| ``allow_with_stmt``                   | This option suppresses warnings about the use of the         |
+| ``allow_with_statements``             | This option suppresses warnings about the use of the         |
 |                                       | ``with`` statement. (Optional, defaults to 'False'.)         |
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
@@ -280,19 +285,13 @@ Settings
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
+| ``max_parameters``                    | Maximum number of parameters allowed per function.           |
+|                                       | (Optional, defaults to 'False'.)                             |
+|                                       |                                                              |
++---------------------------------------+--------------------------------------------------------------+
+|                                       |                                                              |
 | ``maxdepth``                          | This option lets you control how nested do you want your     |
 |                                       | blocks to be. (Optional, defaults to 'False'.)               |
-|                                       |                                                              |
-+---------------------------------------+--------------------------------------------------------------+
-|                                       |                                                              |
-| ``maxerr``                            | This options allows you to set the maximum amount of         |
-|                                       | warnings JSHintBear will produce before giving up. Default   |
-|                                       | is 50. (Optional, defaults to '50'.)                         |
-|                                       |                                                              |
-+---------------------------------------+--------------------------------------------------------------+
-|                                       |                                                              |
-| ``maxparams``                         | Maximum number of formal parameters allowed per function.    |
-|                                       | (Optional, defaults to 'False'.)                             |
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
@@ -303,11 +302,6 @@ Settings
 |                                       |                                                              |
 | ``prohibit_arg``                      | This option prohibits the use of ``arguments.caller`` and    |
 |                                       | ``arguments.callee``. (Optional, defaults to 'True'.)        |
-|                                       |                                                              |
-+---------------------------------------+--------------------------------------------------------------+
-|                                       |                                                              |
-| ``prohibit_bitwise``                  | This option prohibits the use of bitwise operators.          |
-|                                       | (Optional, defaults to 'True'.)                              |
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |

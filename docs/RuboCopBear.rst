@@ -131,7 +131,7 @@ Settings
 |                                           |                                                             |
 +-------------------------------------------+-------------------------------------------------------------+
 |                                           |                                                             |
-| ``method_count_comments``                 | Whether or not to count full line comments while            |
+| ``method_length_count_comments``          | Whether or not to count full line comments while            |
 |                                           | calculating method length. (Optional, defaults to 'False'.) |
 |                                           |                                                             |
 +-------------------------------------------+-------------------------------------------------------------+
