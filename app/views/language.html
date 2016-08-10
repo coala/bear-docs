@@ -1,0 +1,54 @@
+<div class="row">
+    <form class="form-inline">
+        <input ng-model="query" type="text" placeholder="Search by name" autofocus>
+    </form>
+</div>
+
+<div class="row">
+    <a class="waves-effect waves-light btn">{{bearsTotal}} Total</a>
+    <br/>
+
+    <div ng-repeat="bear in bearslist | fuzzyBy: 'name': query">
+        <div class="col m6">
+            <div class="card blue-grey darken-1">
+                <div class="card-content white-text">
+                    <span class="card-title activator grey-text text-darken-4">{{bear.name}}<i ng-show="bear.REQUIREMENTS.length" class="material-icons right">more_vert</i></span>
+                    <p class="truncate">{{bear.metadata["desc"]}}</p>
+                    <br/>
+                    <br/>
+                    <a href="#/{{bear.name}}" class="btn-floating btn-large waves-effect waves-light red">
+                        <i class="material-icons">add</i>
+                    </a>
+
+                    <br/>
+                    <br/>
+
+                </div>
+                <div class="card-reveal" ng-show="bear.REQUIREMENTS.length">
+                    <span class="card-title grey-text text-darken-4">External Requirements<i class="material-icons right">close</i></span>
+                    <table class="highlight responsive-table">
+                        <thead>
+                            <tr>
+                                <th data-field="id">Manager</th>
+                                <th data-field="name">Package</th>
+                                <th data-field="price">Version</th>
+                            </tr>
+                        </thead>
+
+                        <tbody ng-repeat="req in bear.REQUIREMENTS">
+                            <tr>
+                                <td>{{req.manager}}</td>
+                                <td>{{req.package}}</td>
+                                <td>{{req.version}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+        <div ng-hide="bearsTotal">
+            <h3>No bears found.</h2>
+</div>
+</div>
+</div>
