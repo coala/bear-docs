@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="coalabearDocsApp">
+
+<head>
+    <base href="/">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <title>coala-bears Documentation</title>
+
+    <script src="https://use.fontawesome.com/663882be62.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext'>
+    <link rel='stylesheet' type='text/css' href='bower_components/materialize/dist/css/materialize.min.css'>
+    <link href="app/styles/main.css" rel="stylesheet">
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <style>
+        body {
+            font-family: Lato, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <nav id="logo" role="navigation">
+            <a href="#/" class="brand-logo center"> Documentation </a>
+        </nav>
+        <div class="section no-pad-bot" id="index-banner">
+            <div id="header" class="container">
+                <br>
+                <br>
+                <h1 class="header center">coala Bears</h1>
+                <div class="row center">
+                    <h5 class="header col s12">Documentation for all the bears that are officially supported by <a class=" pink-text" href="http://coala-analyzer.org/">coala.</a></h5>
+                </div>
+                <br>
+                <br>
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="container">
+            <div class="app-body" ng-view=""></div>
+        </div>
+    </div>
+</body>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="bower_components/materialize/dist/js/materialize.min.js"></script>
+<script src="bower_components/angular-filter/dist/angular-filter.min.js"></script>
+<script src="app/app.js"></script>
+<script src="app/controllers/bears.js"></script>
+<script src="app/controllers/detail.js"></script>
+<script src="app/controllers/language.js"></script>
+<script type="text/javascript">
+</script>
+</body>
+
+</html>
