@@ -1,0 +1,38 @@
+/* Custom Stylesheet */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+#index-banner{
+    background-image: url('../img/backgroundbears.png');
+    background-position:right top;
+}
+
+#header h1{
+    color:#bedede;
+}
+#header h5{
+    color:#c5b4b4;
+}
+#logo {
+    background-color: #000317;
+}
+#cardtitle{
+    color:white;
+}
+#lang{
+    color:#1d76c7;
+}
+#circle {
+    display: inline;
+    padding:4px;
+    margin-right:10px;
+    border-radius: 50%;
+    background-color: #1ea75c;
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+}
