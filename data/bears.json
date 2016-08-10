@@ -1,0 +1,5340 @@
+{
+  "bears": [
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Natural Language"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "npm",
+          "package": "alex",
+          "version": "2"
+        }
+      ],
+      "arguments": "{filename}",
+      "can_detect": [],
+      "data_dir": "/home/karan/.local/share/coala-bears/AlexBear",
+      "diff_message": "No result message was set",
+      "diff_severity": 1,
+      "executable": "alex",
+      "gives_corrected": false,
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Checks the markdown file with Alex - Catch insensitive, inconsiderate writing.",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "AlexBear",
+      "output_regex": "\\s+(?P<line>\\d+):(?P<column>\\d+)\\-(?P<end_line>\\d+):(?P<end_column>\\d+)\\s+(?:(warning))\\s+(?P<message>.+)",
+      "prerequisite_command": null,
+      "prerequisite_fail_msg": "Unknown failure.",
+      "severity_map": null,
+      "use_stderr": false,
+      "use_stdin": false
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [],
+      "can_detect": [],
+      "data_dir": "/home/karan/.local/share/coala-bears/AnnotationBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Finds out all the positions of strings and comments in a file. The Bear searches for valid comments and strings and yields their ranges as SourceRange objects in HiddenResults.",
+        "non_optional_params": [
+          {
+            "language": "Language to be whose annotations are to be searched."
+          }
+        ],
+        "optional_params": [
+          {
+            "coalang_dir": "external directory for coalang file. (Optional, defaults to 'None'.)"
+          }
+        ]
+      },
+      "name": "AnnotationBear"
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Formatting",
+        "Syntax"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "HTML"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "npm",
+          "package": "bootlint",
+          "version": "0"
+        }
+      ],
+      "can_detect": [
+        "Formatting",
+        "Syntax"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/BootLintBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Raise several common HTML mistakes in html files that are using\nBootstrap in a fairly \"vanilla\" way. Vanilla Bootstrap's components/widgets\nrequire their parts of the DOM to conform to certain structures that is\nchecked. Also, raises issues about certain <meta> tags, HTML5 doctype\ndeclaration, etc. to use bootstrap properly.\n\nFor more about the analysis, check Bootlint\n<https://github.com/twbs/bootlint#bootlint>.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "bootlint_ignore": "List of checkers to ignore. (Optional, defaults to '[]'.)"
+          }
+        ]
+      },
+      "name": "BootLintBear",
+      "process_output_args": {
+        "output_regex": ".+:(?P<line>\\d*):(?P<column>\\d*) (?P<severity>.)\\d+ (?P<message>.+)"
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Formatting",
+        "Syntax"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "CMake"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "pip",
+          "package": "cmakelint",
+          "version": "1.*"
+        }
+      ],
+      "can_detect": [
+        "Formatting",
+        "Syntax"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/CMakeLintBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Check CMake code for syntactical or formatting issues.\n\nFor more information consult <https://github.com/richq/cmake-lint>.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "cmakelint_config": "The location of the cmakelintrc config file. (Optional, defaults to ''.)"
+          }
+        ]
+      },
+      "name": "CMakeLintBear",
+      "process_output_args": {
+        "output_regex": ".+:(?P<line>\\d+): (?P<message>.*)"
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Duplication"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Python",
+        "Java",
+        "C++",
+        "Matlab",
+        "Scala",
+        "Fortran",
+        "JavaScript",
+        "Python 3",
+        "Octave",
+        "Swift",
+        "Objective-C",
+        "Python 2",
+        "Ruby",
+        "PHP",
+        "Go",
+        "PL/SQL",
+        "JSP",
+        "C#"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [],
+      "can_detect": [
+        "Duplication"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/CPDBear",
+      "language_dict": {
+        "C#": "cs",
+        "C++": "cpp",
+        "Fortran": "fortran",
+        "Go": "go",
+        "JSP": "jsp",
+        "Java": "java",
+        "JavaScript": "ecmascript",
+        "Matlab": "matlab",
+        "Objective-C": "objectivec",
+        "Octave": "matlab",
+        "PHP": "php",
+        "PL/SQL": "plsql",
+        "Python": "python",
+        "Python 2": "python",
+        "Python 3": "python",
+        "Ruby": "ruby",
+        "Scala": "scala",
+        "Swift": "swift"
+      },
+      "lowered_lang_dict": {
+        "c#": "cs",
+        "c++": "cpp",
+        "fortran": "fortran",
+        "go": "go",
+        "java": "java",
+        "javascript": "ecmascript",
+        "jsp": "jsp",
+        "matlab": "matlab",
+        "objective-c": "objectivec",
+        "octave": "matlab",
+        "php": "php",
+        "pl/sql": "plsql",
+        "python": "python",
+        "python 2": "python",
+        "python 3": "python",
+        "ruby": "ruby",
+        "scala": "scala",
+        "swift": "swift"
+      },
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Checks for similar code that looks as it could be replaced to reduce redundancy.\nFor more details see: <https://pmd.github.io/pmd-5.4.1/usage/cpd-usage.html>",
+        "non_optional_params": [
+          {
+            "language": " One of the supported languages of this bear."
+          }
+        ],
+        "optional_params": [
+          {
+            "minimum_tokens": " The minimum token length which should be reported as a duplicate. (Optional, defaults to '20'.)"
+          },
+          {
+            "ignore_annotations": " Ignore language annotations when comparing text. (Optional, defaults to 'False'.)"
+          },
+          {
+            "ignore_identifiers": " Ignore constant and variable names when comparing text. (Optional, defaults to 'True'.)"
+          },
+          {
+            "ignore_literals": " Ignore number values and string contents when comparing text. (Optional, defaults to 'False'.)"
+          },
+          {
+            "ignore_usings": " Ignore ``using`` directives in C#. (Optional, defaults to 'False'.)"
+          },
+          {
+            "skip_duplicate_files": " Ignore multiple copies of files of the same name and length in omparison. (Optional, defaults to 'True'.)"
+          }
+        ]
+      },
+      "name": "CPDBear"
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Security",
+        "Smell",
+        "Unused Code",
+        "Unreachable Code"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "C++",
+        "C"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "package": {
+            "apt": "cppcheck"
+          }
+        }
+      ],
+      "can_detect": [
+        "Security",
+        "Smell",
+        "Unused Code",
+        "Unreachable Code"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/CPPCheckBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Report possible security weaknesses for C/C++.\nFor more information, consult <https://github.com/danmar/cppcheck>.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "enable": " Choose specific issues to report. Issues that can be reported are: all, warning, style, performance, portability, information, unusedFunction, missingInclude (Optional, defaults to '[]'.)"
+          }
+        ]
+      },
+      "name": "CPPCheckBear",
+      "process_output_args": {
+        "output_regex": "(?P<line>\\d+):(?P<severity>[a-zA-Z]+):(?P<origin>[a-zA-Z]+):(?P<message>.*)",
+        "severity_map": {
+          "error": 2,
+          "style": 0,
+          "warning": 1
+        }
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Security",
+        "Smell",
+        "Unused Code"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "C++"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "pip",
+          "package": "cppclean",
+          "version": "0.9.*"
+        }
+      ],
+      "can_detect": [
+        "Security",
+        "Smell",
+        "Unused Code"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/CPPCleanBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Find problems in C++ source code that slow down development in large code\nbases. This includes finding unused code, among other features.\n\nRead more about available routines at\n<https://github.com/myint/cppclean#features>.",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "CPPCleanBear",
+      "process_output_args": {
+        "output_regex": ".+:(?P<line>\\d+):(?P<message>.*)"
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Formatting"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "C++"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "pip",
+          "package": "cpplint",
+          "version": "1.*"
+        }
+      ],
+      "can_detect": [
+        "Formatting"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/CPPLintBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Check C++ code for Google's C++ style guide.\n\nFor more information, consult <https://github.com/theandrewdavis/cpplint>.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "cpplint_ignore": "List of checkers to ignore. (Optional, defaults to '()'.)"
+          },
+          {
+            "max_line_length": "Maximum number of characters for a line. (Optional, defaults to '80'.)"
+          },
+          {
+            "cpplint_include": "List of checkers to explicitly enable. (Optional, defaults to '()'.)"
+          }
+        ]
+      },
+      "name": "CPPLintBear",
+      "process_output_args": {
+        "output_regex": ".+:(?P<line>\\d+): (?P<message>.+)"
+      }
+    },
+    {
+      "ASCIINEMA_URL": "https://asciinema.org/a/40093",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [],
+      "CAN_FIX": [
+        "Formatting",
+        "Syntax"
+      ],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "CSS"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "npm",
+          "package": "postcss-cli",
+          "version": "2"
+        },
+        {
+          "manager": "npm",
+          "package": "autoprefixer",
+          "version": "6"
+        }
+      ],
+      "can_detect": [
+        "Formatting",
+        "Syntax"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/CSSAutoPrefixBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "This bear adds vendor prefixes to CSS rules using ``autoprefixer`` utility.",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "CSSAutoPrefixBear",
+      "process_output_args": {
+        "result_message": "Add vendor prefixes to CSS rules."
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Code Simplification",
+        "Syntax"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "CSS"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "npm",
+          "package": "csslint",
+          "version": "0"
+        }
+      ],
+      "can_detect": [
+        "Code Simplification",
+        "Syntax"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/CSSLintBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Check code for syntactical or semantical problems that might lead to\nproblems or inefficiencies.",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "CSSLintBear",
+      "process_output_args": {
+        "output_regex": ".+: *(?:line (?P<line>\\d+), col (?P<column>\\d+), )?(?P<severity>Error|Warning) - (?P<message>.*)"
+      }
+    },
+    {
+      "ASCIINEMA_URL": "https://asciinema.org/a/7z8ol9mpsgtuo1096c6jk8hi6",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Security",
+        "Code Simplification",
+        "Memory Leak"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "C++",
+        "C"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "package": {
+            "apt": "flawfinder"
+          }
+        }
+      ],
+      "can_detect": [
+        "Security",
+        "Code Simplification",
+        "Memory Leak"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/CSecurityBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Report possible security weaknesses for C/C++.\n\nFor more information, consult <http://www.dwheeler.com/flawfinder/>.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "neverignore": " Never ignore security issues, even if they have an ``ignore'' directive in a comment. (Optional, defaults to 'False'.)"
+          }
+        ]
+      },
+      "name": "CSecurityBear",
+      "process_output_args": {
+        "output_regex": ".+:(?P<line>\\d+):(?P<column>\\d+):\\s*\\[(?P<severity>\\d)\\]\\s*\\((?P<origin>.+)\\) (?P<message>.+)",
+        "severity_map": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 1,
+          "5": 2
+        }
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Syntax"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "C#"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "package": {
+            "apt": "mono-mcs"
+          }
+        }
+      ],
+      "can_detect": [
+        "Syntax"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/CSharpLintBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Checks C# code for syntactical correctness using the ``mcs`` compiler.",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "CSharpLintBear",
+      "process_output_args": {
+        "output_regex": ".+\\((?P<line>\\d+),(?P<column>\\d+)\\): (?P<severity>error|warning) \\w+: (?P<message>.+)"
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Smell",
+        "Formatting"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Java"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [],
+      "can_detect": [
+        "Smell",
+        "Formatting"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/CheckstyleBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Check Java code for possible style, semantic and design issues.\n\nFor more information, consult\n<http://checkstyle.sourceforge.net/checks.html>.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "checkstyle_configs": " A file containing configs to use in ``checkstyle``. It can also have the special values:\n- google - Google's Java style. More info at <http://checkstyle.sourceforge.net/style_configs.html>. - sun - Sun's Java style. These are the same as the default Eclipse checks. More info at <http://checkstyle.sourceforge.net/style_configs.html>. - android-check-easy - The easy Android configs provided by the android-check eclipse plugin. More info at <https://github.com/noveogroup/android-check>. - android-check-hard - The hard Android confis provided by the android-check eclipse plugin. More info at <https://github.com/noveogroup/android-check>. - geosoft - The Java style followed by GeoSoft. More info at <http://geosoft.no/development/javastyle.html> (Optional, defaults to 'google'.)"
+          }
+        ]
+      },
+      "name": "CheckstyleBear",
+      "process_output_args": {
+        "output_regex": "\\[(?P<severity>WARN|INFO)\\].*?(?P<line>\\d+):?(?P<column>\\d+)?. (?P<message>.*?) *\\[(?P<origin>[a-zA-Z]+?)\\]"
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [],
+      "AUTHORS_EMAILS": [],
+      "CAN_DETECT": [],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "CUDA",
+        "OpenCL",
+        "C++",
+        "Objective-C++",
+        "Objective-C",
+        "OpenMP",
+        "C"
+      ],
+      "LICENSE": "",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "pip",
+          "package": "libclang-py3",
+          "version": "0.2"
+        }
+      ],
+      "can_detect": [],
+      "data_dir": "/home/karan/.local/share/coala-bears/ClangASTPrintBear",
+      "maintainers": [],
+      "maintainers_emails": [],
+      "metadata": {
+        "desc": "This bear is meant for debugging purposes relating to clang. It just prints out the whole AST for a file to the DEBUG channel.",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "ClangASTPrintBear"
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [],
+      "CAN_FIX": [
+        "Variable Misuse",
+        "Syntax"
+      ],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "CUDA",
+        "OpenCL",
+        "C++",
+        "Objective-C++",
+        "Objective-C",
+        "OpenMP",
+        "C"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "pip",
+          "package": "libclang-py3",
+          "version": "0.2"
+        }
+      ],
+      "can_detect": [
+        "Variable Misuse",
+        "Syntax"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/ClangBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Check code for syntactical or semantical problems using Clang.\nThis bear supports automatic fixes.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "clang_cli_options": "Any options that will be passed through to Clang. (Optional, defaults to 'None'.)"
+          }
+        ]
+      },
+      "name": "ClangBear"
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [],
+      "AUTHORS_EMAILS": [],
+      "CAN_DETECT": [
+        "Duplication"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "CUDA",
+        "OpenCL",
+        "C++",
+        "Objective-C++",
+        "Objective-C",
+        "OpenMP",
+        "C"
+      ],
+      "LICENSE": "",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "pip",
+          "package": "libclang-py3",
+          "version": "0.2"
+        }
+      ],
+      "can_detect": [
+        "Duplication"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/ClangCloneDetectionBear",
+      "maintainers": [],
+      "maintainers_emails": [],
+      "metadata": {
+        "desc": "Checks the given code for similar functions that are probably redundant.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "max_clone_difference": "The maximum difference a clone should have. (Optional, defaults to '0.185'.)"
+          }
+        ]
+      },
+      "name": "ClangCloneDetectionBear"
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Complexity"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "CUDA",
+        "OpenCL",
+        "C++",
+        "Objective-C++",
+        "Objective-C",
+        "OpenMP",
+        "C"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "pip",
+          "package": "libclang-py3",
+          "version": "0.2"
+        }
+      ],
+      "can_detect": [
+        "Complexity"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/ClangComplexityBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Check for all functions if they are too complicated using the cyclomatic complexity metric.\nYou can read more about this metric at <https://www.wikiwand.com/en/Cyclomatic_complexity>.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "cyclomatic_complexity": "Maximum cyclomatic complexity that is considered to be normal. The value of 10 had received substantial corroborating evidence. But the general recommendation: \"For each module, either limit cyclomatic complexity to [the agreed-upon limit] or provide a written explanation of why the limit was exceeded.\" (Optional, defaults to '8'.)"
+          }
+        ]
+      },
+      "name": "ClangComplexityBear"
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [],
+      "AUTHORS_EMAILS": [],
+      "CAN_DETECT": [],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "CUDA",
+        "OpenCL",
+        "C++",
+        "Objective-C++",
+        "Objective-C",
+        "OpenMP",
+        "C"
+      ],
+      "LICENSE": "",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "pip",
+          "package": "libclang-py3",
+          "version": "0.2"
+        }
+      ],
+      "can_detect": [],
+      "data_dir": "/home/karan/.local/share/coala-bears/ClangFunctionDifferenceBear",
+      "maintainers": [],
+      "maintainers_emails": [],
+      "metadata": {
+        "desc": "Retrieves similarities for code clone detection. Those can be reused in another bear to produce results.\nPostprocessing may be done because small functions are less likely to be clones at the same difference value than big functions which may provide a better refactoring opportunity for the user.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "counting_conditions": "A comma seperated list of counting conditions. Possible values are: used, returned, is_condition, in_condition, in_second_level_condition, in_third_level_condition, is_assignee, is_assigner, loop_content, second_level_loop_content, third_level_loop_content, is_param, in_sum, in_product, in_binary_operation, member_accessed. Weightings can be assigned to each condition due to providing a dict value, i.e. having used weighted in half as much as other conditions would simply be: \"used: 0.5, is_assignee\". Weightings default to 1 if unset. (Optional, defaults to 'OrderedDict([(<function used at 0x7fcc71f02950>, 0.0), (<function returned at 0x7fcc71f029d8>, 1.4), (<function is_condition at 0x7fcc71f02ae8>, 0.0), (<function in_condition at 0x7fcc71f02b70>, 1.4), (<function in_second_level_condition at 0x7fcc71f02bf8>, 1.4), (<function in_third_level_condition at 0x7fcc71f02c80>, 1.0), (<function is_assignee at 0x7fcc71f02d08>, 0.0), (<function is_assigner at 0x7fcc71f02d90>, 0.6), (<function loop_content at 0x7fcc71f02ea0>, 0.0), (<function second_level_loop_content at 0x7fcc71f02f28>, 1), (<function third_level_loop_content at 0x7fcc71f05048>, 1), (<function is_param at 0x7fcc71f050d0>, 2.0), (<function is_called at 0x7fcc71f05158>, 1.4), (<function is_call_param at 0x7fcc71f051e0>, 0.0), (<function in_sum at 0x7fcc71f02730>, 2.0), (<function in_product at 0x7fcc71f027b8>, 0.0), (<function in_binary_operation at 0x7fcc71f02840>, 1), (<function member_accessed at 0x7fcc71f028c8>, 1)])'.)"
+          },
+          {
+            "average_calculation": "If set to true the difference calculation function will take the average of all variable differences as the difference, else it will normalize the function as a whole and thus weighting in variables dependent on their size. (Optional, defaults to 'False'.)"
+          },
+          {
+            "poly_postprocessing": "If set to true, the difference value of big function pairs will be reduced using a polynomial approach. (Optional, defaults to 'True'.)"
+          },
+          {
+            "exp_postprocessing": "If set to true, the difference value of big function pairs will be reduced using an exponential approach. (Optional, defaults to 'False'.)"
+          },
+          {
+            "extra_include_paths": "A list containing additional include paths. (Optional, defaults to '()'.)"
+          }
+        ]
+      },
+      "name": "ClangFunctionDifferenceBear"
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Smell",
+        "Complexity",
+        "Formatting",
+        "Duplication",
+        "Syntax"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "CoffeeScript"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "npm",
+          "package": "coffeelint",
+          "version": "1"
+        }
+      ],
+      "can_detect": [
+        "Smell",
+        "Complexity",
+        "Formatting",
+        "Duplication",
+        "Syntax"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/CoffeeLintBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Check CoffeeScript code for a clean and consistent style.\n\nFor more information about coffeelint, visit <http://www.coffeelint.org/>.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "allow_throwing_strings": " Allows throwing string literals or interpolation.\nExample: If ``allow_throwing_strings = False`` ``` throw 'my error' throw \"#{1234}\" ``` will not be permitted. (Optional, defaults to 'False'.)"
+          },
+          {
+            "space_before_and_after_arrow": " Determines if spaces should be used before and after the arrow. (Optional, defaults to 'True'.)"
+          },
+          {
+            "allow_empty_functions": " Allows declaring empty functions. (Optional, defaults to 'False'.)"
+          },
+          {
+            "spaces_before_colon": " Determines the number of blank spaces before colon when ``spaces_before_and_after_colon == True``. (Optional, defaults to '0'.)"
+          },
+          {
+            "allow_interpolation_in_single_quotes": " Allows string interpolation in a single quoted string.\nExample: If ``allow_interpolation_in_single_quotes = False`` then ``` f = '#{bar}' ``` is prohibited, whereas ``` f = \"#{bar}\" ``` is correct. (Optional, defaults to 'True'.)"
+          },
+          {
+            "spaces_around_operators": " Enforces that operators have spaces around them. (Optional, defaults to 'True'.)"
+          },
+          {
+            "prohibit_embedding_javascript_snippet": " Prevents some JavaScript elements like ``eval`` to affect CoffeeScript. (Optional, defaults to 'True'.)"
+          },
+          {
+            "tab_width": " Length of the tab for indentation. (Optional, defaults to '2'.)"
+          },
+          {
+            "spaces_before_and_after_colon": " Checks the number of spaces before and after colon. (Optional, defaults to 'False'.)"
+          },
+          {
+            "enforce_parentheses_on_non_empty_constructors": " Requires constructors with parameters to include parentheses.\nExample: ``` class Foo # Warn about missing parentheses here a = new Foo b = new bar.foo.Foo # The parentheses make it clear no parameters are intended c = new Foo() d = new bar.foo.Foo() e = new Foo 1, 2 f = new bar.foo.Foo 1, 2 ``` (Optional, defaults to 'True'.)"
+          },
+          {
+            "consistent_line_endings_style": " The option to ``line_endings``, its value is either ``unix`` or ``windows``. (Optional, defaults to ''.)"
+          },
+          {
+            "allow_stand_alone_at_sign": " Allows the use of stand alone  ``@``.\nExample: If ``allow_stand_alone_at_sign = False`` ``` @ notok not(@).ok @:: ``` are prohibited, whereas ``` @alright @(fn) @ok() @[ok] @ok() ``` are accepted. (Optional, defaults to 'False'.)"
+          },
+          {
+            "allow_trailing_semicolons": " Prohibits trailing semicolons when ``False`` since they are not useful. The semicolon is meaningful only if there's another instruction on the same line.\nExample: If ``allow_trailing_semicolon = False`` ``` x = '1234'; console.log(x) ``` Here the semicolon is meaningful. ``` alert('end of line'); ``` This semicolon is redundant. (Optional, defaults to 'False'.)"
+          },
+          {
+            "max_line_length": " Maximum number of characters per line. (Optional, defaults to '80'.)"
+          },
+          {
+            "allow_unnecessary_double_quotes": " Allows enclosing strings in double quotes. (Optional, defaults to 'True'.)"
+          },
+          {
+            "space_after_comma": " Checks if there is a blank space after commas. (Optional, defaults to 'True'.)"
+          },
+          {
+            "prevent_duplicate_keys": " Prevents defining duplicate keys in object literals and classes. (Optional, defaults to 'True'.)"
+          },
+          {
+            "number_of_newlines_after_classes": " Determines the number of newlines that separate the class definition and the rest of the code. (Optional, defaults to '2'.)"
+          },
+          {
+            "allow_bitwise_operators": " Determines if ``and``, ``or``, ``is`` and ``isnt`` should be used instead of ``&&``, ``||``, ``==`` and ``!=``. (Optional, defaults to 'True'.)"
+          },
+          {
+            "spaces_after_colon": " Determines the number of space after colon when ``spaces_before_and_after_colon == True``. (Optional, defaults to '1'.)"
+          },
+          {
+            "use_spaces": " Forbids tabs in indentation and applies two spaces for this purpose. (Optional, defaults to 'True'.)"
+          },
+          {
+            "allow_increment": " Allows the use of increment and decrement arithmetic operators. (Optional, defaults to 'True'.)"
+          },
+          {
+            "cyclomatic_complexity": " Maximum cyclomatic complexity of the file. (Optional, defaults to '0'.)"
+          },
+          {
+            "spacing_in_empty_braces": " Determines the number of blank spaces after the opening ``{`` and before the closing brace ``}`` given empty content. (Optional, defaults to '0'.)"
+          },
+          {
+            "braces_spacing_width": " Determines the number of blank spaces after the opening ``{`` and before the closing brace ``}`` given that there is something within the braces. (Optional, defaults to '1'.)"
+          },
+          {
+            "allow_this_statements": " Allows the use of ``this``. ``@`` should be used if ``False``. (Optional, defaults to 'True'.)"
+          },
+          {
+            "check_braces_spacing": " Checks if proper spacing is used inside curly braces. (Optional, defaults to 'False'.)"
+          },
+          {
+            "enforce_newline_at_EOF": " Checks if the file ends with a single newline. (Optional, defaults to 'True'.)"
+          },
+          {
+            "class_naming_camelCase": " Checks whether the classes name should be in camel-case or not. (Optional, defaults to 'True'.)"
+          },
+          {
+            "allow_trailing_whitespaces": " Checks whether to allow trailing whitespacess in the code or not. (Optional, defaults to 'False'.)"
+          },
+          {
+            "force_braces": " Prohibits implicit braces when declaring object literals.\nExample: If ``force_braces = True`` then ``` 1:2, 3:4 ``` is prohibited, whereas ``` {1:2, 3:4} ``` is accepted. (Optional, defaults to 'False'.)"
+          },
+          {
+            "allow_implicit_parentheses": " Allows implicit parentheses. (Optional, defaults to 'True'.)"
+          },
+          {
+            "max_line_length_affect_comments": " Determines if ``max_line_length`` should also affects comments or not. (Optional, defaults to 'True'.)"
+          },
+          {
+            "allow_no_parameters": " Allows empty parameter lists in function definitions. (Optional, defaults to 'True'.)"
+          }
+        ]
+      },
+      "name": "CoffeeLintBear",
+      "severity_map": {
+        "error": 2,
+        "ignore": 0,
+        "warn": 1
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Formatting",
+        "Syntax"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Dart"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [],
+      "can_detect": [
+        "Formatting",
+        "Syntax"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/DartLintBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Checks the code with ``dart-linter``.\n\nThis bear expects dart commands to be on your ``PATH``. Please ensure\n/path/to/dart-sdk/bin is in your ``PATH``.",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "DartLintBear",
+      "process_output_args": {
+        "output_regex": "\\[(?P<severity>error|warning)\\] (?P<message>.+)\\(.+, line (?P<line>\\d+), col (?P<column>\\d+)\\)"
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Smell",
+        "Syntax"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Dockerfile"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "npm",
+          "package": "dockerfile_lint",
+          "version": "0"
+        }
+      ],
+      "can_detect": [
+        "Smell",
+        "Syntax"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/DockerfileLintBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Check file syntax as well as arbitrary semantic and best practice\nin Dockerfiles. it also checks LABEL rules against docker images.\n\nUses ``dockerfile_lint`` to provide the analysis.\nSee <https://github.com/projectatomic/dockerfile_lint#dockerfile-lint> for\nmore information .",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "DockerfileLintBear",
+      "severity_map": {
+        "error": 2,
+        "info": 0,
+        "warn": 1
+      }
+    },
+    {
+      "ASCIINEMA_URL": "https://asciinema.org/a/38739",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Syntax"
+      ],
+      "CAN_FIX": [
+        "Formatting"
+      ],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "JavaScript",
+        "JSX"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "npm",
+          "package": "eslint",
+          "version": "2"
+        }
+      ],
+      "can_detect": [
+        "Formatting",
+        "Syntax"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/ESLintBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Check JavaScript and JSX code for style issues and semantic errors.\n\nFind out more at <http://eslint.org/docs/rules/>.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "eslint_config": "The location of the .eslintrc config file. (Optional, defaults to ''.)"
+          }
+        ]
+      },
+      "name": "ESLintBear",
+      "severity_map": {
+        "0": 0,
+        "1": 1,
+        "2": 2
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "All"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [],
+      "can_detect": [],
+      "data_dir": "/home/karan/.local/share/coala-bears/FilenameBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Checks whether the filename follows a certain naming-convention.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "file_naming_convention": " The naming-convention. Supported values are: - ``camel`` (``thisIsCamelCase``) - ``pascal`` (``ThisIsPascalCase``) - ``snake`` (``this_is_snake_case``) (Optional, defaults to 'snake'.)"
+          }
+        ]
+      },
+      "name": "FilenameBear"
+    },
+    {
+      "ASCIINEMA_URL": "https://asciinema.org/a/0y0oxtak18v492jdyfqwpw1n4",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [],
+      "CAN_FIX": [
+        "Formatting"
+      ],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "R"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "flag": "-e",
+          "manager": "R",
+          "package": "formatR",
+          "repo": "http://cran.rstudio.com",
+          "version": ""
+        }
+      ],
+      "can_detect": [
+        "Formatting"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/FormatRBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Check and correct formatting of R Code using known formatR utility.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "r_keep_blank_lines": " Determines whether blank lines are kept or not. (Optional, defaults to 'True'.)"
+          },
+          {
+            "r_max_expression_length": " Maximum number of characters for an expression.\nExample: If ``20`` then ``` 1 + 1 + 1 + 1 + 1 + 1 + 1 ``` changes to ``` 1 + 1 + 1 + 1 + 1 + 1 + 1 ``` (Optional, defaults to '0'.)"
+          },
+          {
+            "r_braces_on_next_line": " Determines whether a brace should be placed on the next line.\nExample: If ``True``, ``` if (...) { ``` changes to ``` if (...) { ``` If ``False`` the brace is placed on the same line. (Optional, defaults to 'False'.)"
+          },
+          {
+            "r_use_arrows": " Determines whether the assignment operator ``=`` should be replaced by an arrow ``<-`` or not.\nExample: If  ``True``, ``x = 1`` changes to ``x <- 1``. (Optional, defaults to 'False'.)"
+          },
+          {
+            "tab_width": " Number of spaces for indentation. (Optional, defaults to '4'.)"
+          },
+          {
+            "r_keep_comments": " Determines whether comments are kept or not. (Optional, defaults to 'True'.)"
+          }
+        ]
+      },
+      "name": "FormatRBear",
+      "process_output_args": {}
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [],
+      "CAN_FIX": [
+        "Formatting"
+      ],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "C++",
+        "C"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "package": {
+            "apt": "indent"
+          }
+        }
+      ],
+      "can_detect": [
+        "Formatting"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/GNUIndentBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "This bear checks and corrects spacing and indentation via the well known\nIndent utility.\n\nC++ support is considered experimental.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "brace_indent": " Specifies the number of spaces by which braces are indented. Its default value is 2. (Optional, defaults to '2'.)"
+          },
+          {
+            "braces_on_if_line": " Puts the brace ``{`` on same line with if.\nExample: If ``braces_on_if_line = True``  then ``` if (x > 0) { ``` changes to ``` if (x > 0) { ``` (Optional, defaults to 'False'.)"
+          },
+          {
+            "cuddle_else": " Cuddle else and preceding ``}``.\nExample: If ``cuddle_else = True`` then ``` if (...) { .... } else { ``` changes to ``` if (...) { .... } else { ```\n (Optional, defaults to 'False'.)"
+          },
+          {
+            "braces_on_func_def_line": " Puts the brace `{` on same line with the function declaration. (Optional, defaults to 'False'.)"
+          },
+          {
+            "while_and_brace_on_same_line": " Cuddles while of ``do {} while``; and preceding ``}``. (Optional, defaults to 'False'.)"
+          },
+          {
+            "blank_lines_after_procedures": " Force blank lines after procedure bodies. (Optional, defaults to 'False'.)"
+          },
+          {
+            "case_indentation": " Specifies the number of spaces by which ``case`` in the ``switch`` are indented. (Optional, defaults to '0'.)"
+          },
+          {
+            "declaration_indent": " Forces variables names to be aligned in column ``n`` with ``n = declaration_indent``  in declaration.\nExample: If ``declaration_indent = 8`` then, ``` int a; float b; ``` changes to ``` int     a; float   b; ``` (Optional, defaults to '0'.)"
+          },
+          {
+            "linux_style": " Uses Linux coding style. (Optional, defaults to 'False'.)"
+          },
+          {
+            "blank_lines_after_commas": " Forces newline after comma in declaration.\nExample: If ``blank_lines_after_commas = True`` then ``` int a, b; ``` changes to ``` int a, b; ``` (Optional, defaults to 'False'.)"
+          },
+          {
+            "tab_width": " Number of spaces per indent level. (Optional, defaults to '4'.)"
+          },
+          {
+            "gnu_style": " Uses GNU coding style. (Optional, defaults to 'False'.)"
+          },
+          {
+            "space_before_semicolon_after_empty_loop": " Forces a blank before the semicolon ``;`` on one-line ``for`` and ``while`` statements. (Optional, defaults to 'True'.)"
+          },
+          {
+            "delete_optional_blank_lines": " Deletes blank lines that are not needed. An example of needed blank line, is the blank line following a declaration when ``blank_line_after_declaration=True``. (Optional, defaults to 'True'.)"
+          },
+          {
+            "use_spaces": " True if spaces are to be used, else tabs. (Optional, defaults to 'True'.)"
+          },
+          {
+            "indent_cli_options": " Any command line options the indent binary understands. They will be simply passed through. (Optional, defaults to ''.)"
+          },
+          {
+            "max_line_length": " Maximum number of characters for a line. (Optional, defaults to '80'.)"
+          },
+          {
+            "blank_lines_after_declarations": " Forces blank lines after the declarations.\nExample: If ``blank_lines_after_declarations = True`` then ``` int a; return ...; ``` changes to ``` int a;\nreturn ...; ```\n (Optional, defaults to 'False'.)"
+          },
+          {
+            "k_and_r_style": " Uses Kernighan & Ritchie coding style. (Optional, defaults to 'False'.)"
+          }
+        ]
+      },
+      "name": "GNUIndentBear",
+      "process_output_args": {
+        "result_message": "Indentation can be improved."
+      }
+    },
+    {
+      "ASCIINEMA_URL": "https://asciinema.org/a/e146c9739ojhr8396wedsvf0d",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Formatting"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Git"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "pip",
+          "package": "nltk",
+          "version": "3.1.*"
+        }
+      ],
+      "can_detect": [
+        "Formatting"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/GitCommitBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Checks the given commit body.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "body_line_length": "The maximum line-length of the body. The newline character at each line end does not count to the length. (Optional, defaults to '72'.)"
+          },
+          {
+            "force_body": "Whether a body shall exist or not. (Optional, defaults to 'False'.)"
+          },
+          {
+            "shortlog_imperative_check": "No description given. (Optional, defaults to 'True'.)"
+          },
+          {
+            "allow_empty_commit_message": "Whether empty commit messages are allowed or not. (Optional, defaults to 'False'.)"
+          },
+          {
+            "shortlog_wip_check": "Whether a \"WIP\" in the shortlog text should yield a result or not. (Optional, defaults to 'True'.)"
+          },
+          {
+            "shortlog_length": "The maximum length of the shortlog. The newline character at end does not count to the length. (Optional, defaults to '50'.)"
+          },
+          {
+            "shortlog_trailing_period": "Whether a dot shall be enforced at end end or not (or ``None`` for \"don't care\"). (Optional, defaults to 'None'.)"
+          },
+          {
+            "shortlog_regex": "No description given. (Optional, defaults to ''.)"
+          }
+        ]
+      },
+      "name": "GitCommitBear"
+    },
+    {
+      "ASCIINEMA_URL": "https://asciinema.org/a/46834",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Syntax"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Go"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "flag": "-u",
+          "manager": "go",
+          "package": "github.com/kisielk/errcheck",
+          "version": ""
+        }
+      ],
+      "can_detect": [
+        "Syntax"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/GoErrCheckBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Checks the code for all function calls that have unchecked errors.\nGoErrCheckBear runs ``errcheck`` over each file to find such functions.\n\nFor more information on the analysis visit <https://github.com/kisielk/errcheck>.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "blank": "Enables checking for assignments of errors to the blank identifier. (Optional, defaults to 'False'.)"
+          },
+          {
+            "ignorepkg": "Takes a comma-separated list of package import paths to ignore. (Optional, defaults to '[]'.)"
+          },
+          {
+            "ignore": "Comma-separated list of pairs of the form package:regex. For each package, the regex describes which functions to ignore within that package. The package may be omitted to have the regex apply to all packages. (Optional, defaults to '[]'.)"
+          },
+          {
+            "asserts": "Enables checking for ignored type assertion results (Optional, defaults to 'False'.)"
+          }
+        ]
+      },
+      "name": "GoErrCheckBear",
+      "process_output_args": {
+        "output_regex": "([^:]+):(?P<line>\\d+):(?P<column>\\d+)\\s*(?P<message>.*)",
+        "result_message": "This function call has an unchecked error."
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [],
+      "CAN_FIX": [
+        "Missing import"
+      ],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Go"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "flag": "-u",
+          "manager": "go",
+          "package": "golang.org/x/tools/cmd/goimports",
+          "version": ""
+        }
+      ],
+      "can_detect": [
+        "Missing import"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/GoImportsBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Adds/Removes imports to Go code for missing imports.",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "GoImportsBear",
+      "process_output_args": {
+        "result_message": "Imports need to be added/removed."
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Formatting"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Go"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "flag": "-u",
+          "manager": "go",
+          "package": "github.com/golang/lint/golint",
+          "version": ""
+        }
+      ],
+      "can_detect": [
+        "Formatting"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/GoLintBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Checks the code using ``golint``. This will run golint over each file\nseparately.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "golint_cli_options": "Any other flags you wish to pass to golint. (Optional, defaults to ''.)"
+          }
+        ]
+      },
+      "name": "GoLintBear",
+      "process_output_args": {
+        "output_regex": ".+:(?P<line>\\d+):(?P<column>\\d+): (?P<message>.*)"
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [],
+      "CAN_FIX": [
+        "Security"
+      ],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Go"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "flag": "-u",
+          "manager": "go",
+          "package": "sourcegraph.com/sqs/goreturns",
+          "version": ""
+        }
+      ],
+      "can_detect": [
+        "Security"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/GoReturnsBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Proposes corrections of Go code using ``goreturns``.",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "GoReturnsBear",
+      "process_output_args": {
+        "result_message": "Imports or returns need to be added/removed."
+      }
+    },
+    {
+      "ASCIINEMA_URL": "https://asciinema.org/a/40055",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Syntax"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Go"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "flag": "-u",
+          "manager": "go",
+          "package": "golang.org/x/tools/cmd/gotype",
+          "version": ""
+        }
+      ],
+      "can_detect": [
+        "Syntax"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/GoTypeBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Checks the code using ``gotype``. This will run ``gotype`` over each file\nseparately.",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "GoTypeBear",
+      "process_output_args": {
+        "output_regex": ".+:(?P<line>\\d+):(?P<column>\\d+): *(?P<message>.*)"
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Smell",
+        "Unreachable Code",
+        "Unused Code"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Go"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "flag": "-u",
+          "manager": "go",
+          "package": "golang.org/cmd/vet",
+          "version": ""
+        }
+      ],
+      "can_detect": [
+        "Smell",
+        "Unreachable Code",
+        "Unused Code"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/GoVetBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Analyze Go code and raise suspicious constructs, such as printf calls\nwhose arguments do not correctly match the format string, useless\nassignments, common mistakes about boolean operations, unreachable code,\netc.\n\nThis is done using the ``vet`` command. For more information visit\n<https://golang.org/cmd/vet/>.",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "GoVetBear",
+      "process_output_args": {
+        "output_regex": ".+:(?P<line>\\d+): (?P<message>.*)"
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [],
+      "CAN_FIX": [
+        "Formatting"
+      ],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Go"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "flag": "-u",
+          "manager": "go",
+          "package": "golang.org/cmd/gofmt",
+          "version": ""
+        }
+      ],
+      "can_detect": [
+        "Formatting"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/GofmtBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Suggest better formatting options in Go code. Basic checks like alignment,\nindentation, and redundant parentheses are provided.\n\nThis is done using the ``gofmt`` utility. For more information visit\n<https://golang.org/cmd/gofmt/>.",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "GofmtBear",
+      "process_output_args": {
+        "result_message": "Formatting can be improved."
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Formatting",
+        "Syntax"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "HTML"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "pip",
+          "package": "html-linter",
+          "version": "0.3.*"
+        }
+      ],
+      "can_detect": [
+        "Formatting",
+        "Syntax"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/HTMLLintBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Check HTML source code for invalid or misformatted code.\n\nSee also <https://pypi.python.org/pypi/html-linter>.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "htmllint_ignore": "List of checkers to ignore. (Optional, defaults to '()'.)"
+          }
+        ]
+      },
+      "name": "HTMLLintBear",
+      "process_output_args": {
+        "output_regex": "(?P<line>\\d+):(?P<column>\\d+): (?P<severity>Error|Warning|Info): (?P<message>.+)"
+      }
+    },
+    {
+      "ASCIINEMA_URL": "https://asciinema.org/a/80714",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Syntax"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "JavaScript"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "npm",
+          "package": "happiness",
+          "version": "7.1.2"
+        }
+      ],
+      "can_detect": [
+        "Syntax"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/HappinessLintBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Checks JavaScript files for semantic and syntax errors using ``happiness``.\n\nSee <https://github.com/JedWatson/happiness/> for more information.",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "HappinessLintBear",
+      "process_output_args": {
+        "output_regex": "\\s.+:(?P<line>\\d+):(?P<column>\\d+):(?P<message>.+)"
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Duplication"
+      ],
+      "CAN_FIX": [
+        "Unused Code",
+        "Code Simplification"
+      ],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Haskell"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "package": {
+            "apt": "hlint"
+          }
+        }
+      ],
+      "can_detect": [
+        "Unused Code",
+        "Code Simplification",
+        "Duplication"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/HaskellLintBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Check Haskell code for possible problems. This bear can propose patches for\nusing alternative functions, simplifying code and removing redundancies.\n\nSee <http://community.haskell.org/~ndm/darcs/hlint/hlint.htm> for more\ninformation.",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "HaskellLintBear",
+      "severity_map": {
+        "Error": 2,
+        "Suggestion": 0,
+        "Warning": 1
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [],
+      "CAN_FIX": [
+        "Formatting"
+      ],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [],
+      "can_detect": [
+        "Formatting"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/IndentationBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "It is a generic indent bear, which looks for a start and end indent specifier, example: ``{ : }`` where \"{\" is the start indent specifier and \"}\" is the end indent specifier. If the end-specifier is not given, this bear looks for unindents within the code to correctly figure out indentation.\nIt also figures out hanging indents and absolute indentation of function params or list elements.\nIt does not however support  indents based on keywords yet. for example:\nif(something) does not get indented\nundergoes no change.\nWARNING: The IndentationBear is experimental right now, you can report any issues found to https://github.com/coala-analyzer/coala-bears",
+        "non_optional_params": [
+          {
+            "language": " Language to be used for indentation."
+          }
+        ],
+        "optional_params": [
+          {
+            "use_spaces": " Insert spaces instead of tabs for indentation. (Optional, defaults to 'True'.)"
+          },
+          {
+            "tab_width": " No. of spaces to insert for indentation. Only Applicable if use_spaces is False. (Optional, defaults to '4'.)"
+          },
+          {
+            "coalang_dir": " Full path of external directory containing the coalang file for language. (Optional, defaults to 'None'.)"
+          }
+        ]
+      },
+      "name": "IndentationBear"
+    },
+    {
+      "ASCIINEMA_URL": "https://asciinema.org/a/1g2k0la7xo5az9t8f1v5zy66q",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Security"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Java"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [],
+      "arguments": "-npb -- javac {filename}",
+      "can_detect": [
+        "Security"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/InferBear",
+      "diff_message": "No result message was set",
+      "diff_severity": 1,
+      "executable": "infer",
+      "gives_corrected": false,
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Checks the code with ``infer``.",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "InferBear",
+      "output_regex": "(.+):(?P<line>.+): (?P<severity>error|warning): (?P<message>.*)",
+      "prerequisite_command": null,
+      "prerequisite_fail_msg": "Unknown failure.",
+      "severity_map": {
+        "error": 2,
+        "warning": 1
+      },
+      "use_stderr": false,
+      "use_stdin": false
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Documentation"
+      ],
+      "CAN_FIX": [],
+      "DEFAULT_TIMEOUT": 2,
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "All"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "pip",
+          "package": "requests",
+          "version": "2.*"
+        }
+      ],
+      "can_detect": [
+        "Documentation"
+      ],
+      "check_connection_url": "http://216.58.218.174",
+      "data_dir": "/home/karan/.local/share/coala-bears/InvalidLinkBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Find links in any text file and check if they are valid.\nA link is considered valid if the server responds with a 2xx code.\nThis bear can automatically fix redirects, but ignores redirect URLs that have a huge difference with the original URL.\nWarning: This bear will make HEAD requests to all URLs mentioned in your codebase, which can potentially be destructive. As an example, this bear would naively just visit the URL from a line that goes like `do_not_ever_open = 'https://api.acme.inc/delete-all-data'` wiping out all your data.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "timeout": "Request timeout period. (Optional, defaults to '2'.)"
+          },
+          {
+            "ignore_regex": "A regex for urls to ignore. (Optional, defaults to '[.\\/]example\\.com'.)"
+          }
+        ]
+      },
+      "name": "InvalidLinkBear"
+    },
+    {
+      "ASCIINEMA_URL": "https://asciinema.org/a/39250",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Complexity"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "JavaScript"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "npm",
+          "package": "complexity-report",
+          "version": "2.0.0-alpha"
+        }
+      ],
+      "can_detect": [
+        "Complexity"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/JSComplexityBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Calculates cyclomatic complexity using ``cr``.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "cc_threshold": "Threshold value for cyclomatic complexity (Optional, defaults to '10'.)"
+          }
+        ]
+      },
+      "name": "JSComplexityBear"
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Unused Code",
+        "Complexity",
+        "Formatting",
+        "Syntax"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "JavaScript"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "npm",
+          "package": "jshint",
+          "version": "2"
+        }
+      ],
+      "can_detect": [
+        "Unused Code",
+        "Complexity",
+        "Formatting",
+        "Syntax"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/JSHintBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Detect errors and potential problems in JavaScript code and to enforce\nappropriate coding conventions. For example, problems like syntax errors,\nbugs due to implicit type conversion, leaking variables and much more\ncan be detected.\n\nFor more information on the analysis visit <http://jshint.com/>",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "allow_eval": " This options suppresses warnings about the use of ``eval`` function. (Optional, defaults to 'False'.)"
+          },
+          {
+            "environment_jasmine": " This option defines globals exposed by Jasmine. (Optional, defaults to 'False'.)"
+          },
+          {
+            "environment_mootools": " This option defines globals exposed by the Mootools. (Optional, defaults to 'False'.)"
+          },
+          {
+            "environment_prototypejs": " This option defines globals exposed by the Prototype. (Optional, defaults to 'False'.)"
+          },
+          {
+            "es_version": " This option is used to specify the ECMAScript version to which the code must adhere to. (Optional, defaults to '5'.)"
+          },
+          {
+            "environment_mocha": " This option defines globals exposed by the \"BDD\" and \"TDD\" UIs of the Mocha unit testing framework. (Optional, defaults to 'True'.)"
+          },
+          {
+            "allow_with_statements": " This option suppresses warnings about the use of the ``with`` statement. (Optional, defaults to 'False'.)"
+          },
+          {
+            "allow_comma_operator": " This option allows the use of the comma operator. (Optional, defaults to 'True'.)"
+          },
+          {
+            "allow_proto": " This option suppresses warnings about the ``__proto__`` property. (Optional, defaults to 'False'.)"
+          },
+          {
+            "allow_debugger": " This option suppresses warnings about the ``debugger`` statements. (Optional, defaults to 'False'.)"
+          },
+          {
+            "allow_funcscope": " This option suppresses warnings about declaring variables inside of control structures while accessing them later from outside. (Optional, defaults to 'False'.)"
+          },
+          {
+            "environment_devel": " This option defines globals that are usually used for debugging: ``console``, ``alert``, etc. (Optional, defaults to 'True'.)"
+          },
+          {
+            "environment_node": " This option defines globals exposed by Node. (Optional, defaults to 'False'.)"
+          },
+          {
+            "allow_bitwise_operators": " Prohibits the use of bitwise operators when its value is ``False``. (Optional, defaults to 'False'.)"
+          },
+          {
+            "allow_global_strict": " This option suppresses warnings about the use of global strict mode. (Optional, defaults to 'False'.)"
+          },
+          {
+            "prohibit_arg": " This option prohibits the use of ``arguments.caller`` and ``arguments.callee``. (Optional, defaults to 'True'.)"
+          },
+          {
+            "environment_module": " This option informs JSHintBear that the input code describes an ECMAScript 6 module. (Optional, defaults to 'False'.)"
+          },
+          {
+            "allow_increment": " This option suppresses warnings about the use of unary increment and decrement operators. (Optional, defaults to 'False'.)"
+          },
+          {
+            "environment_worker": " This option defines globals available when the code is running inside of a Web Worker. (Optional, defaults to 'False'.)"
+          },
+          {
+            "environment_browser": " This option defines globals exposed by modern browsers. (Optional, defaults to 'True'.)"
+          },
+          {
+            "cyclomatic_complexity": " Maximum cyclomatic complexity in the code. (Optional, defaults to 'False'.)"
+          },
+          {
+            "jshint_config": " The location of the jshintrc config file. If this option is present all the above options are not used. Instead the .jshintrc file is used as the configuration file. (Optional, defaults to ''.)"
+          },
+          {
+            "allow_future_identifiers": " This option allows the use of identifiers which are defined in future versions of JavaScript. (Optional, defaults to 'True'.)"
+          },
+          {
+            "environment_shelljs": " This option defines globals exposed by the ShellJS. (Optional, defaults to 'False'.)"
+          },
+          {
+            "force_filter_forin": " This option requires all ``for in`` loops to filter object's items. (Optional, defaults to 'True'.)"
+          },
+          {
+            "allow_prototype_overwrite": " This options allows overwriting prototypes of native objects such as ``Array``. (Optional, defaults to 'False'.)"
+          },
+          {
+            "environment_typed": " This option defines globals for typed array constructors. (Optional, defaults to 'False'.)"
+          },
+          {
+            "allow_noyield": " This option suppresses warnings about generator functions with no ``yield`` statement in them. (Optional, defaults to 'False'.)"
+          },
+          {
+            "environment_nonstandard": " This option defines non- standard but widely adopted globals such as ``escape`` and ``unescape``. (Optional, defaults to 'False'.)"
+          },
+          {
+            "max_depth": " This option lets you control how nested do you want your blocks to be. (Optional, defaults to 'False'.)"
+          },
+          {
+            "force_braces": " This option requires you to always put curly braces around blocks in loops and conditionals. (Optional, defaults to 'True'.)"
+          },
+          {
+            "allow_expr_in_assignments": " This option suppresses warnings about the use of expressions where normally assignments or function calls are expected. (Optional, defaults to 'False'.)"
+          },
+          {
+            "environment_phantom": " This option defines globals available when your core is running inside of the PhantomJS runtime environment. (Optional, defaults to 'False'.)"
+          },
+          {
+            "environment_browserify": " This option defines globals available when using the Browserify. (Optional, defaults to 'False'.)"
+          },
+          {
+            "allow_singleton": " This option suppresses warnings about constructions like ``new function () { ... }`` and ``new Object;`` sometimes used to produce singletons. (Optional, defaults to 'False'.)"
+          },
+          {
+            "allow_scripturls": " This option suppresses warnings about the use of script-targeted URLs. (Optional, defaults to 'False'.)"
+          },
+          {
+            "prohibit_new": " This option prohibits the use of constructor functions for side-effects. (Optional, defaults to 'False'.)"
+          },
+          {
+            "allow_type_coercion": " This options allows the use of ``==`` and ``!=``. (Optional, defaults to 'False'.)"
+          },
+          {
+            "use_es6_syntax": "No description given. (Optional, defaults to 'False'.)"
+          },
+          {
+            "environment_yui": " This option defines globals exposed by the YUI JavaScript Framework. (Optional, defaults to 'False'.)"
+          },
+          {
+            "environment_wsh": " This option defines globals available when the code is running as a script for the Windows Script Host. (Optional, defaults to 'False'.)"
+          },
+          {
+            "allow_assignment_comparisions": " This option suppresses warnings about the use of assignments in cases where comparisons are expected. (Optional, defaults to 'False'.)"
+          },
+          {
+            "allow_typeof": " This option enables warnings about invalid ``typeof`` operator values. (Optional, defaults to 'True'.)"
+          },
+          {
+            "iterator": " This option suppresses warnings about the ``__iterator__`` property. (Optional, defaults to 'False'.)"
+          },
+          {
+            "prohibit_groups": " This option prohibits the use of the grouping operator when it is not strictly required. (Optional, defaults to 'False'.)"
+          },
+          {
+            "allow_unused_variables": " Allows when variables are defined but never used. This can be set to \"\"vars\"\" to only check for variables, not function parameters, or \"\"strict\"\" to check all variables and parameters. (Optional, defaults to 'False'.)"
+          },
+          {
+            "allow_last_semicolon": " This option suppresses warnings about missing semicolons for the last statement. (Optional, defaults to 'False'.)"
+          },
+          {
+            "allow_func_in_loop": " This option suppresses warnings about functions inside of loops. (Optional, defaults to 'False'.)"
+          },
+          {
+            "environment_qunit": " This option defines globals exposed by Qunit. (Optional, defaults to 'False'.)"
+          },
+          {
+            "environment_jquery": " This option defines globals exposed by Jquery. (Optional, defaults to 'False'.)"
+          },
+          {
+            "shadow": " This option suppresses warnings about variable shadowing i.e. declaring a variable that had been already declared somewhere in the outer scope.\n- \"inner\" - check for variables defined in the same scope only - \"outer\" - check for variables defined in outer scopes as well - False - same as inner - True  - allow variable shadowing (Optional, defaults to 'False'.)"
+          },
+          {
+            "environment_couch": " This option defines globals exposed by CouchDB. (Optional, defaults to 'False'.)"
+          },
+          {
+            "allow_latedef": " This option prohibits the use of a variable before it was defined. Setting this option to \"nofunc\" will allow function declarations to be ignored. (Optional, defaults to 'False'.)"
+          },
+          {
+            "max_parameters": " Maximum number of parameters allowed per function. (Optional, defaults to 'False'.)"
+          },
+          {
+            "allow_eqnull": " This option suppresses warnings about ``== null`` comparisons. (Optional, defaults to 'False'.)"
+          },
+          {
+            "environment_rhino": " This option defines globals exposed when the code is running inside rhino runtime environment. (Optional, defaults to 'False'.)"
+          },
+          {
+            "allow_this_statements": " This option suppresses warnings about possible strict violations when the code is running in strict mode and ``this`` is used in a non-constructor function. (Optional, defaults to 'False'.)"
+          },
+          {
+            "prohibit_undefined": " This option prohibits the use of explicitly undeclared variables. (Optional, defaults to 'True'.)"
+          },
+          {
+            "allow_non_breaking_whitespace": " Allows \"non-breaking whitespace characters\". (Optional, defaults to 'False'.)"
+          },
+          {
+            "environment_dojo": " This option defines globals exposed by the Dojo Toolkit. (Optional, defaults to 'False'.)"
+          },
+          {
+            "max_statements": " Maximum number of statements allowed per function. (Optional, defaults to 'False'.)"
+          },
+          {
+            "allow_missing_semicolon": " This option suppresses warnings about missing semicolons. (Optional, defaults to 'False'.)"
+          },
+          {
+            "use_es3_array": " This option tells JSHint ECMAScript 6 specific syntax is used. (Optional, defaults to 'False'.)"
+          },
+          {
+            "prohibit_variable_statements": " This option forbids the use of VariableStatements. (Optional, defaults to 'False'.)"
+          },
+          {
+            "using_mozilla": " This options tells JSHint that your code uses Mozilla JavaScript extensions. (Optional, defaults to 'False'.)"
+          }
+        ]
+      },
+      "name": "JSHintBear",
+      "process_output_args": {
+        "output_regex": ".+?: line (?P<line>\\d+), col (?P<column>\\d+), (?P<message>.+) \\((?P<severity>[EWI])\\d+\\)"
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Formatting"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "JSON"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [],
+      "can_detect": [
+        "Formatting"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/JSONFormatBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Raises issues for any deviations from the pretty-printed JSON.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "json_sort": "Whether or not keys should be sorted. (Optional, defaults to 'False'.)"
+          },
+          {
+            "tab_width": "Number of spaces to indent. (Optional, defaults to '4'.)"
+          },
+          {
+            "escape_unicode": "Whether or not to escape unicode values using ASCII. (Optional, defaults to 'False'.)"
+          }
+        ]
+      },
+      "name": "JSONFormatBear"
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Code Simplification",
+        "Smell",
+        "Unreachable Code",
+        "Duplication"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Java"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [],
+      "can_detect": [
+        "Code Simplification",
+        "Smell",
+        "Unreachable Code",
+        "Duplication"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/JavaPMDBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Check Java code for possible issues like potential bugs, dead code or too\ncomplicated expressions.\n\nMore information is available at\n<http://pmd.github.io/pmd-5.4.1/pmd-java/rules/index.html>.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "check_imports": " Check for duplicate and unused imports. (Optional, defaults to 'True'.)"
+          },
+          {
+            "check_controversial": " Does various checks that are considered controversial. (Optional, defaults to 'False'.)"
+          },
+          {
+            "check_optimizations": " Check for best pratices regarding optimization. (Optional, defaults to 'False'.)"
+          },
+          {
+            "check_strings": " Check for String, StringBuffer and StringBuilder instances. (Optional, defaults to 'False'.)"
+          },
+          {
+            "check_design": " Check for optimal code implementations. Alternate approaches are suggested. (Optional, defaults to 'False'.)"
+          },
+          {
+            "check_braces": " Check for the right use of braces. (Optional, defaults to 'True'.)"
+          },
+          {
+            "check_naming": " Check the names of identifiers against some rules. (Optional, defaults to 'True'.)"
+          },
+          {
+            "check_code_size": " Check for large or complicated code constructs. (Optional, defaults to 'True'.)"
+          },
+          {
+            "check_unnecessary": " Checks for unnecessary code. (Optional, defaults to 'True'.)"
+          },
+          {
+            "check_clone_implementation": " Check for the right implementation of the ``clone()`` function. (Optional, defaults to 'True'.)"
+          },
+          {
+            "check_unused": " Check for unused code. (Optional, defaults to 'True'.)"
+          },
+          {
+            "check_best_practices": " Activate to check for best practices. (Optional, defaults to 'True'.)"
+          },
+          {
+            "check_comments": " Check comments for length, content and placement. (Optional, defaults to 'False'.)"
+          }
+        ]
+      },
+      "name": "JavaPMDBear",
+      "process_output_args": {
+        "output_regex": ".+:(?P<line>.+):(?P<message>.*)"
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Formatting",
+        "Duplication",
+        "Redundancy",
+        "Security",
+        "Unused Code",
+        "Unreachable Code",
+        "Syntax"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Julia"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "package": {
+            "apt": "julia"
+          }
+        }
+      ],
+      "can_detect": [
+        "Security",
+        "Unused Code",
+        "Formatting",
+        "Unreachable Code",
+        "Syntax",
+        "Duplication",
+        "Redundancy"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/JuliaLintBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Provide analysis related to common bugs and potential issues in Julia like\ndead code, undefined variable usage, duplicate keys in dicts, incorrect\nADT usage, wrongfully using ellipsis, and much more.\n\nSee <https://lintjl.readthedocs.org/en/stable/> for more information\non the analysis provided.",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "JuliaLintBear",
+      "process_output_args": {
+        "output_regex": ".+:(?P<line>\\d+) (?P<severity>.)\\d+ (?P<message>.*)",
+        "severity_map": {
+          "e": 2,
+          "i": 0,
+          "w": 1
+        }
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Documentation"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "All"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [],
+      "can_detect": [
+        "Documentation"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/KeywordBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Checks the code files for given keywords.",
+        "non_optional_params": [
+          {
+            "cs_keywords": "A list of keywords to search for (case sensitive). Usual examples are TODO and FIXME."
+          },
+          {
+            "ci_keywords": "A list of keywords to search for (case insensitive)."
+          }
+        ],
+        "optional_params": []
+      },
+      "name": "KeywordBear"
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Grammar",
+        "Spelling"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Natural Language"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "pip",
+          "package": "guess-language-spirit",
+          "version": "0.5.*"
+        }
+      ],
+      "can_detect": [
+        "Grammar",
+        "Spelling"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/LanguageToolBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Checks the code with LanguageTool.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "language": "A locale representing the language you want to have checked. If set to 'auto' the language is guessed. If the language cannot be guessed, 'en-US' is used. (Optional, defaults to 'auto'.)"
+          },
+          {
+            "languagetool_disable_rules": "List of rules to disable checks for. (Optional, defaults to '()'.)"
+          }
+        ]
+      },
+      "name": "LanguageToolBear"
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Formatting",
+        "Syntax"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Tex"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "package": {
+            "apt": "chktex"
+          }
+        }
+      ],
+      "can_detect": [
+        "Formatting",
+        "Syntax"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/LatexLintBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Checks the code with ``chktex``.",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "LatexLintBear",
+      "process_output_args": {
+        "output_regex": "(?P<severity>Error|Warning) \\d+ in .+ line (?P<line>\\d+): (?P<message>.*)"
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Formatting"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "All"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [],
+      "can_detect": [
+        "Formatting"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/LineCountBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Count the number of lines in a file and ensure that they are smaller than a given size.",
+        "non_optional_params": [
+          {
+            "max_lines_per_file": "Number of lines allowed per file."
+          }
+        ],
+        "optional_params": []
+      },
+      "name": "LineCountBear"
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Formatting"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "All"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [],
+      "can_detect": [
+        "Formatting"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/LineLengthBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Yields results for all lines longer than the given maximum line length.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "max_line_length": "Maximum number of characters for a line, the newline character being excluded. (Optional, defaults to '79'.)"
+          },
+          {
+            "tab_width": "Number of spaces to show for one tab. (Optional, defaults to '4'.)"
+          },
+          {
+            "ignore_length_regex": "Lines matching each of the regular expressions in this list will be ignored. (Optional, defaults to '()'.)"
+          }
+        ]
+      },
+      "name": "LineLengthBear"
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Unused Code",
+        "Unreachable Code",
+        "Variable Misuse"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Lua"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "package": {
+            "apt": "luarocks"
+          }
+        }
+      ],
+      "can_detect": [
+        "Unused Code",
+        "Unreachable Code",
+        "Variable Misuse"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/LuaLintBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Check Lua code for possible semantic problems, like unused code.\n\nRead more at <https://github.com/mpeterv/luacheck>.",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "LuaLintBear",
+      "process_output_args": {
+        "output_regex": "stdin:(?P<line>\\d+):(?P<column>\\d+)-(?P<end_column>\\d+): \\((?P<severity>[WE])(?P<origin>\\d+)\\) (?P<message>.+)"
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [],
+      "CAN_FIX": [
+        "Formatting"
+      ],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Markdown"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "npm",
+          "package": "remark",
+          "version": "3"
+        }
+      ],
+      "can_detect": [
+        "Formatting"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/MarkdownBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Check and correct Markdown style violations automatically.\n\nSee <https://github.com/wooorm/remark-lint> for details about the tool\nbelow.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "markdown_spaced_tables": " Whether to add space between pipes in a table. (Optional, defaults to 'True'.)"
+          },
+          {
+            "markdown_emphasis": " Character to wrap strong emphasis by. Can be \"_\" or \"*\". (Optional, defaults to '*'.)"
+          },
+          {
+            "markdown_loose_tables": " Whether to use pipes for the outermost borders in a table. (Optional, defaults to 'False'.)"
+          },
+          {
+            "markdown_horizontal_rule_spaces": " Whether spaces should be added between horizontal rule characters. (Optional, defaults to 'False'.)"
+          },
+          {
+            "markdown_list_increment": " Whether an ordered lists numbers should be incremented. (Optional, defaults to 'True'.)"
+          },
+          {
+            "markdown_encode_entities": " Whether to encode symbols that are not ASCII into special HTML characters. (Optional, defaults to 'False'.)"
+          },
+          {
+            "markdown_bullets": " Character to use for bullets in lists. Can be \"-\", \"*\" or \"+\". (Optional, defaults to '-'.)"
+          },
+          {
+            "markdown_fences": " Use fences for code blocks. (Optional, defaults to 'True'.)"
+          },
+          {
+            "markdown_list_indent": " Used to find spacing after bullet in lists. Can be \"1\", \"tab\" or \"mixed\".\n- \"1\" - 1 space after bullet. - \"tab\" - Use tab stops to begin a sentence after the bullet. - \"mixed\" - Use \"1\" when the list item is only 1 line, \"tab\" if it spans multiple. (Optional, defaults to '1'.)"
+          },
+          {
+            "markdown_horizontal_rule": " The horizontal rule character. Can be '*', '_' or '-'. (Optional, defaults to '*'.)"
+          },
+          {
+            "markdown_codefence": " Used to find which characters to use for code fences. Can be \"`\" or \"~\". (Optional, defaults to '`'.)"
+          },
+          {
+            "markdown_closed_headings": " Whether to close Atx headings or not. if true, extra # marks will be required after the heading. eg: `## Heading ##`. (Optional, defaults to 'False'.)"
+          },
+          {
+            "markdown_setext_headings": " Whether to use setext headings. A setext heading uses underlines instead of # marks. (Optional, defaults to 'False'.)"
+          },
+          {
+            "markdown_strong": " Character to wrap slight emphasis by. Can be \"_\" or \"*\". (Optional, defaults to '*'.)"
+          },
+          {
+            "markdown_horizontal_rule_repeat": " The number of times the horizontal rule character will be repeated. (Optional, defaults to '3'.)"
+          }
+        ]
+      },
+      "name": "MarkdownBear",
+      "process_output_args": {
+        "result_message": "The text does not comply to the set style."
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Formatting"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Octave",
+        "Matlab"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [],
+      "can_detect": [
+        "Formatting"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/MatlabIndentationBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "This bear features a simple algorithm to calculate the right indentation for Matlab/Octave code. However, it will not handle hanging indentation or conditions ranging over several lines yet.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "tab_width": "Number of spaces per indentation level. (Optional, defaults to '2'.)"
+          }
+        ]
+      },
+      "name": "MatlabIndentationBear"
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [],
+      "CAN_FIX": [
+        "Formatting"
+      ],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Python 3",
+        "Python",
+        "Python 2"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "pip",
+          "package": "autopep8",
+          "version": "1.*"
+        }
+      ],
+      "can_detect": [
+        "Formatting"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/PEP8Bear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Detects and fixes PEP8 incompliant code. This bear will not change functionality of the code in any way.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "max_line_length": "Maximum number of characters for a line. (Optional, defaults to '80'.)"
+          },
+          {
+            "tab_width": "Number of spaces per indent level. (Optional, defaults to '4'.)"
+          },
+          {
+            "pep_ignore": "A list of errors/warnings to ignore. (Optional, defaults to '()'.)"
+          },
+          {
+            "pep_select": "A list of errors/warnings to exclusively apply. (Optional, defaults to '()'.)"
+          },
+          {
+            "local_pep8_config": "Set to true if autopep8 should use a config file as if run normally from this directory. (Optional, defaults to 'False'.)"
+          }
+        ]
+      },
+      "name": "PEP8Bear"
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Syntax"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "PHP"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [],
+      "can_detect": [
+        "Syntax"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/PHPLintBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Checks the code with ``php -l``. This runs it on each file separately.",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "PHPLintBear",
+      "process_output_args": {
+        "output_regex": "(?P<severity>Parse|Fatal) error: (?P<message>.*) in .* on line (?P<line>\\d+)",
+        "severity_map": {
+          "fatal": 2,
+          "parse": 2
+        }
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Code Simplification",
+        "Formatting",
+        "Syntax"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Perl"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "package": {
+            "apt": "libperl-critic-perl"
+          }
+        },
+        {
+          "package": {
+            "apt": "perl"
+          }
+        }
+      ],
+      "can_detect": [
+        "Code Simplification",
+        "Formatting",
+        "Syntax"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/PerlCriticBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Check the code with perlcritic. This will run perlcritic over\neach of the files seperately.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "perlcritic_profile": "Location of the perlcriticrc config file. (Optional, defaults to ''.)"
+          }
+        ]
+      },
+      "name": "PerlCriticBear",
+      "process_output_args": {
+        "output_regex": "(?P<message>.+) at line (?P<line>\\d+), column (?P<column>\\d+)\\. (?P<origin>.+) \\(Severity: (?P<severity>\\d+)\\)",
+        "severity_map": {
+          "1": 2,
+          "2": 2,
+          "3": 1,
+          "4": 1,
+          "5": 0
+        }
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Grammar",
+        "Spelling",
+        "Formatting",
+        "Syntax"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Natural Language"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "pip",
+          "package": "proselint",
+          "version": "0.3.*"
+        }
+      ],
+      "can_detect": [
+        "Grammar",
+        "Spelling",
+        "Formatting",
+        "Syntax"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/ProseLintBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Lints the file using ``proselint``.",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "ProseLintBear",
+      "process_output_args": {
+        "output_regex": ".+?:(?P<line>\\d+):(?P<column>\\d+): \\S* (?P<message>.+)"
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Commented Code"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Python 3",
+        "Python",
+        "Python 2"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "pip",
+          "package": "eradicate",
+          "version": "0.1.*"
+        }
+      ],
+      "can_detect": [
+        "Commented Code"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/PyCommentedCodeBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Detects commented out source code in Python.",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "PyCommentedCodeBear"
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Documentation",
+        "Formatting"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Python 3",
+        "Python",
+        "Python 2"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "pip",
+          "package": "pydocstyle",
+          "version": "1.*"
+        }
+      ],
+      "arguments": "",
+      "can_detect": [
+        "Documentation",
+        "Formatting"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/PyDocStyleBear",
+      "diff_message": "No result message was set",
+      "diff_severity": 1,
+      "executable": "pydocstyle",
+      "gives_corrected": false,
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Checks python docstrings.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "pydocstyle_select": "List of checked errors by specifying which errors to check for. (Optional, defaults to '()'.)"
+          },
+          {
+            "pydocstyle_ignore": "List of checked errors by specifying which errors to ignore.\nNote: pydocstyle_select and pydocstyle_ignore are mutually exclusive. They cannot be used together. (Optional, defaults to '()'.)"
+          }
+        ]
+      },
+      "name": "PyDocStyleBear",
+      "output_regex": "(.*\\.py):(?P<line>\\d+) (.+):\\n\\s+(?P<message>.*)",
+      "prerequisite_command": null,
+      "prerequisite_fail_msg": "Unknown failure.",
+      "severity_map": null,
+      "use_stderr": true,
+      "use_stdin": false
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [],
+      "CAN_FIX": [
+        "Formatting"
+      ],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Python 2",
+        "Python",
+        "Python 3"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "pip",
+          "package": "isort",
+          "version": "4.*"
+        }
+      ],
+      "can_detect": [
+        "Formatting"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/PyImportSortBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Raise issues related to sorting imports, segregating imports into various sections, and also adding comments on top of each import section based on the configurations provided.\nYou can read more about ``isort`` at <https://isort.readthedocs.org/en/latest/>.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "use_parentheses_in_import": " True if parenthesis are to be used in import statements. (Optional, defaults to 'True'.)"
+          },
+          {
+            "force_alphabetical_sort_in_import": " If set, forces all imports to be sorted as a single section, instead of within other groups (such as straight vs from). (Optional, defaults to 'False'.)"
+          },
+          {
+            "force_sort_within_import_sections": " If set, imports will be sorted within there section independent to the import_type. (Optional, defaults to 'True'.)"
+          },
+          {
+            "from_first_in_import": " If set, imports using \"from\" will be displayed above normal (straight) imports. (Optional, defaults to 'False'.)"
+          },
+          {
+            "include_trailing_comma_in_import": " If set, will automatically add a trailing comma to the end of \"from\" imports. Example: ``from abc import (a, b, c,)`` (Optional, defaults to 'False'.)"
+          },
+          {
+            "combine_star_imports": " If set to true - ensures that if a star import is present, nothing else is imported from that namespace. (Optional, defaults to 'True'.)"
+          },
+          {
+            "combine_as_imports": " If set to true - isort will combine as imports on the same line within for import statements. (Optional, defaults to 'True'.)"
+          },
+          {
+            "lines_after_imports": " Forces a certain number of lines after the imports and before the first line of functional code. By default this is set to -1 which uses 2 lines if the first line of code is a class or function and 1 line if it's anything else. (Optional, defaults to '-1'.)"
+          },
+          {
+            "order_imports_by_type": " If set to true - isort will create separate sections within \"from\" imports for CONSTANTS, Classes, and modules/functions. (Optional, defaults to 'False'.)"
+          },
+          {
+            "balanced_wrapping_in_imports": " If set to true - for each multi-line import statement isort will dynamically change the import length to the one that produces the most balanced grid, while staying below the maximum import length defined. (Optional, defaults to 'False'.)"
+          },
+          {
+            "import_heading_localfolder": " A comment to consistently place directly above imports that start with '.'. (Optional, defaults to ''.)"
+          },
+          {
+            "import_heading_firstparty": " A comment to consistently place directly above imports from the current project. (Optional, defaults to ''.)"
+          },
+          {
+            "import_heading_thirdparty": " A comment to consistently place directly above thirdparty imports. (Optional, defaults to ''.)"
+          },
+          {
+            "import_heading_stdlib": " A comment to consistently place directly above imports from the standard library. (Optional, defaults to ''.)"
+          },
+          {
+            "import_heading_future": " A comment to consistently place directly above future imports. (Optional, defaults to ''.)"
+          },
+          {
+            "default_import_section": " The default section to place imports in, if their section can not be automatically determined. (Optional, defaults to 'FIRSTPARTY'.)"
+          },
+          {
+            "force_grid_wrap_imports": " Force \"from\" imports to be grid wrapped regardless of line length. (Optional, defaults to 'False'.)"
+          },
+          {
+            "force_single_line_imports": " If set to true - instead of wrapping multi-line from style imports, each import will be forced to display on its own line. (Optional, defaults to 'True'.)"
+          },
+          {
+            "sort_imports_by_length": " Set to true to sort imports by length instead of alphabetically. (Optional, defaults to 'False'.)"
+          },
+          {
+            "use_spaces": " True if spaces are to be used instead of tabs. (Optional, defaults to 'True'.)"
+          },
+          {
+            "tab_width": " Number of spaces per indent level. (Optional, defaults to '4'.)"
+          },
+          {
+            "forced_separate_imports": " A list of modules that you want to appear in their own separate section. (Optional, defaults to '()'.)"
+          },
+          {
+            "isort_multi_line_output": " An integer that represents how you want imports to be displayed by ``isort`` if they're long enough to span multiple lines. This value is passed to isort as the ``multi_line_output`` setting. Possible values are (0-grid, 1-vertical, 2-hanging, 3-vert-hanging, 4-vert-grid, 5-vert-grid-grouped) A full definition of all possible modes can be found at <https://github.com/timothycrosley/isort#multi-line-output-modes>. (Optional, defaults to '4'.)"
+          },
+          {
+            "known_first_party_imports": " A list of imports that will be forced to display within the standard library category of imports. (Optional, defaults to '()'.)"
+          },
+          {
+            "known_third_party_imports": " A list of imports that will be forced to display within the third party category of imports. (Optional, defaults to '()'.)"
+          },
+          {
+            "known_standard_library_imports": " A list of imports that will be forced to display within the first party category of imports. (Optional, defaults to 'None'.)"
+          },
+          {
+            "max_line_length": " Maximum number of characters for a line. (Optional, defaults to '80'.)"
+          },
+          {
+            "imports_forced_to_top": " Forces a list of imports to the top of their respective section. This works well for handling the unfortunate cases of import dependencies that occur in many projects. (Optional, defaults to '()'.)"
+          }
+        ]
+      },
+      "name": "PyImportSortBear"
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Security",
+        "Unused Code",
+        "Formatting",
+        "Duplication",
+        "Syntax"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Python 3",
+        "Python",
+        "Python 2"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "pip",
+          "package": "pylint",
+          "version": "1.*"
+        }
+      ],
+      "can_detect": [
+        "Security",
+        "Unused Code",
+        "Formatting",
+        "Duplication",
+        "Syntax"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/PyLintBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Checks the code with pylint. This will run pylint over each file\nseparately.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "pylint_rcfile": "The rcfile for PyLint. (Optional, defaults to ''.)"
+          },
+          {
+            "pylint_cli_options": "Any command line options you wish to be passed to pylint. (Optional, defaults to ''.)"
+          },
+          {
+            "pylint_enable": "Enable the message, report, category or checker with the given id(s). (Optional, defaults to 'None'.)"
+          },
+          {
+            "pylint_disable": "Disable the message, report, category or checker with the given id(s). (Optional, defaults to 'None'.)"
+          }
+        ]
+      },
+      "name": "PyLintBear",
+      "process_output_args": {
+        "output_regex": "L(?P<line>\\d+)C(?P<column>\\d+): (?P<message>(?P<origin>(?P<severity>[WFECRI])\\d+) - .*)",
+        "severity_map": {
+          "c": 0,
+          "e": 2,
+          "f": 2,
+          "i": 0,
+          "r": 0,
+          "w": 1
+        }
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Unused Code"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Python 3",
+        "Python",
+        "Python 2"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "pip",
+          "package": "autoflake",
+          "version": "0.6.*"
+        }
+      ],
+      "can_detect": [
+        "Unused Code"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/PyUnusedCodeBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Detects unused code. This functionality is limited to:\n- Unneeded pass statements. - Unneeded builtin imports. (Others might have side effects.)",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "PyUnusedCodeBear"
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Formatting",
+        "Syntax"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "RAML"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "npm",
+          "package": "ramllint",
+          "version": "1.2.2"
+        }
+      ],
+      "can_detect": [
+        "Formatting",
+        "Syntax"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/RAMLLintBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "RAML Linter is a static analysis, linter-like, utility that will enforce\nrules on a given RAML document, ensuring consistency and quality.\nNote: Files should not have leading empty lines, else the bear fails to\nidentify the problems correctly.",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "RAMLLintBear",
+      "process_output_args": {
+        "output_regex": "(?P<severity>error|warning|info).*\\n  (?P<message>.+) \\[(?P<origin>.+)\\]"
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Formatting",
+        "Syntax"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "R"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "flag": "-e",
+          "manager": "R",
+          "package": "lintr",
+          "repo": "http://cran.rstudio.com",
+          "version": ""
+        }
+      ],
+      "arguments": "-e 'library(lintr)' -e 'lintr::lint(\"{filename}\")'",
+      "can_detect": [
+        "Formatting",
+        "Syntax"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/RLintBear",
+      "diff_message": "No result message was set",
+      "diff_severity": 1,
+      "executable": "Rscript",
+      "gives_corrected": false,
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Checks the code with `lintr`.",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "RLintBear",
+      "output_regex": "(.*?):(?P<line>\\d+):(?P<column>\\d+): (?P<severity>\\S+): (?P<message>.*)",
+      "prerequisite_command": [
+        "Rscript",
+        "-e",
+        "library(lintr)"
+      ],
+      "prerequisite_fail_msg": "R library \"lintr\" is not installed.",
+      "severity_map": {
+        "error": 2,
+        "style": 1,
+        "warning": 1
+      },
+      "use_stderr": false,
+      "use_stdin": false
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Complexity"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Python 3",
+        "Python",
+        "Python 2"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "pip",
+          "package": "radon",
+          "version": "1.*"
+        }
+      ],
+      "can_detect": [
+        "Complexity"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/RadonBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Uses radon to compute complexity of a given file.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "radon_ranks_info": "The ranks (given by radon) to treat as severity INFO. (Optional, defaults to '()'.)"
+          },
+          {
+            "radon_ranks_normal": "The ranks (given by radon) to treat as severity NORMAL. (Optional, defaults to '('C', 'D')'.)"
+          },
+          {
+            "radon_ranks_major": "The ranks (given by radon) to treat as severity MAJOR. (Optional, defaults to '('E', 'F')'.)"
+          }
+        ]
+      },
+      "name": "RadonBear"
+    },
+    {
+      "ASCIINEMA_URL": "https://asciinema.org/a/39241",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Simplification"
+      ],
+      "CAN_FIX": [
+        "Formatting",
+        "Syntax"
+      ],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Ruby"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "pip",
+          "package": "pyyaml",
+          "version": "3.*"
+        },
+        {
+          "manager": "gem",
+          "package": "rubocop",
+          "require": "",
+          "version": ""
+        }
+      ],
+      "can_detect": [
+        "Simplification",
+        "Formatting",
+        "Syntax"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/RuboCopBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Check Ruby code for syntactic, formatting as well as semantic problems.\n\nSee <https://github.com/bbatsov/rubocop#cops> for more information.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "class_check": " How to check type of class. options: ``is_a?``, ``kind_of?``. (Optional, defaults to 'is_a?'.)"
+          },
+          {
+            "method_name_case": " Case of a method's name. options: ``snake_case``, ``camelCase``. (Optional, defaults to 'snake_case'.)"
+          },
+          {
+            "align_colon_by": " Alignment of entries using colon as separator. (Optional, defaults to 'key'.)"
+          },
+          {
+            "variable_name_case": " Case of a variable's name. options: ``snake_case``, ``camelCase``. (Optional, defaults to 'snake_case'.)"
+          },
+          {
+            "count_keyword_args": " Count keyword args while counting all arguments? (Optional, defaults to 'True'.)"
+          },
+          {
+            "inspect_last_argument_hash": " Select whether hashes that are the last argument in a method call should be inspected. options: ``always_inspect``, ``always_ignore``, ``ignore_implicit``, ``ignore_explicit``. (Optional, defaults to 'always_inspect'.)"
+          },
+          {
+            "cyclomatic_complexity": " Cyclomatic Complexity of the file. (Optional, defaults to '6'.)"
+          },
+          {
+            "max_parameters": " Max number of parameters in parameter list. (Optional, defaults to '5'.)"
+          },
+          {
+            "access_modifier_indentation": " Indent private/protected/public as deep as method definitions options: ``indent`` :  Indent modifiers like class members. ``outdent`` : Indent modifiers one level less than class members. (Optional, defaults to 'indent'.)"
+          },
+          {
+            "ignore_unused_method_args_if_empty": " Allows unused method argument if method is empty. (Optional, defaults to 'True'.)"
+          },
+          {
+            "class_length_count_comments": " Whether or not to count comments while calculating the class length. (Optional, defaults to 'False'.)"
+          },
+          {
+            "preferred_alias": " Which method to use for aliasing in ruby. options : ``alias`` , ``alias_method``. (Optional, defaults to 'prefer_alias'.)"
+          },
+          {
+            "align_parameters": " Alignment of parameters in multi-line method calls.\noptions: ``with_first_parameter``: Aligns the following lines along the same column as the first parameter.\n``with_fixed_indentation``: Aligns the following lines with one level of indentation relative to the start of the line with the method call. (Optional, defaults to 'with_first_parameter'.)"
+          },
+          {
+            "line_length_allow_uri": " To make it possible to copy or click on URIs in the code, we allow ignore long lines containing a URI to be longer than max line length. (Optional, defaults to 'True'.)"
+          },
+          {
+            "tab_width": " No. of spaces to indent. (Optional, defaults to '2'.)"
+          },
+          {
+            "allow_unused_method_keyword_args": " Allows unused keyword arguments in a method. (Optional, defaults to 'False'.)"
+          },
+          {
+            "line_length_allow_here_doc": " Allow here-doc lines to be more than the max line length. (Optional, defaults to 'True'.)"
+          },
+          {
+            "allow_unused_block_keyword_arguments": " Allow unused block keyword arguments. (Optional, defaults to 'False'.)"
+          },
+          {
+            "max_module_length": " Max lines in a module. (Optional, defaults to '100'.)"
+          },
+          {
+            "ignore_unused_block_args_if_empty": " Ignore unused block arguments if block is empty. (Optional, defaults to 'True'.)"
+          },
+          {
+            "method_length_count_comments": " Whether or not to count full line comments while calculating method length. (Optional, defaults to 'False'.)"
+          },
+          {
+            "string_literals": " Use ' or \" as string literals. options: ``single_quotes``, ``double_quotes``. (Optional, defaults to 'single_quotes'.)"
+          },
+          {
+            "align_hash_rocket_by": " Alignment of entries using hash rocket as separator. (Optional, defaults to 'key'.)"
+          },
+          {
+            "max_line_length": " Max length of a line. (Optional, defaults to '80'.)"
+          },
+          {
+            "min_if_unless_guard": " The number of lines that are tolerable within an if/unless block, more than these lines call for the usage of a guard clause. (Optional, defaults to '1'.)"
+          },
+          {
+            "comment_keywords": " Checks formatting of special comments based on keywords like TODO, FIXME etc. (Optional, defaults to '('TODO', 'FIXME', 'OPTIMIZE', 'HACK', 'REVIEW')'.)"
+          },
+          {
+            "rubocop_config": "No description given. (Optional, defaults to ''.)"
+          },
+          {
+            "max_class_length": " Max lines in a class. (Optional, defaults to '100'.)"
+          },
+          {
+            "module_length_count_comments": " Whether or not to count comments while calculating the module length. (Optional, defaults to 'False'.)"
+          },
+          {
+            "max_method_length": " Max number of lines in a method. (Optional, defaults to '10'.)"
+          }
+        ]
+      },
+      "name": "RuboCopBear",
+      "severity_map": {
+        "convention": 0,
+        "error": 2,
+        "warning": 1
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Smell"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Ruby"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "gem",
+          "package": "reek",
+          "require": "",
+          "version": ""
+        }
+      ],
+      "can_detect": [
+        "Smell"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/RubySmellBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Detect code smells in Ruby source code.\n\nFor more information about the detected smells, see\n<https://github.com/troessner/reek/blob/master/docs/Code-Smells.md>.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "nested_iterators": " Warns when a block contains another block. (Optional, defaults to 'True'.)"
+          },
+          {
+            "too_long_method": " Warns about huge methods. (Optional, defaults to 'True'.)"
+          },
+          {
+            "attribute": " Warns if a setter in a class is detected. (Optional, defaults to 'True'.)"
+          },
+          {
+            "check_class_variable": " Warns if a class variable is detected. (Optional, defaults to 'True'.)"
+          },
+          {
+            "duplicate_method_call": " Warns when two fragments of code look nearly identical, or when two fragments of code have nearly identical effects at some conceptual level. (Optional, defaults to 'True'.)"
+          },
+          {
+            "bad_module_name": " Warns about module names which are not communicating the purpose of the module well. (Optional, defaults to 'True'.)"
+          },
+          {
+            "bad_var_name": " Warns about variable names which are not communicating the purpose of the variable well. (Optional, defaults to 'True'.)"
+          },
+          {
+            "nil_check": " Warns about nil checks. (Optional, defaults to 'True'.)"
+          },
+          {
+            "long_param_list": " Warns about too many parameters of functions. (Optional, defaults to 'True'.)"
+          },
+          {
+            "control_parameter": " Warns if a parameter controls the function behaviour (control coupling). (Optional, defaults to 'True'.)"
+          },
+          {
+            "too_many_instance_variables": " Warns for too many instance variables. (Optional, defaults to 'True'.)"
+          },
+          {
+            "prima_donna_method": " Warns about methods whose names end with an exclamation mark. (Optional, defaults to 'True'.)"
+          },
+          {
+            "data_clump": " Warns when the same two or three items frequently appear together in function/class parameter list. (Optional, defaults to 'True'.)"
+          },
+          {
+            "bad_param_name": " Warns about parameter names which are not communicating the purpose of the parameter well. (Optional, defaults to 'True'.)"
+          },
+          {
+            "missing_module_description": " Warns if a module description is missing. (Optional, defaults to 'True'.)"
+          },
+          {
+            "allow_unused_private_methods": "No description given. (Optional, defaults to 'True'.)"
+          },
+          {
+            "feature_envy": " Occurs when a code fragment references another object more often than it references itself, or when several clients do the same series of manipulations on a particular type of object. (Optional, defaults to 'True'.)"
+          },
+          {
+            "boolean_parameter": " Warns if a boolean parameter in a function is detected (control coupling). (Optional, defaults to 'True'.)"
+          },
+          {
+            "module_initialize": " Warns about ``#initialize`` methods in modules. (Optional, defaults to 'True'.)"
+          },
+          {
+            "bad_method_name": " Warns about method names which are not communicating the purpose of the method well. (Optional, defaults to 'True'.)"
+          },
+          {
+            "long_yield_list": " Warns when a method yields a lot of arguments to the block it gets passed. (Optional, defaults to 'True'.)"
+          },
+          {
+            "allow_unused_variables": " Allows unused parameters though they are dead code. (Optional, defaults to 'False'.)"
+          },
+          {
+            "too_many_methods": " Warns if a class has too many methods. (Optional, defaults to 'True'.)"
+          },
+          {
+            "utility_function": " Allows any instance method that has no dependency on the state of the instance. (Optional, defaults to 'True'.)"
+          },
+          {
+            "repeated_conditional": " Warns about repeated conditionals. (Optional, defaults to 'True'.)"
+          }
+        ]
+      },
+      "name": "RubySmellBear"
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Syntax"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Ruby"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "gem",
+          "package": "ruby",
+          "require": "",
+          "version": "2.1.5"
+        }
+      ],
+      "can_detect": [
+        "Syntax"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/RubySyntaxBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Checks the code with ``ruby -wc`` on each file separately.",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "RubySyntaxBear",
+      "process_output_args": {
+        "output_regex": ".+?:(?P<line>\\d+): (?P<message>.*?(?P<severity>error|warning)[,:] \\S+)\\s?(?:\\S+\\s(?P<column>.*?)\\^)?"
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Formatting",
+        "Syntax"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "SCSS"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "gem",
+          "package": "scss-lint",
+          "require": "false",
+          "version": ""
+        }
+      ],
+      "can_detect": [
+        "Formatting",
+        "Syntax"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/SCSSLintBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Check SCSS code to keep it clean and readable.\n\nMore information is available at <https://github.com/brigade/scss-lint>.",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "SCSSLintBear",
+      "process_output_args": {
+        "output_regex": ".+:(?P<line>\\d+)\\s+(\\[(?P<severity>.)\\])\\s*(?P<message>.*)"
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Syntax"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "SQL"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "gem",
+          "package": "sqlint",
+          "require": "",
+          "version": ""
+        }
+      ],
+      "can_detect": [
+        "Syntax"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/SQLintBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Check the given SQL files for syntax errors or warnings.\n\nThis bear supports ANSI syntax. Check out\n<https://github.com/purcell/sqlint> for more detailed information.",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "SQLintBear",
+      "process_output_args": {
+        "output_regex": ".+:(?P<line>\\d+):(?P<column>\\d+):(?P<severity>ERROR|WARNING) (?P<message>(?:\\s*.+)*)"
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Complexity",
+        "Formatting"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [
+        "scalalint_config.xml",
+        "scalastyle.jar"
+      ],
+      "LANGUAGES": [
+        "Scala"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [],
+      "can_detect": [
+        "Complexity",
+        "Formatting"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/ScalaLintBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Check Scala code for codestyle, but also semantical problems,\ne.g. cyclomatic complexity.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "scalalint_config": "Path to a custom configuration file. (Optional, defaults to '/home/karan/Work/gsoc/coala-bears/bears/scala/scalastyle_config.xml'.)"
+          }
+        ]
+      },
+      "name": "ScalaLintBear",
+      "process_output_args": {
+        "output_regex": "(?P<severity>warning) file=.+ message=(?P<message>.+) line=(?P<line>\\d+)(?: column=(?P<column>\\d+))?"
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Security",
+        "Unused Code",
+        "Undefined Element",
+        "Syntax"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "sh",
+        "ksh",
+        "bash",
+        "dash"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [],
+      "can_detect": [
+        "Security",
+        "Unused Code",
+        "Undefined Element",
+        "Syntax"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/ShellCheckBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Check bash/shell scripts for syntactical problems (with understandable\nmessages), semantical problems as well as subtle caveats and pitfalls.\n\nA gallery of bad code that can be detected is available at\n<https://github.com/koalaman/shellcheck/blob/master/README.md>.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "shell": "Target shell being used. (Optional, defaults to 'sh'.)"
+          }
+        ]
+      },
+      "name": "ShellCheckBear",
+      "process_output_args": {
+        "output_regex": ".+:(?P<line>\\d+):(?P<column>\\d+): (?P<severity>error|warning|info): (?P<message>.+)"
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [],
+      "CAN_FIX": [
+        "Formatting"
+      ],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "All"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [],
+      "can_detect": [
+        "Formatting"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/SpaceConsistencyBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Check and correct spacing for all textual data. This includes usage of tabs vs. spaces, trailing whitespace and (missing) newlines before the end of the file.",
+        "non_optional_params": [
+          {
+            "use_spaces": "True if spaces are to be used instead of tabs."
+          }
+        ],
+        "optional_params": [
+          {
+            "allow_trailing_whitespace": "Whether to allow trailing whitespace or not. (Optional, defaults to 'False'.)"
+          },
+          {
+            "tab_width": "Number of spaces representing one tab. (Optional, defaults to '4'.)"
+          },
+          {
+            "enforce_newline_at_EOF": "Whether to enforce a newline at the End Of File. (Optional, defaults to 'True'.)"
+          }
+        ]
+      },
+      "name": "SpaceConsistencyBear"
+    },
+    {
+      "ASCIINEMA_URL": "https://asciinema.org/a/9re9c4fv17lhn7rmvzueebb3b",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Smell",
+        "Formatting",
+        "Syntax"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "TypeScript"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "npm",
+          "package": "tslint",
+          "version": "3"
+        }
+      ],
+      "can_detect": [
+        "Smell",
+        "Formatting",
+        "Syntax"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/TSLintBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Check TypeScript code for style violations and possible semantical\nproblems.\n\nRead more about the capabilities at\n<https://github.com/palantir/tslint#core-rules>.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "tslint_config": "Path to configuration file. (Optional, defaults to ''.)"
+          },
+          {
+            "rules_dir": "Rules directory (Optional, defaults to ''.)"
+          }
+        ]
+      },
+      "name": "TSLintBear"
+    },
+    {
+      "ASCIINEMA_URL": "https://asciinema.org/a/45666",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Formatting"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Swift"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [],
+      "can_detect": [
+        "Formatting"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/TailorBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Analyze Swift code and check for code style related\nwarning messages.\n\nFor more information on the analysis visit <https://tailor.sh/>",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "min_name_length": "minimum number of characters in Identifier name <1-999>. (Optional, defaults to '1'.)"
+          },
+          {
+            "max_class_length": "maximum number of lines in a Class <0-999>. (Optional, defaults to '0'.)"
+          },
+          {
+            "max_file_length": "maximum number of lines in a File <0-999>. (Optional, defaults to '0'.)"
+          },
+          {
+            "max_struct_length": "maximum number od lines in a Struct <0-999>. (Optional, defaults to '0'.)"
+          },
+          {
+            "tailor_config": "path to Tailor configuration file. (Optional, defaults to ''.)"
+          },
+          {
+            "max_function_length": "maximum number of lines in a Function <0-999>. (Optional, defaults to '0'.)"
+          },
+          {
+            "max_line_length": "maximum number of characters in a Line <0-999>. (Optional, defaults to '80'.)"
+          },
+          {
+            "max_name_length": "maximum length of Identifier name <0-999>. (Optional, defaults to '0'.)"
+          },
+          {
+            "max_closure_length": "maximum number of lines in a Closure <0-999>. (Optional, defaults to '0'.)"
+          }
+        ]
+      },
+      "name": "TailorBear",
+      "severity_map": {
+        "error": 2,
+        "warning": 1
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Formatting"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "VHDL"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [],
+      "can_detect": [
+        "Formatting"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/VHDLLintBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Check VHDL code for common codestyle problems.\n\nRules include:\n\n * Signals, variables, ports, types, subtypes, etc. must be lowercase.\n * Constants and generics must be uppercase.\n * Entities, architectures and packages must be \"mixedcase\" (may be 100%\n   uppercase, but not 100% lowercase).\n * Ports must be suffixed using _i, _o or _io denoting its kind.\n * Labels must be placed in a separated line. Exception: component\n   instantiation.\n * End statements must be documented indicating what are finishing.\n * Buffer ports are forbidden.\n * VHDL constructions of the \"entity xxxx is\" and similars must be in one\n   line. You can't put \"entity xxxxx\" in one line and \"is\" in another.\n * No more than one VHDL construction is allowed in one line of code.\n\nSee <http://fpgalibre.sourceforge.net/ingles.html#tp46> for more\ninformation.",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "VHDLLintBear",
+      "process_output_args": {
+        "output_regex": ".+:(?P<line>\\d+):(?P<severity>.*) - (?P<message>.*)"
+      }
+    },
+    {
+      "ASCIINEMA_URL": "https://asciinema.org/a/45275",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Unused Code",
+        "Code Simplification",
+        "Formatting",
+        "Syntax"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Verilog"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "package": {
+            "apt": "verilator"
+          }
+        }
+      ],
+      "can_detect": [
+        "Unused Code",
+        "Code Simplification",
+        "Formatting",
+        "Syntax"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/VerilogLintBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Analyze Verilog code using ``verilator`` and checks for all lint\nrelated and code style related warning messages. It supports the\nsynthesis subset of Verilog, plus initial statements, proper\nblocking/non-blocking assignments, functions, tasks.\n\nIt also warns about unused code when a specified signal is never sinked,\nand unoptimized code due to some construct, with which the\noptimization of the specified signal or block is disabled.\n\nThis is done using the ``--lint-only`` command. For more information visit\n<http://www.veripool.org/projects/verilator/wiki/Manual-verilator>.",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "VerilogLintBear",
+      "process_output_args": {
+        "output_regex": "\\%(?:(?P<severity>Error|Warning.*?).*?):.+?:(?P<line>.+?): (?P<message>.+)"
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Formatting"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "VimScript"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "pip",
+          "package": "vim-vint",
+          "version": "0.3.*"
+        }
+      ],
+      "can_detect": [
+        "Formatting"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/VintBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Check vimscript code for possible style problems.\n\nSee <https://github.com/Kuniwak/vint> for more information.",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "VintBear",
+      "process_output_args": {
+        "output_regex": ".+:(?P<line>\\d+):(?P<column>\\d+): (?P<message>.+)"
+      }
+    },
+    {
+      "ASCIINEMA_URL": "https://asciinema.org/a/80761",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Grammar",
+        "Formatting"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Natural Language"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "npm",
+          "package": "write-good",
+          "version": "0.9.1"
+        }
+      ],
+      "can_detect": [
+        "Grammar",
+        "Formatting"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/WriteGoodLintBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Lints the text files using ``write-good`` for improving proses.\n\nSee <https://github.com/btford/write-good> for more information.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "allow_repeated_words": "Allows lexical illusions \u2013 cases where a word is repeated. (Optional, defaults to 'False'.)"
+          },
+          {
+            "allow_adverbs": "Allows adverbs that can weaken the meaning, such as: ``really``, ``very``, ``extremely``, etc. (Optional, defaults to 'False'.)"
+          },
+          {
+            "allow_cliche_phrases": "Allows common cliche phrases in the sentence. (Optional, defaults to 'False'.)"
+          },
+          {
+            "allow_there_is": "Allows ``There is`` or ``There are`` at the beginning of the sentence. (Optional, defaults to 'False'.)"
+          },
+          {
+            "allow_ambiguous_words": "Allows ``weasel words`` for example ``often``, ``probably`` (Optional, defaults to 'False'.)"
+          },
+          {
+            "allow_so_beginning": "Allows ``So`` at the beginning of the sentence. (Optional, defaults to 'False'.)"
+          },
+          {
+            "allow_passive_voice": "Allows passive voice. (Optional, defaults to 'False'.)"
+          },
+          {
+            "allow_extra_words": "Allows wordy phrases and unnecessary words. (Optional, defaults to 'False'.)"
+          }
+        ]
+      },
+      "name": "WriteGoodLintBear",
+      "process_output_args": {
+        "output_regex": "(?P<message>.*)\\s*on\\s*line\\s*(?P<line>\\d+)\\s*at\\scolumn\\s*(?P<column>\\d+)"
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Formatting",
+        "Syntax"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "XML"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "package": {
+            "apt": "libxml2"
+          }
+        }
+      ],
+      "arguments": "",
+      "can_detect": [
+        "Formatting",
+        "Syntax"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/XMLBear",
+      "diff_message": "XML can be formatted better.",
+      "diff_severity": 1,
+      "executable": "xmllint",
+      "gives_corrected": true,
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Checks the code with ``xmllint``.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "xml_schema": "``W3C XML Schema`` file used for validation. (Optional, defaults to ''.)"
+          },
+          {
+            "xml_dtd": "``Document type Definition (DTD)`` file or url used for validation. (Optional, defaults to ''.)"
+          }
+        ]
+      },
+      "name": "XMLBear",
+      "output_regex": "(.*\\.xml):(?P<line>\\d+): (?P<message>.*)\\n.*\\n.*",
+      "prerequisite_command": null,
+      "prerequisite_fail_msg": "Unknown failure.",
+      "severity_map": null,
+      "use_stderr": true,
+      "use_stdin": false
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Formatting",
+        "Syntax"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "YAML"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "pip",
+          "package": "yamllint",
+          "version": "1.*"
+        }
+      ],
+      "can_detect": [
+        "Formatting",
+        "Syntax"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/YAMLLintBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Check yaml code for errors and possible problems.\n\nYou can read more about capabilities at\n<http://yamllint.readthedocs.org/en/latest/rules.html>.",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "yamllint_config": "Path to a custom configuration file. (Optional, defaults to ''.)"
+          }
+        ]
+      },
+      "name": "YAMLLintBear",
+      "process_output_args": {
+        "output_regex": ".+:(?P<line>\\d+):(?P<column>\\d+): \\[(?P<severity>error|warning)\\] (?P<message>.+)"
+      }
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [],
+      "CAN_FIX": [
+        "Formatting"
+      ],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "Python 3",
+        "Python",
+        "Python 2"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "pip",
+          "package": "yapf",
+          "version": "0.10"
+        }
+      ],
+      "can_detect": [
+        "Formatting"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/YapfBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "",
+        "non_optional_params": [],
+        "optional_params": [
+          {
+            "max_line_length": " Maximum number of characters for a line. (Optional, defaults to '79'.)"
+          },
+          {
+            "tab_width": " Number of spaces per indent level. (Optional, defaults to '4'.)"
+          },
+          {
+            "allow_multiline_lambdas": " Allows lambdas to be formatted on more than one line. (Optional, defaults to 'False'.)"
+          },
+          {
+            "blank_line_before_nested_class_or_def": " Inserts a blank line before a ``def`` or ``class`` immediately nested within another ``def`` or ``class``. (Optional, defaults to 'False'.)"
+          },
+          {
+            "continuation_tab_width": " Indent width used for line continuations. (Optional, defaults to '4'.)"
+          },
+          {
+            "dedent_closing_brackets": " Puts closing brackets on a separate line, dedented, if the bracketed expression can't fit in a single line. Applies to all kinds of brackets, including function definitions and calls. (Optional, defaults to 'False'.)"
+          },
+          {
+            "indent_dictionary_value": " Indents the dictionary value if it cannot fit on the same line as the dictionary key. (Optional, defaults to 'False'.)"
+          },
+          {
+            "join_multiple_lines": " Joins short lines into one line. (Optional, defaults to 'True'.)"
+          },
+          {
+            "spaces_around_power_operator": " Set to ``True`` to prefer using spaces around ``**``. (Optional, defaults to 'True'.)"
+          },
+          {
+            "spaces_before_comment": " The number of spaces required before a trailing comment. (Optional, defaults to '2'.)"
+          },
+          {
+            "space_between_ending_comma_and_closing_bracket": " Inserts a space between the ending comma and closing bracket of a list, etc. (Optional, defaults to 'False'.)"
+          },
+          {
+            "split_arguments_when_comma_terminated": " Splits before arguments if the argument list is terminated by a comma. (Optional, defaults to 'False'.)"
+          },
+          {
+            "split_before_bitwise_operator": " Set to ``True`` to prefer splitting before ``&``, ``|`` or ``^`` rather than after. (Optional, defaults to 'False'.)"
+          },
+          {
+            "split_before_first_argument": " If an argument / parameter list is going to be split, then split before the first argument. (Optional, defaults to 'False'.)"
+          },
+          {
+            "split_before_logical_operator": " Set to ``True`` to prefer splitting before ``and`` or ``or`` rather than after. (Optional, defaults to 'False'.)"
+          },
+          {
+            "split_before_named_assigns": " Splits named assignments into individual lines. (Optional, defaults to 'True'.)"
+          },
+          {
+            "use_spaces": " Uses spaces for indentation. (Optional, defaults to 'True'.)"
+          },
+          {
+            "based_on_style": " The formatting style to be used as reference. (Optional, defaults to 'pep8'.)"
+          }
+        ]
+      },
+      "name": "YapfBear"
+    },
+    {
+      "ASCIINEMA_URL": "https://asciinema.org/a/4p1i873ebi9qdfmczn2tvxrm0",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Spelling"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "All"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [],
+      "can_detect": [
+        "Spelling"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/coalaBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Check for the correct spelling of ``coala`` in the file.",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "coalaBear"
+    },
+    {
+      "ASCIINEMA_URL": "",
+      "AUTHORS": [
+        "The coala developers"
+      ],
+      "AUTHORS_EMAILS": [
+        "coala-devel@googlegroups.com"
+      ],
+      "CAN_DETECT": [
+        "Formatting",
+        "Syntax"
+      ],
+      "CAN_FIX": [],
+      "INCLUDE_LOCAL_FILES": [],
+      "LANGUAGES": [
+        "reStructuredText"
+      ],
+      "LICENSE": "AGPL-3.0",
+      "MAINTAINERS": [],
+      "MAINTAINERS_EMAILS": [],
+      "PLATFORMS": [
+        "any"
+      ],
+      "REQUIREMENTS": [
+        {
+          "manager": "pip",
+          "package": "restructuredtext_lint",
+          "version": "0.14.*"
+        }
+      ],
+      "can_detect": [
+        "Formatting",
+        "Syntax"
+      ],
+      "data_dir": "/home/karan/.local/share/coala-bears/reSTLintBear",
+      "maintainers": [
+        "The coala developers"
+      ],
+      "maintainers_emails": [
+        "coala-devel@googlegroups.com"
+      ],
+      "metadata": {
+        "desc": "Lints reStructuredText.",
+        "non_optional_params": [],
+        "optional_params": []
+      },
+      "name": "reSTLintBear"
+    }
+  ],
+  "logs": [
+    {
+      "log_level": 2,
+      "message": "The default coafile '.coafile' was not found. You can generate a configuration file with your current options by adding the `--save` flag.",
+      "timestamp": "2016-08-08T12:24:20.983352"
+    },
+    {
+      "log_level": 2,
+      "message": "coala will not run any analysis. Did you forget to give the `--files` argument?",
+      "timestamp": "2016-08-08T12:24:20.983493"
+    },
+    {
+      "log_level": 2,
+      "message": "coala will not run any analysis. Did you forget to give the `--bears` argument?",
+      "timestamp": "2016-08-08T12:24:20.983520"
+    }
+  ]
+}
