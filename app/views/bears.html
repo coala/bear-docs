@@ -1,0 +1,78 @@
+<div style="cursor:pointer;" class="chip" ng-repeat="(lang,count) in counts">
+    <span id="circle">{{count}}</span>
+    <a ng-click="filterFunction(lang)">{{lang}}</a>
+</div>
+
+<div class="row">
+    <form class="form-inline">
+        <input ng-model="query" type="text" placeholder="Search by name" autofocus>
+    </form>
+</div>
+
+<div class="row">
+    <span><a class="waves-effect waves-light btn">{{bearsTotal}} Total</a></span>
+    <span class="col s2 offset-s10"><a class="waves-effect waves-light btn" ng-click="reset()">reset</a>
+</span>
+    <br/>
+    <h6 ng-show="message">
+    Showing Bears for: <span id="lang">{{message}}</span>
+</h6>
+    <div ng-repeat="bear in bearslist | fuzzyBy: 'name': query">
+        <div class="col m6">
+            <div class="card blue-grey darken-1">
+                <div class="card-content white-text">
+                    <span class="card-title activator white-text text-darken-4">{{bear.name}}<i ng-show="bear.REQUIREMENTS.length" class="material-icons right">more_vert</i></span>
+                    <p class= "truncate amber-text lighten-5">{{bear.metadata["desc"]}}</p>
+                    <br/>
+                    <br/>
+                    <a ng-click="scrollToTop()" href="#/{{bear.name}}" class="btn-floating btn-large waves-effect waves-light teal ">
+                        <i class="material-icons">add</i>
+                    </a>
+
+                    <br/>
+                    <br/>
+
+                </div>
+                <div class="card-reveal" ng-show="bear.REQUIREMENTS.length">
+                    <span class="card-title grey-text text-darken-4">External Requirements<i class="material-icons right">close</i></span>
+                    <table class="highlight responsive-table">
+                        <thead>
+                            <tr>
+                                <th data-field="id">Manager</th>
+                                <th data-field="name">Package</th>
+                            </tr>
+                        </thead>
+
+                        <tbody ng-repeat="req in bear.REQUIREMENTS">
+                            <tr>
+                                <td>{{req.manager}}</td>
+                                <td>{{req.package}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br/>
+                    <li class="collection-item" ng-show="bear.CAN_DETECT.length">
+                        <div>
+                            CAN_DETECT
+                            <span class="secondary-content">
+                              <span ng-repeat="prop in bear.CAN_DETECT" class="chip">{{prop}}</span>
+                            </span>
+                        </div>
+                    </li>
+                    <<br/>
+                    <li class="collection-item" ng-show="bear.CAN_FIX.length">
+                        <div>
+                            CAN_FIX
+                            <span class="secondary-content">
+                          <span ng-repeat="prop in bear.CAN_FIX" class="chip">{{prop}}</span>
+                            </span>
+                        </div>
+                    </li>
+                </div>
+            </div>
+        </div>
+        <div ng-hide="bearsTotal">
+            <h3>No bears found.</h2>
+</div>
+</div>
+</div>
