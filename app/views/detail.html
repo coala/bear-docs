@@ -1,0 +1,139 @@
+<div class="row">
+    <h2>{{requiredBear.name}}</h2>
+    <hr flex/>
+    <p class="flow-text">{{requiredBear.metadata.desc}}</p>
+    <div class="col s4" ng-show="requiredBear.REQUIREMENTS.length">
+        <h4> External Requirements </h4>
+        <table class="highlight responsive-table">
+            <thead>
+                <tr>
+                    <th data-field="manager">Manager</th>
+                    <th data-field="pacakge">Package</th>
+                    <th data-field="version">Version</th>
+                </tr>
+            </thead>
+
+            <tbody ng-repeat="req in requiredBear.REQUIREMENTS">
+                <tr>
+                    <td>{{req.manager}}</td>
+                    <td>{{req.package}}</td>
+                    <td>{{req.version}}</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    </div>
+</div>
+<!-- end row -->
+
+<div class="row">
+    <h4> Supported Languages </h4>
+    <div style="cursor:pointer;" class="chip" ng-repeat="lang in requiredBear.LANGUAGES">
+        <a href="#/lang/{{lang}}">{{lang}}</a>
+    </div>
+
+    <div ng-show="requiredBear.metadata.non_optional_params.length">
+        <table>
+            <h4> Parameters </h4>
+
+            <thead>
+                <tr>
+                    <th data-field="id">Setting</th>
+                    <th data-field="name">Comments</th>
+                </tr>
+            </thead>
+
+            <tbody ng-repeat="prop in requiredBear.metadata.non_optional_params">
+                <tr ng-repeat="(key, value) in prop">
+                    <td style="color:#2B4882;">{{key}}</td>
+                    <td>{{value}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div ng-show="requiredBear.metadata.optional_params.length">
+        <table>
+            <h4> Optional Parameters </h4>
+
+            <thead>
+                <tr>
+                    <th data-field="id">Setting</th>
+                    <th data-field="name">Comments</th>
+                </tr>
+            </thead>
+
+            <tbody ng-repeat="prop in requiredBear.metadata.optional_params">
+                <tr ng-repeat="(key, value) in prop">
+                    <td style="color:#2B4882;">{{key}}</td>
+                    <td>{{value}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <ul class="collection with-header">
+        <li class="collection-header">
+            <h4>Bear Info</h4>
+        </li>
+
+        <li class="collection-item" ng-show="requiredBear.CAN_DETECT.length">
+            <div>
+                CAN_DETECT
+                <span class="secondary-content">
+                  <span ng-repeat="prop in requiredBear.CAN_DETECT" class="chip">{{prop}}</span>
+                </span>
+            </div>
+        </li>
+        <li class="collection-item" ng-show="requiredBear.CAN_FIX.length">
+            <div>
+                CAN_FIX
+                <span class="secondary-content">
+              <span ng-repeat="prop in requiredBear.CAN_FIX" class="chip">{{prop}}</span>
+                </span>
+            </div>
+        </li>
+        <li class="collection-item" ng-show="requiredBear.PLATFORMS.length">
+            <div>
+                Supported Platforms
+                <span class="secondary-content">
+          <span ng-repeat="prop in requiredBear.PLATFORMS" class="chip">{{prop}}</span>
+                </span>
+            </div>
+        </li>
+    </ul>
+
+    <div ng-show="requiredBear.ASCIINEMA_URL.length"><h4> Demo </h4>
+    <a href={{requiredBear.ASCIINEMA_URL}}><img class="responsive-img" src="{{requiredBear.ASCIINEMA_URL}}.png" />
+    </a>
+</div>
+
+    <h3> Credits & Support </h3>
+    <div ng-show="requiredBear.AUTHORS.length">
+        <h5> Authors </h5>
+        <div ng-repeat="auth in requiredBear.AUTHORS">
+            <h6> {{auth}}</h6>
+        </div>
+    </div>
+    <div ng-show="requiredBear.AUTHORS_EMAILS.length">
+        <div ng-repeat="email in requiredBear.AUTHORS_EMAILS">
+            <a href="mailto:email" target="_top">{{email}}</a>
+        </div>
+    </div>
+
+    <div ng-show="requiredBear.maintainers.length">
+        <h5>Maintainers</h5>
+        <div ng-repeat="maintainer in requiredBear.maintainers">
+            <h6> {{maintainer}} </h6>
+        </div>
+    </div>
+    <div ng-show="requiredBear.maintainers_emails.length">
+        <div ng-repeat="email in requiredBear.maintainers_emails">
+            <a href="mailto:email" target="_top">{{email}}</a>
+        </div>
+    </div>
+    <br/>
+    <br/>
+    <h5>LICENSE: {{requiredBear.LICENSE}} </h5>
+
+</div>
