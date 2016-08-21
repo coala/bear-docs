@@ -20,14 +20,29 @@ Settings
 | Setting                               |  Meaning                                                     |
 +=======================================+==============================================================+
 |                                       |                                                              |
+| ``allow_argument_caller_and_callee``  | This option allows the use of ``arguments.caller`` and       |
+|                                       | ``arguments.callee``. (Optional, defaults to 'False'.)       |
+|                                       |                                                              |
++---------------------------------------+--------------------------------------------------------------+
+|                                       |                                                              |
 | ``allow_assignment_comparisions``     | This option suppresses warnings about the use of             |
 |                                       | assignments in cases where comparisons are expected.         |
 |                                       | (Optional, defaults to 'False'.)                             |
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
-| ``allow_bitwise_operators``           | Prohibits the use of bitwise operators when its value is     |
-|                                       | ``False``. (Optional, defaults to 'False'.)                  |
+| ``allow_bitwise_operators``           | Allows the use of bitwise operators. (Optional, defaults     |
+|                                       | to 'False'.)                                                 |
+|                                       |                                                              |
++---------------------------------------+--------------------------------------------------------------+
+|                                       |                                                              |
+| ``allow_comma_operator``              | This option allows the use of the comma operator.            |
+|                                       | (Optional, defaults to 'True'.)                              |
+|                                       |                                                              |
++---------------------------------------+--------------------------------------------------------------+
+|                                       |                                                              |
+| ``allow_constructor_functions``       | Allows the use of constructor functions. (Optional,          |
+|                                       | defaults to 'True'.)                                         |
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
@@ -52,6 +67,11 @@ Settings
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
+| ``allow_filter_in_forin``             | This option requires all ``for in`` loops to filter          |
+|                                       | object's items. (Optional, defaults to 'True'.)              |
+|                                       |                                                              |
++---------------------------------------+--------------------------------------------------------------+
+|                                       |                                                              |
 | ``allow_func_in_loop``                | This option suppresses warnings about functions inside of    |
 |                                       | loops. (Optional, defaults to 'False'.)                      |
 |                                       |                                                              |
@@ -63,8 +83,19 @@ Settings
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
+| ``allow_future_identifiers``          | This option allows the use of identifiers which are          |
+|                                       | defined in future versions of JavaScript. (Optional,         |
+|                                       | defaults to 'True'.)                                         |
+|                                       |                                                              |
++---------------------------------------+--------------------------------------------------------------+
+|                                       |                                                              |
 | ``allow_global_strict``               | This option suppresses warnings about the use of global      |
 |                                       | strict mode. (Optional, defaults to 'False'.)                |
+|                                       |                                                              |
++---------------------------------------+--------------------------------------------------------------+
+|                                       |                                                              |
+| ``allow_grouping_operator``           | This option allows the use of the grouping operator when     |
+|                                       | it is not strictly required. (Optional, defaults to 'True'.) |
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
@@ -74,20 +105,35 @@ Settings
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
+| ``allow_iterator_property``           | This option suppresses warnings about the ``__iterator__``   |
+|                                       | property. (Optional, defaults to 'True'.)                    |
+|                                       |                                                              |
++---------------------------------------+--------------------------------------------------------------+
+|                                       |                                                              |
 | ``allow_last_semicolon``              | This option suppresses warnings about missing semicolons     |
 |                                       | for the last statement. (Optional, defaults to 'False'.)     |
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
-| ``allow_latedef``                     | This option prohibits the use of a variable before it was    |
+| ``allow_latedef``                     | This option allows the use of a variable before it was       |
 |                                       | defined. Setting this option to "nofunc" will allow          |
 |                                       | function declarations to be ignored. (Optional, defaults to  |
 |                                       | 'False'.)                                                    |
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
+| ``allow_missing_semicol``             | This option suppresses warnings about missing semicolons.    |
+|                                       | (Optional, defaults to 'False'.)                             |
+|                                       |                                                              |
++---------------------------------------+--------------------------------------------------------------+
+|                                       |                                                              |
 | ``allow_missing_semicolon``           | This option suppresses warnings about missing semicolons.    |
 |                                       | (Optional, defaults to 'False'.)                             |
+|                                       |                                                              |
++---------------------------------------+--------------------------------------------------------------+
+|                                       |                                                              |
+| ``allow_non_breaking_whitespace``     | Allows "non-breaking whitespace characters". (Optional,      |
+|                                       | defaults to 'False'.)                                        |
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
@@ -99,6 +145,11 @@ Settings
 |                                       |                                                              |
 | ``allow_proto``                       | This option suppresses warnings about the ``__proto__``      |
 |                                       | property. (Optional, defaults to 'False'.)                   |
+|                                       |                                                              |
++---------------------------------------+--------------------------------------------------------------+
+|                                       |                                                              |
+| ``allow_prototype_overwrite``         | This options allows overwriting prototypes of native         |
+|                                       | objects such as ``Array``. (Optional, defaults to 'False'.)  |
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
@@ -120,16 +171,53 @@ Settings
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
+| ``allow_this_stmt``                   | This option suppresses warnings about possible strict        |
+|                                       | violations when the code is running in strict mode and       |
+|                                       | ``this`` is used in a non-constructor function. (Optional,   |
+|                                       | defaults to 'False'.)                                        |
+|                                       |                                                              |
++---------------------------------------+--------------------------------------------------------------+
+|                                       |                                                              |
+| ``allow_type_coercion``               | This options allows the use of ``==`` and ``!=``.            |
+|                                       | (Optional, defaults to 'False'.)                             |
+|                                       |                                                              |
++---------------------------------------+--------------------------------------------------------------+
+|                                       |                                                              |
+| ``allow_typeof``                      | This option enables warnings about invalid ``typeof``        |
+|                                       | operator values. (Optional, defaults to 'True'.)             |
+|                                       |                                                              |
++---------------------------------------+--------------------------------------------------------------+
+|                                       |                                                              |
+| ``allow_unused_variables``            | Allows when variables are defined but never used. This can   |
+|                                       | be set to ""vars"" to only check for variables, not          |
+|                                       | function parameters, or ""strict"" to check all variables    |
+|                                       | and parameters. (Optional, defaults to 'False'.)             |
+|                                       |                                                              |
++---------------------------------------+--------------------------------------------------------------+
+|                                       |                                                              |
+| ``allow_var_statement``               | Allows the use of the ``var`` statement while declaring a    |
+|                                       | variable. Should use ``let`` or ``const`` while it is set    |
+|                                       | to ``False``. (Optional, defaults to 'True'.)                |
+|                                       |                                                              |
++---------------------------------------+--------------------------------------------------------------+
+|                                       |                                                              |
+| ``allow_variable_shadowing``          | This option suppresses warnings about variable shadowing     |
+|                                       | i.e. declaring a variable that had been already declared     |
+|                                       | somewhere in the outer scope.                                |
+|                                       | - "inner" - check for variables defined in the same scope    |
+|                                       | only - "outer" - check for variables defined in outer        |
+|                                       | scopes as well - False - same as inner - True  - allow       |
+|                                       | variable shadowing (Optional, defaults to 'False'.)          |
+|                                       |                                                              |
++---------------------------------------+--------------------------------------------------------------+
+|                                       |                                                              |
 | ``allow_with_statements``             | This option suppresses warnings about the use of the         |
 |                                       | ``with`` statement. (Optional, defaults to 'False'.)         |
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
-| ``check_unused_variables``            | This option generates warnings when variables are defined    |
-|                                       | but never used. This can be set to ""vars"" to only check    |
-|                                       | for variables, not function parameters, or ""strict"" to     |
-|                                       | check all variables and parameters. (Optional, defaults to   |
-|                                       | 'True'.)                                                     |
+| ``allow_with_stmt``                   | This option suppresses warnings about the use of the         |
+|                                       | ``with`` statement. (Optional, defaults to 'False'.)         |
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
@@ -267,14 +355,14 @@ Settings
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
-| ``future_hostile``                    | This option enables warnings about the use of identifiers    |
-|                                       | which are defined in future versions of JavaScript.          |
-|                                       | (Optional, defaults to 'False'.)                             |
+| ``future_hostile``                    | This option allows the use of identifiers which are          |
+|                                       | defined in future versions of JavaScript. (Optional,         |
+|                                       | defaults to 'True'.)                                         |
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
 | ``iterator``                          | This option suppresses warnings about the ``__iterator__``   |
-|                                       | property. (Optional, defaults to 'False'.)                   |
+|                                       | property. (Optional, defaults to 'True'.)                    |
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
@@ -285,8 +373,23 @@ Settings
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
+| ``max_depth``                         | This option lets you control how nested do you want your     |
+|                                       | blocks to be. (Optional, defaults to 'False'.)               |
+|                                       |                                                              |
++---------------------------------------+--------------------------------------------------------------+
+|                                       |                                                              |
 | ``max_parameters``                    | Maximum number of parameters allowed per function.           |
 |                                       | (Optional, defaults to 'False'.)                             |
+|                                       |                                                              |
++---------------------------------------+--------------------------------------------------------------+
+|                                       |                                                              |
+| ``max_statements``                    | Maximum number of statements allowed per function.           |
+|                                       | (Optional, defaults to 'False'.)                             |
+|                                       |                                                              |
++---------------------------------------+--------------------------------------------------------------+
+|                                       |                                                              |
+| ``maxcomplexity``                     | Maximum cyclomatic complexity in the code. (Optional,        |
+|                                       | defaults to 'False'.)                                        |
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
@@ -295,60 +398,71 @@ Settings
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
+| ``maxparams``                         | Maximum number of parameters allowed per function.           |
+|                                       | (Optional, defaults to 'False'.)                             |
+|                                       |                                                              |
++---------------------------------------+--------------------------------------------------------------+
+|                                       |                                                              |
 | ``maxstatements``                     | Maximum number of statements allowed per function.           |
 |                                       | (Optional, defaults to 'False'.)                             |
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
-| ``prohibit_arg``                      | This option prohibits the use of ``arguments.caller`` and    |
-|                                       | ``arguments.callee``. (Optional, defaults to 'True'.)        |
+| ``prohibit_arg``                      | This option allows the use of ``arguments.caller`` and       |
+|                                       | ``arguments.callee``. (Optional, defaults to 'False'.)       |
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
-| ``prohibit_comma``                    | This option prohibits the use of the comma operator.         |
+| ``prohibit_bitwise``                  | Allows the use of bitwise operators. (Optional, defaults     |
+|                                       | to 'False'.)                                                 |
+|                                       |                                                              |
++---------------------------------------+--------------------------------------------------------------+
+|                                       |                                                              |
+| ``prohibit_comma``                    | This option allows the use of the comma operator.            |
+|                                       | (Optional, defaults to 'True'.)                              |
+|                                       |                                                              |
++---------------------------------------+--------------------------------------------------------------+
+|                                       |                                                              |
+| ``prohibit_groups``                   | This option allows the use of the grouping operator when     |
+|                                       | it is not strictly required. (Optional, defaults to 'True'.) |
+|                                       |                                                              |
++---------------------------------------+--------------------------------------------------------------+
+|                                       |                                                              |
+| ``prohibit_new``                      | Allows the use of constructor functions. (Optional,          |
+|                                       | defaults to 'True'.)                                         |
+|                                       |                                                              |
++---------------------------------------+--------------------------------------------------------------+
+|                                       |                                                              |
+| ``prohibit_non_breaking_whitespace``  | Allows "non-breaking whitespace characters". (Optional,      |
+|                                       | defaults to 'False'.)                                        |
+|                                       |                                                              |
++---------------------------------------+--------------------------------------------------------------+
+|                                       |                                                              |
+| ``prohibit_prototype_overwrite``      | This options allows overwriting prototypes of native         |
+|                                       | objects such as ``Array``. (Optional, defaults to 'False'.)  |
+|                                       |                                                              |
++---------------------------------------+--------------------------------------------------------------+
+|                                       |                                                              |
+| ``prohibit_type_coercion``            | This options allows the use of ``==`` and ``!=``.            |
 |                                       | (Optional, defaults to 'False'.)                             |
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
-| ``prohibit_groups``                   | This option prohibits the use of the grouping operator       |
-|                                       | when it is not strictly required. (Optional, defaults to     |
-|                                       | 'False'.)                                                    |
+| ``prohibit_typeof``                   | This option enables warnings about invalid ``typeof``        |
+|                                       | operator values. (Optional, defaults to 'True'.)             |
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
-| ``prohibit_new``                      | This option prohibits the use of constructor functions for   |
-|                                       | side-effects. (Optional, defaults to 'False'.)               |
+| ``prohibit_unused``                   | Allows when variables are defined but never used. This can   |
+|                                       | be set to ""vars"" to only check for variables, not          |
+|                                       | function parameters, or ""strict"" to check all variables    |
+|                                       | and parameters. (Optional, defaults to 'False'.)             |
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
-| ``prohibit_non_breaking_whitespace``  | This option warns about "non-breaking whitespace             |
-|                                       | characters". (Optional, defaults to 'True'.)                 |
-|                                       |                                                              |
-+---------------------------------------+--------------------------------------------------------------+
-|                                       |                                                              |
-| ``prohibit_prototype_overwrite``      | This options prohibits overwriting prototypes of native      |
-|                                       | objects such as ``Array``. (Optional, defaults to 'True'.)   |
-|                                       |                                                              |
-+---------------------------------------+--------------------------------------------------------------+
-|                                       |                                                              |
-| ``prohibit_type_coercion``            | This options prohibits the use of ``==`` and ``!=`` in       |
-|                                       | favor of ``===`` and ``!==``. (Optional, defaults to         |
-|                                       | 'True'.)                                                     |
-|                                       |                                                              |
-+---------------------------------------+--------------------------------------------------------------+
-|                                       |                                                              |
-| ``prohibit_typeof``                   | This option suppresses warnings about invalid ``typeof``     |
-|                                       | operator values. (Optional, defaults to 'False'.)            |
-|                                       |                                                              |
-+---------------------------------------+--------------------------------------------------------------+
-|                                       |                                                              |
-| ``prohibit_undefined``                | This option prohibits the use of explicitly undeclared       |
-|                                       | variables. (Optional, defaults to 'True'.)                   |
-|                                       |                                                              |
-+---------------------------------------+--------------------------------------------------------------+
-|                                       |                                                              |
-| ``prohibit_variable_statements``      | This option forbids the use of VariableStatements.           |
-|                                       | (Optional, defaults to 'False'.)                             |
+| ``prohibit_variable_statements``      | Allows the use of the ``var`` statement while declaring a    |
+|                                       | variable. Should use ``let`` or ``const`` while it is set    |
+|                                       | to ``False``. (Optional, defaults to 'True'.)                |
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
@@ -368,6 +482,11 @@ Settings
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
 | ``use_es6_syntax``                    | No description given. (Optional, defaults to 'False'.)       +
+|                                       |                                                              |
++---------------------------------------+--------------------------------------------------------------+
+|                                       |                                                              |
+| ``use_mozilla_extension``             | This options tells JSHint that your code uses Mozilla        |
+|                                       | JavaScript extensions. (Optional, defaults to 'False'.)      |
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |

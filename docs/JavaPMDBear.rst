@@ -19,27 +19,34 @@ Settings
 | Setting                         |  Meaning                                                   |
 +=================================+============================================================+
 |                                 |                                                            |
-| ``check_best_practices``        | Activate to check for best practices. (Optional, defaults  |
-|                                 | to 'True'.)                                                |
+| ``allow_unnecessary_code``      | Allows unnecessary code. (Optional, defaults to 'False'.)  +
 |                                 |                                                            |
 +---------------------------------+------------------------------------------------------------+
 |                                 |                                                            |
-| ``check_braces``                | Check for the right use of braces. (Optional, defaults to  |
+| ``allow_unused_code``           | Allows unused code. (Optional, defaults to 'False'.)       +
+|                                 |                                                            |
++---------------------------------+------------------------------------------------------------+
+|                                 |                                                            |
+| ``check_best_practices``        | Checks for best practices. (Optional, defaults to 'True'.) +
+|                                 |                                                            |
++---------------------------------+------------------------------------------------------------+
+|                                 |                                                            |
+| ``check_braces``                | Checks for the right use of braces. (Optional, defaults to |
 |                                 | 'True'.)                                                   |
 |                                 |                                                            |
 +---------------------------------+------------------------------------------------------------+
 |                                 |                                                            |
-| ``check_clone_implementation``  | Check for the right implementation of the ``clone()``      |
+| ``check_clone_implementation``  | Checks for the right implementation of the ``clone()``     |
 |                                 | function. (Optional, defaults to 'True'.)                  |
 |                                 |                                                            |
 +---------------------------------+------------------------------------------------------------+
 |                                 |                                                            |
-| ``check_code_size``             | Check for large or complicated code constructs. (Optional, |
-|                                 | defaults to 'True'.)                                       |
+| ``check_code_size``             | Checks for large or complicated code constructs.           |
+|                                 | (Optional, defaults to 'True'.)                            |
 |                                 |                                                            |
 +---------------------------------+------------------------------------------------------------+
 |                                 |                                                            |
-| ``check_comments``              | Check comments for length, content and placement.          |
+| ``check_comments``              | Checks comments for length, content and placement.         |
 |                                 | (Optional, defaults to 'False'.)                           |
 |                                 |                                                            |
 +---------------------------------+------------------------------------------------------------+
@@ -49,37 +56,36 @@ Settings
 |                                 |                                                            |
 +---------------------------------+------------------------------------------------------------+
 |                                 |                                                            |
-| ``check_design``                | Check for optimal code implementations. Alternate          |
+| ``check_design``                | Checks for optimal code implementations. Alternate         |
 |                                 | approaches are suggested. (Optional, defaults to 'False'.) |
 |                                 |                                                            |
 +---------------------------------+------------------------------------------------------------+
 |                                 |                                                            |
-| ``check_imports``               | Check for duplicate and unused imports. (Optional,         |
+| ``check_imports``               | Checks for duplicate and unused imports. (Optional,        |
 |                                 | defaults to 'True'.)                                       |
 |                                 |                                                            |
 +---------------------------------+------------------------------------------------------------+
 |                                 |                                                            |
-| ``check_naming``                | Check the names of identifiers against some rules.         |
+| ``check_naming``                | Checks the names of identifiers against some rules.        |
 |                                 | (Optional, defaults to 'True'.)                            |
 |                                 |                                                            |
 +---------------------------------+------------------------------------------------------------+
 |                                 |                                                            |
-| ``check_optimizations``         | Check for best pratices regarding optimization. (Optional, |
-|                                 | defaults to 'False'.)                                      |
+| ``check_optimizations``         | Checks for best pratices regarding optimization.           |
+|                                 | (Optional, defaults to 'False'.)                           |
 |                                 |                                                            |
 +---------------------------------+------------------------------------------------------------+
 |                                 |                                                            |
-| ``check_strings``               | Check for String, StringBuffer and StringBuilder           |
+| ``check_strings``               | Checks for String, StringBuffer and StringBuilder          |
 |                                 | instances. (Optional, defaults to 'False'.)                |
 |                                 |                                                            |
 +---------------------------------+------------------------------------------------------------+
 |                                 |                                                            |
-| ``check_unnecessary``           | Checks for unnecessary code. (Optional, defaults to        |
-|                                 | 'True'.)                                                   |
+| ``check_unnecessary``           | Allows unnecessary code. (Optional, defaults to 'False'.)  +
 |                                 |                                                            |
 +---------------------------------+------------------------------------------------------------+
 |                                 |                                                            |
-| ``check_unused``                | Check for unused code. (Optional, defaults to 'True'.)     +
+| ``check_unused``                | Allows unused code. (Optional, defaults to 'False'.)       +
 |                                 |                                                            |
 +---------------------------------+------------------------------------------------------------+
 

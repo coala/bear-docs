@@ -25,7 +25,12 @@ Settings
 |                                |                                                             |
 +--------------------------------+-------------------------------------------------------------+
 |                                |                                                             |
-| ``tab_width``                  | Number of spaces representing one tab. (Optional, defaults  |
+| ``indent_size``                | Number of spaces per indentation level. (Optional, defaults |
+|                                | to '4'.)                                                    |
+|                                |                                                             |
++--------------------------------+-------------------------------------------------------------+
+|                                |                                                             |
+| ``tab_width``                  | Number of spaces per indentation level. (Optional, defaults |
 |                                | to '4'.)                                                    |
 |                                |                                                             |
 +--------------------------------+-------------------------------------------------------------+

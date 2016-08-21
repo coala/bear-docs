@@ -115,6 +115,11 @@ Settings
 |                                        |                                                                    |
 +----------------------------------------+--------------------------------------------------------------------+
 |                                        |                                                                    |
+| ``indent_size``                        | Number of spaces per indentation level. (Optional,                 |
+|                                        | defaults to '4'.)                                                  |
+|                                        |                                                                    |
++----------------------------------------+--------------------------------------------------------------------+
+|                                        |                                                                    |
 | ``isort_multi_line_output``            | An integer that represents how you want imports to be              |
 |                                        | displayed by ``isort`` if they're long enough to span              |
 |                                        | multiple lines. This value is passed to isort as the               |
@@ -154,7 +159,7 @@ Settings
 +----------------------------------------+--------------------------------------------------------------------+
 |                                        |                                                                    |
 | ``max_line_length``                    | Maximum number of characters for a line. (Optional,                |
-|                                        | defaults to '80'.)                                                 |
+|                                        | defaults to '79'.)                                                 |
 |                                        |                                                                    |
 +----------------------------------------+--------------------------------------------------------------------+
 |                                        |                                                                    |
@@ -169,8 +174,8 @@ Settings
 |                                        |                                                                    |
 +----------------------------------------+--------------------------------------------------------------------+
 |                                        |                                                                    |
-| ``tab_width``                          | Number of spaces per indent level. (Optional, defaults to          |
-|                                        | '4'.)                                                              |
+| ``tab_width``                          | Number of spaces per indentation level. (Optional,                 |
+|                                        | defaults to '4'.)                                                  |
 |                                        |                                                                    |
 +----------------------------------------+--------------------------------------------------------------------+
 |                                        |                                                                    |

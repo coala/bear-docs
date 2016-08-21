@@ -215,6 +215,8 @@ Python
 * `PyLintBear <docs/PyLintBear.rst>`_
 * `PyUnusedCodeBear <docs/PyUnusedCodeBear.rst>`_
 * `RadonBear <docs/RadonBear.rst>`_
+* `VultureBear <docs/VultureBear.rst>`_
+* `YapfBear <docs/YapfBear.rst>`_
 
 Python 2
 ========
@@ -226,6 +228,7 @@ Python 2
 * `PyLintBear <docs/PyLintBear.rst>`_
 * `PyUnusedCodeBear <docs/PyUnusedCodeBear.rst>`_
 * `RadonBear <docs/RadonBear.rst>`_
+* `YapfBear <docs/YapfBear.rst>`_
 
 Python 3
 ========
@@ -237,6 +240,8 @@ Python 3
 * `PyLintBear <docs/PyLintBear.rst>`_
 * `PyUnusedCodeBear <docs/PyUnusedCodeBear.rst>`_
 * `RadonBear <docs/RadonBear.rst>`_
+* `VultureBear <docs/VultureBear.rst>`_
+* `YapfBear <docs/YapfBear.rst>`_
 
 R
 =
@@ -270,7 +275,6 @@ Scala
 Swift
 =====
 * `CPDBear <docs/CPDBear.rst>`_
-* `TailorBear <docs/TailorBear.rst>`_
 
 Tex
 ===

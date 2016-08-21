@@ -14,138 +14,176 @@ For more information about the detected smells, see
 Settings
 --------
 
-+-----------------------------------+-------------------------------------------------------------+
-| Setting                           |  Meaning                                                    |
-+===================================+=============================================================+
-|                                   |                                                             |
-| ``attribute``                     | Warns if a setter in a class is detected. (Optional,        |
-|                                   | defaults to 'True'.)                                        |
-|                                   |                                                             |
-+-----------------------------------+-------------------------------------------------------------+
-|                                   |                                                             |
-| ``bad_method_name``               | Warns about method names which are not communicating the    |
-|                                   | purpose of the method well. (Optional, defaults to 'True'.) |
-|                                   |                                                             |
-+-----------------------------------+-------------------------------------------------------------+
-|                                   |                                                             |
-| ``bad_module_name``               | Warns about module names which are not communicating the    |
-|                                   | purpose of the module well. (Optional, defaults to 'True'.) |
-|                                   |                                                             |
-+-----------------------------------+-------------------------------------------------------------+
-|                                   |                                                             |
-| ``bad_param_name``                | Warns about parameter names which are not communicating     |
-|                                   | the purpose of the parameter well. (Optional, defaults to   |
-|                                   | 'True'.)                                                    |
-|                                   |                                                             |
-+-----------------------------------+-------------------------------------------------------------+
-|                                   |                                                             |
-| ``bad_var_name``                  | Warns about variable names which are not communicating the  |
-|                                   | purpose of the variable well. (Optional, defaults to        |
-|                                   | 'True'.)                                                    |
-|                                   |                                                             |
-+-----------------------------------+-------------------------------------------------------------+
-|                                   |                                                             |
-| ``boolean_parameter``             | Warns if a boolean parameter in a function is detected      |
-|                                   | (control coupling). (Optional, defaults to 'True'.)         |
-|                                   |                                                             |
-+-----------------------------------+-------------------------------------------------------------+
-|                                   |                                                             |
-| ``check_class_variable``          | Warns if a class variable is detected. (Optional, defaults  |
-|                                   | to 'True'.)                                                 |
-|                                   |                                                             |
-+-----------------------------------+-------------------------------------------------------------+
-|                                   |                                                             |
-| ``check_unused_private_methods``  | Warns about unused private methods, as they are dead code.  |
-|                                   | (Optional, defaults to 'False'.)                            |
-|                                   |                                                             |
-+-----------------------------------+-------------------------------------------------------------+
-|                                   |                                                             |
-| ``check_unused_variables``        | Warns about unused parameters which are thus dead code.     |
-|                                   | (Optional, defaults to 'True'.)                             |
-|                                   |                                                             |
-+-----------------------------------+-------------------------------------------------------------+
-|                                   |                                                             |
-| ``control_parameter``             | Warns if a parameter controls the function behaviour        |
-|                                   | (control coupling). (Optional, defaults to 'True'.)         |
-|                                   |                                                             |
-+-----------------------------------+-------------------------------------------------------------+
-|                                   |                                                             |
-| ``data_clump``                    | Warns when the same two or three items frequently appear    |
-|                                   | together in function/class parameter list. (Optional,       |
-|                                   | defaults to 'True'.)                                        |
-|                                   |                                                             |
-+-----------------------------------+-------------------------------------------------------------+
-|                                   |                                                             |
-| ``duplicate_method_call``         | Warns when two fragments of code look nearly identical, or  |
-|                                   | when two fragments of code have nearly identical effects at |
-|                                   | some conceptual level. (Optional, defaults to 'True'.)      |
-|                                   |                                                             |
-+-----------------------------------+-------------------------------------------------------------+
-|                                   |                                                             |
-| ``feature_envy``                  | Occurs when a code fragment references another object more  |
-|                                   | often than it references itself, or when several clients do |
-|                                   | the same series of manipulations on a particular type of    |
-|                                   | object. (Optional, defaults to 'True'.)                     |
-|                                   |                                                             |
-+-----------------------------------+-------------------------------------------------------------+
-|                                   |                                                             |
-| ``long_param_list``               | Warns about too many parameters of functions. (Optional,    |
-|                                   | defaults to 'True'.)                                        |
-|                                   |                                                             |
-+-----------------------------------+-------------------------------------------------------------+
-|                                   |                                                             |
-| ``long_yield_list``               | Warns when a method yields a lot of arguments to the block  |
-|                                   | it gets passed. (Optional, defaults to 'True'.)             |
-|                                   |                                                             |
-+-----------------------------------+-------------------------------------------------------------+
-|                                   |                                                             |
-| ``missing_module_description``    | Warns if a module description is missing. (Optional,        |
-|                                   | defaults to 'True'.)                                        |
-|                                   |                                                             |
-+-----------------------------------+-------------------------------------------------------------+
-|                                   |                                                             |
-| ``module_initialize``             | Warns about ``#initialize`` methods in modules. (Optional,  |
-|                                   | defaults to 'True'.)                                        |
-|                                   |                                                             |
-+-----------------------------------+-------------------------------------------------------------+
-|                                   |                                                             |
-| ``nested_iterators``              | Warns when a block contains another block. (Optional,       |
-|                                   | defaults to 'True'.)                                        |
-|                                   |                                                             |
-+-----------------------------------+-------------------------------------------------------------+
-|                                   |                                                             |
-| ``nil_check``                     | Warns about nil checks. (Optional, defaults to 'True'.)     +
-|                                   |                                                             |
-+-----------------------------------+-------------------------------------------------------------+
-|                                   |                                                             |
-| ``prima_donna_method``            | Warns about methods whose names end with an exclamation     |
-|                                   | mark. (Optional, defaults to 'True'.)                       |
-|                                   |                                                             |
-+-----------------------------------+-------------------------------------------------------------+
-|                                   |                                                             |
-| ``repeated_conditional``          | Warns about repeated conditionals. (Optional, defaults to   |
-|                                   | 'True'.)                                                    |
-|                                   |                                                             |
-+-----------------------------------+-------------------------------------------------------------+
-|                                   |                                                             |
-| ``too_long_method``               | Warns about huge methods. (Optional, defaults to 'True'.)   +
-|                                   |                                                             |
-+-----------------------------------+-------------------------------------------------------------+
-|                                   |                                                             |
-| ``too_many_instance_variables``   | Warns for too many instance variables. (Optional, defaults  |
-|                                   | to 'True'.)                                                 |
-|                                   |                                                             |
-+-----------------------------------+-------------------------------------------------------------+
-|                                   |                                                             |
-| ``too_many_methods``              | Warns if a class has too many methods. (Optional, defaults  |
-|                                   | to 'True'.)                                                 |
-|                                   |                                                             |
-+-----------------------------------+-------------------------------------------------------------+
-|                                   |                                                             |
-| ``utility_function``              | Warns about any instance method that has no dependency on   |
-|                                   | the state of the instance. (Optional, defaults to 'True'.)  |
-|                                   |                                                             |
-+-----------------------------------+-------------------------------------------------------------+
++-------------------------------------------+-------------------------------------------------------------+
+| Setting                                   |  Meaning                                                    |
++===========================================+=============================================================+
+|                                           |                                                             |
+| ``allow_boolean_parameter_in_functions``  | Allows boolean parameter in functions (control coupling).   |
+|                                           | (Optional, defaults to 'False'.)                            |
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``allow_class_variables``                 | Allows class variables. (Optional, defaults to 'False'.)    +
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``allow_control_parameters``              | Allows parameters that control function behaviour (control  |
+|                                           | coupling). (Optional, defaults to 'False'.)                 |
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``allow_data_clump``                      | Does not warn when the same two or three items frequently   |
+|                                           | appear together in function/class parameter list.           |
+|                                           | (Optional, defaults to 'False'.)                            |
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``allow_duplicate_method``                | Allows having two fragments of code that look nearly        |
+|                                           | identical, or two fragments of code that have nearly        |
+|                                           | identical effects at some conceptual level. (Optional,      |
+|                                           | defaults to 'False'.)                                       |
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``allow_setter_in_classes``               | Allows setter in classes. (Optional, defaults to 'False'.)  +
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``allow_unused_private_methods``          | No description given. (Optional, defaults to 'True'.)       +
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``allow_unused_variables``                | Allows unused parameters though they are dead code.         |
+|                                           | (Optional, defaults to 'False'.)                            |
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``attribute``                             | Allows setter in classes. (Optional, defaults to 'False'.)  +
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``bad_method_name``                       | Warns about method names which are not communicating the    |
+|                                           | purpose of the method well. (Optional, defaults to 'True'.) |
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``bad_module_name``                       | Warns about module names which are not communicating the    |
+|                                           | purpose of the module well. (Optional, defaults to 'True'.) |
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``bad_param_name``                        | Warns about parameter names which are not communicating     |
+|                                           | the purpose of the parameter well. (Optional, defaults to   |
+|                                           | 'True'.)                                                    |
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``bad_var_name``                          | Warns about variable names which are not communicating the  |
+|                                           | purpose of the variable well. (Optional, defaults to        |
+|                                           | 'True'.)                                                    |
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``boolean_parameter``                     | Allows boolean parameter in functions (control coupling).   |
+|                                           | (Optional, defaults to 'False'.)                            |
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``class_variable``                        | Allows class variables. (Optional, defaults to 'False'.)    +
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``control_parameter``                     | Allows parameters that control function behaviour (control  |
+|                                           | coupling). (Optional, defaults to 'False'.)                 |
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``data_clump``                            | Does not warn when the same two or three items frequently   |
+|                                           | appear together in function/class parameter list.           |
+|                                           | (Optional, defaults to 'False'.)                            |
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``duplicate_method_call``                 | Allows having two fragments of code that look nearly        |
+|                                           | identical, or two fragments of code that have nearly        |
+|                                           | identical effects at some conceptual level. (Optional,      |
+|                                           | defaults to 'False'.)                                       |
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``feature_envy``                          | Occurs when a code fragment references another object more  |
+|                                           | often than it references itself, or when several clients do |
+|                                           | the same series of manipulations on a particular type of    |
+|                                           | object. (Optional, defaults to 'True'.)                     |
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``long_param_list``                       | Warns about too many parameters of functions. (Optional,    |
+|                                           | defaults to 'True'.)                                        |
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``long_yield_list``                       | Warns when a method yields a lot of arguments to the block  |
+|                                           | it gets passed. (Optional, defaults to 'True'.)             |
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``missing_module_description``            | Warns if a module description is missing. (Optional,        |
+|                                           | defaults to 'True'.)                                        |
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``module_initialize``                     | Warns about ``#initialize`` methods in modules. (Optional,  |
+|                                           | defaults to 'True'.)                                        |
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``nested_iterators``                      | Warns when a block contains another block. (Optional,       |
+|                                           | defaults to 'True'.)                                        |
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``nil_check``                             | Warns about nil checks. (Optional, defaults to 'True'.)     +
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``prima_donna_method``                    | Warns about methods whose names end with an exclamation     |
+|                                           | mark. (Optional, defaults to 'True'.)                       |
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``repeated_conditional``                  | Warns about repeated conditionals. (Optional, defaults to   |
+|                                           | 'True'.)                                                    |
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``too_long_method``                       | Warns about huge methods. (Optional, defaults to 'True'.)   +
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``too_many_instance_variables``           | Warns for too many instance variables. (Optional, defaults  |
+|                                           | to 'True'.)                                                 |
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``too_many_methods``                      | Warns if a class has too many methods. (Optional, defaults  |
+|                                           | to 'True'.)                                                 |
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``unused_params``                         | Allows unused parameters though they are dead code.         |
+|                                           | (Optional, defaults to 'False'.)                            |
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``unused_private_method``                 | No description given. (Optional, defaults to 'True'.)       +
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``utility_function``                      | Allows any instance method that has no dependency on the    |
+|                                           | state of the instance. (Optional, defaults to 'True'.)      |
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
 
 
 Can Detect

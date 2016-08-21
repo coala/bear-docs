@@ -20,12 +20,17 @@ Settings
 |                          |                                                             |
 +--------------------------+-------------------------------------------------------------+
 |                          |                                                             |
+| ``indent_size``          | Number of spaces per indentation level. (Optional, defaults |
+|                          | to '4'.)                                                    |
+|                          |                                                             |
++--------------------------+-------------------------------------------------------------+
+|                          |                                                             |
 | ``max_line_length``      | Maximum number of characters for a line, the newline        |
 |                          | character being excluded. (Optional, defaults to '79'.)     |
 |                          |                                                             |
 +--------------------------+-------------------------------------------------------------+
 |                          |                                                             |
-| ``tab_width``            | Number of spaces to show for one tab. (Optional, defaults   |
+| ``tab_width``            | Number of spaces per indentation level. (Optional, defaults |
 |                          | to '4'.)                                                    |
 |                          |                                                             |
 +--------------------------+-------------------------------------------------------------+

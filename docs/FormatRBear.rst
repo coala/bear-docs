@@ -15,6 +15,11 @@ Settings
 | Setting                      |  Meaning                                                   |
 +==============================+============================================================+
 |                              |                                                            |
+| ``indent_size``              | Number of spaces per indentation level. (Optional,         |
+|                              | defaults to '4'.)                                          |
+|                              |                                                            |
++------------------------------+------------------------------------------------------------+
+|                              |                                                            |
 | ``r_braces_on_next_line``    | Determines whether a brace should be placed on the next    |
 |                              | line.                                                      |
 |                              | Example: If ``True``, ``` if (...) { ``` changes to ``` if |
@@ -47,8 +52,8 @@ Settings
 |                              |                                                            |
 +------------------------------+------------------------------------------------------------+
 |                              |                                                            |
-| ``tab_width``                | Number of spaces for indentation. (Optional, defaults to   |
-|                              | '4'.)                                                      |
+| ``tab_width``                | Number of spaces per indentation level. (Optional,         |
+|                              | defaults to '4'.)                                          |
 |                              |                                                            |
 +------------------------------+------------------------------------------------------------+
 

@@ -25,12 +25,17 @@ Settings
 |                  |                                                           |
 +------------------+-----------------------------------------------------------+
 |                  |                                                           |
+| ``indent_size``  | Number of spaces per indentation level. (Optional,        |
+|                  | defaults to '4'.)                                         |
+|                  |                                                           |
++------------------+-----------------------------------------------------------+
+|                  |                                                           |
 | ``language``     | Language to be used for indentation.                      +
 |                  |                                                           |
 +------------------+-----------------------------------------------------------+
 |                  |                                                           |
-| ``tab_width``    | No. of spaces to insert for indentation. Only Applicable  |
-|                  | if use_spaces is False. (Optional, defaults to '4'.)      |
+| ``tab_width``    | Number of spaces per indentation level. (Optional,        |
+|                  | defaults to '4'.)                                         |
 |                  |                                                           |
 +------------------+-----------------------------------------------------------+
 |                  |                                                           |

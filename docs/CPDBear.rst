@@ -63,7 +63,7 @@ Settings
 +---------------------------+-----------------------------------------------------------+
 |                           |                                                           |
 | ``skip_duplicate_files``  | Ignore multiple copies of files of the same name and      |
-|                           | length in omparison. (Optional, defaults to 'True'.)      |
+|                           | length in comparison. (Optional, defaults to 'True'.)     |
 |                           |                                                           |
 +---------------------------+-----------------------------------------------------------+
 

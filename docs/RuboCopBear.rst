@@ -90,6 +90,11 @@ Settings
 |                                           |                                                             |
 +-------------------------------------------+-------------------------------------------------------------+
 |                                           |                                                             |
+| ``indent_size``                           | Number of spaces per indentation level. (Optional,          |
+|                                           | defaults to '2'.)                                           |
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
 | ``inspect_last_argument_hash``            | Select whether hashes that are the last argument in a       |
 |                                           | method call should be inspected. options:                   |
 |                                           | ``always_inspect``, ``always_ignore``, ``ignore_implicit``, |
@@ -113,7 +118,7 @@ Settings
 |                                           |                                                             |
 +-------------------------------------------+-------------------------------------------------------------+
 |                                           |                                                             |
-| ``max_line_length``                       | Max length of a line. (Optional, defaults to '80'.)         +
+| ``max_line_length``                       | Max length of a line. (Optional, defaults to '79'.)         +
 |                                           |                                                             |
 +-------------------------------------------+-------------------------------------------------------------+
 |                                           |                                                             |
@@ -128,6 +133,11 @@ Settings
 |                                           |                                                             |
 | ``max_parameters``                        | Max number of parameters in parameter list. (Optional,      |
 |                                           | defaults to '5'.)                                           |
+|                                           |                                                             |
++-------------------------------------------+-------------------------------------------------------------+
+|                                           |                                                             |
+| ``method_count_comments``                 | Whether or not to count full line comments while            |
+|                                           | calculating method length. (Optional, defaults to 'False'.) |
 |                                           |                                                             |
 +-------------------------------------------+-------------------------------------------------------------+
 |                                           |                                                             |
@@ -167,7 +177,8 @@ Settings
 |                                           |                                                             |
 +-------------------------------------------+-------------------------------------------------------------+
 |                                           |                                                             |
-| ``tab_width``                             | No. of spaces to indent. (Optional, defaults to '2'.)       +
+| ``tab_width``                             | Number of spaces per indentation level. (Optional,          |
+|                                           | defaults to '2'.)                                           |
 |                                           |                                                             |
 +-------------------------------------------+-------------------------------------------------------------+
 |                                           |                                                             |

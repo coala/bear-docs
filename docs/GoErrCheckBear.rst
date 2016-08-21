@@ -4,7 +4,8 @@
 Checks the code for all function calls that have unchecked errors.
 GoErrCheckBear runs ``errcheck`` over each file to find such functions.
 
-For more information on the analysis visit <https://github.com/kisielk/errcheck>.
+For more information on the analysis visit
+<https://github.com/kisielk/errcheck>.
 
 `Supported Languages <../README.rst>`_
 -----
@@ -18,7 +19,7 @@ Settings
 | Setting        |  Meaning                                                  |
 +================+===========================================================+
 |                |                                                           |
-| ``asserts``    | Enables checking for ignored type assertion results       |
+| ``asserts``    | Enables checking for ignored type assertion results.      |
 |                | (Optional, defaults to 'False'.)                          |
 |                |                                                           |
 +----------------+-----------------------------------------------------------+
