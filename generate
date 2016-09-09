@@ -50,6 +50,8 @@ if __name__ == "__main__":
     bears = get_bears()
     path = collect_registered_bears_dirs("coalabears")[0]
     for bear in bears:
+        if bear.name == "ClangFunctionDifferenceBear":
+            continue
         rel_path = os.path.relpath(glob(
             os.path.join(path, "**", bear.name + ".py"))[0], path)
         url = "https://github.com/coala-analyzer/coala-bears/tree/master/bears/" + rel_path
