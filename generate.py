@@ -2,6 +2,8 @@ import sys
 import os
 import inspect
 
+from coalib.collecting.Collectors import collect_registered_bears_dirs
+from coalib.parsing.Globbing import glob
 from collections import OrderedDict
 from bear_docs_utils import get_bears
 from language_generate import language_generate
@@ -44,8 +46,12 @@ def text_wrap(*args, delimiter=' ', end='\n', limit=80):
 
 if __name__ == "__main__":
     bears = get_bears()
+    path = collect_registered_bears_dirs("coalabears")[0]
     for bear in bears:
-        output = "**" + bear.name + "**\n"
+        rel_path = os.path.relpath(glob(
+            os.path.join(path, "**", bear.name + ".py"))[0], path)
+        url = "https://github.com/coala-analyzer/coala-bears/tree/master/bears/" + rel_path
+        output = "`" + bear.name + " <" + url + ">`_\n"
         output += "=" * (4 + len(bear.name)) + "\n\n"
         output += bear.get_metadata().desc + "\n\n"
         output += "`Supported Languages <../README.rst>`_" + "\n-----\n\n"
