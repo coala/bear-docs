@@ -1,4 +1,4 @@
-**CPDBear**
+`CPDBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/general/CPDBear.py>`_
 ===========
 
 Checks for similar code that looks as it could be replaced to reduce redundancy.

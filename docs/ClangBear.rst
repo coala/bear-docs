@@ -1,4 +1,4 @@
-**ClangBear**
+`ClangBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/c_languages/ClangBear.py>`_
 =============
 
 Check code for syntactical or semantical problems using Clang.

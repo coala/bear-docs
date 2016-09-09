@@ -1,4 +1,4 @@
-**CSecurityBear**
+`CSecurityBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/c_languages/CSecurityBear.py>`_
 =================
 
 Report possible security weaknesses for C/C++.
@@ -11,18 +11,6 @@ For more information, consult <http://www.dwheeler.com/flawfinder/>.
 * C
 * C++
 
-Settings
---------
-
-+------------------+-----------------------------------------------------------+
-| Setting          |  Meaning                                                  |
-+==================+===========================================================+
-|                  |                                                           |
-| ``neverignore``  | Never ignore security issues, even if they have an        |
-|                  | ``ignore'' directive in a comment. (Optional, defaults to |
-|                  | 'False'.)                                                 |
-|                  |                                                           |
-+------------------+-----------------------------------------------------------+
 
 
 Can Detect

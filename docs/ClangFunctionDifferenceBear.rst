@@ -1,4 +1,4 @@
-**ClangFunctionDifferenceBear**
+`ClangFunctionDifferenceBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/c_languages/codeclone_detection/ClangFunctionDifferenceBear.py>`_
 ===============================
 
 Retrieves similarities for code clone detection. Those can be reused in another bear to produce results.
@@ -41,24 +41,24 @@ Settings
 |                          | weighted in half as much as other conditions would simply   |
 |                          | be: "used: 0.5, is_assignee". Weightings default to 1 if    |
 |                          | unset. (Optional, defaults to 'OrderedDict([(<function used |
-|                          | at 0x7fa485ac9d90>, 0.0), (<function returned at            |
-|                          | 0x7fa485ac9e18>, 1.4), (<function is_condition at           |
-|                          | 0x7fa485ac9f28>, 0.0), (<function in_condition at           |
-|                          | 0x7fa485ad6048>, 1.4), (<function in_second_level_condition |
-|                          | at 0x7fa485ad60d0>, 1.4), (<function                        |
-|                          | in_third_level_condition at 0x7fa485ad6158>, 1.0),          |
-|                          | (<function is_assignee at 0x7fa485ad61e0>, 0.0), (<function |
-|                          | is_assigner at 0x7fa485ad6268>, 0.6), (<function            |
-|                          | loop_content at 0x7fa485ad6378>, 0.0), (<function           |
-|                          | second_level_loop_content at 0x7fa485ad6400>, 1),           |
-|                          | (<function third_level_loop_content at 0x7fa485ad6488>, 1), |
-|                          | (<function is_param at 0x7fa485ad6510>, 2.0), (<function    |
-|                          | is_called at 0x7fa485ad6598>, 1.4), (<function              |
-|                          | is_call_param at 0x7fa485ad6620>, 0.0), (<function in_sum   |
-|                          | at 0x7fa485ac9b70>, 2.0), (<function in_product at          |
-|                          | 0x7fa485ac9bf8>, 0.0), (<function in_binary_operation at    |
-|                          | 0x7fa485ac9c80>, 1), (<function member_accessed at          |
-|                          | 0x7fa485ac9d08>, 1)])'.)                                    |
+|                          | at 0x7fefd5312620>, 0.0), (<function returned at            |
+|                          | 0x7fefd53126a8>, 1.4), (<function is_condition at           |
+|                          | 0x7fefd53127b8>, 0.0), (<function in_condition at           |
+|                          | 0x7fefd5312840>, 1.4), (<function in_second_level_condition |
+|                          | at 0x7fefd53128c8>, 1.4), (<function                        |
+|                          | in_third_level_condition at 0x7fefd5312950>, 1.0),          |
+|                          | (<function is_assignee at 0x7fefd53129d8>, 0.0), (<function |
+|                          | is_assigner at 0x7fefd5312a60>, 0.6), (<function            |
+|                          | loop_content at 0x7fefd5312b70>, 0.0), (<function           |
+|                          | second_level_loop_content at 0x7fefd5312bf8>, 1),           |
+|                          | (<function third_level_loop_content at 0x7fefd5312c80>, 1), |
+|                          | (<function is_param at 0x7fefd5312d08>, 2.0), (<function    |
+|                          | is_called at 0x7fefd5312d90>, 1.4), (<function              |
+|                          | is_call_param at 0x7fefd5312e18>, 0.0), (<function in_sum   |
+|                          | at 0x7fefd5312400>, 2.0), (<function in_product at          |
+|                          | 0x7fefd5312488>, 0.0), (<function in_binary_operation at    |
+|                          | 0x7fefd5312510>, 1), (<function member_accessed at          |
+|                          | 0x7fefd5312598>, 1)])'.)                                    |
 |                          |                                                             |
 +--------------------------+-------------------------------------------------------------+
 |                          |                                                             |

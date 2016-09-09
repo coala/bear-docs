@@ -1,4 +1,4 @@
-**CPPCheckBear**
+`CPPCheckBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/c_languages/CPPCheckBear.py>`_
 ================
 
 Report possible security weaknesses for C/C++.

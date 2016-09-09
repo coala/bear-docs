@@ -1,4 +1,4 @@
-**GoReturnsBear**
+`GoReturnsBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/go/GoReturnsBear.py>`_
 =================
 
 Proposes corrections of Go code using ``goreturns``.

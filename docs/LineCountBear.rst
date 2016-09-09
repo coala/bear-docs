@@ -1,4 +1,4 @@
-**LineCountBear**
+`LineCountBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/general/LineCountBear.py>`_
 =================
 
 Count the number of lines in a file and ensure that they are smaller than a given size.

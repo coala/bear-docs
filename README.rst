@@ -209,6 +209,7 @@ Python
 ======
 * `CPDBear <docs/CPDBear.rst>`_
 * `PEP8Bear <docs/PEP8Bear.rst>`_
+* `PEP8NotebookBear <docs/PEP8NotebookBear.rst>`_
 * `PyCommentedCodeBear <docs/PyCommentedCodeBear.rst>`_
 * `PyDocStyleBear <docs/PyDocStyleBear.rst>`_
 * `PyImportSortBear <docs/PyImportSortBear.rst>`_
@@ -222,6 +223,7 @@ Python 2
 ========
 * `CPDBear <docs/CPDBear.rst>`_
 * `PEP8Bear <docs/PEP8Bear.rst>`_
+* `PEP8NotebookBear <docs/PEP8NotebookBear.rst>`_
 * `PyCommentedCodeBear <docs/PyCommentedCodeBear.rst>`_
 * `PyDocStyleBear <docs/PyDocStyleBear.rst>`_
 * `PyImportSortBear <docs/PyImportSortBear.rst>`_
@@ -234,6 +236,7 @@ Python 3
 ========
 * `CPDBear <docs/CPDBear.rst>`_
 * `PEP8Bear <docs/PEP8Bear.rst>`_
+* `PEP8NotebookBear <docs/PEP8NotebookBear.rst>`_
 * `PyCommentedCodeBear <docs/PyCommentedCodeBear.rst>`_
 * `PyDocStyleBear <docs/PyDocStyleBear.rst>`_
 * `PyImportSortBear <docs/PyImportSortBear.rst>`_

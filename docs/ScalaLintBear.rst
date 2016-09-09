@@ -1,4 +1,4 @@
-**ScalaLintBear**
+`ScalaLintBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/scala/ScalaLintBear.py>`_
 =================
 
 Check Scala code for codestyle, but also semantical problems,
@@ -12,14 +12,14 @@ e.g. cyclomatic complexity.
 Settings
 --------
 
-+-----------------------+-------------------------------------------------------------------------------------------------------+
-| Setting               |  Meaning                                                                                              |
-+=======================+=======================================================================================================+
-|                       |                                                                                                       |
-| ``scalalint_config``  | Path to a custom configuration file. (Optional, defaults to                                           |
-|                       | '/home/adhityaa/bin/venvs/coala_venv/lib/python3.4/site-packages/bears/scala/scalastyle_config.xml'.) |
-|                       |                                                                                                       |
-+-----------------------+-------------------------------------------------------------------------------------------------------+
++-----------------------+--------------------------------------------------------------------------------------------------+
+| Setting               |  Meaning                                                                                         |
++=======================+==================================================================================================+
+|                       |                                                                                                  |
+| ``scalalint_config``  | Path to a custom configuration file. (Optional, defaults to                                      |
+|                       | '/home/adhityaa/bin/venvs/coala/lib/python3.4/site-packages/bears/scala/scalastyle_config.xml'.) |
+|                       |                                                                                                  |
++-----------------------+--------------------------------------------------------------------------------------------------+
 
 
 Can Detect

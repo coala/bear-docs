@@ -1,4 +1,4 @@
-**CheckstyleBear**
+`CheckstyleBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/java/CheckstyleBear.py>`_
 ==================
 
 Check Java code for possible style, semantic and design issues.

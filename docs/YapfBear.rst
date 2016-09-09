@@ -1,4 +1,4 @@
-**YapfBear**
+`YapfBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/python/YapfBear.py>`_
 ============
 
 
@@ -30,6 +30,16 @@ Settings
 | ``blank_line_before_nested_class_or_def``           | Inserts a blank line before a ``def`` or ``class``           |
 |                                                     | immediately nested within another ``def`` or ``class``.      |
 |                                                     | (Optional, defaults to 'False'.)                             |
+|                                                     |                                                              |
++-----------------------------------------------------+--------------------------------------------------------------+
+|                                                     |                                                              |
+| ``coalesce_brackets``                               | Prevents splitting consecutive brackets. Only relevant       |
+|                                                     | when ``dedent_closing_brackets`` is set. Example: If         |
+|                                                     | ``True``,                                                    |
+|                                                     | ``` call_func_that_takes_a_dict( { 'key1': 'value1',         |
+|                                                     | 'key2': 'value2', } ) ``` would reformat to: ```             |
+|                                                     | call_func_that_takes_a_dict({ 'key1': 'value1', 'key2':      |
+|                                                     | 'value2', }) ``` (Optional, defaults to 'False'.)            |
 |                                                     |                                                              |
 +-----------------------------------------------------+--------------------------------------------------------------+
 |                                                     |                                                              |

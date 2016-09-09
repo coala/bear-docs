@@ -1,4 +1,4 @@
-**PyDocStyleBear**
+`PyDocStyleBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/python/PyDocStyleBear.py>`_
 ==================
 
 Checks python docstrings.
@@ -13,21 +13,21 @@ Checks python docstrings.
 Settings
 --------
 
-+------------------------+--------------------------------------------------------------+
-| Setting                |  Meaning                                                     |
-+========================+==============================================================+
-|                        |                                                              |
-| ``pydocstyle_ignore``  | List of checked errors by specifying which errors to ignore. |
-|                        | Note: pydocstyle_select and pydocstyle_ignore are mutually   |
-|                        | exclusive. They cannot be used together. (Optional,          |
-|                        | defaults to '()'.)                                           |
-|                        |                                                              |
-+------------------------+--------------------------------------------------------------+
-|                        |                                                              |
-| ``pydocstyle_select``  | List of checked errors by specifying which errors to check   |
-|                        | for. (Optional, defaults to '()'.)                           |
-|                        |                                                              |
-+------------------------+--------------------------------------------------------------+
++------------------------+------------------------------------------------------------+
+| Setting                |  Meaning                                                   |
++========================+============================================================+
+|                        |                                                            |
+| ``pydocstyle_ignore``  | List of checked errors by specifying which errors to       |
+|                        | ignore. Can't be used together with ``pydocstyle_select``. |
+|                        | (Optional, defaults to '()'.)                              |
+|                        |                                                            |
++------------------------+------------------------------------------------------------+
+|                        |                                                            |
+| ``pydocstyle_select``  | List of checked errors by specifying which errors to check |
+|                        | for. Can't be used together with ``pydocstyle_ignore``.    |
+|                        | (Optional, defaults to '()'.)                              |
+|                        |                                                            |
++------------------------+------------------------------------------------------------+
 
 
 Can Detect

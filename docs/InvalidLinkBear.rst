@@ -1,4 +1,4 @@
-**InvalidLinkBear**
+`InvalidLinkBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/general/InvalidLinkBear.py>`_
 ===================
 
 Find links in any text file and check if they are valid.
@@ -14,18 +14,23 @@ Warning: This bear will make HEAD requests to all URLs mentioned in your codebas
 Settings
 --------
 
-+-------------------+------------------------------------------------------+
-| Setting           |  Meaning                                             |
-+===================+======================================================+
-|                   |                                                      |
-| ``ignore_regex``  | A regex for urls to ignore. (Optional, defaults to   |
-|                   | '([.\/]example\.com|\{|\$)'.)                        |
-|                   |                                                      |
-+-------------------+------------------------------------------------------+
-|                   |                                                      |
-| ``timeout``       | Request timeout period. (Optional, defaults to '2'.) +
-|                   |                                                      |
-+-------------------+------------------------------------------------------+
++-----------------------+-----------------------------------------------------------+
+| Setting               |  Meaning                                                  |
++=======================+===========================================================+
+|                       |                                                           |
+| ``follow_redirects``  | Set to true to autocorrect redirects. (Optional, defaults |
+|                       | to 'False'.)                                              |
+|                       |                                                           |
++-----------------------+-----------------------------------------------------------+
+|                       |                                                           |
+| ``ignore_regex``      | A regex for urls to ignore. (Optional, defaults to        |
+|                       | '([.\/]example\.com|\{|\$)'.)                             |
+|                       |                                                           |
++-----------------------+-----------------------------------------------------------+
+|                       |                                                           |
+| ``timeout``           | Request timeout period. (Optional, defaults to '2'.)      +
+|                       |                                                           |
++-----------------------+-----------------------------------------------------------+
 
 
 Can Detect

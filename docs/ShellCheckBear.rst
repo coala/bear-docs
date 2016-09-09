@@ -1,4 +1,4 @@
-**ShellCheckBear**
+`ShellCheckBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/shell/ShellCheckBear.py>`_
 ==================
 
 Check bash/shell scripts for syntactical problems (with understandable

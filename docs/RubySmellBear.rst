@@ -1,4 +1,4 @@
-**RubySmellBear**
+`RubySmellBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/ruby/RubySmellBear.py>`_
 =================
 
 Detect code smells in Ruby source code.

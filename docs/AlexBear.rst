@@ -1,7 +1,8 @@
-**AlexBear**
+`AlexBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/natural_language/AlexBear.py>`_
 ============
 
-Checks the markdown file with Alex - Catch insensitive, inconsiderate writing.
+Checks the markdown file with Alex - Catch insensitive, inconsiderate
+writing.
 
 `Supported Languages <../README.rst>`_
 -----

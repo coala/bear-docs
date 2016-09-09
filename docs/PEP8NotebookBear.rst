@@ -1,7 +1,7 @@
-`PEP8Bear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/python/PEP8Bear.py>`_
-============
+`PEP8NotebookBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/python/PEP8NotebookBear.py>`_
+====================
 
-Detects and fixes PEP8 incompliant code. This bear will not change functionality of the code in any way.
+Detects and fixes PEP8 incompliant code in Jupyter Notebooks. This bear will not change functionality of the code in any way.
 
 `Supported Languages <../README.rst>`_
 -----
@@ -17,8 +17,8 @@ Settings
 | Setting                |  Meaning                                                    |
 +========================+=============================================================+
 |                        |                                                             |
-| ``indent_size``        | Number of spaces per indentation level. (Optional, defaults |
-|                        | to '4'.)                                                    |
+| ``indent_size``        | Number of spaces per indent level. (Optional, defaults to   |
+|                        | '4'.)                                                       |
 |                        |                                                             |
 +------------------------+-------------------------------------------------------------+
 |                        |                                                             |
@@ -40,11 +40,6 @@ Settings
 |                        |                                                             |
 | ``pep_select``         | A list of errors/warnings to exclusively apply. (Optional,  |
 |                        | defaults to '()'.)                                          |
-|                        |                                                             |
-+------------------------+-------------------------------------------------------------+
-|                        |                                                             |
-| ``tab_width``          | Number of spaces per indentation level. (Optional, defaults |
-|                        | to '4'.)                                                    |
 |                        |                                                             |
 +------------------------+-------------------------------------------------------------+
 

@@ -1,4 +1,4 @@
-**CPPCleanBear**
+`CPPCleanBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/c_languages/CPPCleanBear.py>`_
 ================
 
 Find problems in C++ source code that slow down development in large code

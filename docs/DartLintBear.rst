@@ -1,4 +1,4 @@
-**DartLintBear**
+`DartLintBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/dart/DartLintBear.py>`_
 ================
 
 Checks the code with ``dart-linter``.

@@ -1,7 +1,8 @@
-**JSComplexityBear**
+`JSComplexityBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/js/JSComplexityBear.py>`_
 ====================
 
-Calculates cyclomatic complexity using ``cr``.
+Calculates cyclomatic complexity using ``cr``, the command line utility
+provided by the NodeJS module ``complexity-report``.
 
 `Supported Languages <../README.rst>`_
 -----

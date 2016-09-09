@@ -1,4 +1,4 @@
-**GoImportsBear**
+`GoImportsBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/go/GoImportsBear.py>`_
 =================
 
 Adds/Removes imports to Go code for missing imports.

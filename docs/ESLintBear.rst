@@ -1,4 +1,4 @@
-**ESLintBear**
+`ESLintBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/js/ESLintBear.py>`_
 ==============
 
 Check JavaScript and JSX code for style issues and semantic errors.

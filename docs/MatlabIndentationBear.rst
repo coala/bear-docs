@@ -1,4 +1,4 @@
-**MatlabIndentationBear**
+`MatlabIndentationBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/matlab/MatlabIndentationBear.py>`_
 =========================
 
 This bear features a simple algorithm to calculate the right indentation for Matlab/Octave code. However, it will not handle hanging indentation or conditions ranging over several lines yet.

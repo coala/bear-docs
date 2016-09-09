@@ -1,4 +1,4 @@
-**CPPLintBear**
+`CPPLintBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/c_languages/CPPLintBear.py>`_
 ===============
 
 Check C++ code for Google's C++ style guide.

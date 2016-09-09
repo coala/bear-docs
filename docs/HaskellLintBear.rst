@@ -1,4 +1,4 @@
-**HaskellLintBear**
+`HaskellLintBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/haskell/HaskellLintBear.py>`_
 ===================
 
 Check Haskell code for possible problems. This bear can propose patches for

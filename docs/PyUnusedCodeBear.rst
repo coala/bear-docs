@@ -1,4 +1,4 @@
-**PyUnusedCodeBear**
+`PyUnusedCodeBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/python/PyUnusedCodeBear.py>`_
 ====================
 
 Detects unused code. This functionality is limited to:

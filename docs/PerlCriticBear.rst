@@ -1,4 +1,4 @@
-**PerlCriticBear**
+`PerlCriticBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/perl/PerlCriticBear.py>`_
 ==================
 
 Check the code with perlcritic. This will run perlcritic over

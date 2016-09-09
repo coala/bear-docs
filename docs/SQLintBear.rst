@@ -1,4 +1,4 @@
-**SQLintBear**
+`SQLintBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/sql/SQLintBear.py>`_
 ==============
 
 Check the given SQL files for syntax errors or warnings.

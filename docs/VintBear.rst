@@ -1,4 +1,4 @@
-**VintBear**
+`VintBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/vimscript/VintBear.py>`_
 ============
 
 Check vimscript code for possible style problems.

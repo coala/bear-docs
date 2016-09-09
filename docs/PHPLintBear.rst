@@ -1,4 +1,4 @@
-**PHPLintBear**
+`PHPLintBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/php/PHPLintBear.py>`_
 ===============
 
 Checks the code with ``php -l``. This runs it on each file separately.
