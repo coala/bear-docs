@@ -99,6 +99,26 @@ if __name__ == "__main__":
                 output += "| " + " " * lmax + "| " + " " * (1 + rmax) + "|\n"
                 output += "+" + "-" * lmax + "-+-" + "-" * (1 + rmax) + "+\n"
 
+        if bear.REQUIREMENTS:
+            output += "\n\nDependencies\n------------\n\n"
+            os_packages = []
+            other_commands = []
+            for requirement in bear.REQUIREMENTS:
+                if requirement.__class__.__name__ == "DistributionRequirement":
+                    os_packages += list(requirement.package.values())
+                elif requirement.__class__.__name__ == "PipRequirement":
+                    other_commands.append(" ".join(requirement.install_command()[2:]))
+                else:
+                    other_commands.append(" ".join(requirement.install_command()))
+
+            output += ".. code-block:: bash\n\n"
+            for com in sorted(other_commands):
+                output += "    $ " + com + "\n"
+            output += "\n"
+
+            if os_packages:
+                output += "This bear may also have system dependencies: " + (", ".join(os_packages))
+
         if len(bear.can_detect):
             output += "\n\nCan Detect\n----------\n\n"
             output += "\n".join(sorted(["* " + x for x in bear.can_detect]))
