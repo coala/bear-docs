@@ -12,6 +12,15 @@ See <https://github.com/JedWatson/happiness/> for more information.
 
 
 
+Dependencies
+------------
+
+.. code-block:: bash
+
+    $ npm install happiness@7.1.2
+
+
+
 Can Detect
 ----------
 

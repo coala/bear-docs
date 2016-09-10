@@ -13,6 +13,15 @@ This bear supports ANSI syntax. Check out
 
 
 
+Dependencies
+------------
+
+.. code-block:: bash
+
+    $ gem install sqlint
+
+
+
 Can Detect
 ----------
 

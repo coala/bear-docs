@@ -13,6 +13,14 @@ For more information, consult <http://www.dwheeler.com/flawfinder/>.
 
 
 
+Dependencies
+------------
+
+.. code-block:: bash
+
+
+This bear may also have system dependencies: flawfinder
+
 Can Detect
 ----------
 

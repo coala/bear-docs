@@ -15,6 +15,15 @@ more information .
 
 
 
+Dependencies
+------------
+
+.. code-block:: bash
+
+    $ npm install dockerfile_lint@0
+
+
+
 Can Detect
 ----------
 

@@ -13,6 +13,15 @@ Detects unused code. This functionality is limited to:
 
 
 
+Dependencies
+------------
+
+.. code-block:: bash
+
+    $ pip install autoflake==0.6.*
+
+
+
 Can Detect
 ----------
 

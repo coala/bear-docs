@@ -12,6 +12,15 @@ Detects commented out source code in Python.
 
 
 
+Dependencies
+------------
+
+.. code-block:: bash
+
+    $ pip install eradicate==0.1.*
+
+
+
 Can Detect
 ----------
 

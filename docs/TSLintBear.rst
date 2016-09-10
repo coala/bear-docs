@@ -28,6 +28,15 @@ Settings
 +--------------------+---------------------------------------------------------+
 
 
+Dependencies
+------------
+
+.. code-block:: bash
+
+    $ npm install tslint@3
+
+
+
 Can Detect
 ----------
 

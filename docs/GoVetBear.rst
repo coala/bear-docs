@@ -16,6 +16,15 @@ This is done using the ``vet`` command. For more information visit
 
 
 
+Dependencies
+------------
+
+.. code-block:: bash
+
+    $ go get -u golang.org/cmd/vet
+
+
+
 Can Detect
 ----------
 

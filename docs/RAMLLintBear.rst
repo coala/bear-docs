@@ -13,6 +13,15 @@ identify the problems correctly.
 
 
 
+Dependencies
+------------
+
+.. code-block:: bash
+
+    $ npm install ramllint@1.2.2
+
+
+
 Can Detect
 ----------
 

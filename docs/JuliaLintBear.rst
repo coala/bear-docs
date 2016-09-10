@@ -15,6 +15,14 @@ on the analysis provided.
 
 
 
+Dependencies
+------------
+
+.. code-block:: bash
+
+
+This bear may also have system dependencies: julia
+
 Can Detect
 ----------
 

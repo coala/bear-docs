@@ -14,6 +14,15 @@ Read more about available routines at
 
 
 
+Dependencies
+------------
+
+.. code-block:: bash
+
+    $ pip install cppclean==0.9.*
+
+
+
 Can Detect
 ----------
 

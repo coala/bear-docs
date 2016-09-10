@@ -22,6 +22,15 @@ Settings
 +-------------------+------------------------------------------------------+
 
 
+Dependencies
+------------
+
+.. code-block:: bash
+
+    $ npm install complexity-report@2.0.0-alpha
+
+
+
 Can Detect
 ----------
 

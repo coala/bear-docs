@@ -35,6 +35,15 @@ Settings
 +---------------------------------+-------------------------------------------------------------+
 
 
+Dependencies
+------------
+
+.. code-block:: bash
+
+    $ pip install guess-language-spirit==0.5.*
+
+
+
 Can Detect
 ----------
 

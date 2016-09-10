@@ -44,6 +44,16 @@ Settings
 +------------------------+-------------------------------------------------------------+
 
 
+Dependencies
+------------
+
+.. code-block:: bash
+
+    $ pip install autopep8==1.*
+    $ pip install nbformat==4.*
+
+
+
 Can Detect
 ----------
 

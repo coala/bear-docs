@@ -11,6 +11,15 @@ problems or inefficiencies.
 
 
 
+Dependencies
+------------
+
+.. code-block:: bash
+
+    $ npm install csslint@0
+
+
+
 Can Detect
 ----------
 

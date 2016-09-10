@@ -13,6 +13,15 @@ See <https://bitbucket.org/jendrikseipp/vulture> for more information.
 
 
 
+Dependencies
+------------
+
+.. code-block:: bash
+
+    $ pip install happiness==0.10.0
+
+
+
 Can Detect
 ----------
 

@@ -25,6 +25,14 @@ Settings
 +-------------+----------------------------------------------------------+
 
 
+Dependencies
+------------
+
+.. code-block:: bash
+
+
+This bear may also have system dependencies: cppcheck
+
 Can Detect
 ----------
 

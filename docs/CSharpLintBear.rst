@@ -10,6 +10,14 @@ Checks C# code for syntactical correctness using the ``mcs`` compiler.
 
 
 
+Dependencies
+------------
+
+.. code-block:: bash
+
+
+This bear may also have system dependencies: mono-mcs
+
 Can Detect
 ----------
 

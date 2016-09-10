@@ -24,6 +24,15 @@ Settings
 +--------------------+-------------------------------------------------------+
 
 
+Dependencies
+------------
+
+.. code-block:: bash
+
+    $ npm install eslint@2
+
+
+
 Can Detect
 ----------
 

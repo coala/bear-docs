@@ -14,3 +14,12 @@ This bear is meant for debugging purposes relating to clang. It just prints out 
 * OpenCL
 * OpenMP
 
+
+
+Dependencies
+------------
+
+.. code-block:: bash
+
+    $ pip install libclang-py3==0.2
+

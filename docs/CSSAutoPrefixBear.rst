@@ -10,6 +10,16 @@ This bear adds vendor prefixes to CSS rules using ``autoprefixer`` utility.
 
 
 
+Dependencies
+------------
+
+.. code-block:: bash
+
+    $ npm install autoprefixer@6
+    $ npm install postcss-cli@2
+
+
+
 Can Detect
 ----------
 

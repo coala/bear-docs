@@ -188,6 +188,16 @@ Settings
 +-------------------------------------------+-------------------------------------------------------------+
 
 
+Dependencies
+------------
+
+.. code-block:: bash
+
+    $ gem install rubocop
+    $ pip install pyyaml==3.*
+
+
+
 Can Detect
 ----------
 

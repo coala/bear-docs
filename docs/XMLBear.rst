@@ -26,6 +26,14 @@ Settings
 +-----------------+---------------------------------------------------------+
 
 
+Dependencies
+------------
+
+.. code-block:: bash
+
+
+This bear may also have system dependencies: libxml2
+
 Can Detect
 ----------
 

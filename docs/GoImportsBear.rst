@@ -10,6 +10,15 @@ Adds/Removes imports to Go code for missing imports.
 
 
 
+Dependencies
+------------
+
+.. code-block:: bash
+
+    $ go get -u golang.org/x/tools/cmd/goimports
+
+
+
 Can Detect
 ----------
 

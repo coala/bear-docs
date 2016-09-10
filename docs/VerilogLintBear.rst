@@ -20,6 +20,14 @@ This is done using the ``--lint-only`` command. For more information visit
 
 
 
+Dependencies
+------------
+
+.. code-block:: bash
+
+
+This bear may also have system dependencies: verilator
+
 Can Detect
 ----------
 

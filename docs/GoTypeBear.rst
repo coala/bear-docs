@@ -11,6 +11,15 @@ separately.
 
 
 
+Dependencies
+------------
+
+.. code-block:: bash
+
+    $ go get -u golang.org/x/tools/cmd/gotype
+
+
+
 Can Detect
 ----------
 

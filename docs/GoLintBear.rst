@@ -22,6 +22,15 @@ Settings
 +-------------------------+--------------------------------------------------------+
 
 
+Dependencies
+------------
+
+.. code-block:: bash
+
+    $ go get -u github.com/golang/lint/golint
+
+
+
 Can Detect
 ----------
 

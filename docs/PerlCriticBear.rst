@@ -22,6 +22,14 @@ Settings
 +-------------------------+------------------------------------------------------+
 
 
+Dependencies
+------------
+
+.. code-block:: bash
+
+
+This bear may also have system dependencies: libperl-critic-perl, perl
+
 Can Detect
 ----------
 

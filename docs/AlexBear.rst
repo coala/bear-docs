@@ -11,6 +11,15 @@ writing.
 
 
 
+Dependencies
+------------
+
+.. code-block:: bash
+
+    $ npm install alex@2
+
+
+
 License
 -------
 

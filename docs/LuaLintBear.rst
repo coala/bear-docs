@@ -12,6 +12,14 @@ Read more at <https://github.com/mpeterv/luacheck>.
 
 
 
+Dependencies
+------------
+
+.. code-block:: bash
+
+
+This bear may also have system dependencies: luarocks
+
 Can Detect
 ----------
 

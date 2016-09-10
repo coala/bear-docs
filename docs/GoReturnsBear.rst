@@ -10,6 +10,15 @@ Proposes corrections of Go code using ``goreturns``.
 
 
 
+Dependencies
+------------
+
+.. code-block:: bash
+
+    $ go get -u sourcegraph.com/sqs/goreturns
+
+
+
 Can Detect
 ----------
 
