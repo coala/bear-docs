@@ -66,12 +66,16 @@ if __name__ == "__main__":
         lmax = -1
         rmax = -1
         for param in meta.non_optional_params:
+            if param in meta.deprecated_params:
+                continue
             key = " ``" + param + "`` "
             par[key] = text_wrap(meta.non_optional_params[param][0], limit=60)
             par[key] = [g.strip() for g in par[key]]
             lmax = max(lmax, len(key))
             rmax = max(rmax, max(len(g) for g in par[key]))
         for param in meta.optional_params:
+            if param in meta.deprecated_params:
+                continue
             key = " ``" + param + "`` "
             par[key] = text_wrap(bear.get_metadata().optional_params[param][0], limit=60)
             par[key] = [g.strip() for g in par[key]]
