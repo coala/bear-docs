@@ -29,11 +29,6 @@ Settings
 |                          | character being excluded. (Optional, defaults to '79'.)     |
 |                          |                                                             |
 +--------------------------+-------------------------------------------------------------+
-|                          |                                                             |
-| ``tab_width``            | Number of spaces per indentation level. (Optional, defaults |
-|                          | to '4'.)                                                    |
-|                          |                                                             |
-+--------------------------+-------------------------------------------------------------+
 
 
 Can Detect

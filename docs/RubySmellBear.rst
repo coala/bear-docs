@@ -58,10 +58,6 @@ Settings
 |                                           |                                                             |
 +-------------------------------------------+-------------------------------------------------------------+
 |                                           |                                                             |
-| ``attribute``                             | Allows setter in classes. (Optional, defaults to 'False'.)  +
-|                                           |                                                             |
-+-------------------------------------------+-------------------------------------------------------------+
-|                                           |                                                             |
 | ``bad_method_name``                       | Warns about method names which are not communicating the    |
 |                                           | purpose of the method well. (Optional, defaults to 'True'.) |
 |                                           |                                                             |
@@ -81,33 +77,6 @@ Settings
 | ``bad_var_name``                          | Warns about variable names which are not communicating the  |
 |                                           | purpose of the variable well. (Optional, defaults to        |
 |                                           | 'True'.)                                                    |
-|                                           |                                                             |
-+-------------------------------------------+-------------------------------------------------------------+
-|                                           |                                                             |
-| ``boolean_parameter``                     | Allows boolean parameter in functions (control coupling).   |
-|                                           | (Optional, defaults to 'False'.)                            |
-|                                           |                                                             |
-+-------------------------------------------+-------------------------------------------------------------+
-|                                           |                                                             |
-| ``class_variable``                        | Allows class variables. (Optional, defaults to 'False'.)    +
-|                                           |                                                             |
-+-------------------------------------------+-------------------------------------------------------------+
-|                                           |                                                             |
-| ``control_parameter``                     | Allows parameters that control function behaviour (control  |
-|                                           | coupling). (Optional, defaults to 'False'.)                 |
-|                                           |                                                             |
-+-------------------------------------------+-------------------------------------------------------------+
-|                                           |                                                             |
-| ``data_clump``                            | Does not warn when the same two or three items frequently   |
-|                                           | appear together in function/class parameter list.           |
-|                                           | (Optional, defaults to 'False'.)                            |
-|                                           |                                                             |
-+-------------------------------------------+-------------------------------------------------------------+
-|                                           |                                                             |
-| ``duplicate_method_call``                 | Allows having two fragments of code that look nearly        |
-|                                           | identical, or two fragments of code that have nearly        |
-|                                           | identical effects at some conceptual level. (Optional,      |
-|                                           | defaults to 'False'.)                                       |
 |                                           |                                                             |
 +-------------------------------------------+-------------------------------------------------------------+
 |                                           |                                                             |
@@ -168,15 +137,6 @@ Settings
 |                                           |                                                             |
 | ``too_many_methods``                      | Warns if a class has too many methods. (Optional, defaults  |
 |                                           | to 'True'.)                                                 |
-|                                           |                                                             |
-+-------------------------------------------+-------------------------------------------------------------+
-|                                           |                                                             |
-| ``unused_params``                         | Allows unused parameters though they are dead code.         |
-|                                           | (Optional, defaults to 'False'.)                            |
-|                                           |                                                             |
-+-------------------------------------------+-------------------------------------------------------------+
-|                                           |                                                             |
-| ``unused_private_method``                 | No description given. (Optional, defaults to 'True'.)       +
 |                                           |                                                             |
 +-------------------------------------------+-------------------------------------------------------------+
 |                                           |                                                             |

@@ -136,18 +136,13 @@ Settings
 |                                           |                                                             |
 +-------------------------------------------+-------------------------------------------------------------+
 |                                           |                                                             |
-| ``method_count_comments``                 | Whether or not to count full line comments while            |
-|                                           | calculating method length. (Optional, defaults to 'False'.) |
-|                                           |                                                             |
-+-------------------------------------------+-------------------------------------------------------------+
-|                                           |                                                             |
 | ``method_length_count_comments``          | Whether or not to count full line comments while            |
 |                                           | calculating method length. (Optional, defaults to 'False'.) |
 |                                           |                                                             |
 +-------------------------------------------+-------------------------------------------------------------+
 |                                           |                                                             |
-| ``method_name_case``                      | Case of a method's name. options: ``snake_case``,           |
-|                                           | ``camelCase``. (Optional, defaults to 'snake_case'.)        |
+| ``method_naming_convention``              | Case of a method's name. options: ``snake``, ``camel``.     |
+|                                           | (Optional, defaults to 'snake'.)                            |
 |                                           |                                                             |
 +-------------------------------------------+-------------------------------------------------------------+
 |                                           |                                                             |
@@ -177,13 +172,8 @@ Settings
 |                                           |                                                             |
 +-------------------------------------------+-------------------------------------------------------------+
 |                                           |                                                             |
-| ``tab_width``                             | Number of spaces per indentation level. (Optional,          |
-|                                           | defaults to '2'.)                                           |
-|                                           |                                                             |
-+-------------------------------------------+-------------------------------------------------------------+
-|                                           |                                                             |
-| ``variable_name_case``                    | Case of a variable's name. options: ``snake_case``,         |
-|                                           | ``camelCase``. (Optional, defaults to 'snake_case'.)        |
+| ``variable_naming_convention``            | Case of a variable's name. options: ``snake``, ``camel``.   |
+|                                           | (Optional, defaults to 'snake'.)                            |
 |                                           |                                                             |
 +-------------------------------------------+-------------------------------------------------------------+
 

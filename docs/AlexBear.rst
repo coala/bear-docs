@@ -16,7 +16,7 @@ Dependencies
 
 .. code-block:: bash
 
-    $ npm install alex@2
+    $ npm install alex@3
 
 
 

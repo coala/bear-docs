@@ -56,46 +56,6 @@ Settings
 |                            | the sentence. (Optional, defaults to 'True'.)               |
 |                            |                                                             |
 +----------------------------+-------------------------------------------------------------+
-|                            |                                                             |
-| ``check_adverbs``          | Allows adverbs that can weaken the meaning, such as:        |
-|                            | ``really``, ``very``, ``extremely``, etc. (Optional,        |
-|                            | defaults to 'True'.)                                        |
-|                            |                                                             |
-+----------------------------+-------------------------------------------------------------+
-|                            |                                                             |
-| ``check_ambiguos_words``   | Allows ``weasel words`` for example ``often``, ``probably`` |
-|                            | (Optional, defaults to 'True'.)                             |
-|                            |                                                             |
-+----------------------------+-------------------------------------------------------------+
-|                            |                                                             |
-| ``check_cliche_exists``    | Allows common cliche phrases in the sentence. (Optional,    |
-|                            | defaults to 'True'.)                                        |
-|                            |                                                             |
-+----------------------------+-------------------------------------------------------------+
-|                            |                                                             |
-| ``check_extra_words``      | Allows wordy phrases and unnecessary words. (Optional,      |
-|                            | defaults to 'True'.)                                        |
-|                            |                                                             |
-+----------------------------+-------------------------------------------------------------+
-|                            |                                                             |
-| ``check_passive_voice``    | Allows passive voice. (Optional, defaults to 'True'.)       +
-|                            |                                                             |
-+----------------------------+-------------------------------------------------------------+
-|                            |                                                             |
-| ``check_repeated_words``   | Allows lexical illusions – cases where a word is repeated.  |
-|                            | (Optional, defaults to 'True'.)                             |
-|                            |                                                             |
-+----------------------------+-------------------------------------------------------------+
-|                            |                                                             |
-| ``check_so_beginning``     | Allows ``So`` at the beginning of the sentence. (Optional,  |
-|                            | defaults to 'True'.)                                        |
-|                            |                                                             |
-+----------------------------+-------------------------------------------------------------+
-|                            |                                                             |
-| ``check_there_is``         | Allows ``There is`` or ``There are`` at the beginning of    |
-|                            | the sentence. (Optional, defaults to 'True'.)               |
-|                            |                                                             |
-+----------------------------+-------------------------------------------------------------+
 
 
 Dependencies

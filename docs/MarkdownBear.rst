@@ -104,7 +104,7 @@ Dependencies
 
 .. code-block:: bash
 
-    $ npm install remark@3
+    $ npm install remark-cli@2
 
 
 

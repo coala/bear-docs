@@ -1,4 +1,4 @@
-**TailorBear**
+`TailorBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/swift/TailorBear.py>`_
 ==============
 
 Analyze Swift code and check for code style related
@@ -39,7 +39,7 @@ Settings
 +--------------------------+------------------------------------------------------------+
 |                          |                                                            |
 | ``max_line_length``      | maximum number of characters in a Line <0-999>. (Optional, |
-|                          | defaults to '80'.)                                         |
+|                          | defaults to '79'.)                                         |
 |                          |                                                            |
 +--------------------------+------------------------------------------------------------+
 |                          |                                                            |

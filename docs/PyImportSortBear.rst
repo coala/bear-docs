@@ -174,11 +174,6 @@ Settings
 |                                        |                                                                    |
 +----------------------------------------+--------------------------------------------------------------------+
 |                                        |                                                                    |
-| ``tab_width``                          | Number of spaces per indentation level. (Optional,                 |
-|                                        | defaults to '4'.)                                                  |
-|                                        |                                                                    |
-+----------------------------------------+--------------------------------------------------------------------+
-|                                        |                                                                    |
 | ``use_parentheses_in_import``          | True if parenthesis are to be used in import statements.           |
 |                                        | (Optional, defaults to 'True'.)                                    |
 |                                        |                                                                    |

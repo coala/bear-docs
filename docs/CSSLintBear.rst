@@ -16,7 +16,7 @@ Dependencies
 
 .. code-block:: bash
 
-    $ npm install csslint@0
+    $ npm install csslint@1
 
 
 

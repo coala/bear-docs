@@ -75,6 +75,11 @@ Settings
 |                                                     |                                                              |
 +-----------------------------------------------------+--------------------------------------------------------------+
 |                                                     |                                                              |
+| ``prefer_line_break_after_opening_bracket``         | If True, splitting right after a open bracket will not be    |
+|                                                     | preferred. (Optional, defaults to 'True'.)                   |
+|                                                     |                                                              |
++-----------------------------------------------------+--------------------------------------------------------------+
+|                                                     |                                                              |
 | ``space_between_ending_comma_and_closing_bracket``  | Inserts a space between the ending comma and closing         |
 |                                                     | bracket of a list, etc. (Optional, defaults to 'False'.)     |
 |                                                     |                                                              |
@@ -113,11 +118,6 @@ Settings
 |                                                     |                                                              |
 | ``split_before_named_assigns``                      | Splits named assignments into individual lines. (Optional,   |
 |                                                     | defaults to 'True'.)                                         |
-|                                                     |                                                              |
-+-----------------------------------------------------+--------------------------------------------------------------+
-|                                                     |                                                              |
-| ``tab_width``                                       | Number of spaces per indentation level. (Optional,           |
-|                                                     | defaults to '4'.)                                            |
 |                                                     |                                                              |
 +-----------------------------------------------------+--------------------------------------------------------------+
 |                                                     |                                                              |

@@ -117,13 +117,6 @@ Settings
 |                                                    |                                                              |
 +----------------------------------------------------+--------------------------------------------------------------+
 |                                                    |                                                              |
-| ``disable_throwing_strings``                       | Allows throwing string literals or interpolation.            |
-|                                                    | Example: If ``allow_throwing_strings = False`` ``` throw     |
-|                                                    | 'my error' throw "#{1234}" ``` will not be permitted.        |
-|                                                    | (Optional, defaults to 'False'.)                             |
-|                                                    |                                                              |
-+----------------------------------------------------+--------------------------------------------------------------+
-|                                                    |                                                              |
 | ``enforce_newline_at_EOF``                         | Checks if the file ends with a single newline. (Optional,    |
 |                                                    | defaults to 'True'.)                                         |
 |                                                    |                                                              |
@@ -158,59 +151,6 @@ Settings
 |                                                    |                                                              |
 | ``max_line_length``                                | Maximum number of characters per line. (Optional, defaults   |
 |                                                    | to '79'.)                                                    |
-|                                                    |                                                              |
-+----------------------------------------------------+--------------------------------------------------------------+
-|                                                    |                                                              |
-| ``no_decr_or_incrementation_operators``            | Allows the use of increment and decrement arithmetic         |
-|                                                    | operators. (Optional, defaults to 'True'.)                   |
-|                                                    |                                                              |
-+----------------------------------------------------+--------------------------------------------------------------+
-|                                                    |                                                              |
-| ``no_empty_functions``                             | Allows declaring empty functions. (Optional, defaults to     |
-|                                                    | 'False'.)                                                    |
-|                                                    |                                                              |
-+----------------------------------------------------+--------------------------------------------------------------+
-|                                                    |                                                              |
-| ``no_empty_parameter_list``                        | Allows empty parameter lists in function definitions.        |
-|                                                    | (Optional, defaults to 'True'.)                              |
-|                                                    |                                                              |
-+----------------------------------------------------+--------------------------------------------------------------+
-|                                                    |                                                              |
-| ``no_implicit_braces``                             | Prohibits implicit braces when declaring object literals.    |
-|                                                    | Example: If ``force_braces = True`` then ``` 1:2, 3:4 ```    |
-|                                                    | is prohibited, whereas ``` {1:2, 3:4} ``` is accepted.       |
-|                                                    | (Optional, defaults to 'False'.)                             |
-|                                                    |                                                              |
-+----------------------------------------------------+--------------------------------------------------------------+
-|                                                    |                                                              |
-| ``no_implicit_parentheses``                        | Allows implicit parentheses. (Optional, defaults to          |
-|                                                    | 'True'.)                                                     |
-|                                                    |                                                              |
-+----------------------------------------------------+--------------------------------------------------------------+
-|                                                    |                                                              |
-| ``no_interpolation_in_single_quotes``              | Allows string interpolation in a single quoted string.       |
-|                                                    | Example: If ``allow_interpolation_in_single_quotes =         |
-|                                                    | False`` then ``` f = '#{bar}' ``` is prohibited, whereas     |
-|                                                    | ``` f = "#{bar}" ``` is correct. (Optional, defaults to      |
-|                                                    | 'True'.)                                                     |
-|                                                    |                                                              |
-+----------------------------------------------------+--------------------------------------------------------------+
-|                                                    |                                                              |
-| ``no_stand_alone_at_sign``                         | Allows the use of stand alone  ``@``.                        |
-|                                                    | Example: If ``allow_stand_alone_at_sign = False`` ``` @      |
-|                                                    | notok not(@).ok @:: ``` are prohibited, whereas ```          |
-|                                                    | @alright @(fn) @ok() @[ok] @ok() ``` are accepted.           |
-|                                                    | (Optional, defaults to 'False'.)                             |
-|                                                    |                                                              |
-+----------------------------------------------------+--------------------------------------------------------------+
-|                                                    |                                                              |
-| ``no_this``                                        | Allows the use of ``this``. ``@`` should be used if          |
-|                                                    | ``False``. (Optional, defaults to 'True'.)                   |
-|                                                    |                                                              |
-+----------------------------------------------------+--------------------------------------------------------------+
-|                                                    |                                                              |
-| ``no_unnecessary_double_quotes``                   | Allows enclosing strings in double quotes. (Optional,        |
-|                                                    | defaults to 'True'.)                                         |
 |                                                    |                                                              |
 +----------------------------------------------------+--------------------------------------------------------------+
 |                                                    |                                                              |
@@ -265,17 +205,6 @@ Settings
 | ``spacing_in_empty_braces``                        | Determines the number of blank spaces after the opening      |
 |                                                    | ``{`` and before the closing brace ``}`` given empty         |
 |                                                    | content. (Optional, defaults to '0'.)                        |
-|                                                    |                                                              |
-+----------------------------------------------------+--------------------------------------------------------------+
-|                                                    |                                                              |
-| ``tab_width``                                      | Number of spaces per indentation level. (Optional,           |
-|                                                    | defaults to '2'.)                                            |
-|                                                    |                                                              |
-+----------------------------------------------------+--------------------------------------------------------------+
-|                                                    |                                                              |
-| ``use_english_operator``                           | Determines if ``and``, ``or``, ``is`` and ``isnt`` should    |
-|                                                    | be used instead of ``&&``, ``||``, ``==`` and ``!=``.        |
-|                                                    | (Optional, defaults to 'True'.)                              |
 |                                                    |                                                              |
 +----------------------------------------------------+--------------------------------------------------------------+
 |                                                    |                                                              |

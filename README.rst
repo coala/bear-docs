@@ -1,4 +1,4 @@
-**Supported Languages**
+**Supported Languages (56)**
 -----------------------
 
 .. contents::
@@ -54,6 +54,7 @@ CSS
 ===
 * `CSSAutoPrefixBear <docs/CSSAutoPrefixBear.rst>`_
 * `CSSLintBear <docs/CSSLintBear.rst>`_
+* `PHPCodeSnifferBear <docs/PHPCodeSnifferBear.rst>`_
 
 CUDA
 ====
@@ -129,6 +130,7 @@ JavaScript
 * `HappinessLintBear <docs/HappinessLintBear.rst>`_
 * `JSComplexityBear <docs/JSComplexityBear.rst>`_
 * `JSHintBear <docs/JSHintBear.rst>`_
+* `PHPCodeSnifferBear <docs/PHPCodeSnifferBear.rst>`_
 
 Julia
 =====
@@ -152,6 +154,7 @@ Natural Language
 * `AlexBear <docs/AlexBear.rst>`_
 * `LanguageToolBear <docs/LanguageToolBear.rst>`_
 * `ProseLintBear <docs/ProseLintBear.rst>`_
+* `SpellCheckBear <docs/SpellCheckBear.rst>`_
 * `WriteGoodLintBear <docs/WriteGoodLintBear.rst>`_
 
 Objective-C
@@ -195,6 +198,7 @@ OpenMP
 PHP
 ===
 * `CPDBear <docs/CPDBear.rst>`_
+* `PHPCodeSnifferBear <docs/PHPCodeSnifferBear.rst>`_
 * `PHPLintBear <docs/PHPLintBear.rst>`_
 
 PL/SQL
@@ -205,9 +209,14 @@ Perl
 ====
 * `PerlCriticBear <docs/PerlCriticBear.rst>`_
 
+Puppet
+======
+* `PuppetLintBear <docs/PuppetLintBear.rst>`_
+
 Python
 ======
 * `CPDBear <docs/CPDBear.rst>`_
+* `MypyBear <docs/MypyBear.rst>`_
 * `PEP8Bear <docs/PEP8Bear.rst>`_
 * `PEP8NotebookBear <docs/PEP8NotebookBear.rst>`_
 * `PyCommentedCodeBear <docs/PyCommentedCodeBear.rst>`_
@@ -222,6 +231,7 @@ Python
 Python 2
 ========
 * `CPDBear <docs/CPDBear.rst>`_
+* `MypyBear <docs/MypyBear.rst>`_
 * `PEP8Bear <docs/PEP8Bear.rst>`_
 * `PEP8NotebookBear <docs/PEP8NotebookBear.rst>`_
 * `PyCommentedCodeBear <docs/PyCommentedCodeBear.rst>`_
@@ -235,6 +245,7 @@ Python 2
 Python 3
 ========
 * `CPDBear <docs/CPDBear.rst>`_
+* `MypyBear <docs/MypyBear.rst>`_
 * `PEP8Bear <docs/PEP8Bear.rst>`_
 * `PEP8NotebookBear <docs/PEP8NotebookBear.rst>`_
 * `PyCommentedCodeBear <docs/PyCommentedCodeBear.rst>`_
@@ -278,6 +289,7 @@ Scala
 Swift
 =====
 * `CPDBear <docs/CPDBear.rst>`_
+* `TailorBear <docs/TailorBear.rst>`_
 
 Tex
 ===

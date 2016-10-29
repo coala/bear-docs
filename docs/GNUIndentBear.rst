@@ -119,11 +119,6 @@ Settings
 |                                              |                                                             |
 +----------------------------------------------+-------------------------------------------------------------+
 |                                              |                                                             |
-| ``tab_width``                                | Number of spaces per indentation level. (Optional,          |
-|                                              | defaults to '4'.)                                           |
-|                                              |                                                             |
-+----------------------------------------------+-------------------------------------------------------------+
-|                                              |                                                             |
 | ``use_spaces``                               | True if spaces are to be used, else tabs. (Optional,        |
 |                                              | defaults to 'True'.)                                        |
 |                                              |                                                             |

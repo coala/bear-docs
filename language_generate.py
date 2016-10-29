@@ -13,11 +13,11 @@ def language_generate():
                 lang_dict[language] = [bear.name]
 
     with open("README.rst", "w") as lang_file:
-        lang_file.write("**Supported Languages**\n-----------------------\n\n"
+        lang_file.write("**Supported Languages ({})**\n-----------------------\n\n"
                         ".. contents::\n"
                         "    :local:\n"
                         "    :depth: 1\n"
-                        "    :backlinks: none\n\n")
+                        "    :backlinks: none\n\n".format(len(lang_dict)))
         for language in sorted(lang_dict):
             lang_file.write(language + "\n" + "=" * len(language) + "\n")
             for bear in sorted(lang_dict[language]):

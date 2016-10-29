@@ -30,15 +30,6 @@ Settings
 |                            | why the limit was exceeded." (Optional, defaults to '8'.)   |
 |                            |                                                             |
 +----------------------------+-------------------------------------------------------------+
-|                            |                                                             |
-| ``max_complexity``         | Maximum cyclomatic complexity that is considered to be      |
-|                            | normal. The value of 10 had received substantial            |
-|                            | corroborating evidence. But the general recommendation:     |
-|                            | "For each module, either limit cyclomatic complexity to     |
-|                            | [the agreed-upon limit] or provide a written explanation of |
-|                            | why the limit was exceeded." (Optional, defaults to '8'.)   |
-|                            |                                                             |
-+----------------------------+-------------------------------------------------------------+
 
 
 Dependencies

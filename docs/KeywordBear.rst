@@ -11,24 +11,14 @@ Checks the code files for given keywords.
 Settings
 --------
 
-+--------------------------------+------------------------------------------------------------+
-| Setting                        |  Meaning                                                   |
-+================================+============================================================+
-|                                |                                                            |
-| ``cs_keywords``                | A list of keywords to search for (case sensitive).         |
-|                                | (Optional, defaults to '()'.)                              |
-|                                |                                                            |
-+--------------------------------+------------------------------------------------------------+
-|                                |                                                            |
-| ``keywords_case_insensitive``  | A list of keywords to search for (case insensitive). Usual |
-|                                | examples are TODO and FIXME.                               |
-|                                |                                                            |
-+--------------------------------+------------------------------------------------------------+
-|                                |                                                            |
-| ``keywords_case_sensitive``    | A list of keywords to search for (case sensitive).         |
-|                                | (Optional, defaults to '()'.)                              |
-|                                |                                                            |
-+--------------------------------+------------------------------------------------------------+
++---------------+------------------------------------------------------------+
+| Setting       |  Meaning                                                   |
++===============+============================================================+
+|               |                                                            |
+| ``keywords``  | A list of keywords to search for (case insensitive). Usual |
+|               | examples are TODO and FIXME.                               |
+|               |                                                            |
++---------------+------------------------------------------------------------+
 
 
 Can Detect

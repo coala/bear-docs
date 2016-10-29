@@ -29,16 +29,6 @@ Settings
 |                     | to 'False'.)                                                |
 |                     |                                                             |
 +---------------------+-------------------------------------------------------------+
-|                     |                                                             |
-| ``keep_unicode``    | Whether or not to escape unicode values using ASCII.        |
-|                     | (Optional, defaults to 'True'.)                             |
-|                     |                                                             |
-+---------------------+-------------------------------------------------------------+
-|                     |                                                             |
-| ``tab_width``       | Number of spaces per indentation level. (Optional, defaults |
-|                     | to '4'.)                                                    |
-|                     |                                                             |
-+---------------------+-------------------------------------------------------------+
 
 
 Can Detect

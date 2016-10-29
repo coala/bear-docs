@@ -80,14 +80,6 @@ Settings
 |                                 | instances. (Optional, defaults to 'False'.)                |
 |                                 |                                                            |
 +---------------------------------+------------------------------------------------------------+
-|                                 |                                                            |
-| ``check_unnecessary``           | Allows unnecessary code. (Optional, defaults to 'False'.)  +
-|                                 |                                                            |
-+---------------------------------+------------------------------------------------------------+
-|                                 |                                                            |
-| ``check_unused``                | Allows unused code. (Optional, defaults to 'False'.)       +
-|                                 |                                                            |
-+---------------------------------+------------------------------------------------------------+
 
 
 Can Detect

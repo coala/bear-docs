@@ -6,7 +6,7 @@ It also figures out hanging indents and absolute indentation of function params 
 It does not however support  indents based on keywords yet. for example:
 if(something) does not get indented
 undergoes no change.
-WARNING: The IndentationBear is experimental right now, you can report any issues found to https://github.com/coala-analyzer/coala-bears
+WARNING: The IndentationBear is experimental right now, you can report any issues found to https://github.com/coala/coala-bears
 
 `Supported Languages <../README.rst>`_
 -----
@@ -31,11 +31,6 @@ Settings
 +------------------+-----------------------------------------------------------+
 |                  |                                                           |
 | ``language``     | Language to be used for indentation.                      +
-|                  |                                                           |
-+------------------+-----------------------------------------------------------+
-|                  |                                                           |
-| ``tab_width``    | Number of spaces per indentation level. (Optional,        |
-|                  | defaults to '4'.)                                         |
 |                  |                                                           |
 +------------------+-----------------------------------------------------------+
 |                  |                                                           |
