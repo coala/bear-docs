@@ -10,6 +10,15 @@ Check for the correct spelling of ``coala`` in the file.
 
 
 
+Demo
+----
+
+|asciicast|
+
+.. |asciicast| image:: https://asciinema.org/a/42968.png
+   :target: https://asciinema.org/a/4p1i873ebi9qdfmczn2tvxrm0?autoplay=1
+   :width: 100%
+
 Can Detect
 ----------
 

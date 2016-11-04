@@ -13,6 +13,15 @@ See <https://bitbucket.org/jendrikseipp/vulture> for more information.
 
 
 
+Demo
+----
+
+|asciicast|
+
+.. |asciicast| image:: https://asciinema.org/a/42968.png
+   :target: https://asciinema.org/a/82256?autoplay=1
+   :width: 100%
+
 Dependencies
 ------------
 

@@ -10,6 +10,15 @@ This bear adds vendor prefixes to CSS rules using ``autoprefixer`` utility.
 
 
 
+Demo
+----
+
+|asciicast|
+
+.. |asciicast| image:: https://asciinema.org/a/42968.png
+   :target: https://asciinema.org/a/40093?autoplay=1
+   :width: 100%
+
 Dependencies
 ------------
 

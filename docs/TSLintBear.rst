@@ -28,6 +28,15 @@ Settings
 +--------------------+---------------------------------------------------------+
 
 
+Demo
+----
+
+|asciicast|
+
+.. |asciicast| image:: https://asciinema.org/a/42968.png
+   :target: https://asciinema.org/a/9re9c4fv17lhn7rmvzueebb3b?autoplay=1
+   :width: 100%
+
 Dependencies
 ------------
 

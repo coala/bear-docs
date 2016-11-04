@@ -11,6 +11,20 @@ This bear expects dart commands to be on your ``PATH``. Please ensure
 
 * Dart
 
+Settings
+--------
+
++------------------+-------------------------------------------------------+
+| Setting          |  Meaning                                              |
++==================+=======================================================+
+|                  |                                                       |
+| ``indent_size``  | No description given. (Optional, defaults to '2'.)    +
+|                  |                                                       |
++------------------+-------------------------------------------------------+
+|                  |                                                       |
+| ``use_spaces``   | No description given. (Optional, defaults to 'True'.) +
+|                  |                                                       |
++------------------+-------------------------------------------------------+
 
 
 Can Detect

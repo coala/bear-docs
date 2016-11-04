@@ -64,6 +64,15 @@ Settings
 +--------------------------+------------------------------------------------------------+
 
 
+Demo
+----
+
+|asciicast|
+
+.. |asciicast| image:: https://asciinema.org/a/42968.png
+   :target: https://asciinema.org/a/45666?autoplay=1
+   :width: 100%
+
 Can Detect
 ----------
 

@@ -10,6 +10,15 @@ Checks the code with ``infer``.
 
 
 
+Demo
+----
+
+|asciicast|
+
+.. |asciicast| image:: https://asciinema.org/a/42968.png
+   :target: https://asciinema.org/a/1g2k0la7xo5az9t8f1v5zy66q?autoplay=1
+   :width: 100%
+
 Can Detect
 ----------
 

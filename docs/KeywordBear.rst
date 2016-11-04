@@ -11,14 +11,15 @@ Checks the code files for given keywords.
 Settings
 --------
 
-+---------------+------------------------------------------------------------+
-| Setting       |  Meaning                                                   |
-+===============+============================================================+
-|               |                                                            |
-| ``keywords``  | A list of keywords to search for (case insensitive). Usual |
-|               | examples are TODO and FIXME.                               |
-|               |                                                            |
-+---------------+------------------------------------------------------------+
++---------------+------------------------------------------------------+
+| Setting       |  Meaning                                             |
++===============+======================================================+
+|               |                                                      |
+| ``keywords``  | A list of keywords to search for (case insensitive). |
+|               | Default are TODO and FIXME. (Optional, defaults to   |
+|               | '['todo', 'fixme']'.)                                |
+|               |                                                      |
++---------------+------------------------------------------------------+
 
 
 Can Detect

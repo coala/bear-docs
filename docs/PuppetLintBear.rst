@@ -12,6 +12,15 @@ See <http://puppet-lint.com/> for details about the tool.
 
 
 
+Demo
+----
+
+|asciicast|
+
+.. |asciicast| image:: https://asciinema.org/a/42968.png
+   :target: https://asciinema.org/a/87751?autoplay=1
+   :width: 100%
+
 Dependencies
 ------------
 

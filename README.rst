@@ -1,4 +1,4 @@
-**Supported Languages (56)**
+**Supported Languages (57)**
 -----------------------
 
 .. contents::
@@ -55,6 +55,10 @@ CSS
 * `CSSAutoPrefixBear <docs/CSSAutoPrefixBear.rst>`_
 * `CSSLintBear <docs/CSSLintBear.rst>`_
 * `PHPCodeSnifferBear <docs/PHPCodeSnifferBear.rst>`_
+
+CSV
+===
+* `CSVLintBear <docs/CSVLintBear.rst>`_
 
 CUDA
 ====
