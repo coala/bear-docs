@@ -63,7 +63,7 @@ Demo
 
 |asciicast|
 
-.. |asciicast| image:: https://asciinema.org/a/42968.png
+.. |asciicast| image:: https://asciinema.org/a/80761.png
    :target: https://asciinema.org/a/80761?autoplay=1
    :width: 100%
 

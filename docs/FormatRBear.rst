@@ -58,7 +58,7 @@ Demo
 
 |asciicast|
 
-.. |asciicast| image:: https://asciinema.org/a/42968.png
+.. |asciicast| image:: https://asciinema.org/a/0y0oxtak18v492jdyfqwpw1n4.png
    :target: https://asciinema.org/a/0y0oxtak18v492jdyfqwpw1n4?autoplay=1
    :width: 100%
 

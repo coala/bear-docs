@@ -107,9 +107,9 @@ if __name__ == "__main__":
             output += "\n\nDemo\n----\n\n"
             output += """|asciicast|
 
-.. |asciicast| image:: https://asciinema.org/a/42968.png
+.. |asciicast| image:: {}.png
    :target: {}?autoplay=1
-   :width: 100%""".format(bear.ASCIINEMA_URL)
+   :width: 100%""".format(bear.ASCIINEMA_URL, bear.ASCIINEMA_URL)
         if bear.REQUIREMENTS:
             output += "\n\nDependencies\n------------\n\n"
             os_packages = []

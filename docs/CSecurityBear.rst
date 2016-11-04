@@ -18,7 +18,7 @@ Demo
 
 |asciicast|
 
-.. |asciicast| image:: https://asciinema.org/a/42968.png
+.. |asciicast| image:: https://asciinema.org/a/7z8ol9mpsgtuo1096c6jk8hi6.png
    :target: https://asciinema.org/a/7z8ol9mpsgtuo1096c6jk8hi6?autoplay=1
    :width: 100%
 
