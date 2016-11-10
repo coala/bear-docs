@@ -70,7 +70,6 @@ Dependencies
 * ``pip`` - ``mypy-lang``
 
 
-
 License
 -------
 

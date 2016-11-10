@@ -191,7 +191,6 @@ Dependencies
 * ``pip`` - ``isort``
 
 
-
 Can Detect
 ----------
 

@@ -18,7 +18,6 @@ Dependencies
 * ``pip`` - ``eradicate``
 
 
-
 Can Detect
 ----------
 

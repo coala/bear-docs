@@ -76,7 +76,6 @@ Dependencies
 * ``pip`` - ``nltk``
 
 
-
 Can Detect
 ----------
 

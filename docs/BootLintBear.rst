@@ -33,7 +33,6 @@ Dependencies
 * ``npm`` - ``bootlint``
 
 
-
 Can Detect
 ----------
 

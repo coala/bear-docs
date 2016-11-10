@@ -50,7 +50,6 @@ Dependencies
 * ``pip`` - ``autopep8``
 
 
-
 Can Detect
 ----------
 

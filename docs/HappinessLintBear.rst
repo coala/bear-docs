@@ -27,7 +27,6 @@ Dependencies
 * ``npm`` - ``happiness``
 
 
-
 Can Detect
 ----------
 

@@ -36,7 +36,6 @@ Dependencies
   - ``apt_get`` - ``verilator``
 
 
-
 Can Detect
 ----------
 

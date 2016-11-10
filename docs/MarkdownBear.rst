@@ -105,7 +105,6 @@ Dependencies
 * ``npm`` - ``remark-cli``
 
 
-
 Can Detect
 ----------
 

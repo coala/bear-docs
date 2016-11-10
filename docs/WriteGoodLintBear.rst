@@ -73,7 +73,6 @@ Dependencies
 * ``npm`` - ``write-good``
 
 
-
 Can Detect
 ----------
 

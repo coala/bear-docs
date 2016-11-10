@@ -32,7 +32,6 @@ Dependencies
   - ``apt_get`` - ``cppcheck``
 
 
-
 Can Detect
 ----------
 

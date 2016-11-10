@@ -38,7 +38,6 @@ Dependencies
 * ``pip`` - ``cpplint``
 
 
-
 Can Detect
 ----------
 

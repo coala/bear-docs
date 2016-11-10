@@ -37,7 +37,6 @@ Dependencies
 * ``npm`` - ``complexity-report``
 
 
-
 Can Detect
 ----------
 

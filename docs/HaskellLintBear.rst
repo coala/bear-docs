@@ -21,7 +21,6 @@ Dependencies
   - ``apt_get`` - ``hlint``
 
 
-
 Can Detect
 ----------
 

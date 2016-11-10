@@ -16,7 +16,6 @@ Dependencies
 * ``pip`` - ``restructuredtext_lint``
 
 
-
 Can Detect
 ----------
 

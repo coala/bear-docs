@@ -26,7 +26,6 @@ Dependencies
 * ``go`` - ``golang.org/x/tools/cmd/gotype``
 
 
-
 Can Detect
 ----------
 

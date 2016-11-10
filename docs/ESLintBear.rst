@@ -39,7 +39,6 @@ Dependencies
 * ``npm`` - ``eslint``
 
 
-
 Can Detect
 ----------
 

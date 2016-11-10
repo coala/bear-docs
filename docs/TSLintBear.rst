@@ -43,7 +43,6 @@ Dependencies
 * ``npm`` - ``tslint``
 
 
-
 Can Detect
 ----------
 

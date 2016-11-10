@@ -31,7 +31,6 @@ Dependencies
   - ``apt_get`` - ``perl``
 
 
-
 Can Detect
 ----------
 

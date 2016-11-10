@@ -34,7 +34,6 @@ Dependencies
 * ``pip`` - ``guess-language-spirit``
 
 
-
 Can Detect
 ----------
 

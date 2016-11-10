@@ -27,7 +27,6 @@ Dependencies
 * ``gem`` - ``puppet-lint``
 
 
-
 Can Detect
 ----------
 

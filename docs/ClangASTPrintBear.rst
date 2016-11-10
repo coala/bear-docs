@@ -20,4 +20,3 @@ Dependencies
 ------------
 
 * ``pip`` - ``libclang-py3``
-

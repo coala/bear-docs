@@ -29,7 +29,6 @@ Dependencies
   - ``apt_get`` - ``flawfinder``
 
 
-
 Can Detect
 ----------
 

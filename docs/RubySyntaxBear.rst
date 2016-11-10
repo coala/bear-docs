@@ -16,7 +16,6 @@ Dependencies
 * ``gem`` - ``ruby``
 
 
-
 Can Detect
 ----------
 

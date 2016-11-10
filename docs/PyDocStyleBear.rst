@@ -36,7 +36,6 @@ Dependencies
 * ``pip`` - ``pydocstyle``
 
 
-
 Can Detect
 ----------
 

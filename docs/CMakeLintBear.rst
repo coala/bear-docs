@@ -29,7 +29,6 @@ Dependencies
 * ``pip`` - ``cmakelint``
 
 
-
 Can Detect
 ----------
 

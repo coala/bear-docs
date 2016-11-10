@@ -20,7 +20,6 @@ Dependencies
 * ``go`` - ``golang.org/cmd/gofmt``
 
 
-
 Can Detect
 ----------
 

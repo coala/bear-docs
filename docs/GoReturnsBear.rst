@@ -16,7 +16,6 @@ Dependencies
 * ``go`` - ``sourcegraph.com/sqs/goreturns``
 
 
-
 Can Detect
 ----------
 

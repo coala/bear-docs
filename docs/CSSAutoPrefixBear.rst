@@ -26,7 +26,6 @@ Dependencies
 * ``npm`` - ``postcss-cli``
 
 
-
 Can Detect
 ----------
 

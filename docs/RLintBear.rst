@@ -16,7 +16,6 @@ Dependencies
 * ``R`` - ``lintr``
 
 
-
 Can Detect
 ----------
 

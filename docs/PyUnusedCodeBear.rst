@@ -19,7 +19,6 @@ Dependencies
 * ``pip`` - ``autoflake``
 
 
-
 Can Detect
 ----------
 

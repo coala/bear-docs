@@ -18,7 +18,6 @@ Dependencies
 * ``gem`` - ``scss-lint``
 
 
-
 Can Detect
 ----------
 

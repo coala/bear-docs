@@ -137,7 +137,6 @@ Dependencies
   - ``apt_get`` - ``indent``
 
 
-
 Can Detect
 ----------
 

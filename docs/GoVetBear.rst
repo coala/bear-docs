@@ -22,7 +22,6 @@ Dependencies
 * ``go`` - ``golang.org/cmd/vet``
 
 
-
 Can Detect
 ----------
 

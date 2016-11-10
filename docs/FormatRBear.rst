@@ -68,7 +68,6 @@ Dependencies
 * ``R`` - ``formatR``
 
 
-
 Can Detect
 ----------
 

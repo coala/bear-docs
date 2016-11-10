@@ -16,7 +16,6 @@ Dependencies
 * ``gem`` - ``csvlint``
 
 
-
 Can Detect
 ----------
 

@@ -28,7 +28,6 @@ Dependencies
 * ``pip`` - ``html-linter``
 
 
-
 Can Detect
 ----------
 

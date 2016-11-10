@@ -22,7 +22,6 @@ Dependencies
   - ``apt_get`` - ``julia``
 
 
-
 Can Detect
 ----------
 

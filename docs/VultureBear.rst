@@ -28,7 +28,6 @@ Dependencies
 * ``pip`` - ``happiness``
 
 
-
 Can Detect
 ----------
 

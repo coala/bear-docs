@@ -19,7 +19,6 @@ Dependencies
 * ``gem`` - ``sqlint``
 
 
-
 Can Detect
 ----------
 

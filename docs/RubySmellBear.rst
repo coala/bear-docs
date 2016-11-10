@@ -152,7 +152,6 @@ Dependencies
 * ``gem`` - ``reek``
 
 
-
 Can Detect
 ----------
 

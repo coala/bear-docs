@@ -20,7 +20,6 @@ Dependencies
 * ``pip`` - ``cppclean``
 
 
-
 Can Detect
 ----------
 

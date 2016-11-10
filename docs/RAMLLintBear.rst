@@ -19,7 +19,6 @@ Dependencies
 * ``npm`` - ``ramllint``
 
 
-
 Can Detect
 ----------
 

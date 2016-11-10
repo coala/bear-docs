@@ -91,8 +91,8 @@ Settings
 |                                             |                                                             |
 +---------------------------------------------+-------------------------------------------------------------+
 |                                             |                                                             |
-| ``use_spaces``                              | True if spaces are to be used instead of tabs. (Optional,   |
-|                                             | defaults to 'True'.)                                        |
+| ``use_spaces``                              | ``True`` if spaces are to be used instead of tabs.          |
+|                                             | (Optional, defaults to 'True'.)                             |
 |                                             |                                                             |
 +---------------------------------------------+-------------------------------------------------------------+
 
@@ -111,7 +111,6 @@ Dependencies
 
 * System requirement
   - ``apt_get`` - ``php-codesniffer``
-
 
 
 Can Detect

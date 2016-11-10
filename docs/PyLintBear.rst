@@ -44,7 +44,6 @@ Dependencies
 * ``pip`` - ``pylint``
 
 
-
 Can Detect
 ----------
 

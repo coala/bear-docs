@@ -18,7 +18,6 @@ Dependencies
 * ``pip`` - ``vim-vint``
 
 
-
 Can Detect
 ----------
 

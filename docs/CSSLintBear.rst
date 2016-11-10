@@ -17,7 +17,6 @@ Dependencies
 * ``npm`` - ``csslint``
 
 
-
 Can Detect
 ----------
 

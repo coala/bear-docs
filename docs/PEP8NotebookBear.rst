@@ -60,7 +60,6 @@ Dependencies
 * ``pip`` - ``nbformat``
 
 
-
 Can Detect
 ----------
 

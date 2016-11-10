@@ -39,7 +39,6 @@ Dependencies
 * ``pip`` - ``requests``
 
 
-
 Can Detect
 ----------
 

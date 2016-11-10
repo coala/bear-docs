@@ -190,9 +190,8 @@ Demo
 Dependencies
 ------------
 
-* ``pip`` - ``pyyaml``
 * ``gem`` - ``rubocop``
-
+* ``pip`` - ``pyyaml``
 
 
 Can Detect

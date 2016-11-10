@@ -16,7 +16,6 @@ Dependencies
 * ``go`` - ``golang.org/x/tools/cmd/goimports``
 
 
-
 Can Detect
 ----------
 

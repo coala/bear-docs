@@ -377,7 +377,6 @@ Dependencies
 * ``npm`` - ``jshint``
 
 
-
 Can Detect
 ----------
 

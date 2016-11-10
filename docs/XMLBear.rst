@@ -35,7 +35,6 @@ Dependencies
   - ``apt_get`` - ``libxml2``
 
 
-
 Can Detect
 ----------
 

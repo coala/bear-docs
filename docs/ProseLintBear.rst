@@ -16,7 +16,6 @@ Dependencies
 * ``pip`` - ``proselint``
 
 
-
 Can Detect
 ----------
 

@@ -21,7 +21,6 @@ Dependencies
 * ``npm`` - ``dockerfile_lint``
 
 
-
 Can Detect
 ----------
 

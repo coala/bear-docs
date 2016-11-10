@@ -17,7 +17,6 @@ Dependencies
   - ``apt_get`` - ``chktex``
 
 
-
 Can Detect
 ----------
 

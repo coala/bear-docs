@@ -38,7 +38,6 @@ Dependencies
 * ``pip`` - ``libclang-py3``
 
 
-
 Can Detect
 ----------
 

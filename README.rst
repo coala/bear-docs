@@ -1,6 +1,6 @@
 **Note**: The ``master`` branch contains docs for the latest stable version. If you want to view the docs for the latest development version, see the ``pre`` branch.
 
-**Supported Languages (57)**
+**Supported Languages (58)**
 -----------------------
 
 .. contents::
@@ -138,6 +138,10 @@ JavaScript
 * `JSHintBear <docs/JSHintBear.rst>`_
 * `PHPCodeSnifferBear <docs/PHPCodeSnifferBear.rst>`_
 
+Jinja2
+======
+* `Jinja2Bear <docs/Jinja2Bear.rst>`_
+
 Julia
 =====
 * `JuliaLintBear <docs/JuliaLintBear.rst>`_
@@ -221,6 +225,7 @@ Puppet
 
 Python
 ======
+* `BanditBear <docs/BanditBear.rst>`_
 * `CPDBear <docs/CPDBear.rst>`_
 * `MypyBear <docs/MypyBear.rst>`_
 * `PEP8Bear <docs/PEP8Bear.rst>`_
@@ -236,6 +241,7 @@ Python
 
 Python 2
 ========
+* `BanditBear <docs/BanditBear.rst>`_
 * `CPDBear <docs/CPDBear.rst>`_
 * `MypyBear <docs/MypyBear.rst>`_
 * `PEP8Bear <docs/PEP8Bear.rst>`_
@@ -250,6 +256,7 @@ Python 2
 
 Python 3
 ========
+* `BanditBear <docs/BanditBear.rst>`_
 * `CPDBear <docs/CPDBear.rst>`_
 * `MypyBear <docs/MypyBear.rst>`_
 * `PEP8Bear <docs/PEP8Bear.rst>`_

@@ -3,9 +3,28 @@
 import sys
 import os
 import inspect
+import pkg_resources
+import fnmatch
 
-from coalib.collecting.Collectors import collect_registered_bears_dirs
-from coalib.parsing.Globbing import glob
+def collect_registered_bears_dirs(entrypoint):
+    """
+    Searches setuptools for the entrypoint and returns the bear
+    directories given by the module.
+    :param entrypoint: The entrypoint to find packages with.
+    :return:           List of bear directories.
+    """
+    collected_dirs = []
+    for ep in pkg_resources.iter_entry_points(entrypoint):
+        registered_package = None
+        try:
+            registered_package = ep.load()
+        except pkg_resources.DistributionNotFound:
+            continue
+        collected_dirs.append(os.path.abspath(
+            os.path.dirname(registered_package.__file__)))
+    return collected_dirs
+
+from glob import glob
 from collections import OrderedDict
 from bear_docs_utils import get_bears
 from language_generate import language_generate
@@ -53,8 +72,12 @@ if __name__ == "__main__":
         meta = bear.get_metadata()
         if bear.name == "ClangFunctionDifferenceBear":
             continue
-        rel_path = os.path.relpath(glob(
-            os.path.join(path, "**", bear.name + ".py"))[0], path)
+        print(path, os.path.join(path, "**", bear.name + ".py"))
+        matches = []
+        for root, dirnames, filenames in os.walk(path):
+            for filename in fnmatch.filter(filenames, bear.name + '.py'):
+                matches.append(os.path.join(root, filename))
+        rel_path = os.path.relpath(matches[0], path)
         url = "https://github.com/coala-analyzer/coala-bears/tree/master/bears/" + rel_path
         output = "`" + bear.name + " <" + url + ">`_\n"
         output += "=" * (4 + len(bear.name)) + "\n\n"
@@ -113,21 +136,19 @@ if __name__ == "__main__":
 
         if bear.REQUIREMENTS:
             output += "\n\nDependencies\n------------\n\n"
-            os_packages = []
-            other_commands = []
+            outs = []
             for requirement in bear.REQUIREMENTS:
                 if hasattr(requirement, 'type'):
-                    output += "* ``" + requirement.type + "``"
-                    output += " - ``" + requirement.package + "``\n"
+                    outs.append("* ``" + requirement.type + "``"
+                                " - ``" + requirement.package + "``")
                 else:
-                    output += "* System requirement\n"
+                    outs.append("* System requirement\n")
                     for system, package in requirement.package.items():
-                        output += "  - ``" + system + "`` - ``" + package + "``\n"
+                        outs[-1] += "  - ``" + system + "`` - ``" + package + "``"
+
+            output += "\n".join(sorted(outs))
 
             output += "\n"
-
-            if os_packages:
-                output += "This bear may also have system dependencies: " + (", ".join(os_packages))
 
         if len(bear.can_detect):
             output += "\n\nCan Detect\n----------\n\n"

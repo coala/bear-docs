@@ -17,7 +17,6 @@ Dependencies
   - ``apt_get`` - ``mono-mcs``
 
 
-
 Can Detect
 ----------
 

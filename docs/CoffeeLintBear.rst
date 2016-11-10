@@ -220,7 +220,6 @@ Dependencies
 * ``npm`` - ``coffeelint``
 
 
-
 Can Detect
 ----------
 

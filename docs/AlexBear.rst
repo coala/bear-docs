@@ -17,7 +17,6 @@ Dependencies
 * ``npm`` - ``alex``
 
 
-
 License
 -------
 

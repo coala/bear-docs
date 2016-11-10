@@ -58,7 +58,6 @@ Dependencies
 * ``go`` - ``github.com/kisielk/errcheck``
 
 
-
 Can Detect
 ----------
 

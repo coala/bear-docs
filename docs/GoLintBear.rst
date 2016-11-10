@@ -28,7 +28,6 @@ Dependencies
 * ``go`` - ``github.com/golang/lint/golint``
 
 
-
 Can Detect
 ----------
 

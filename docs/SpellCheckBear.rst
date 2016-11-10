@@ -27,7 +27,6 @@ Dependencies
 * ``pip`` - ``scspell3k``
 
 
-
 Can Detect
 ----------
 

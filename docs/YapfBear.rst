@@ -142,7 +142,6 @@ Dependencies
 * ``pip`` - ``yapf``
 
 
-
 Can Detect
 ----------
 

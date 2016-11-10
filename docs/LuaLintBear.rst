@@ -19,7 +19,6 @@ Dependencies
   - ``apt_get`` - ``luarocks``
 
 
-
 Can Detect
 ----------
 
