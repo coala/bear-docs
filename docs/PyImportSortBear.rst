@@ -188,9 +188,7 @@ Settings
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ pip install isort==4.*
+* ``pip`` - ``isort``
 
 
 

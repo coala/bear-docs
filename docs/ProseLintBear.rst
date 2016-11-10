@@ -13,9 +13,7 @@ Lints the file using ``proselint``.
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ pip install proselint==0.3.*
+* ``pip`` - ``proselint``
 
 
 

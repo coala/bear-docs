@@ -23,9 +23,7 @@ Demo
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ go get -u golang.org/x/tools/cmd/gotype
+* ``go`` - ``golang.org/x/tools/cmd/gotype``
 
 
 

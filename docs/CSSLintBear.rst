@@ -14,9 +14,7 @@ problems or inefficiencies.
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ npm install csslint@1
+* ``npm`` - ``csslint``
 
 
 

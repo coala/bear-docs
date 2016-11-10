@@ -13,9 +13,7 @@ Proposes corrections of Go code using ``goreturns``.
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ go get -u sourcegraph.com/sqs/goreturns
+* ``go`` - ``sourcegraph.com/sqs/goreturns``
 
 
 

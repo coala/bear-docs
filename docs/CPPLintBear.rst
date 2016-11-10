@@ -35,9 +35,7 @@ Settings
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ pip install cpplint==1.*
+* ``pip`` - ``cpplint``
 
 
 

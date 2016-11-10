@@ -13,9 +13,7 @@ Checks the code with ``ruby -wc`` on each file separately.
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ gem install ruby
+* ``gem`` - ``ruby``
 
 
 

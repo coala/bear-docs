@@ -13,6 +13,9 @@ def language_generate():
                 lang_dict[language] = [bear.name]
 
     with open("README.rst", "w") as lang_file:
+        lang_file.write("Note: The ``master`` branch contains docs for the latest "
+                        "stable version. If you want to view the docs for the "
+                        "latest development version, see the ``pre`` branch")
         lang_file.write("**Supported Languages ({})**\n-----------------------\n\n"
                         ".. contents::\n"
                         "    :local:\n"

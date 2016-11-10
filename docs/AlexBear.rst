@@ -14,9 +14,7 @@ writing.
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ npm install alex@3
+* ``npm`` - ``alex``
 
 
 

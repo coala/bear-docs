@@ -139,9 +139,7 @@ Demo
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ pip install yapf==0.11
+* ``pip`` - ``yapf``
 
 
 

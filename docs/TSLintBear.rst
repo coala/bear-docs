@@ -40,9 +40,7 @@ Demo
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ npm install tslint@3
+* ``npm`` - ``tslint``
 
 
 

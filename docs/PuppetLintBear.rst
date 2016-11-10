@@ -24,9 +24,7 @@ Demo
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ gem install puppet-lint
+* ``gem`` - ``puppet-lint``
 
 
 

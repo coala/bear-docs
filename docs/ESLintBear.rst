@@ -36,9 +36,7 @@ Demo
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ npm install eslint@2
+* ``npm`` - ``eslint``
 
 
 

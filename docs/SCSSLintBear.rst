@@ -15,9 +15,7 @@ More information is available at <https://github.com/brigade/scss-lint>.
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ gem install scss-lint, require: false
+* ``gem`` - ``scss-lint``
 
 
 

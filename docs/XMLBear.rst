@@ -31,10 +31,10 @@ Settings
 Dependencies
 ------------
 
-.. code-block:: bash
+* System requirement
+  - ``apt_get`` - ``libxml2``
 
 
-This bear may also have system dependencies: libxml2
 
 Can Detect
 ----------

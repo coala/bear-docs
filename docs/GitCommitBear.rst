@@ -73,9 +73,7 @@ Demo
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ pip install nltk==3.1.*
+* ``pip`` - ``nltk``
 
 
 

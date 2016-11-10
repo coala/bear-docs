@@ -110,21 +110,20 @@ if __name__ == "__main__":
 .. |asciicast| image:: {}.png
    :target: {}?autoplay=1
    :width: 100%""".format(bear.ASCIINEMA_URL, bear.ASCIINEMA_URL)
+
         if bear.REQUIREMENTS:
             output += "\n\nDependencies\n------------\n\n"
             os_packages = []
             other_commands = []
             for requirement in bear.REQUIREMENTS:
-                if requirement.__class__.__name__ == "DistributionRequirement":
-                    os_packages += list(requirement.package.values())
-                elif requirement.__class__.__name__ == "PipRequirement":
-                    other_commands.append(" ".join(requirement.install_command()[2:]))
+                if hasattr(requirement, 'type'):
+                    output += "* ``" + requirement.type + "``"
+                    output += " - ``" + requirement.package + "``\n"
                 else:
-                    other_commands.append(" ".join(requirement.install_command()))
+                    output += "* System requirement\n"
+                    for system, package in requirement.package.items():
+                        output += "  - ``" + system + "`` - ``" + package + "``\n"
 
-            output += ".. code-block:: bash\n\n"
-            for com in sorted(other_commands):
-                output += "    $ " + com + "\n"
             output += "\n"
 
             if os_packages:

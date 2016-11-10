@@ -25,9 +25,7 @@ Demo
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ pip install happiness==0.10.0
+* ``pip`` - ``happiness``
 
 
 

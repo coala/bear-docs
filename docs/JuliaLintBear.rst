@@ -18,10 +18,10 @@ on the analysis provided.
 Dependencies
 ------------
 
-.. code-block:: bash
+* System requirement
+  - ``apt_get`` - ``julia``
 
 
-This bear may also have system dependencies: julia
 
 Can Detect
 ----------

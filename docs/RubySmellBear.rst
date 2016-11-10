@@ -149,9 +149,7 @@ Settings
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ gem install reek
+* ``gem`` - ``reek``
 
 
 

@@ -25,9 +25,7 @@ Settings
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ pip install html-linter==0.3.*
+* ``pip`` - ``html-linter``
 
 
 

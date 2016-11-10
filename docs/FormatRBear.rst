@@ -65,9 +65,7 @@ Demo
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ R   - e   " i n s t a l l . p a c k a g e s ( " f o r m a t R " ,   r e p o = " h t t p : / / c r a n . r s t u d i o . c o m " ,   d e p e n d e n c i e s = T R U E ) "
+* ``R`` - ``formatR``
 
 
 

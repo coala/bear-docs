@@ -28,10 +28,10 @@ Settings
 Dependencies
 ------------
 
-.. code-block:: bash
+* System requirement
+  - ``apt_get`` - ``cppcheck``
 
 
-This bear may also have system dependencies: cppcheck
 
 Can Detect
 ----------

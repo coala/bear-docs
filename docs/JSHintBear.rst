@@ -374,9 +374,7 @@ Settings
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ npm install jshint@2
+* ``npm`` - ``jshint``
 
 
 

@@ -109,10 +109,10 @@ Demo
 Dependencies
 ------------
 
-.. code-block:: bash
+* System requirement
+  - ``apt_get`` - ``php-codesniffer``
 
 
-This bear may also have system dependencies: php-codesniffer
 
 Can Detect
 ----------

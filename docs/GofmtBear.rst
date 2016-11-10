@@ -17,9 +17,7 @@ This is done using the ``gofmt`` utility. For more information visit
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ go get -u golang.org/cmd/gofmt
+* ``go`` - ``golang.org/cmd/gofmt``
 
 
 

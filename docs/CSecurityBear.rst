@@ -25,10 +25,10 @@ Demo
 Dependencies
 ------------
 
-.. code-block:: bash
+* System requirement
+  - ``apt_get`` - ``flawfinder``
 
 
-This bear may also have system dependencies: flawfinder
 
 Can Detect
 ----------

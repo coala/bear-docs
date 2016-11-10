@@ -13,10 +13,10 @@ Checks C# code for syntactical correctness using the ``mcs`` compiler.
 Dependencies
 ------------
 
-.. code-block:: bash
+* System requirement
+  - ``apt_get`` - ``mono-mcs``
 
 
-This bear may also have system dependencies: mono-mcs
 
 Can Detect
 ----------

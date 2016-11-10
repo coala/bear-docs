@@ -41,9 +41,7 @@ Settings
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ pip install pylint==1.*
+* ``pip`` - ``pylint``
 
 
 

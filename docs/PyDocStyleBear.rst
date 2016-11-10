@@ -33,9 +33,7 @@ Settings
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ pip install pydocstyle==1.*
+* ``pip`` - ``pydocstyle``
 
 
 

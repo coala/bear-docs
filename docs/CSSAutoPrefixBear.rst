@@ -22,10 +22,8 @@ Demo
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ npm install autoprefixer@6
-    $ npm install postcss-cli@2
+* ``npm`` - ``autoprefixer``
+* ``npm`` - ``postcss-cli``
 
 
 

@@ -24,9 +24,7 @@ Demo
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ pip install scspell3k==2.0
+* ``pip`` - ``scspell3k``
 
 
 

@@ -31,9 +31,7 @@ Settings
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ pip install guess-language-spirit==0.5.*
+* ``pip`` - ``guess-language-spirit``
 
 
 

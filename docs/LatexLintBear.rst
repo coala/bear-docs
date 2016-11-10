@@ -13,10 +13,10 @@ Checks the code with ``chktex``.
 Dependencies
 ------------
 
-.. code-block:: bash
+* System requirement
+  - ``apt_get`` - ``chktex``
 
 
-This bear may also have system dependencies: chktex
 
 Can Detect
 ----------

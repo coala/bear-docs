@@ -25,10 +25,12 @@ Settings
 Dependencies
 ------------
 
-.. code-block:: bash
+* System requirement
+  - ``apt_get`` - ``libperl-critic-perl``
+* System requirement
+  - ``apt_get`` - ``perl``
 
 
-This bear may also have system dependencies: libperl-critic-perl, perl
 
 Can Detect
 ----------

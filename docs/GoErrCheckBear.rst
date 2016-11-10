@@ -55,9 +55,7 @@ Demo
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ go get -u github.com/kisielk/errcheck
+* ``go`` - ``github.com/kisielk/errcheck``
 
 
 

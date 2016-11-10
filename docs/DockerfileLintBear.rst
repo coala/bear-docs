@@ -18,9 +18,7 @@ more information .
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ npm install dockerfile_lint@0
+* ``npm`` - ``dockerfile_lint``
 
 
 

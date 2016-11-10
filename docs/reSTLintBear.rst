@@ -13,9 +13,7 @@ Lints reStructuredText.
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ pip install restructuredtext_lint==0.14.*
+* ``pip`` - ``restructuredtext_lint``
 
 
 

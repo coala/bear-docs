@@ -15,9 +15,7 @@ See <https://github.com/Kuniwak/vint> for more information.
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ pip install vim-vint==0.3.*
+* ``pip`` - ``vim-vint``
 
 
 

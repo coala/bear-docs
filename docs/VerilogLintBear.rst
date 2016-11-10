@@ -32,10 +32,10 @@ Demo
 Dependencies
 ------------
 
-.. code-block:: bash
+* System requirement
+  - ``apt_get`` - ``verilator``
 
 
-This bear may also have system dependencies: verilator
 
 Can Detect
 ----------

@@ -67,9 +67,7 @@ Demo
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ pip install mypy-lang==0.*
+* ``pip`` - ``mypy-lang``
 
 
 

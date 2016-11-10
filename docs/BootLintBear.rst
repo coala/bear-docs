@@ -30,9 +30,7 @@ Settings
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ npm install bootlint@0
+* ``npm`` - ``bootlint``
 
 
 

@@ -26,9 +26,7 @@ Settings
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ pip install cmakelint==1.*
+* ``pip`` - ``cmakelint``
 
 
 

@@ -15,10 +15,10 @@ Read more at <https://github.com/mpeterv/luacheck>.
 Dependencies
 ------------
 
-.. code-block:: bash
+* System requirement
+  - ``apt_get`` - ``luarocks``
 
 
-This bear may also have system dependencies: luarocks
 
 Can Detect
 ----------

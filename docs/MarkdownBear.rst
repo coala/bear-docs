@@ -102,9 +102,7 @@ Settings
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ npm install remark-cli@2
+* ``npm`` - ``remark-cli``
 
 
 

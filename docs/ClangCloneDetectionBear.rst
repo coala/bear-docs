@@ -30,9 +30,7 @@ Settings
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ pip install libclang-py3==0.2
+* ``pip`` - ``libclang-py3``
 
 
 

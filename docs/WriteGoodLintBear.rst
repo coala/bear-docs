@@ -70,9 +70,7 @@ Demo
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ npm install write-good@0.9.1
+* ``npm`` - ``write-good``
 
 
 

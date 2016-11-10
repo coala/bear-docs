@@ -17,10 +17,10 @@ information.
 Dependencies
 ------------
 
-.. code-block:: bash
+* System requirement
+  - ``apt_get`` - ``hlint``
 
 
-This bear may also have system dependencies: hlint
 
 Can Detect
 ----------

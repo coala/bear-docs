@@ -217,9 +217,7 @@ Settings
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ npm install coffeelint@1
+* ``npm`` - ``coffeelint``
 
 
 

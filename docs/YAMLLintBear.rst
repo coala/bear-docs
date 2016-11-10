@@ -27,9 +27,7 @@ Settings
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ pip install yamllint==1.*
+* ``pip`` - ``yamllint``
 
 
 

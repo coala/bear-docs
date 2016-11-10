@@ -133,10 +133,10 @@ Settings
 Dependencies
 ------------
 
-.. code-block:: bash
+* System requirement
+  - ``apt_get`` - ``indent``
 
 
-This bear may also have system dependencies: indent
 
 Can Detect
 ----------

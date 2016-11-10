@@ -24,9 +24,7 @@ Demo
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ npm install happiness@7.1.2
+* ``npm`` - ``happiness``
 
 
 

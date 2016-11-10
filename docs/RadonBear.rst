@@ -36,9 +36,7 @@ Settings
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ pip install radon==1.*
+* ``pip`` - ``radon``
 
 
 

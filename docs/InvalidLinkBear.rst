@@ -36,9 +36,7 @@ Settings
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ pip install requests==2.*
+* ``pip`` - ``requests``
 
 
 

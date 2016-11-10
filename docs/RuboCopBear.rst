@@ -190,10 +190,8 @@ Demo
 Dependencies
 ------------
 
-.. code-block:: bash
-
-    $ gem install rubocop
-    $ pip install pyyaml==3.*
+* ``pip`` - ``pyyaml``
+* ``gem`` - ``rubocop``
 
 
 
