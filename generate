@@ -72,7 +72,6 @@ if __name__ == "__main__":
         meta = bear.get_metadata()
         if bear.name == "ClangFunctionDifferenceBear":
             continue
-        print(path, os.path.join(path, "**", bear.name + ".py"))
         matches = []
         for root, dirnames, filenames in os.walk(path):
             for filename in fnmatch.filter(filenames, bear.name + '.py'):
