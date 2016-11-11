@@ -142,8 +142,11 @@ if __name__ == "__main__":
                                 " - ``" + requirement.package + "``")
                 else:
                     outs.append("* System requirement\n")
-                    for system, package in requirement.package.items():
-                        outs[-1] += "  - ``" + system + "`` - ``" + package + "``"
+                    if type(requirement.package) == dict:
+                        for system, package in requirement.package.items():
+                            outs[-1] += "  - ``" + system + "`` - ``" + package + "``"
+                    else:
+                        outs[-1] += "  - ``" + str(requirement.package) + "``"
 
             output += "\n".join(sorted(outs))
 
