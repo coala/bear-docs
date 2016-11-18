@@ -235,6 +235,7 @@ Python
 * `PyImportSortBear <docs/PyImportSortBear.rst>`_
 * `PyLintBear <docs/PyLintBear.rst>`_
 * `PyUnusedCodeBear <docs/PyUnusedCodeBear.rst>`_
+* `PycodestyleBear <docs/PycodestyleBear.rst>`_
 * `RadonBear <docs/RadonBear.rst>`_
 * `VultureBear <docs/VultureBear.rst>`_
 * `YapfBear <docs/YapfBear.rst>`_
@@ -251,6 +252,7 @@ Python 2
 * `PyImportSortBear <docs/PyImportSortBear.rst>`_
 * `PyLintBear <docs/PyLintBear.rst>`_
 * `PyUnusedCodeBear <docs/PyUnusedCodeBear.rst>`_
+* `PycodestyleBear <docs/PycodestyleBear.rst>`_
 * `RadonBear <docs/RadonBear.rst>`_
 * `YapfBear <docs/YapfBear.rst>`_
 
@@ -266,6 +268,7 @@ Python 3
 * `PyImportSortBear <docs/PyImportSortBear.rst>`_
 * `PyLintBear <docs/PyLintBear.rst>`_
 * `PyUnusedCodeBear <docs/PyUnusedCodeBear.rst>`_
+* `PycodestyleBear <docs/PycodestyleBear.rst>`_
 * `RadonBear <docs/RadonBear.rst>`_
 * `VultureBear <docs/VultureBear.rst>`_
 * `YapfBear <docs/YapfBear.rst>`_
