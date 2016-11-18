@@ -13,6 +13,12 @@ def language_generate():
                 lang_dict[language] = [bear.name]
 
     with open("README.rst", "w") as lang_file:
+        lang_file.write("Documentation for coala bears\n")
+        lang_file.write("=============================\n\n")
+        lang_file.write("**This is repository is automatically generated. Please "
+                        "make submit any changes to** "
+                        "`coala-bears <https://github.com/coala/coala-bears>`_ "
+                        "**instead.**\n\n")
         lang_file.write("**Note**: The ``master`` branch contains docs for the latest "
                         "stable version. If you want to view the docs for the "
                         "latest development version, see the ``pre`` branch.\n\n")
