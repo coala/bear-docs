@@ -1,3 +1,8 @@
+Documentation for coala bears
+=============================
+
+**This is repository is automatically generated. Please make submit any changes to** `coala-bears <https://github.com/coala/coala-bears>`_ **instead.**
+
 **Note**: The ``master`` branch contains docs for the latest stable version. If you want to view the docs for the latest development version, see the ``pre`` branch.
 
 **Supported Languages (58)**
