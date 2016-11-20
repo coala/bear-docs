@@ -1,5 +1,5 @@
 `TSLintBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/typescript/TSLintBear.py>`_
-==============
+========================================================================================================
 
 Check TypeScript code for style violations and possible semantical
 problems.

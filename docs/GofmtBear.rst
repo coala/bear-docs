@@ -1,5 +1,5 @@
 `GofmtBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/go/GofmtBear.py>`_
-=============
+==============================================================================================
 
 Suggest better formatting options in Go code. Basic checks like alignment,
 indentation, and redundant parentheses are provided.

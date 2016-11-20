@@ -1,5 +1,5 @@
 `PyDocStyleBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/python/PyDocStyleBear.py>`_
-==================
+============================================================================================================
 
 Checks python docstrings.
 

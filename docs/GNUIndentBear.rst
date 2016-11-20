@@ -1,5 +1,5 @@
 `GNUIndentBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/c_languages/GNUIndentBear.py>`_
-=================
+===============================================================================================================
 
 This bear checks and corrects spacing and indentation via the well known
 Indent utility.

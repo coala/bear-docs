@@ -1,5 +1,5 @@
 `GitCommitBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/vcs/git/GitCommitBear.py>`_
-=================
+===========================================================================================================
 
 Checks the given commit body.
 

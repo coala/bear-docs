@@ -1,5 +1,5 @@
 `FilenameBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/general/FilenameBear.py>`_
-================
+=========================================================================================================
 
 Checks whether the filename follows a certain naming-convention.
 

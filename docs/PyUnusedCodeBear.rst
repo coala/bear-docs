@@ -1,5 +1,5 @@
 `PyUnusedCodeBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/python/PyUnusedCodeBear.py>`_
-====================
+================================================================================================================
 
 Detects unused code. This functionality is limited to:
 - Unneeded pass statements. - Unneeded builtin imports. (Others might have side effects.)

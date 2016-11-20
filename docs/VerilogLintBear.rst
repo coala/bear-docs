@@ -1,5 +1,5 @@
 `VerilogLintBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/verilog/VerilogLintBear.py>`_
-===================
+===============================================================================================================
 
 Analyze Verilog code using ``verilator`` and checks for all lint
 related and code style related warning messages. It supports the

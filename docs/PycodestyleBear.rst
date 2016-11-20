@@ -1,5 +1,5 @@
 `PycodestyleBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/python/PycodestyleBear.py>`_
-===================
+==============================================================================================================
 
 A wrapper for the tool ``pycodestyle`` formerly known as ``pep8``.
 

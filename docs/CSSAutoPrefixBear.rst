@@ -1,5 +1,5 @@
 `CSSAutoPrefixBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/css/CSSAutoPrefixBear.py>`_
-=====================
+===============================================================================================================
 
 This bear adds vendor prefixes to CSS rules using ``autoprefixer`` utility.
 

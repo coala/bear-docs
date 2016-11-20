@@ -1,5 +1,5 @@
 `ScalaLintBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/scala/ScalaLintBear.py>`_
-=================
+=========================================================================================================
 
 Check Scala code for codestyle, but also semantical problems,
 e.g. cyclomatic complexity.

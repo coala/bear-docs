@@ -1,5 +1,5 @@
 `LanguageToolBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/natural_language/LanguageToolBear.py>`_
-====================
+==========================================================================================================================
 
 Checks the code with LanguageTool.
 

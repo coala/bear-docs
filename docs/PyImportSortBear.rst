@@ -1,5 +1,5 @@
 `PyImportSortBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/python/PyImportSortBear.py>`_
-====================
+================================================================================================================
 
 Raise issues related to sorting imports, segregating imports into various sections, and also adding comments on top of each import section based on the configurations provided.
 You can read more about ``isort`` at <https://isort.readthedocs.org/en/latest/>.

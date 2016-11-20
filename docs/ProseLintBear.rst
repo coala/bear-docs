@@ -1,5 +1,5 @@
 `ProseLintBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/natural_language/ProseLintBear.py>`_
-=================
+====================================================================================================================
 
 Lints the file using ``proselint``.
 

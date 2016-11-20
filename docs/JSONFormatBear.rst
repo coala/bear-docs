@@ -1,5 +1,5 @@
 `JSONFormatBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/js/JSONFormatBear.py>`_
-==================
+========================================================================================================
 
 Raises issues for any deviations from the pretty-printed JSON.
 

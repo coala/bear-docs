@@ -1,5 +1,5 @@
 `PyCommentedCodeBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/python/PyCommentedCodeBear.py>`_
-=======================
+======================================================================================================================
 
 Detects commented out source code in Python.
 

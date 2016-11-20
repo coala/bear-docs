@@ -1,5 +1,5 @@
 `VHDLLintBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/vhdl/VHDLLintBear.py>`_
-================
+======================================================================================================
 
 Check VHDL code for common codestyle problems.
 

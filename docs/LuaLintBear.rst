@@ -1,5 +1,5 @@
 `LuaLintBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/lua/LuaLintBear.py>`_
-===============
+===================================================================================================
 
 Check Lua code for possible semantic problems, like unused code.
 

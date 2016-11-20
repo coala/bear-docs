@@ -1,5 +1,5 @@
 `ClangComplexityBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/c_languages/ClangComplexityBear.py>`_
-=======================
+===========================================================================================================================
 
 Check for all functions if they are too complicated using the cyclomatic complexity metric.
 You can read more about this metric at <https://www.wikiwand.com/en/Cyclomatic_complexity>.

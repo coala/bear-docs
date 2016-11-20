@@ -1,5 +1,5 @@
 `JavaPMDBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/java/JavaPMDBear.py>`_
-===============
+====================================================================================================
 
 Check Java code for possible issues like potential bugs, dead code or too
 complicated expressions.

@@ -1,5 +1,5 @@
 `DockerfileLintBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/configfiles/DockerfileLintBear.py>`_
-======================
+=========================================================================================================================
 
 Check file syntax as well as arbitrary semantic and best practice
 in Dockerfiles. it also checks LABEL rules against docker images.

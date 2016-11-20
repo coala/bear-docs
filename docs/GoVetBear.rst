@@ -1,5 +1,5 @@
 `GoVetBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/go/GoVetBear.py>`_
-=============
+==============================================================================================
 
 Analyze Go code and raise suspicious constructs, such as printf calls
 whose arguments do not correctly match the format string, useless

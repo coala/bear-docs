@@ -79,7 +79,7 @@ if __name__ == "__main__":
         rel_path = os.path.relpath(matches[0], path)
         url = "https://github.com/coala-analyzer/coala-bears/tree/master/bears/" + rel_path
         output = "`" + bear.name + " <" + url + ">`_\n"
-        output += "=" * (4 + len(bear.name)) + "\n\n"
+        output += "=" * (len(output) - 1) + "\n\n"
         output += meta.desc + "\n\n"
         output += "`Supported Languages <../README.rst>`_" + "\n-----\n\n"
         output += "\n".join(["* " + x for x in sorted(bear.LANGUAGES)])

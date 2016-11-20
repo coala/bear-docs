@@ -1,5 +1,5 @@
 `YapfBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/python/YapfBear.py>`_
-============
+================================================================================================
 
 
 
