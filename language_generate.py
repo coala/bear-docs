@@ -22,7 +22,7 @@ def language_generate():
         lang_file.write("**Note**: The ``master`` branch contains docs for the latest "
                         "stable version. If you want to view the docs for the "
                         "latest development version, see the ``pre`` branch.\n\n")
-        lang_file.write("**Supported Languages ({})**\n-----------------------\n\n"
+        lang_file.write("**Supported Languages ({})**\n----------------------------\n\n"
                         ".. contents::\n"
                         "    :local:\n"
                         "    :depth: 1\n"

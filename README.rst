@@ -6,7 +6,7 @@ Documentation for coala bears
 **Note**: The ``master`` branch contains docs for the latest stable version. If you want to view the docs for the latest development version, see the ``pre`` branch.
 
 **Supported Languages (58)**
------------------------
+----------------------------
 
 .. contents::
     :local:
