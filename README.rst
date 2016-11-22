@@ -5,7 +5,7 @@ Documentation for coala bears
 
 **Note**: The ``master`` branch contains docs for the latest stable version. If you want to view the docs for the latest development version, see the ``pre`` branch.
 
-**Supported Languages (58)**
+**Supported Languages (61)**
 ----------------------------
 
 .. contents::
@@ -261,6 +261,11 @@ Python 2
 * `RadonBear <docs/RadonBear.rst>`_
 * `YapfBear <docs/YapfBear.rst>`_
 
+Python 2 Requirements
+=====================
+* `PinRequirementsBear <docs/PinRequirementsBear.rst>`_
+* `PySafetyBear <docs/PySafetyBear.rst>`_
+
 Python 3
 ========
 * `BanditBear <docs/BanditBear.rst>`_
@@ -277,6 +282,16 @@ Python 3
 * `RadonBear <docs/RadonBear.rst>`_
 * `VultureBear <docs/VultureBear.rst>`_
 * `YapfBear <docs/YapfBear.rst>`_
+
+Python 3 Requirements
+=====================
+* `PinRequirementsBear <docs/PinRequirementsBear.rst>`_
+* `PySafetyBear <docs/PySafetyBear.rst>`_
+
+Python Requirements
+===================
+* `PinRequirementsBear <docs/PinRequirementsBear.rst>`_
+* `PySafetyBear <docs/PySafetyBear.rst>`_
 
 R
 =
@@ -354,6 +369,7 @@ ksh
 
 reStructuredText
 ================
+* `RSTcheckBear <docs/RSTcheckBear.rst>`_
 * `reSTLintBear <docs/reSTLintBear.rst>`_
 
 sh

@@ -1,8 +1,8 @@
 `PyUnusedCodeBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/python/PyUnusedCodeBear.py>`_
 ================================================================================================================
 
-Detects unused code. This functionality is limited to:
-- Unneeded pass statements. - Unneeded builtin imports. (Others might have side effects.)
+Detects unused code. By default this functionality is limited to:
+- Unneeded pass statements. - Unneeded builtin imports.
 
 `Supported Languages <../README.rst>`_
 -----
@@ -11,6 +11,17 @@ Detects unused code. This functionality is limited to:
 * Python 2
 * Python 3
 
+Settings
+--------
+
++--------------------------------+-----------------------------------------------------------+
+| Setting                        |  Meaning                                                  |
++================================+===========================================================+
+|                                |                                                           |
+| ``remove_all_unused_imports``  | True removes all unused imports - might have side effects |
+|                                | (Optional, defaults to 'False'.)                          |
+|                                |                                                           |
++--------------------------------+-----------------------------------------------------------+
 
 
 Dependencies
