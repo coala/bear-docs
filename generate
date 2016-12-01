@@ -81,7 +81,9 @@ if __name__ == "__main__":
         output = "`" + bear.name + " <" + url + ">`_\n"
         output += "=" * (len(output) - 1) + "\n\n"
         output += meta.desc + "\n\n"
-        output += "`Supported Languages <../README.rst>`_" + "\n-----\n\n"
+        sup = "`Supported Languages <../README.rst>`_"
+        output += sup + "\n"
+        output += "-" * len(sup) + "\n\n"
         output += "\n".join(["* " + x for x in sorted(bear.LANGUAGES)])
         output += "\n\n"
         par = {}
