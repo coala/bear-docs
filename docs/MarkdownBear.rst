@@ -7,7 +7,7 @@ See <https://github.com/wooorm/remark-lint> for details about the tool
 below.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * Markdown
 

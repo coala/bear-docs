@@ -4,7 +4,7 @@
 Checks if requirements are properly pinned. It will always raise an issue if the minor version is not given. If you do not wish that, do not use this bear.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * Python 2 Requirements
 * Python 3 Requirements

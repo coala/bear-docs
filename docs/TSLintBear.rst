@@ -8,7 +8,7 @@ Read more about the capabilities at
 <https://github.com/palantir/tslint#core-rules>.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * TypeScript
 

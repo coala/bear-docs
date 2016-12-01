@@ -7,7 +7,7 @@ nested within it.
 Check <https://pypi.python.org/pypi/rstcheck> for more information.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * reStructuredText
 

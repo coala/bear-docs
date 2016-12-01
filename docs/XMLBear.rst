@@ -6,7 +6,7 @@ Checks the code with ``xmllint``.
 See http://xmlsoft.org/xmllint.html
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * XML
 

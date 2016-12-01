@@ -5,7 +5,7 @@ Checks the code with pylint. This will run pylint over each file
 separately.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * Python
 * Python 2

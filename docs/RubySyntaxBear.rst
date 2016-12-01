@@ -4,7 +4,7 @@
 Checks the code with ``ruby -wc`` on each file separately.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * Ruby
 

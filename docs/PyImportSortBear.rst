@@ -5,7 +5,7 @@ Raise issues related to sorting imports, segregating imports into various sectio
 You can read more about ``isort`` at <https://isort.readthedocs.org/en/latest/>.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * Python
 * Python 2

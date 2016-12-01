@@ -4,7 +4,7 @@
 Proposes corrections of Go code using ``goreturns``.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * Go
 

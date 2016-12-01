@@ -9,7 +9,7 @@ undergoes no change.
 WARNING: The IndentationBear is experimental right now, you can report any issues found to https://github.com/coala/coala-bears
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 
 

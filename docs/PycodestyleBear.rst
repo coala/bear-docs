@@ -4,7 +4,7 @@
 A wrapper for the tool ``pycodestyle`` formerly known as ``pep8``.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * Python
 * Python 2

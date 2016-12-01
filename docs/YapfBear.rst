@@ -4,7 +4,7 @@
 
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * Python
 * Python 2

@@ -4,7 +4,7 @@
 Check for the correct spelling of ``coala`` in the file.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * All
 

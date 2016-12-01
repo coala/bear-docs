@@ -5,7 +5,7 @@ Check for all functions if they are too complicated using the cyclomatic complex
 You can read more about this metric at <https://www.wikiwand.com/en/Cyclomatic_complexity>.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * C
 * C++

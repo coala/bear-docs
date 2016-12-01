@@ -4,7 +4,7 @@
 Checks whether the filename follows a certain naming-convention.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * All
 

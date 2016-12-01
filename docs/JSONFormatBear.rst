@@ -4,7 +4,7 @@
 Raises issues for any deviations from the pretty-printed JSON.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * JSON
 
@@ -30,6 +30,15 @@ Settings
 |                     |                                                             |
 +---------------------+-------------------------------------------------------------+
 
+
+Demo
+----
+
+|asciicast|
+
+.. |asciicast| image:: https://asciinema.org/a/6vxc7076tnf996zanpdfwojwu.png
+   :target: https://asciinema.org/a/6vxc7076tnf996zanpdfwojwu?autoplay=1
+   :width: 100%
 
 Can Detect
 ----------

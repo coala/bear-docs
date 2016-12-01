@@ -7,7 +7,7 @@ warning messages.
 For more information on the analysis visit <https://tailor.sh/>
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * Swift
 

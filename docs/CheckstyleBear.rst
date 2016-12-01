@@ -7,7 +7,7 @@ For more information, consult
 <http://checkstyle.sourceforge.net/checks.html>.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * Java
 

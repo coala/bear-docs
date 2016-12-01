@@ -4,7 +4,7 @@
 Checks the given commit body.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * Git
 

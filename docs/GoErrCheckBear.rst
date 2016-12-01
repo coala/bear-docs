@@ -8,7 +8,7 @@ For more information on the analysis visit
 <https://github.com/kisielk/errcheck>.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * Go
 

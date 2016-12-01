@@ -4,7 +4,7 @@
 Detects and fixes PEP8 incompliant code. This bear will not change functionality of the code in any way.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * Python
 * Python 2

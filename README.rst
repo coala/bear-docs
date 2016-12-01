@@ -237,6 +237,7 @@ Python
 * `PEP8NotebookBear <docs/PEP8NotebookBear.rst>`_
 * `PyCommentedCodeBear <docs/PyCommentedCodeBear.rst>`_
 * `PyDocStyleBear <docs/PyDocStyleBear.rst>`_
+* `PyFlakesBear <docs/PyFlakesBear.rst>`_
 * `PyImportSortBear <docs/PyImportSortBear.rst>`_
 * `PyLintBear <docs/PyLintBear.rst>`_
 * `PyUnusedCodeBear <docs/PyUnusedCodeBear.rst>`_
@@ -275,6 +276,7 @@ Python 3
 * `PEP8NotebookBear <docs/PEP8NotebookBear.rst>`_
 * `PyCommentedCodeBear <docs/PyCommentedCodeBear.rst>`_
 * `PyDocStyleBear <docs/PyDocStyleBear.rst>`_
+* `PyFlakesBear <docs/PyFlakesBear.rst>`_
 * `PyImportSortBear <docs/PyImportSortBear.rst>`_
 * `PyLintBear <docs/PyLintBear.rst>`_
 * `PyUnusedCodeBear <docs/PyUnusedCodeBear.rst>`_

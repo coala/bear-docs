@@ -4,7 +4,7 @@
 Adds/Removes imports to Go code for missing imports.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * Go
 

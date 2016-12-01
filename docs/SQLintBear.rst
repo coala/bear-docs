@@ -7,7 +7,7 @@ This bear supports ANSI syntax. Check out
 <https://github.com/purcell/sqlint> for more detailed information.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * SQL
 

@@ -9,7 +9,7 @@ can be detected.
 For more information on the analysis visit <http://jshint.com/>
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * JavaScript
 

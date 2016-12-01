@@ -4,7 +4,7 @@
 Checks for vulnerable package versions in requirements files.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * Python 2 Requirements
 * Python 3 Requirements

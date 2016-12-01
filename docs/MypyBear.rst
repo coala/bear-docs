@@ -8,7 +8,7 @@ See <http://mypy.readthedocs.io/en/latest/basics.html> for info on how to
 add static typing.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * Python
 * Python 2

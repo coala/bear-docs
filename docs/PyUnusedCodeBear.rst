@@ -5,7 +5,7 @@ Detects unused code. By default this functionality is limited to:
 - Unneeded pass statements. - Unneeded builtin imports.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * Python
 * Python 2

@@ -4,7 +4,7 @@
 Uses radon to compute complexity of a given file.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * Python
 * Python 2

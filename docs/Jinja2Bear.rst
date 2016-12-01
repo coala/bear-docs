@@ -7,7 +7,7 @@ Check Jinja2 templates for syntax, formatting and documentation issues. The foll
 Mising or differing labels are detected and fixes suggested. Constructs with start and end on the same line are being ignored. * unbalanced blocks: Each opening tag for a ``for`` or ``if`` construct must be closed by a corresponding end tag. An unbalanced number of opening and closing tags is invalid syntax and will be reported with MAJOR severity by the bear.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * Jinja2
 

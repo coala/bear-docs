@@ -14,7 +14,7 @@ This is done using the ``--lint-only`` command. For more information visit
 <http://www.veripool.org/projects/verilator/wiki/Manual-verilator>.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * Verilog
 

@@ -7,7 +7,7 @@ Indent utility.
 C++ support is considered experimental.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * C
 * C++

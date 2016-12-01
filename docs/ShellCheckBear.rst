@@ -8,7 +8,7 @@ A gallery of bad code that can be detected is available at
 <https://github.com/koalaman/shellcheck/blob/master/README.md>.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * bash
 * dash

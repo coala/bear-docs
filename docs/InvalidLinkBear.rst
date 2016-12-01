@@ -7,7 +7,7 @@ This bear can automatically fix redirects, but ignores redirect URLs that have a
 Warning: This bear will make HEAD requests to all URLs mentioned in your codebase, which can potentially be destructive. As an example, this bear would naively just visit the URL from a line that goes like `do_not_ever_open = 'https://api.acme.inc/delete-all-data'` wiping out all your data.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * All
 

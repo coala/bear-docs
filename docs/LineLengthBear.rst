@@ -4,7 +4,7 @@
 Yields results for all lines longer than the given maximum line length.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * All
 

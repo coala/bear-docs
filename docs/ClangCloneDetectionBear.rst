@@ -4,7 +4,7 @@
 Checks the given code for similar functions that are probably redundant.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * C
 * C++

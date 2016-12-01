@@ -5,7 +5,7 @@ Checks and corrects your quotation style.
 For all single line strings, this bear will correct the quotation to your preferred quotation style if that kind of quote is not included within the string. Multi line strings are not supported.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 
 

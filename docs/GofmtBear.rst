@@ -8,7 +8,7 @@ This is done using the ``gofmt`` utility. For more information visit
 <https://golang.org/cmd/gofmt/>.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * Go
 

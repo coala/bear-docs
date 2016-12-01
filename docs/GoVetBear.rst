@@ -10,7 +10,7 @@ This is done using the ``vet`` command. For more information visit
 <https://golang.org/cmd/vet/>.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * Go
 

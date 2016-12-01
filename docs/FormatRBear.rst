@@ -4,7 +4,7 @@
 Check and correct formatting of R Code using known formatR utility.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * R
 

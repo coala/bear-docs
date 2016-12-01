@@ -9,7 +9,7 @@ See <https://github.com/projectatomic/dockerfile_lint#dockerfile-lint> for
 more information .
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * Dockerfile
 

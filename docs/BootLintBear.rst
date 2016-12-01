@@ -11,7 +11,7 @@ For more about the analysis, check Bootlint
 <https://github.com/twbs/bootlint#bootlint>.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * HTML
 

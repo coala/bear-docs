@@ -9,7 +9,7 @@ See <https://lintjl.readthedocs.org/en/stable/> for more information
 on the analysis provided.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * Julia
 

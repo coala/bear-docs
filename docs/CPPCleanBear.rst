@@ -8,7 +8,7 @@ Read more about available routines at
 <https://github.com/myint/cppclean#features>.
 
 `Supported Languages <../README.rst>`_
------
+--------------------------------------
 
 * C++
 
