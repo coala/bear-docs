@@ -43,18 +43,18 @@ Settings
 |                                             |                                                             |
 +---------------------------------------------+-------------------------------------------------------------+
 |                                             |                                                             |
-| ``check_property_declaration``              | Ensures that visibility is declared on all properties,      |
-|                                             | that the ``var`` keyword is not used to declare a property, |
-|                                             | that there is not more that one property declared on a      |
-|                                             | line, that properties are not prefixed with an underscore.  |
+| ``check_property_declaration``              | Ensures that visibility is declared on all properties, that |
+|                                             | the ``var`` keyword is not used to declare a property, that |
+|                                             | there is not more that one property declared on a line,     |
+|                                             | that properties are not prefixed with an underscore.        |
 |                                             | (Optional, defaults to 'True'.)                             |
 |                                             |                                                             |
 +---------------------------------------------+-------------------------------------------------------------+
 |                                             |                                                             |
-| ``check_use_blocks``                        | Ensures that there is one blank line after a ``use``        |
-|                                             | block, that there is only one use block per line, and that  |
-|                                             | all ``use`` declaration are done after namespaces           |
-|                                             | declaration. (Optional, defaults to 'True'.)                |
+| ``check_use_blocks``                        | Ensures that there is one blank line after a ``use`` block, |
+|                                             | that there is only one use block per line, and that all     |
+|                                             | ``use`` declaration are done after namespaces declaration.  |
+|                                             | (Optional, defaults to 'True'.)                             |
 |                                             |                                                             |
 +---------------------------------------------+-------------------------------------------------------------+
 |                                             |                                                             |
@@ -71,13 +71,13 @@ Settings
 |                                             |                                                             |
 +---------------------------------------------+-------------------------------------------------------------+
 |                                             |                                                             |
-| ``function_declaration_argument_spacing``   | Number of spaces between arguments in function              |
-|                                             | declaration. (Optional, defaults to '1'.)                   |
+| ``function_declaration_argument_spacing``   | Number of spaces between arguments in function declaration. |
+|                                             | (Optional, defaults to '1'.)                                |
 |                                             |                                                             |
 +---------------------------------------------+-------------------------------------------------------------+
 |                                             |                                                             |
-| ``indent_size``                             | Number of spaces per indentation level. (Optional,          |
-|                                             | defaults to '4'.)                                           |
+| ``indent_size``                             | Number of spaces per indentation level. (Optional, defaults |
+|                                             | to '4'.)                                                    |
 |                                             |                                                             |
 +---------------------------------------------+-------------------------------------------------------------+
 |                                             |                                                             |

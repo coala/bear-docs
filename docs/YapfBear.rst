@@ -33,9 +33,8 @@ Settings
 |                                                     |                                                              |
 +-----------------------------------------------------+--------------------------------------------------------------+
 |                                                     |                                                              |
-| ``coalesce_brackets``                               | Prevents splitting consecutive brackets. Only relevant       |
-|                                                     | when ``dedent_closing_brackets`` is set. Example: If         |
-|                                                     | ``True``,                                                    |
+| ``coalesce_brackets``                               | Prevents splitting consecutive brackets. Only relevant when  |
+|                                                     | ``dedent_closing_brackets`` is set. Example: If ``True``,    |
 |                                                     | ``` call_func_that_takes_a_dict( { 'key1': 'value1',         |
 |                                                     | 'key2': 'value2', } ) ``` would reformat to: ```             |
 |                                                     | call_func_that_takes_a_dict({ 'key1': 'value1', 'key2':      |
@@ -60,8 +59,8 @@ Settings
 |                                                     |                                                              |
 +-----------------------------------------------------+--------------------------------------------------------------+
 |                                                     |                                                              |
-| ``indent_size``                                     | Number of spaces per indentation level. (Optional,           |
-|                                                     | defaults to '4'.)                                            |
+| ``indent_size``                                     | Number of spaces per indentation level. (Optional, defaults  |
+|                                                     | to '4'.)                                                     |
 |                                                     |                                                              |
 +-----------------------------------------------------+--------------------------------------------------------------+
 |                                                     |                                                              |
@@ -81,7 +80,7 @@ Settings
 +-----------------------------------------------------+--------------------------------------------------------------+
 |                                                     |                                                              |
 | ``space_between_ending_comma_and_closing_bracket``  | Inserts a space between the ending comma and closing         |
-|                                                     | bracket of a list, etc. (Optional, defaults to 'False'.)     |
+|                                                     | bracket of a list, etc. (Optional, defaults to 'True'.)      |
 |                                                     |                                                              |
 +-----------------------------------------------------+--------------------------------------------------------------+
 |                                                     |                                                              |
@@ -121,8 +120,7 @@ Settings
 |                                                     |                                                              |
 +-----------------------------------------------------+--------------------------------------------------------------+
 |                                                     |                                                              |
-| ``use_spaces``                                      | Uses spaces for indentation. (Optional, defaults to          |
-|                                                     | 'True'.)                                                     |
+| ``use_spaces``                                      | Uses spaces for indentation. (Optional, defaults to 'True'.) +
 |                                                     |                                                              |
 +-----------------------------------------------------+--------------------------------------------------------------+
 

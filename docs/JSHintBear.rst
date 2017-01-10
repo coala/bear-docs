@@ -31,8 +31,8 @@ Settings
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
-| ``allow_bitwise_operators``           | Allows the use of bitwise operators. (Optional, defaults     |
-|                                       | to 'False'.)                                                 |
+| ``allow_bitwise_operators``           | Allows the use of bitwise operators. (Optional, defaults to  |
+|                                       | 'False'.)                                                    |
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
@@ -83,14 +83,14 @@ Settings
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
-| ``allow_future_identifiers``          | This option allows the use of identifiers which are          |
-|                                       | defined in future versions of JavaScript. (Optional,         |
-|                                       | defaults to 'True'.)                                         |
+| ``allow_future_identifiers``          | This option allows the use of identifiers which are defined  |
+|                                       | in future versions of JavaScript. (Optional, defaults to     |
+|                                       | 'True'.)                                                     |
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
-| ``allow_grouping_operator``           | This option allows the use of the grouping operator when     |
-|                                       | it is not strictly required. (Optional, defaults to 'True'.) |
+| ``allow_grouping_operator``           | This option allows the use of the grouping operator when it  |
+|                                       | is not strictly required. (Optional, defaults to 'True'.)    |
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
@@ -328,8 +328,8 @@ Settings
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
-| ``javascript_strictness``             | Determines what sort of strictness to use in the             |
-|                                       | JavaScript code. The possible options are:                   |
+| ``javascript_strictness``             | Determines what sort of strictness to use in the JavaScript  |
+|                                       | code. The possible options are:                              |
 |                                       | - "global" - there must be a ``"use strict";`` at global     |
 |                                       | level - "implied" - lint the code as if there is a ``"use    |
 |                                       | strict";`` - "False" - disable warnings about strict mode -  |
@@ -338,8 +338,8 @@ Settings
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
-| ``jshint_config``                     | The location of the jshintrc config file. If this option     |
-|                                       | is present all the above options are not used. Instead the   |
+| ``jshint_config``                     | The location of the jshintrc config file. If this option is  |
+|                                       | present all the above options are not used. Instead the      |
 |                                       | .jshintrc file is used as the configuration file.            |
 |                                       | (Optional, defaults to ''.)                                  |
 |                                       |                                                              |
@@ -360,8 +360,8 @@ Settings
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |
-| ``use_es3_array``                     | This option tells JSHintBear ES3 array elision elements,     |
-|                                       | or empty elements are used. (Optional, defaults to 'False'.) |
+| ``use_es3_array``                     | This option tells JSHintBear ES3 array elision elements, or  |
+|                                       | empty elements are used. (Optional, defaults to 'False'.)    |
 |                                       |                                                              |
 +---------------------------------------+--------------------------------------------------------------+
 |                                       |                                                              |

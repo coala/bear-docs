@@ -18,10 +18,10 @@ Settings
 | Setting                                |  Meaning                                                           |
 +========================================+====================================================================+
 |                                        |                                                                    |
-| ``balanced_wrapping_in_imports``       | If set to true - for each multi-line import statement              |
-|                                        | isort will dynamically change the import length to the one         |
-|                                        | that produces the most balanced grid, while staying below          |
-|                                        | the maximum import length defined. (Optional, defaults to          |
+| ``balanced_wrapping_in_imports``       | If set to true - for each multi-line import statement isort        |
+|                                        | will dynamically change the import length to the one that          |
+|                                        | produces the most balanced grid, while staying below the           |
+|                                        | maximum import length defined. (Optional, defaults to              |
 |                                        | 'False'.)                                                          |
 |                                        |                                                                    |
 +----------------------------------------+--------------------------------------------------------------------+
@@ -72,13 +72,13 @@ Settings
 |                                        |                                                                    |
 +----------------------------------------+--------------------------------------------------------------------+
 |                                        |                                                                    |
-| ``from_first_in_import``               | If set, imports using "from" will be displayed above               |
-|                                        | normal (straight) imports. (Optional, defaults to 'False'.)        |
+| ``from_first_in_import``               | If set, imports using "from" will be displayed above normal        |
+|                                        | (straight) imports. (Optional, defaults to 'False'.)               |
 |                                        |                                                                    |
 +----------------------------------------+--------------------------------------------------------------------+
 |                                        |                                                                    |
-| ``import_heading_firstparty``          | A comment to consistently place directly above imports             |
-|                                        | from the current project. (Optional, defaults to ''.)              |
+| ``import_heading_firstparty``          | A comment to consistently place directly above imports from        |
+|                                        | the current project. (Optional, defaults to ''.)                   |
 |                                        |                                                                    |
 +----------------------------------------+--------------------------------------------------------------------+
 |                                        |                                                                    |
@@ -87,13 +87,13 @@ Settings
 |                                        |                                                                    |
 +----------------------------------------+--------------------------------------------------------------------+
 |                                        |                                                                    |
-| ``import_heading_localfolder``         | A comment to consistently place directly above imports             |
-|                                        | that start with '.'. (Optional, defaults to ''.)                   |
+| ``import_heading_localfolder``         | A comment to consistently place directly above imports that        |
+|                                        | start with '.'. (Optional, defaults to ''.)                        |
 |                                        |                                                                    |
 +----------------------------------------+--------------------------------------------------------------------+
 |                                        |                                                                    |
-| ``import_heading_stdlib``              | A comment to consistently place directly above imports             |
-|                                        | from the standard library. (Optional, defaults to ''.)             |
+| ``import_heading_stdlib``              | A comment to consistently place directly above imports from        |
+|                                        | the standard library. (Optional, defaults to ''.)                  |
 |                                        |                                                                    |
 +----------------------------------------+--------------------------------------------------------------------+
 |                                        |                                                                    |
@@ -115,8 +115,8 @@ Settings
 |                                        |                                                                    |
 +----------------------------------------+--------------------------------------------------------------------+
 |                                        |                                                                    |
-| ``indent_size``                        | Number of spaces per indentation level. (Optional,                 |
-|                                        | defaults to '4'.)                                                  |
+| ``indent_size``                        | Number of spaces per indentation level. (Optional, defaults        |
+|                                        | to '4'.)                                                           |
 |                                        |                                                                    |
 +----------------------------------------+--------------------------------------------------------------------+
 |                                        |                                                                    |
@@ -132,20 +132,20 @@ Settings
 |                                        |                                                                    |
 +----------------------------------------+--------------------------------------------------------------------+
 |                                        |                                                                    |
-| ``known_first_party_imports``          | A list of imports that will be forced to display within            |
-|                                        | the standard library category of imports. (Optional,               |
-|                                        | defaults to '()'.)                                                 |
+| ``known_first_party_imports``          | A list of imports that will be forced to display within the        |
+|                                        | standard library category of imports. (Optional, defaults          |
+|                                        | to '()'.)                                                          |
 |                                        |                                                                    |
 +----------------------------------------+--------------------------------------------------------------------+
 |                                        |                                                                    |
-| ``known_standard_library_imports``     | A list of imports that will be forced to display within            |
-|                                        | the first party category of imports. (Optional, defaults to        |
+| ``known_standard_library_imports``     | A list of imports that will be forced to display within the        |
+|                                        | first party category of imports. (Optional, defaults to            |
 |                                        | 'None'.)                                                           |
 |                                        |                                                                    |
 +----------------------------------------+--------------------------------------------------------------------+
 |                                        |                                                                    |
-| ``known_third_party_imports``          | A list of imports that will be forced to display within            |
-|                                        | the third party category of imports. (Optional, defaults to        |
+| ``known_third_party_imports``          | A list of imports that will be forced to display within the        |
+|                                        | third party category of imports. (Optional, defaults to            |
 |                                        | '()'.)                                                             |
 |                                        |                                                                    |
 +----------------------------------------+--------------------------------------------------------------------+
@@ -163,8 +163,8 @@ Settings
 |                                        |                                                                    |
 +----------------------------------------+--------------------------------------------------------------------+
 |                                        |                                                                    |
-| ``order_imports_by_type``              | If set to true - isort will create separate sections               |
-|                                        | within "from" imports for CONSTANTS, Classes, and                  |
+| ``order_imports_by_type``              | If set to true - isort will create separate sections within        |
+|                                        | "from" imports for CONSTANTS, Classes, and                         |
 |                                        | modules/functions. (Optional, defaults to 'False'.)                |
 |                                        |                                                                    |
 +----------------------------------------+--------------------------------------------------------------------+

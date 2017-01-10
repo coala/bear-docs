@@ -21,8 +21,8 @@ Settings
 | Setting                            |  Meaning                                                          |
 +====================================+===================================================================+
 |                                    |                                                                   |
-| ``allow_untyped_calls``            | Allow calling functions without type annotations from             |
-|                                    | typed functions. (Optional, defaults to 'True'.)                  |
+| ``allow_untyped_calls``            | Allow calling functions without type annotations from typed       |
+|                                    | functions. (Optional, defaults to 'True'.)                        |
 |                                    |                                                                   |
 +------------------------------------+-------------------------------------------------------------------+
 |                                    |                                                                   |

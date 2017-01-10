@@ -94,8 +94,8 @@ Settings
 |                                              |                                                             |
 +----------------------------------------------+-------------------------------------------------------------+
 |                                              |                                                             |
-| ``indent_size``                              | Number of spaces per indentation level. (Optional,          |
-|                                              | defaults to '4'.)                                           |
+| ``indent_size``                              | Number of spaces per indentation level. (Optional, defaults |
+|                                              | to '4'.)                                                    |
 |                                              |                                                             |
 +----------------------------------------------+-------------------------------------------------------------+
 |                                              |                                                             |

@@ -11,46 +11,46 @@ Check and correct formatting of R Code using known formatR utility.
 Settings
 --------
 
-+------------------------------+------------------------------------------------------------+
-| Setting                      |  Meaning                                                   |
-+==============================+============================================================+
-|                              |                                                            |
-| ``indent_size``              | Number of spaces per indentation level. (Optional,         |
-|                              | defaults to '4'.)                                          |
-|                              |                                                            |
-+------------------------------+------------------------------------------------------------+
-|                              |                                                            |
-| ``r_braces_on_next_line``    | Determines whether a brace should be placed on the next    |
-|                              | line.                                                      |
-|                              | Example: If ``True``, ``` if (...) { ``` changes to ``` if |
-|                              | (...) { ``` If ``False`` the brace is placed on the same   |
-|                              | line. (Optional, defaults to 'False'.)                     |
-|                              |                                                            |
-+------------------------------+------------------------------------------------------------+
-|                              |                                                            |
-| ``r_keep_blank_lines``       | Determines whether blank lines are kept or not. (Optional, |
-|                              | defaults to 'True'.)                                       |
-|                              |                                                            |
-+------------------------------+------------------------------------------------------------+
-|                              |                                                            |
-| ``r_keep_comments``          | Determines whether comments are kept or not. (Optional,    |
-|                              | defaults to 'True'.)                                       |
-|                              |                                                            |
-+------------------------------+------------------------------------------------------------+
-|                              |                                                            |
-| ``r_max_expression_length``  | Maximum number of characters for an expression.            |
-|                              | Example: If ``20`` then ``` 1 + 1 + 1 + 1 + 1 + 1 + 1 ```  |
-|                              | changes to ``` 1 + 1 + 1 + 1 + 1 + 1 + 1 ``` (Optional,    |
-|                              | defaults to '0'.)                                          |
-|                              |                                                            |
-+------------------------------+------------------------------------------------------------+
-|                              |                                                            |
-| ``r_use_arrows``             | Determines whether the assignment operator ``=`` should be |
-|                              | replaced by an arrow ``<-`` or not.                        |
-|                              | Example: If  ``True``, ``x = 1`` changes to ``x <- 1``.    |
-|                              | (Optional, defaults to 'False'.)                           |
-|                              |                                                            |
-+------------------------------+------------------------------------------------------------+
++------------------------------+-------------------------------------------------------------+
+| Setting                      |  Meaning                                                    |
++==============================+=============================================================+
+|                              |                                                             |
+| ``indent_size``              | Number of spaces per indentation level. (Optional, defaults |
+|                              | to '4'.)                                                    |
+|                              |                                                             |
++------------------------------+-------------------------------------------------------------+
+|                              |                                                             |
+| ``r_braces_on_next_line``    | Determines whether a brace should be placed on the next     |
+|                              | line.                                                       |
+|                              | Example: If ``True``, ``` if (...) { ``` changes to ``` if  |
+|                              | (...) { ``` If ``False`` the brace is placed on the same    |
+|                              | line. (Optional, defaults to 'False'.)                      |
+|                              |                                                             |
++------------------------------+-------------------------------------------------------------+
+|                              |                                                             |
+| ``r_keep_blank_lines``       | Determines whether blank lines are kept or not. (Optional,  |
+|                              | defaults to 'True'.)                                        |
+|                              |                                                             |
++------------------------------+-------------------------------------------------------------+
+|                              |                                                             |
+| ``r_keep_comments``          | Determines whether comments are kept or not. (Optional,     |
+|                              | defaults to 'True'.)                                        |
+|                              |                                                             |
++------------------------------+-------------------------------------------------------------+
+|                              |                                                             |
+| ``r_max_expression_length``  | Maximum number of characters for an expression.             |
+|                              | Example: If ``20`` then ``` 1 + 1 + 1 + 1 + 1 + 1 + 1 ```   |
+|                              | changes to ``` 1 + 1 + 1 + 1 + 1 + 1 + 1 ``` (Optional,     |
+|                              | defaults to '0'.)                                           |
+|                              |                                                             |
++------------------------------+-------------------------------------------------------------+
+|                              |                                                             |
+| ``r_use_arrows``             | Determines whether the assignment operator ``=`` should be  |
+|                              | replaced by an arrow ``<-`` or not.                         |
+|                              | Example: If  ``True``, ``x = 1`` changes to ``x <- 1``.     |
+|                              | (Optional, defaults to 'False'.)                            |
+|                              |                                                             |
++------------------------------+-------------------------------------------------------------+
 
 
 Demo

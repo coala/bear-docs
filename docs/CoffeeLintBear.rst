@@ -28,8 +28,7 @@ Settings
 |                                                    |                                                              |
 +----------------------------------------------------+--------------------------------------------------------------+
 |                                                    |                                                              |
-| ``allow_implicit_parentheses``                     | Allows implicit parentheses. (Optional, defaults to          |
-|                                                    | 'True'.)                                                     |
+| ``allow_implicit_parentheses``                     | Allows implicit parentheses. (Optional, defaults to 'True'.) +
 |                                                    |                                                              |
 +----------------------------------------------------+--------------------------------------------------------------+
 |                                                    |                                                              |
@@ -71,8 +70,8 @@ Settings
 |                                                    |                                                              |
 +----------------------------------------------------+--------------------------------------------------------------+
 |                                                    |                                                              |
-| ``allow_trailing_semicolons``                      | Prohibits trailing semicolons when ``False`` since they      |
-|                                                    | are not useful. The semicolon is meaningful only if there's  |
+| ``allow_trailing_semicolons``                      | Prohibits trailing semicolons when ``False`` since they are  |
+|                                                    | not useful. The semicolon is meaningful only if there's      |
 |                                                    | another instruction on the same line.                        |
 |                                                    | Example: If ``allow_trailing_semicolon = False`` ``` x =     |
 |                                                    | '1234'; console.log(x) ``` Here the semicolon is             |
@@ -139,8 +138,8 @@ Settings
 |                                                    |                                                              |
 +----------------------------------------------------+--------------------------------------------------------------+
 |                                                    |                                                              |
-| ``indent_size``                                    | Number of spaces per indentation level. (Optional,           |
-|                                                    | defaults to '2'.)                                            |
+| ``indent_size``                                    | Number of spaces per indentation level. (Optional, defaults  |
+|                                                    | to '2'.)                                                     |
 |                                                    |                                                              |
 +----------------------------------------------------+--------------------------------------------------------------+
 |                                                    |                                                              |
@@ -186,8 +185,8 @@ Settings
 |                                                    |                                                              |
 +----------------------------------------------------+--------------------------------------------------------------+
 |                                                    |                                                              |
-| ``spaces_around_operators``                        | Enforces that operators have spaces around them.             |
-|                                                    | (Optional, defaults to 'True'.)                              |
+| ``spaces_around_operators``                        | Enforces that operators have spaces around them. (Optional,  |
+|                                                    | defaults to 'True'.)                                         |
 |                                                    |                                                              |
 +----------------------------------------------------+--------------------------------------------------------------+
 |                                                    |                                                              |
@@ -208,8 +207,8 @@ Settings
 |                                                    |                                                              |
 +----------------------------------------------------+--------------------------------------------------------------+
 |                                                    |                                                              |
-| ``use_spaces``                                     | Forbids tabs in indentation and applies two spaces for       |
-|                                                    | this purpose. (Optional, defaults to 'True'.)                |
+| ``use_spaces``                                     | Forbids tabs in indentation and applies two spaces for this  |
+|                                                    | purpose. (Optional, defaults to 'True'.)                     |
 |                                                    |                                                              |
 +----------------------------------------------------+--------------------------------------------------------------+
 

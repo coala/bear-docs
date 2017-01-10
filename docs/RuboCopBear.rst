@@ -70,8 +70,8 @@ Settings
 |                                           |                                                             |
 +-------------------------------------------+-------------------------------------------------------------+
 |                                           |                                                             |
-| ``count_keyword_args``                    | Count keyword args while counting all arguments?            |
-|                                           | (Optional, defaults to 'True'.)                             |
+| ``count_keyword_args``                    | Count keyword args while counting all arguments? (Optional, |
+|                                           | defaults to 'True'.)                                        |
 |                                           |                                                             |
 +-------------------------------------------+-------------------------------------------------------------+
 |                                           |                                                             |
@@ -80,8 +80,8 @@ Settings
 |                                           |                                                             |
 +-------------------------------------------+-------------------------------------------------------------+
 |                                           |                                                             |
-| ``ignore_unused_block_args_if_empty``     | Ignore unused block arguments if block is empty.            |
-|                                           | (Optional, defaults to 'True'.)                             |
+| ``ignore_unused_block_args_if_empty``     | Ignore unused block arguments if block is empty. (Optional, |
+|                                           | defaults to 'True'.)                                        |
 |                                           |                                                             |
 +-------------------------------------------+-------------------------------------------------------------+
 |                                           |                                                             |
@@ -90,8 +90,8 @@ Settings
 |                                           |                                                             |
 +-------------------------------------------+-------------------------------------------------------------+
 |                                           |                                                             |
-| ``indent_size``                           | Number of spaces per indentation level. (Optional,          |
-|                                           | defaults to '2'.)                                           |
+| ``indent_size``                           | Number of spaces per indentation level. (Optional, defaults |
+|                                           | to '2'.)                                                    |
 |                                           |                                                             |
 +-------------------------------------------+-------------------------------------------------------------+
 |                                           |                                                             |

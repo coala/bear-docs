@@ -8,7 +8,26 @@ Verifies using ``csvlint`` if ``.csv`` files are valid CSV or not.
 
 * CSV
 
+Settings
+--------
 
++---------------------+-------------------------------------------------------+
+| Setting             |  Meaning                                              |
++=====================+=======================================================+
+|                     |                                                       |
+| ``result_message``  | No description given. (Optional, defaults to 'None'.) +
+|                     |                                                       |
++---------------------+-------------------------------------------------------+
+
+
+Demo
+----
+
+|asciicast|
+
+.. |asciicast| image:: https://asciinema.org/a/8fmp2pny34kpqw7t1eoy7phhc.png
+   :target: https://asciinema.org/a/8fmp2pny34kpqw7t1eoy7phhc?autoplay=1
+   :width: 100%
 
 Dependencies
 ------------

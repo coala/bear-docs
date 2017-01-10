@@ -16,28 +16,28 @@ WARNING: The IndentationBear is experimental right now, you can report any issue
 Settings
 --------
 
-+------------------+-----------------------------------------------------------+
-| Setting          |  Meaning                                                  |
-+==================+===========================================================+
-|                  |                                                           |
-| ``coalang_dir``  | Full path of external directory containing the coalang    |
-|                  | file for language. (Optional, defaults to 'None'.)        |
-|                  |                                                           |
-+------------------+-----------------------------------------------------------+
-|                  |                                                           |
-| ``indent_size``  | Number of spaces per indentation level. (Optional,        |
-|                  | defaults to '4'.)                                         |
-|                  |                                                           |
-+------------------+-----------------------------------------------------------+
-|                  |                                                           |
-| ``language``     | Language to be used for indentation.                      +
-|                  |                                                           |
-+------------------+-----------------------------------------------------------+
-|                  |                                                           |
-| ``use_spaces``   | Insert spaces instead of tabs for indentation. (Optional, |
-|                  | defaults to 'True'.)                                      |
-|                  |                                                           |
-+------------------+-----------------------------------------------------------+
++------------------+-------------------------------------------------------------+
+| Setting          |  Meaning                                                    |
++==================+=============================================================+
+|                  |                                                             |
+| ``coalang_dir``  | Full path of external directory containing the coalang file |
+|                  | for language. (Optional, defaults to 'None'.)               |
+|                  |                                                             |
++------------------+-------------------------------------------------------------+
+|                  |                                                             |
+| ``indent_size``  | Number of spaces per indentation level. (Optional, defaults |
+|                  | to '4'.)                                                    |
+|                  |                                                             |
++------------------+-------------------------------------------------------------+
+|                  |                                                             |
+| ``language``     | Language to be used for indentation.                        +
+|                  |                                                             |
++------------------+-------------------------------------------------------------+
+|                  |                                                             |
+| ``use_spaces``   | Insert spaces instead of tabs for indentation. (Optional,   |
+|                  | defaults to 'True'.)                                        |
+|                  |                                                             |
++------------------+-------------------------------------------------------------+
 
 
 Can Detect

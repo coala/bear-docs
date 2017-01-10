@@ -5,7 +5,7 @@ Documentation for coala bears
 
 **Note**: The ``master`` branch contains docs for the latest stable version. If you want to view the docs for the latest development version, see the ``pre`` branch.
 
-**Supported Languages (61)**
+**Supported Languages (63)**
 ----------------------------
 
 .. contents::
@@ -242,6 +242,7 @@ Python
 * `PyLintBear <docs/PyLintBear.rst>`_
 * `PyUnusedCodeBear <docs/PyUnusedCodeBear.rst>`_
 * `PycodestyleBear <docs/PycodestyleBear.rst>`_
+* `PythonPackageInitBear <docs/PythonPackageInitBear.rst>`_
 * `RadonBear <docs/RadonBear.rst>`_
 * `VultureBear <docs/VultureBear.rst>`_
 * `YapfBear <docs/YapfBear.rst>`_
@@ -259,6 +260,7 @@ Python 2
 * `PyLintBear <docs/PyLintBear.rst>`_
 * `PyUnusedCodeBear <docs/PyUnusedCodeBear.rst>`_
 * `PycodestyleBear <docs/PycodestyleBear.rst>`_
+* `PythonPackageInitBear <docs/PythonPackageInitBear.rst>`_
 * `RadonBear <docs/RadonBear.rst>`_
 * `YapfBear <docs/YapfBear.rst>`_
 
@@ -281,6 +283,7 @@ Python 3
 * `PyLintBear <docs/PyLintBear.rst>`_
 * `PyUnusedCodeBear <docs/PyUnusedCodeBear.rst>`_
 * `PycodestyleBear <docs/PycodestyleBear.rst>`_
+* `PythonPackageInitBear <docs/PythonPackageInitBear.rst>`_
 * `RadonBear <docs/RadonBear.rst>`_
 * `VultureBear <docs/VultureBear.rst>`_
 * `YapfBear <docs/YapfBear.rst>`_
@@ -368,6 +371,14 @@ dash
 ksh
 ===
 * `ShellCheckBear <docs/ShellCheckBear.rst>`_
+
+po
+==
+* `DennisBear <docs/DennisBear.rst>`_
+
+pot
+===
+* `DennisBear <docs/DennisBear.rst>`_
 
 reStructuredText
 ================

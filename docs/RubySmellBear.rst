@@ -68,8 +68,8 @@ Settings
 |                                           |                                                             |
 +-------------------------------------------+-------------------------------------------------------------+
 |                                           |                                                             |
-| ``bad_param_name``                        | Warns about parameter names which are not communicating     |
-|                                           | the purpose of the parameter well. (Optional, defaults to   |
+| ``bad_param_name``                        | Warns about parameter names which are not communicating the |
+|                                           | purpose of the parameter well. (Optional, defaults to       |
 |                                           | 'True'.)                                                    |
 |                                           |                                                             |
 +-------------------------------------------+-------------------------------------------------------------+

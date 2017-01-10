@@ -13,7 +13,7 @@ Lints reStructuredText.
 Dependencies
 ------------
 
-* ``pip`` - ``restructuredtext_lint``
+* ``pip`` - ``restructuredtext-lint``
 
 
 Can Detect
