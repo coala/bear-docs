@@ -62,6 +62,7 @@ CSS
 * `CSSAutoPrefixBear <docs/CSSAutoPrefixBear.rst>`_
 * `CSSLintBear <docs/CSSLintBear.rst>`_
 * `PHPCodeSnifferBear <docs/PHPCodeSnifferBear.rst>`_
+* `StyleLintBear <docs/StyleLintBear.rst>`_
 
 CSV
 ===
@@ -113,6 +114,7 @@ HTML
 
 Haskell
 =======
+* `GhcModBear <docs/GhcModBear.rst>`_
 * `HaskellLintBear <docs/HaskellLintBear.rst>`_
 
 JSON
@@ -242,6 +244,7 @@ Python
 * `PyLintBear <docs/PyLintBear.rst>`_
 * `PyUnusedCodeBear <docs/PyUnusedCodeBear.rst>`_
 * `PycodestyleBear <docs/PycodestyleBear.rst>`_
+* `PyromaBear <docs/PyromaBear.rst>`_
 * `PythonPackageInitBear <docs/PythonPackageInitBear.rst>`_
 * `RadonBear <docs/RadonBear.rst>`_
 * `VultureBear <docs/VultureBear.rst>`_
@@ -283,6 +286,7 @@ Python 3
 * `PyLintBear <docs/PyLintBear.rst>`_
 * `PyUnusedCodeBear <docs/PyUnusedCodeBear.rst>`_
 * `PycodestyleBear <docs/PycodestyleBear.rst>`_
+* `PyromaBear <docs/PyromaBear.rst>`_
 * `PythonPackageInitBear <docs/PythonPackageInitBear.rst>`_
 * `RadonBear <docs/RadonBear.rst>`_
 * `VultureBear <docs/VultureBear.rst>`_
@@ -317,6 +321,7 @@ Ruby
 SCSS
 ====
 * `SCSSLintBear <docs/SCSSLintBear.rst>`_
+* `StyleLintBear <docs/StyleLintBear.rst>`_
 
 SQL
 ===

@@ -36,6 +36,8 @@ Demo
 Dependencies
 ------------
 
+* ``npm`` - ``babel-eslint``
+* ``npm`` - ``eslint-plugin-import``
 * ``npm`` - ``eslint``
 
 

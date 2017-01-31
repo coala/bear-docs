@@ -106,6 +106,7 @@ Dependencies
 ------------
 
 * ``npm`` - ``remark-cli``
+* ``npm`` - ``remark-lint``
 
 
 Can Detect

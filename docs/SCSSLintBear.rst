@@ -274,7 +274,7 @@ Settings
 Dependencies
 ------------
 
-* ``gem`` - ``scss-lint``
+* ``gem`` - ``scss_lint``
 * ``pip`` - ``pyyaml``
 
 

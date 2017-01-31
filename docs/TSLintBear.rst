@@ -41,6 +41,7 @@ Dependencies
 ------------
 
 * ``npm`` - ``tslint``
+* ``npm`` - ``typescript``
 
 
 Can Detect

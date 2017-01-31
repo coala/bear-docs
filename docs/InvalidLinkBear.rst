@@ -14,31 +14,33 @@ Warning: This bear will make HEAD requests to all URLs mentioned in your codebas
 Settings
 --------
 
-+------------------------+------------------------------------------------------------+
-| Setting                |  Meaning                                                   |
-+========================+============================================================+
-|                        |                                                            |
-| ``follow_redirects``   | Set to true to autocorrect redirects. (Optional, defaults  |
-|                        | to 'False'.)                                               |
-|                        |                                                            |
-+------------------------+------------------------------------------------------------+
-|                        |                                                            |
-| ``link_ignore_list``   | Comma separated url globs to ignore (Optional, defaults to |
-|                        | ''.)                                                       |
-|                        |                                                            |
-+------------------------+------------------------------------------------------------+
-|                        |                                                            |
-| ``link_ignore_regex``  | A regex for urls to ignore. (Optional, defaults to         |
-|                        | '([.\/]example\.com|\{|\$)'.)                              |
-|                        |                                                            |
-+------------------------+------------------------------------------------------------+
-|                        |                                                            |
-| ``network_timeout``    | A dict mapping URLs and timeout to be used for that URL.   |
-|                        | All the URLs that have the same host as that of URLs       |
-|                        | provided will be passed that timeout. (Optional, defaults  |
-|                        | to '{}'.)                                                  |
-|                        |                                                            |
-+------------------------+------------------------------------------------------------+
++------------------------+-------------------------------------------------------------+
+| Setting                |  Meaning                                                    |
++========================+=============================================================+
+|                        |                                                             |
+| ``follow_redirects``   | Set to true to autocorrect redirects. (Optional, defaults   |
+|                        | to 'False'.)                                                |
+|                        |                                                             |
++------------------------+-------------------------------------------------------------+
+|                        |                                                             |
+| ``link_ignore_list``   | Comma separated url globs to ignore (Optional, defaults to  |
+|                        | ''.)                                                        |
+|                        |                                                             |
++------------------------+-------------------------------------------------------------+
+|                        |                                                             |
+| ``link_ignore_regex``  | A regex for urls to ignore. (Optional, defaults to          |
+|                        | '([.\/]example\.com|\{|\$)'.)                               |
+|                        |                                                             |
++------------------------+-------------------------------------------------------------+
+|                        |                                                             |
+| ``network_timeout``    | A dict mapping URLs and timeout to be used for that URL.    |
+|                        | All the URLs that have the same host as that of URLs        |
+|                        | provided will be passed that timeout. It can also contain a |
+|                        | wildcard timeout entry with key '*'. The timeout of all the |
+|                        | websites not in the dict will be the value of the key '*'.  |
+|                        | (Optional, defaults to '{}'.)                               |
+|                        |                                                             |
++------------------------+-------------------------------------------------------------+
 
 
 Dependencies
