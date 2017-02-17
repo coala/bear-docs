@@ -1,4 +1,4 @@
-`PyFlakesBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/python/PyFlakesBear.py>`_
+`PyFlakesBear <https://github.com/coala/coala-bears/tree/master/bears/python/PyFlakesBear.py>`_
 ========================================================================================================
 
 Checks Python files for errors using ``pyflakes``.

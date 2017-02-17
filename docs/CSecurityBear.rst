@@ -1,4 +1,4 @@
-`CSecurityBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/c_languages/CSecurityBear.py>`_
+`CSecurityBear <https://github.com/coala/coala-bears/tree/master/bears/c_languages/CSecurityBear.py>`_
 ===============================================================================================================
 
 Report possible security weaknesses for C/C++.

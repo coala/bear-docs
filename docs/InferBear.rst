@@ -1,4 +1,4 @@
-`InferBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/java/InferBear.py>`_
+`InferBear <https://github.com/coala/coala-bears/tree/master/bears/java/InferBear.py>`_
 ================================================================================================
 
 Checks the code with ``infer``.

@@ -1,4 +1,4 @@
-`DockerfileLintBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/configfiles/DockerfileLintBear.py>`_
+`DockerfileLintBear <https://github.com/coala/coala-bears/tree/master/bears/configfiles/DockerfileLintBear.py>`_
 =========================================================================================================================
 
 Check file syntax as well as arbitrary semantic and best practice

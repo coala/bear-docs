@@ -1,4 +1,4 @@
-`QuotesBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/general/QuotesBear.py>`_
+`QuotesBear <https://github.com/coala/coala-bears/tree/master/bears/general/QuotesBear.py>`_
 =====================================================================================================
 
 Checks and corrects your quotation style.

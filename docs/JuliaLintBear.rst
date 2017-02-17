@@ -1,4 +1,4 @@
-`JuliaLintBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/julia/JuliaLintBear.py>`_
+`JuliaLintBear <https://github.com/coala/coala-bears/tree/master/bears/julia/JuliaLintBear.py>`_
 =========================================================================================================
 
 Provide analysis related to common bugs and potential issues in Julia like

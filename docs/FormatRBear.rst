@@ -1,4 +1,4 @@
-`FormatRBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/r/FormatRBear.py>`_
+`FormatRBear <https://github.com/coala/coala-bears/tree/master/bears/r/FormatRBear.py>`_
 =================================================================================================
 
 Check and correct formatting of R Code using known formatR utility.

@@ -1,4 +1,4 @@
-`ClangASTPrintBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/c_languages/codeclone_detection/ClangASTPrintBear.py>`_
+`ClangASTPrintBear <https://github.com/coala/coala-bears/tree/master/bears/c_languages/codeclone_detection/ClangASTPrintBear.py>`_
 ===========================================================================================================================================
 
 This bear is meant for debugging purposes relating to clang. It just prints out the whole AST for a file to the DEBUG channel.
@@ -13,4 +13,3 @@ This bear is meant for debugging purposes relating to clang. It just prints out 
 * Objective-C++
 * OpenCL
 * OpenMP
-

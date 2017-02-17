@@ -1,4 +1,4 @@
-`BanditBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/python/BanditBear.py>`_
+`BanditBear <https://github.com/coala/coala-bears/tree/master/bears/python/BanditBear.py>`_
 ====================================================================================================
 
 Performs security analysis on Python source code, utilizing the ``ast``

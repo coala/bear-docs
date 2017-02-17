@@ -1,4 +1,4 @@
-`InvalidLinkBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/general/InvalidLinkBear.py>`_
+`InvalidLinkBear <https://github.com/coala/coala-bears/tree/master/bears/general/InvalidLinkBear.py>`_
 ===============================================================================================================
 
 Find links in any text file and check if they are valid.

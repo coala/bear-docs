@@ -1,4 +1,4 @@
-`XMLBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/xml2/XMLBear.py>`_
+`XMLBear <https://github.com/coala/coala-bears/tree/master/bears/xml2/XMLBear.py>`_
 ============================================================================================
 
 Checks the code with ``xmllint``.

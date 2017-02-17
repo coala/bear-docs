@@ -1,4 +1,4 @@
-`HTMLLintBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/hypertext/HTMLLintBear.py>`_
+`HTMLLintBear <https://github.com/coala/coala-bears/tree/master/bears/hypertext/HTMLLintBear.py>`_
 ===========================================================================================================
 
 Check HTML source code for invalid or misformatted code.

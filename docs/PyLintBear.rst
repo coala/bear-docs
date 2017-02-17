@@ -1,4 +1,4 @@
-`PyLintBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/python/PyLintBear.py>`_
+`PyLintBear <https://github.com/coala/coala-bears/tree/master/bears/python/PyLintBear.py>`_
 ====================================================================================================
 
 Checks the code with pylint. This will run pylint over each file

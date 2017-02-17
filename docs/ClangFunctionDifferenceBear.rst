@@ -1,4 +1,4 @@
-`ClangFunctionDifferenceBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/c_languages/codeclone_detection/ClangFunctionDifferenceBear.py>`_
+`ClangFunctionDifferenceBear <https://github.com/coala/coala-bears/tree/master/bears/c_languages/codeclone_detection/ClangFunctionDifferenceBear.py>`_
 ===============================
 
 Retrieves similarities for code clone detection. Those can be reused in another bear to produce results.

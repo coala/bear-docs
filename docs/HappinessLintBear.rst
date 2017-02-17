@@ -1,4 +1,4 @@
-`HappinessLintBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/js/HappinessLintBear.py>`_
+`HappinessLintBear <https://github.com/coala/coala-bears/tree/master/bears/js/HappinessLintBear.py>`_
 ==============================================================================================================
 
 Checks JavaScript files for semantic and syntax errors using ``happiness``.

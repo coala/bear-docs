@@ -1,4 +1,4 @@
-`IndentationBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/general/IndentationBear.py>`_
+`IndentationBear <https://github.com/coala/coala-bears/tree/master/bears/general/IndentationBear.py>`_
 ===============================================================================================================
 
 It is a generic indent bear, which looks for a start and end indent specifier, example: ``{ : }`` where "{" is the start indent specifier and "}" is the end indent specifier. If the end-specifier is not given, this bear looks for unindents within the code to correctly figure out indentation.

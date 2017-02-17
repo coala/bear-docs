@@ -1,4 +1,4 @@
-`PEP8NotebookBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/python/PEP8NotebookBear.py>`_
+`PEP8NotebookBear <https://github.com/coala/coala-bears/tree/master/bears/python/PEP8NotebookBear.py>`_
 ================================================================================================================
 
 Detects and fixes PEP8 incompliant code in Jupyter Notebooks. This bear will not change functionality of the code in any way.

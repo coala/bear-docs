@@ -1,4 +1,4 @@
-`RSTcheckBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/rest/RSTcheckBear.py>`_
+`RSTcheckBear <https://github.com/coala/coala-bears/tree/master/bears/rest/RSTcheckBear.py>`_
 ======================================================================================================
 
 Check syntax of ``reStructuredText`` and code blocks

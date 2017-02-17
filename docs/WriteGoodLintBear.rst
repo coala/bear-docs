@@ -1,4 +1,4 @@
-`WriteGoodLintBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/natural_language/WriteGoodLintBear.py>`_
+`WriteGoodLintBear <https://github.com/coala/coala-bears/tree/master/bears/natural_language/WriteGoodLintBear.py>`_
 ============================================================================================================================
 
 Lints the text files using ``write-good`` for improving proses.

@@ -1,4 +1,4 @@
-`SpellCheckBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/natural_language/SpellCheckBear.py>`_
+`SpellCheckBear <https://github.com/coala/coala-bears/tree/master/bears/natural_language/SpellCheckBear.py>`_
 ======================================================================================================================
 
 Lints files to check for incorrect spellings using ``scspell``.

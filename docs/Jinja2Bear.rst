@@ -1,4 +1,4 @@
-`Jinja2Bear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/jinja2/Jinja2Bear.py>`_
+`Jinja2Bear <https://github.com/coala/coala-bears/tree/master/bears/jinja2/Jinja2Bear.py>`_
 ====================================================================================================
 
 Check `Jinja2 templates <http://jinja.pocoo.org>`_ for syntax, formatting and documentation issues. The following aspects are being looked at:

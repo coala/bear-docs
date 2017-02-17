@@ -1,4 +1,4 @@
-`RuboCopBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/ruby/RuboCopBear.py>`_
+`RuboCopBear <https://github.com/coala/coala-bears/tree/master/bears/ruby/RuboCopBear.py>`_
 ====================================================================================================
 
 Check Ruby code for syntactic, formatting as well as semantic problems.

@@ -1,4 +1,4 @@
-`RAMLLintBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/yml/RAMLLintBear.py>`_
+`RAMLLintBear <https://github.com/coala/coala-bears/tree/master/bears/yml/RAMLLintBear.py>`_
 =====================================================================================================
 
 RAML Linter is a static analysis, linter-like, utility that will enforce

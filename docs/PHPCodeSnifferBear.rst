@@ -1,4 +1,4 @@
-`PHPCodeSnifferBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/php/PHPCodeSnifferBear.py>`_
+`PHPCodeSnifferBear <https://github.com/coala/coala-bears/tree/master/bears/php/PHPCodeSnifferBear.py>`_
 =================================================================================================================
 
 Ensures that your PHP, JavaScript or CSS code remains clean and consistent.

@@ -1,4 +1,4 @@
-`GitCommitBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/vcs/git/GitCommitBear.py>`_
+`GitCommitBear <https://github.com/coala/coala-bears/tree/master/bears/vcs/git/GitCommitBear.py>`_
 ===========================================================================================================
 
 Check for matching issue related references and URLs.

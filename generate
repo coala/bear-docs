@@ -77,7 +77,7 @@ if __name__ == "__main__":
             for filename in fnmatch.filter(filenames, bear.name + '.py'):
                 matches.append(os.path.join(root, filename))
         rel_path = os.path.relpath(matches[0], path)
-        url = "https://github.com/coala-analyzer/coala-bears/tree/master/bears/" + rel_path
+        url = "https://github.com/coala/coala-bears/tree/master/bears/" + rel_path
         output = "`" + bear.name + " <" + url + ">`_\n"
         output += "=" * (len(output) - 1) + "\n\n"
         output += meta.desc + "\n\n"

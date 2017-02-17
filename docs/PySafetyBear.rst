@@ -1,4 +1,4 @@
-`PySafetyBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/python/requirements/PySafetyBear.py>`_
+`PySafetyBear <https://github.com/coala/coala-bears/tree/master/bears/python/requirements/PySafetyBear.py>`_
 =====================================================================================================================
 
 Checks for vulnerable package versions in requirements files.

@@ -1,4 +1,4 @@
-`JSHintBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/js/JSHintBear.py>`_
+`JSHintBear <https://github.com/coala/coala-bears/tree/master/bears/js/JSHintBear.py>`_
 ================================================================================================
 
 Detect errors and potential problems in JavaScript code and to enforce

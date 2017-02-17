@@ -1,4 +1,4 @@
-`GoErrCheckBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/go/GoErrCheckBear.py>`_
+`GoErrCheckBear <https://github.com/coala/coala-bears/tree/master/bears/go/GoErrCheckBear.py>`_
 ========================================================================================================
 
 Checks the code for all function calls that have unchecked errors.

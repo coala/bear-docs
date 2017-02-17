@@ -1,4 +1,4 @@
-`RubySyntaxBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/ruby/RubySyntaxBear.py>`_
+`RubySyntaxBear <https://github.com/coala/coala-bears/tree/master/bears/ruby/RubySyntaxBear.py>`_
 ==========================================================================================================
 
 Checks the code with ``ruby -wc`` on each file separately.

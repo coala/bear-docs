@@ -1,4 +1,4 @@
-`CasingBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/general/CasingBear.py>`_
+`CasingBear <https://github.com/coala/coala-bears/tree/master/bears/general/CasingBear.py>`_
 ==============
 
 Checks whether all identifier names (variables, classes, objects) follow a certain naming convention.

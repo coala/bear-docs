@@ -1,4 +1,4 @@
-`YAMLLintBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/yml/YAMLLintBear.py>`_
+`YAMLLintBear <https://github.com/coala/coala-bears/tree/master/bears/yml/YAMLLintBear.py>`_
 =====================================================================================================
 
 Check yaml code for errors and possible problems.

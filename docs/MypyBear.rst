@@ -1,4 +1,4 @@
-`MypyBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/python/MypyBear.py>`_
+`MypyBear <https://github.com/coala/coala-bears/tree/master/bears/python/MypyBear.py>`_
 ================================================================================================
 
 Type-checks your Python files!

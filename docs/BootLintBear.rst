@@ -1,4 +1,4 @@
-`BootLintBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/hypertext/BootLintBear.py>`_
+`BootLintBear <https://github.com/coala/coala-bears/tree/master/bears/hypertext/BootLintBear.py>`_
 ===========================================================================================================
 
 Raise several common HTML mistakes in html files that are using

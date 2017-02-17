@@ -1,4 +1,4 @@
-`RLintBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/r/RLintBear.py>`_
+`RLintBear <https://github.com/coala/coala-bears/tree/master/bears/r/RLintBear.py>`_
 =============================================================================================
 
 Checks the code with ``lintr``.

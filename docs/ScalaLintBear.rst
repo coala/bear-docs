@@ -1,4 +1,4 @@
-`ScalaLintBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/scala/ScalaLintBear.py>`_
+`ScalaLintBear <https://github.com/coala/coala-bears/tree/master/bears/scala/ScalaLintBear.py>`_
 =========================================================================================================
 
 Check Scala code for codestyle, but also semantical problems,

@@ -1,4 +1,4 @@
-`GoLintBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/go/GoLintBear.py>`_
+`GoLintBear <https://github.com/coala/coala-bears/tree/master/bears/go/GoLintBear.py>`_
 ================================================================================================
 
 Checks the code using ``golint``. This will run golint over each file

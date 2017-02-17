@@ -1,4 +1,4 @@
-`KeywordBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/general/KeywordBear.py>`_
+`KeywordBear <https://github.com/coala/coala-bears/tree/master/bears/general/KeywordBear.py>`_
 =======================================================================================================
 
 Checks the code files for given keywords.

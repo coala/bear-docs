@@ -1,4 +1,4 @@
-`GofmtBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/go/GofmtBear.py>`_
+`GofmtBear <https://github.com/coala/coala-bears/tree/master/bears/go/GofmtBear.py>`_
 ==============================================================================================
 
 Suggest better formatting options in Go code. Basic checks like alignment,

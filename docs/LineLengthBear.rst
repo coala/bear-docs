@@ -1,4 +1,4 @@
-`LineLengthBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/general/LineLengthBear.py>`_
+`LineLengthBear <https://github.com/coala/coala-bears/tree/master/bears/general/LineLengthBear.py>`_
 =============================================================================================================
 
 Yields results for all lines longer than the given maximum line length.

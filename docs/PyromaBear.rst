@@ -1,4 +1,4 @@
-`PyromaBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/python/PyromaBear.py>`_
+`PyromaBear <https://github.com/coala/coala-bears/tree/master/bears/python/PyromaBear.py>`_
 ====================================================================================================
 
 Checks for Python packaging best practices using `pyroma`.

@@ -1,4 +1,4 @@
-`TailorBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/swift/TailorBear.py>`_
+`TailorBear <https://github.com/coala/coala-bears/tree/master/bears/swift/TailorBear.py>`_
 ===================================================================================================
 
 Analyze Swift code and check for code style related

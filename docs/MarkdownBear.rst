@@ -1,4 +1,4 @@
-`MarkdownBear <https://github.com/coala-analyzer/coala-bears/tree/master/bears/markdown/MarkdownBear.py>`_
+`MarkdownBear <https://github.com/coala/coala-bears/tree/master/bears/markdown/MarkdownBear.py>`_
 ==========================================================================================================
 
 Check and correct Markdown style violations automatically.
