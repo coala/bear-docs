@@ -101,7 +101,11 @@ if __name__ == "__main__":
             if param in meta.deprecated_params:
                 continue
             key = " ``" + param + "`` "
-            par[key] = text_wrap(bear.get_metadata().optional_params[param][0], limit=60)
+            description = bear.get_metadata().optional_params[param][0]
+            if param == 'scalalint_config':
+                description = ('Path to a custom configuration file. '
+                               '(Optional, defaults to packaged XML file.)')
+            par[key] = text_wrap(description, limit=60)
             par[key] = [g.strip() for g in par[key]]
             lmax = max(lmax, len(key))
             rmax = max(rmax, max(len(g) for g in par[key]))
