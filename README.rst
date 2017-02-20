@@ -62,7 +62,6 @@ CSS
 * `CSSAutoPrefixBear <docs/CSSAutoPrefixBear.rst>`_
 * `CSSLintBear <docs/CSSLintBear.rst>`_
 * `PHPCodeSnifferBear <docs/PHPCodeSnifferBear.rst>`_
-* `StyleLintBear <docs/StyleLintBear.rst>`_
 
 CSV
 ===
@@ -321,7 +320,6 @@ Ruby
 SCSS
 ====
 * `SCSSLintBear <docs/SCSSLintBear.rst>`_
-* `StyleLintBear <docs/StyleLintBear.rst>`_
 
 SQL
 ===
