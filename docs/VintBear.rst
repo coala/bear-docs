@@ -1,5 +1,5 @@
 `VintBear <https://github.com/coala/coala-bears/tree/master/bears/vimscript/VintBear.py>`_
-===================================================================================================
+==========================================================================================
 
 Check vimscript code for possible style problems.
 

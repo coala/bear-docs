@@ -1,5 +1,5 @@
 `SpaceConsistencyBear <https://github.com/coala/coala-bears/tree/master/bears/general/SpaceConsistencyBear.py>`_
-=========================================================================================================================
+================================================================================================================
 
 Check and correct spacing for all textual data. This includes usage of tabs vs. spaces, trailing whitespace and (missing) newlines before the end of the file.
 

@@ -1,5 +1,5 @@
 `AnnotationBear <https://github.com/coala/coala-bears/tree/master/bears/general/AnnotationBear.py>`_
-=============================================================================================================
+====================================================================================================
 
 Finds out all the positions of strings and comments in a file. The Bear searches for valid comments and strings and yields their ranges as SourceRange objects in HiddenResults.
 

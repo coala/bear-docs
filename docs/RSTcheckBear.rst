@@ -1,5 +1,5 @@
 `RSTcheckBear <https://github.com/coala/coala-bears/tree/master/bears/rest/RSTcheckBear.py>`_
-======================================================================================================
+=============================================================================================
 
 Check syntax of ``reStructuredText`` and code blocks
 nested within it.

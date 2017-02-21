@@ -1,5 +1,5 @@
 `RubySyntaxBear <https://github.com/coala/coala-bears/tree/master/bears/ruby/RubySyntaxBear.py>`_
-==========================================================================================================
+=================================================================================================
 
 Checks the code with ``ruby -wc`` on each file separately.
 

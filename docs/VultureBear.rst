@@ -1,5 +1,5 @@
 `VultureBear <https://github.com/coala/coala-bears/tree/master/bears/python/VultureBear.py>`_
-======================================================================================================
+=============================================================================================
 
 Check Python code for unused variables and functions using `vulture`.
 See <https://bitbucket.org/jendrikseipp/vulture> for more information.

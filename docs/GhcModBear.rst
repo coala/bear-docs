@@ -1,5 +1,5 @@
 `GhcModBear <https://github.com/coala/coala-bears/tree/master/bears/haskell/GhcModBear.py>`_
-=====================================================================================================
+============================================================================================
 
 Syntax checking with ``ghc`` for Haskell files.
 

@@ -1,5 +1,5 @@
 `DennisBear <https://github.com/coala/coala-bears/tree/master/bears/gettext/DennisBear.py>`_
-=====================================================================================================
+============================================================================================
 
 Lints your translated PO and POT files!
 

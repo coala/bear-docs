@@ -1,5 +1,5 @@
 `InvalidLinkBear <https://github.com/coala/coala-bears/tree/master/bears/general/InvalidLinkBear.py>`_
-===============================================================================================================
+======================================================================================================
 
 Find links in any text file and check if they are valid.
 A link is considered valid if the server responds with a 2xx code.

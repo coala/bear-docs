@@ -1,5 +1,5 @@
 `BanditBear <https://github.com/coala/coala-bears/tree/master/bears/python/BanditBear.py>`_
-====================================================================================================
+===========================================================================================
 
 Performs security analysis on Python source code, utilizing the ``ast``
 module from the Python standard library.

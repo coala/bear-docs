@@ -1,5 +1,5 @@
 `CoffeeLintBear <https://github.com/coala/coala-bears/tree/master/bears/coffee_script/CoffeeLintBear.py>`_
-===================================================================================================================
+==========================================================================================================
 
 Check CoffeeScript code for a clean and consistent style.
 

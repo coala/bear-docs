@@ -1,5 +1,5 @@
 `coalaBear <https://github.com/coala/coala-bears/tree/master/bears/general/coalaBear.py>`_
-===================================================================================================
+==========================================================================================
 
 Check for the correct spelling of ``coala`` in the file.
 

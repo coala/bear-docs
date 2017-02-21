@@ -1,5 +1,5 @@
 `CPPCheckBear <https://github.com/coala/coala-bears/tree/master/bears/c_languages/CPPCheckBear.py>`_
-=============================================================================================================
+====================================================================================================
 
 Report possible security weaknesses for C/C++.
 For more information, consult <https://github.com/danmar/cppcheck>.

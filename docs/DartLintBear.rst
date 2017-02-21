@@ -1,5 +1,5 @@
 `DartLintBear <https://github.com/coala/coala-bears/tree/master/bears/dart/DartLintBear.py>`_
-======================================================================================================
+=============================================================================================
 
 Checks the code with ``dart-linter``.
 

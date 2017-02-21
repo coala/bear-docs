@@ -1,5 +1,5 @@
 `SCSSLintBear <https://github.com/coala/coala-bears/tree/master/bears/scss/SCSSLintBear.py>`_
-======================================================================================================
+=============================================================================================
 
 Check SCSS code to keep it clean and readable.
 
