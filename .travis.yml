@@ -1,0 +1,12 @@
+language: python
+python: 3.4
+
+cache:
+  pip: true
+
+install:
+  - pip install coala-bears
+
+script:
+  - python generate --ci -I
+  - git diff -w --ignore-blank-lines --exit-code
