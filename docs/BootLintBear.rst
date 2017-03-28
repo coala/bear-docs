@@ -1,5 +1,5 @@
-`BootLintBear <https://github.com/coala/coala-bears/tree/master/bears/hypertext/BootLintBear.py>`_
-==================================================================================================
+`BootLintBear <https://github.com/coala/coala-bears/tree/master/bears/upload/BootLintBear/coalaBootLintBear/BootLintBear.py>`_
+==============================================================================================================================
 
 Raise several common HTML mistakes in html files that are using
 Bootstrap in a fairly "vanilla" way. Vanilla Bootstrap's components/widgets

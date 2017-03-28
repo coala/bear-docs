@@ -1,5 +1,5 @@
-`CSVLintBear <https://github.com/coala/coala-bears/tree/master/bears/csv/CSVLintBear.py>`_
-==========================================================================================
+`CSVLintBear <https://github.com/coala/coala-bears/tree/master/bears/upload/CSVLintBear/coalaCSVLintBear/CSVLintBear.py>`_
+==========================================================================================================================
 
 Verifies using ``csvlint`` if ``.csv`` files are valid CSV or not.
 

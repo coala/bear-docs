@@ -1,5 +1,5 @@
-`AlexBear <https://github.com/coala/coala-bears/tree/master/bears/natural_language/AlexBear.py>`_
-=================================================================================================
+`AlexBear <https://github.com/coala/coala-bears/tree/master/bears/upload/AlexBear/coalaAlexBear/AlexBear.py>`_
+==============================================================================================================
 
 Checks the markdown file with Alex - Catch insensitive, inconsiderate
 writing.

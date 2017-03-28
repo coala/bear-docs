@@ -1,5 +1,5 @@
-`RadonBear <https://github.com/coala/coala-bears/tree/master/bears/python/RadonBear.py>`_
-=========================================================================================
+`RadonBear <https://github.com/coala/coala-bears/tree/master/bears/upload/RadonBear/coalaRadonBear/RadonBear.py>`_
+==================================================================================================================
 
 Uses radon to compute complexity of a given file.
 

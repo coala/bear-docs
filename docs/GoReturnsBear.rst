@@ -1,5 +1,5 @@
-`GoReturnsBear <https://github.com/coala/coala-bears/tree/master/bears/go/GoReturnsBear.py>`_
-=============================================================================================
+`GoReturnsBear <https://github.com/coala/coala-bears/tree/master/bears/upload/GoReturnsBear/coalaGoReturnsBear/GoReturnsBear.py>`_
+==================================================================================================================================
 
 Proposes corrections of Go code using ``goreturns``.
 

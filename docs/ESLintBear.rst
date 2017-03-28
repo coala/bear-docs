@@ -1,5 +1,5 @@
-`ESLintBear <https://github.com/coala/coala-bears/tree/master/bears/js/ESLintBear.py>`_
-=======================================================================================
+`ESLintBear <https://github.com/coala/coala-bears/tree/master/bears/upload/ESLintBear/coalaESLintBear/ESLintBear.py>`_
+======================================================================================================================
 
 Check JavaScript and JSX code for style issues and semantic errors.
 

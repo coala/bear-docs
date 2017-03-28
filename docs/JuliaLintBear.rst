@@ -1,5 +1,5 @@
-`JuliaLintBear <https://github.com/coala/coala-bears/tree/master/bears/julia/JuliaLintBear.py>`_
-================================================================================================
+`JuliaLintBear <https://github.com/coala/coala-bears/tree/master/bears/upload/JuliaLintBear/coalaJuliaLintBear/JuliaLintBear.py>`_
+==================================================================================================================================
 
 Provide analysis related to common bugs and potential issues in Julia like
 dead code, undefined variable usage, duplicate keys in dicts, incorrect

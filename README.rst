@@ -5,7 +5,7 @@ Documentation for coala bears
 
 **Note**: The ``master`` branch contains docs for the latest stable version. If you want to view the docs for the latest development version, see the ``pre`` branch.
 
-**Supported Languages (63)**
+**Supported Languages (64)**
 ----------------------------
 
 .. contents::
@@ -15,9 +15,11 @@ Documentation for coala bears
 
 All
 ===
+* `DuplicateFileBear <docs/DuplicateFileBear.rst>`_
 * `FilenameBear <docs/FilenameBear.rst>`_
 * `InvalidLinkBear <docs/InvalidLinkBear.rst>`_
 * `KeywordBear <docs/KeywordBear.rst>`_
+* `LicenseCheckBear <docs/LicenseCheckBear.rst>`_
 * `LineCountBear <docs/LineCountBear.rst>`_
 * `LineLengthBear <docs/LineLengthBear.rst>`_
 * `SpaceConsistencyBear <docs/SpaceConsistencyBear.rst>`_
@@ -62,6 +64,7 @@ CSS
 * `CSSAutoPrefixBear <docs/CSSAutoPrefixBear.rst>`_
 * `CSSLintBear <docs/CSSLintBear.rst>`_
 * `PHPCodeSnifferBear <docs/PHPCodeSnifferBear.rst>`_
+* `StyleLintBear <docs/StyleLintBear.rst>`_
 
 CSV
 ===
@@ -86,6 +89,10 @@ Dart
 Dockerfile
 ==========
 * `DockerfileLintBear <docs/DockerfileLintBear.rst>`_
+
+Elm
+===
+* `ElmLintBear <docs/ElmLintBear.rst>`_
 
 Fortran
 =======
@@ -320,6 +327,7 @@ Ruby
 SCSS
 ====
 * `SCSSLintBear <docs/SCSSLintBear.rst>`_
+* `StyleLintBear <docs/StyleLintBear.rst>`_
 
 SQL
 ===

@@ -1,5 +1,5 @@
-`ShellCheckBear <https://github.com/coala/coala-bears/tree/master/bears/shell/ShellCheckBear.py>`_
-==================================================================================================
+`ShellCheckBear <https://github.com/coala/coala-bears/tree/master/bears/upload/ShellCheckBear/coalaShellCheckBear/ShellCheckBear.py>`_
+======================================================================================================================================
 
 Check bash/shell scripts for syntactical problems (with understandable
 messages), semantical problems as well as subtle caveats and pitfalls.

@@ -1,5 +1,5 @@
-`HaskellLintBear <https://github.com/coala/coala-bears/tree/master/bears/haskell/HaskellLintBear.py>`_
-======================================================================================================
+`HaskellLintBear <https://github.com/coala/coala-bears/tree/master/bears/upload/HaskellLintBear/coalaHaskellLintBear/HaskellLintBear.py>`_
+==========================================================================================================================================
 
 Check Haskell code for possible problems. This bear can propose patches for
 using alternative functions, simplifying code and removing redundancies.

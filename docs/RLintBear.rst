@@ -13,6 +13,8 @@ Checks the code with ``lintr``.
 Dependencies
 ------------
 
+* System requirement
+  - ``apt_get`` - ``r-base``  - ``version`` - ``>=3.1.1``
 * ``R`` - ``lintr``
 
 

@@ -1,5 +1,5 @@
-`GoTypeBear <https://github.com/coala/coala-bears/tree/master/bears/go/GoTypeBear.py>`_
-=======================================================================================
+`GoTypeBear <https://github.com/coala/coala-bears/tree/master/bears/upload/GoTypeBear/coalaGoTypeBear/GoTypeBear.py>`_
+======================================================================================================================
 
 Checks the code using ``gotype``. This will run ``gotype`` over each file
 separately.

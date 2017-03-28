@@ -1,5 +1,5 @@
-`YapfBear <https://github.com/coala/coala-bears/tree/master/bears/python/YapfBear.py>`_
-=======================================================================================
+`YapfBear <https://github.com/coala/coala-bears/tree/master/bears/upload/YapfBear/coalaYapfBear/YapfBear.py>`_
+==============================================================================================================
 
 
 

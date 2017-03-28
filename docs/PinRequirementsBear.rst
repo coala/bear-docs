@@ -1,5 +1,5 @@
-`PinRequirementsBear <https://github.com/coala/coala-bears/tree/master/bears/python/requirements/PinRequirementsBear.py>`_
-==========================================================================================================================
+`PinRequirementsBear <https://github.com/coala/coala-bears/tree/master/bears/upload/PinRequirementsBear/coalaPinRequirementsBear/PinRequirementsBear.py>`_
+==========================================================================================================================================================
 
 Checks if requirements are properly pinned. It will always raise an issue if the minor version is not given. If you do not wish that, do not use this bear.
 

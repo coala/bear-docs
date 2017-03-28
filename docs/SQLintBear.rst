@@ -1,5 +1,5 @@
-`SQLintBear <https://github.com/coala/coala-bears/tree/master/bears/sql/SQLintBear.py>`_
-========================================================================================
+`SQLintBear <https://github.com/coala/coala-bears/tree/master/bears/upload/SQLintBear/coalaSQLintBear/SQLintBear.py>`_
+======================================================================================================================
 
 Check the given SQL files for syntax errors or warnings.
 

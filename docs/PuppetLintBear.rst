@@ -1,5 +1,5 @@
-`PuppetLintBear <https://github.com/coala/coala-bears/tree/master/bears/configfiles/PuppetLintBear.py>`_
-========================================================================================================
+`PuppetLintBear <https://github.com/coala/coala-bears/tree/master/bears/upload/PuppetLintBear/coalaPuppetLintBear/PuppetLintBear.py>`_
+======================================================================================================================================
 
 Check and correct puppet configuration files using ``puppet-lint``.
 

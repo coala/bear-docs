@@ -32,7 +32,7 @@ Dependencies
 ------------
 
 * System requirement
-  - ``apt_get`` - ``libxml2``
+  - ``apt_get`` - ``libxml2-utils``
 
 
 Can Detect

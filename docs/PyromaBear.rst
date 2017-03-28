@@ -1,5 +1,5 @@
-`PyromaBear <https://github.com/coala/coala-bears/tree/master/bears/python/PyromaBear.py>`_
-===========================================================================================
+`PyromaBear <https://github.com/coala/coala-bears/tree/master/bears/upload/PyromaBear/coalaPyromaBear/PyromaBear.py>`_
+======================================================================================================================
 
 Checks for Python packaging best practices using `pyroma`.
 Pyroma rhymes with aroma, and is a product aimed at giving a rating of how well a Python project complies with the best practices of the Python packaging ecosystem, primarily PyPI, pip, Distribute etc, as well as a list of issues that could be improved.

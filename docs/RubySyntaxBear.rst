@@ -1,5 +1,5 @@
-`RubySyntaxBear <https://github.com/coala/coala-bears/tree/master/bears/ruby/RubySyntaxBear.py>`_
-=================================================================================================
+`RubySyntaxBear <https://github.com/coala/coala-bears/tree/master/bears/upload/RubySyntaxBear/coalaRubySyntaxBear/RubySyntaxBear.py>`_
+======================================================================================================================================
 
 Checks the code with ``ruby -wc`` on each file separately.
 
@@ -13,7 +13,8 @@ Checks the code with ``ruby -wc`` on each file separately.
 Dependencies
 ------------
 
-* ``gem`` - ``ruby``
+* System requirement
+  - ``apt_get`` - ``ruby``
 
 
 Can Detect

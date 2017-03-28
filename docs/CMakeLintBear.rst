@@ -1,5 +1,5 @@
-`CMakeLintBear <https://github.com/coala/coala-bears/tree/master/bears/cmake/CMakeLintBear.py>`_
-================================================================================================
+`CMakeLintBear <https://github.com/coala/coala-bears/tree/master/bears/upload/CMakeLintBear/coalaCMakeLintBear/CMakeLintBear.py>`_
+==================================================================================================================================
 
 Check CMake code for syntactical or formatting issues.
 

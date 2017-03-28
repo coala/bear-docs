@@ -1,5 +1,5 @@
-`CheckstyleBear <https://github.com/coala/coala-bears/tree/master/bears/java/CheckstyleBear.py>`_
-=================================================================================================
+`CheckstyleBear <https://github.com/coala/coala-bears/tree/master/bears/upload/CheckstyleBear/coalaCheckstyleBear/CheckstyleBear.py>`_
+======================================================================================================================================
 
 Check Java code for possible style, semantic and design issues.
 
@@ -44,6 +44,13 @@ Settings
 | ``use_spaces``          | No description given. (Optional, defaults to 'True'.)      +
 |                         |                                                            |
 +-------------------------+------------------------------------------------------------+
+
+
+Dependencies
+------------
+
+* System requirement
+  - ``apt_get`` - ``default-jre``
 
 
 Can Detect

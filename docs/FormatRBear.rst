@@ -24,7 +24,7 @@ Settings
 |                              | line.                                                       |
 |                              | Example: If ``True``, ``` if (...) { ``` changes to ``` if  |
 |                              | (...) { ``` If ``False`` the brace is placed on the same    |
-|                              | line. (Optional, defaults to 'False'.)                      |
+|                              | line. (Optional, defaults to 'None'.)                       |
 |                              |                                                             |
 +------------------------------+-------------------------------------------------------------+
 |                              |                                                             |
@@ -48,7 +48,7 @@ Settings
 | ``r_use_arrows``             | Determines whether the assignment operator ``=`` should be  |
 |                              | replaced by an arrow ``<-`` or not.                         |
 |                              | Example: If  ``True``, ``x = 1`` changes to ``x <- 1``.     |
-|                              | (Optional, defaults to 'False'.)                            |
+|                              | (Optional, defaults to 'None'.)                             |
 |                              |                                                             |
 +------------------------------+-------------------------------------------------------------+
 

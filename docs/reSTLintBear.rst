@@ -1,5 +1,5 @@
-`reSTLintBear <https://github.com/coala/coala-bears/tree/master/bears/rest/reSTLintBear.py>`_
-=============================================================================================
+`reSTLintBear <https://github.com/coala/coala-bears/tree/master/bears/upload/reSTLintBear/coalareSTLintBear/reSTLintBear.py>`_
+==============================================================================================================================
 
 Lints reStructuredText.
 

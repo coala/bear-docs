@@ -1,5 +1,5 @@
-`ScalaLintBear <https://github.com/coala/coala-bears/tree/master/bears/scala/ScalaLintBear.py>`_
-================================================================================================
+`ScalaLintBear <https://github.com/coala/coala-bears/tree/master/bears/upload/ScalaLintBear/coalaScalaLintBear/ScalaLintBear.py>`_
+==================================================================================================================================
 
 Check Scala code for codestyle, but also semantical problems,
 e.g. cyclomatic complexity.
@@ -20,6 +20,13 @@ Settings
 |                       | packaged XML file.)                                         |
 |                       |                                                             |
 +-----------------------+-------------------------------------------------------------+
+
+
+Dependencies
+------------
+
+* System requirement
+  - ``apt_get`` - ``default-jre``
 
 
 Can Detect

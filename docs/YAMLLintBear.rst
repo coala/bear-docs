@@ -1,5 +1,5 @@
-`YAMLLintBear <https://github.com/coala/coala-bears/tree/master/bears/yml/YAMLLintBear.py>`_
-============================================================================================
+`YAMLLintBear <https://github.com/coala/coala-bears/tree/master/bears/yaml/YAMLLintBear.py>`_
+=============================================================================================
 
 Check yaml code for errors and possible problems.
 
@@ -19,7 +19,7 @@ Settings
 +======================+=============================================================+
 |                      |                                                             |
 | ``document_start``   | Use this rule to require or forbid the use of document      |
-|                      | start marker (---). (Optional, defaults to 'False'.)        |
+|                      | start marker (---). (Optional, defaults to 'None'.)         |
 |                      |                                                             |
 +----------------------+-------------------------------------------------------------+
 |                      |                                                             |

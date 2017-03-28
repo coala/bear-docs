@@ -1,5 +1,5 @@
-`PEP8Bear <https://github.com/coala/coala-bears/tree/master/bears/python/PEP8Bear.py>`_
-=======================================================================================
+`PEP8Bear <https://github.com/coala/coala-bears/tree/master/bears/upload/PEP8Bear/coalaPEP8Bear/PEP8Bear.py>`_
+==============================================================================================================
 
 Detects and fixes PEP8 incompliant code. This bear will not change functionality of the code in any way.
 

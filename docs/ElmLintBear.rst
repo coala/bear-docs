@@ -1,26 +1,27 @@
-`CSSLintBear <https://github.com/coala/coala-bears/tree/master/bears/upload/CSSLintBear/coalaCSSLintBear/CSSLintBear.py>`_
+`ElmLintBear <https://github.com/coala/coala-bears/tree/master/bears/upload/ElmLintBear/coalaElmLintBear/ElmLintBear.py>`_
 ==========================================================================================================================
 
-Check code for syntactical or semantical problems that might lead to
-problems or inefficiencies.
+This bear formats the Elm source code according to a standard set of rules.
+
+See <https://github.com/avh4/elm-format> for more information.
 
 `Supported Languages <../README.rst>`_
 --------------------------------------
 
-* CSS
+* Elm
 
 
 
 Dependencies
 ------------
 
-* ``npm`` - ``csslint``
+* ``npm`` - ``elm``
 
 
 Can Detect
 ----------
 
-* Code Simplification
+* Formatting
 * Syntax
 
 License

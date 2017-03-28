@@ -1,5 +1,5 @@
-`PythonPackageInitBear <https://github.com/coala/coala-bears/tree/master/bears/python/PythonPackageInitBear.py>`_
-=================================================================================================================
+`PythonPackageInitBear <https://github.com/coala/coala-bears/tree/master/bears/upload/PythonPackageInitBear/coalaPythonPackageInitBear/PythonPackageInitBear.py>`_
+==================================================================================================================================================================
 
 
 

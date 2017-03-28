@@ -1,5 +1,5 @@
-`PyDocStyleBear <https://github.com/coala/coala-bears/tree/master/bears/python/PyDocStyleBear.py>`_
-===================================================================================================
+`PyDocStyleBear <https://github.com/coala/coala-bears/tree/master/bears/upload/PyDocStyleBear/coalaPyDocStyleBear/PyDocStyleBear.py>`_
+======================================================================================================================================
 
 Checks python docstrings.
 
@@ -13,21 +13,34 @@ Checks python docstrings.
 Settings
 --------
 
-+------------------------+------------------------------------------------------------+
-| Setting                |  Meaning                                                   |
-+========================+============================================================+
-|                        |                                                            |
-| ``pydocstyle_ignore``  | List of checked errors by specifying which errors to       |
-|                        | ignore. Can't be used together with ``pydocstyle_select``. |
-|                        | (Optional, defaults to '()'.)                              |
-|                        |                                                            |
-+------------------------+------------------------------------------------------------+
-|                        |                                                            |
-| ``pydocstyle_select``  | List of checked errors by specifying which errors to check |
-|                        | for. Can't be used together with ``pydocstyle_ignore``.    |
-|                        | (Optional, defaults to '()'.)                              |
-|                        |                                                            |
-+------------------------+------------------------------------------------------------+
++----------------------------+------------------------------------------------------------+
+| Setting                    |  Meaning                                                   |
++============================+============================================================+
+|                            |                                                            |
+| ``pydocstyle_add_ignore``  | List of checked errors to amend the list of default errors |
+|                            | to check for by specifying more error codes to ignore.     |
+|                            | (Optional, defaults to '()'.)                              |
+|                            |                                                            |
++----------------------------+------------------------------------------------------------+
+|                            |                                                            |
+| ``pydocstyle_add_select``  | List of checked errors to amend the list of default errors |
+|                            | to check for by specifying more error codes to check.      |
+|                            | (Optional, defaults to '()'.)                              |
+|                            |                                                            |
++----------------------------+------------------------------------------------------------+
+|                            |                                                            |
+| ``pydocstyle_ignore``      | List of checked errors by specifying which errors to       |
+|                            | ignore. Can't be used together with ``pydocstyle_select``. |
+|                            | It overrides default list of to-ignore error list.         |
+|                            | (Optional, defaults to '()'.)                              |
+|                            |                                                            |
++----------------------------+------------------------------------------------------------+
+|                            |                                                            |
+| ``pydocstyle_select``      | List of checked errors by specifying which errors to check |
+|                            | for. Can't be used together with ``pydocstyle_ignore``.    |
+|                            | (Optional, defaults to '()'.)                              |
+|                            |                                                            |
++----------------------------+------------------------------------------------------------+
 
 
 Dependencies

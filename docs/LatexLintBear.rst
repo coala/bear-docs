@@ -1,5 +1,5 @@
-`LatexLintBear <https://github.com/coala/coala-bears/tree/master/bears/latex/LatexLintBear.py>`_
-================================================================================================
+`LatexLintBear <https://github.com/coala/coala-bears/tree/master/bears/upload/LatexLintBear/coalaLatexLintBear/LatexLintBear.py>`_
+==================================================================================================================================
 
 Checks the code with ``chktex``.
 
