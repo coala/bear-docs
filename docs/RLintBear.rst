@@ -14,7 +14,7 @@ Dependencies
 ------------
 
 * System requirement
-  - ``apt_get`` - ``r-base``  - ``version`` - ``>=3.1.1``
+  - ``version`` - ``>=3.1.1``  - ``apt_get`` - ``r-base``
 * ``R`` - ``lintr``
 
 

@@ -15,6 +15,13 @@ def language_generate():
     with open("README.rst", "w") as lang_file:
         lang_file.write("Documentation for coala bears\n")
         lang_file.write("=============================\n\n")
+
+        deprecation_notice = ("This repository has been deprecated in favor of "
+                              "http://coala.io/#!/languages - please use that. Only "
+                              "absolutely critical issues in this repo will be looked into.\n")
+        lang_file.write(deprecation_notice)
+        lang_file.write("-" * len(deprecation_notice) + "\n\n\n")
+
         lang_file.write("**This is repository is automatically generated. Please "
                         "make submit any changes to** "
                         "`coala-bears <https://github.com/coala/coala-bears>`_ "

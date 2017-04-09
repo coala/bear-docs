@@ -1,6 +1,10 @@
 Documentation for coala bears
 =============================
 
+This repository has been deprecated in favor of http://coala.io/#!/languages - please use that. Only absolutely critical issues in this repo will be looked into.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 **This is repository is automatically generated. Please make submit any changes to** `coala-bears <https://github.com/coala/coala-bears>`_ **instead.**
 
 **Note**: The ``master`` branch contains docs for the latest stable version. If you want to view the docs for the latest development version, see the ``pre`` branch.
